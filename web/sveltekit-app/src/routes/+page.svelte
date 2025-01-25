@@ -4,6 +4,9 @@
 	import Welcome from '../components/Welcome.svelte';
 	import type { PageData } from './$types';
 
+	import Panel from '../components/Panel.svelte';
+	import PanelBox from '../components/PanelBox.svelte';
+
 	export let data: PageData;
 	const q = useQuery(data);
 
@@ -19,3 +22,7 @@
 		<Welcome />
 	{/if}
 </section>
+
+<PanelBox>
+	<Panel />
+</PanelBox>
