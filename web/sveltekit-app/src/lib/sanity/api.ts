@@ -3,7 +3,7 @@ import {
 	PUBLIC_SANITY_PROJECT_ID,
 	PUBLIC_SANITY_API_VERSION,
 	PUBLIC_SANITY_STUDIO_URL
-} from '$env/static/private';
+} from '$env/static/public';
 
 export function assertEnvVar<T>(value: T | undefined, name: string): T {
 	if (value === undefined) {
