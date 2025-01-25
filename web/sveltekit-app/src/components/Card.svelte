@@ -6,7 +6,7 @@
 	export let post: Post;
 </script>
 
-<a class="card" href={`/post/${post.slug.current}`}>
+<a class="card" href={`/activity-log/${post.slug.current}`}>
 	{#if post.mainImage}
 		<img
 			class="card__cover"
