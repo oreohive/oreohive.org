@@ -84,7 +84,7 @@ stay fresh, and thank you so much for stopping by!
 
 ---
 
-### licensing and resource usage
+# licensing and resource usage
 
 any code published within the oreohive project (or with the oreohive name) by the oreohive organisation is, by default, licensed under the gnu agpl-3.0.
 
