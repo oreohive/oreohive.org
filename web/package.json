@@ -18,6 +18,7 @@
     "singleQuote": true
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "^5.5.2",
     "concurrently": "^9.1.0",
     "prettier": "3.3.3",
     "prettier-plugin-packagejson": "2.5.1"
