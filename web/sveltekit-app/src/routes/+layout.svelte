@@ -34,10 +34,20 @@
 <style>
 	.container {
 		margin: 0 auto;
+		display: flex;
+		position: absolute;
+		justify-content: center;
+		flex-direction: column;
+		align-self: center;
+		align-items: center;
+		left: 0;
+		right: 0;
 	}
 
-	main {
+	.main {
 		margin-top: 45px;
+		align-items: center;
+		align-self: center;
 	}
 
 	.header {
