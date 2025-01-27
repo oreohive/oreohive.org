@@ -13,10 +13,8 @@
 
 <div class="container">
 	<header class="header">
-		<a class="header__title" href="/"
-			>oreohive.org
-		</a>
-		<a class="subtitle"><br>currently very incomplete, please bear with us!</a>
+		<a class="header__title" href="/">oreohive.org </a>
+		<a class="subtitle"><br />currently very incomplete, please bear with us!</a>
 	</header>
 	<main>
 		<slot />

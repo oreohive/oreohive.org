@@ -34,10 +34,10 @@
 
 <div class="panels">
 	<PanelBox>
-		<Panel colour="#a4fdff"/>
-		<Panel colour="#b0ffbe"/>
-		<Panel colour="#bcd3ff"/>
-		<Panel colour="#ffbcd4"/>
-		<Panel colour="#fff7ac"/>
+		<Panel colour="#a4fdff" />
+		<Panel colour="#b0ffbe" />
+		<Panel colour="#bcd3ff" />
+		<Panel colour="#ffbcd4" />
+		<Panel colour="#fff7ac" />
 	</PanelBox>
 </div>
