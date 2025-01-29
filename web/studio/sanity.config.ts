@@ -9,8 +9,8 @@ const projectId = process.env.SANITY_STUDIO_PROJECT_ID!
 const dataset = process.env.SANITY_STUDIO_DATASET!
 
 export default defineConfig({
-  name: 'sanity-template-sveltekit-clean',
-  title: 'Clean SvelteKit + Sanity app',
+  name: 'oreohive-activity-log',
+  title: 'oreohive.org activity log',
   projectId,
   dataset,
   plugins: [

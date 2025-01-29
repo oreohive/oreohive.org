@@ -1,0 +1,8 @@
+The average of [14.0, 27.0] is 20.5
+The median is 20.5
+The mode is 14.0
+The range is 13.0
+The average of [24.0, 15.0] is 19.5
+The median is 19.5
+The mode is 24.0
+The range is 9.0

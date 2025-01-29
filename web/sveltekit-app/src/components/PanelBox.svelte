@@ -27,6 +27,7 @@
 		box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
 		padding: 16px;
 		overflow-x: auto; /* allow horizontal scrolling if needed */
+		overflow-y: hidden;
 	}
 
 	.panel-box > * {
