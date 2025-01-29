@@ -102,7 +102,7 @@ so long as you:
 - give appropriate attributions (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
 - provide a link to the license, and indicate if changes to the material you used were made
 - release this material, including any changes you may've made, under the **same license** (or a newer version of the exact license at your discretion), and
-- **don't use the code for any commercial or for-profit purposes**.
+- **don't use the material or content, modified or otherwise, for any commercial or for-profit purposes**.
 
 --
 
