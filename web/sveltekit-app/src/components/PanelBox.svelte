@@ -13,6 +13,7 @@
 <style>
 	* {
 		box-sizing: border-box;
+		overflow: hidden;
 	}
 
 	/* rectangle */
@@ -34,5 +35,7 @@
 		flex: 0 0 auto; /* prevent children from shrinking or growing */
 		margin-left: 16px;
 		margin-right: 16px;
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 </style>
