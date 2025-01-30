@@ -19,6 +19,10 @@ yarn-error.log*
 .env
 .env.*
 !.env.example
+env
+.env.local
+.env.example
+# the epitome of paranoia ig lmao
 
 # vercel
 .vercel

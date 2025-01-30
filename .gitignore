@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # .vercel folder
 .vercel
+vercel
 project.json
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
