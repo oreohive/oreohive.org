@@ -29,6 +29,7 @@
 		gap: 0px;
 		padding: 0px;
 		margin: 0px;
+		z-index: 1;
 	}
 
 	/* rectangle */
@@ -39,14 +40,17 @@
 		background: #ffbcd4;
 		border-radius: calc(var(--panel-height) * 0.1);
 		box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
+		z-index: 1;
 	}
 
 	.panel-desc {
 		--panel-height: 120px;
 		position: absolute;
-		font-size: 0.75rem;
+		font-size: 1rem;
 		font-family: Poppins, sans-serif;
 		color: #1f2937;
-		top: calc(var(--panel-height) - 12px); /* Adjust the 10px value to set the desired gap */
+		top: calc(var(--panel-height) + 6px);
+		z-index: 1;
+		text-transform: lowercase;
 	}
 </style>

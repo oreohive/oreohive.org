@@ -1,4 +1,4 @@
-<!-- web/sveltekit-app/src/components/panel-box.svelte-->
+<!-- web/sveltekit-app/src/components/PanelBox.svelte-->
 
 <script lang="ts">
 	// declare props to accept values from the parent component
@@ -13,7 +13,8 @@
 <style>
 	* {
 		box-sizing: border-box;
-		overflow: hidden;
+		overflow: visible;
+		z-index: -1;
 	}
 
 	/* rectangle */
@@ -27,15 +28,17 @@
 		border-radius: 12px;
 		box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
 		padding: 16px;
-		overflow-x: auto; /* allow horizontal scrolling if needed */
-		overflow-y: hidden;
+		overflow-x: visible; /* allow horizontal scrolling if needed */
+		overflow-y: visible;
+		z-index: -1;
 	}
 
 	.panel-box > * {
 		flex: 0 0 auto; /* prevent children from shrinking or growing */
 		margin-left: 16px;
 		margin-right: 16px;
-		overflow-x: hidden;
-		overflow-y: hidden;
+		overflow-x: visible;
+		overflow-y: visible;
+		z-index: -1;
 	}
 </style>

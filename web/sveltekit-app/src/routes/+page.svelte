@@ -2,8 +2,11 @@
 	import type { PageData } from './$types';
 	import Panel from '$components/Panel.svelte';
 	import PanelBox from '$components/PanelBox.svelte';
+	import TitleBox from '$components/TitleDisplay.svelte';
 	export let data: PageData;
 </script>
+
+<TitleBox title="welcome to oreohive" />
 
 <div class="panels">
 	<PanelBox>
