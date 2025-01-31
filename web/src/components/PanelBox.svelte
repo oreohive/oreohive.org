@@ -12,8 +12,6 @@
 
 <style>
 	* {
-		box-sizing: border-box;
-		overflow: visible;
 		z-index: -1;
 	}
 
@@ -22,22 +20,14 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		align-self: center;
 		justify-content: center;
-		gap: 16px;
+		gap: 24px;
 		background: #ffffff;
 		border-radius: 12px;
-		box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
+		box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
 		padding: 16px;
 		overflow-x: visible; /* allow horizontal scrolling if needed */
-		overflow-y: visible;
-		z-index: -1;
-	}
-
-	.panel-box > * {
-		flex: 0 0 auto; /* prevent children from shrinking or growing */
-		margin-left: 16px;
-		margin-right: 16px;
-		overflow-x: visible;
 		overflow-y: visible;
 		z-index: -1;
 	}
