@@ -1,7 +1,7 @@
 # oreohive.org
 **this is a git repo for the website hosted at oreohive.org.**
 
-it includes its sveltekit frontend ('web/sveltekit-app'), its sanity studio ('web/studio', sanity is our cms), and pretty much all surrounding workings.
+it includes its sveltekit frontend ('web'), its cms app ('cms'), and pretty much all surrounding workings.
 
 ## the what and the why
 the oreohive organisation's very limited experience in writing code is pretty much entirely exclusive to basic backend stuff.
