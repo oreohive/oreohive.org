@@ -4,7 +4,7 @@
 	import TitleBox from "../components/TitleDisplay.svelte";
 </script>
 
-<TitleBox title="welcome to oreohive" />
+<TitleBox title="welcome to oreohive.org" />
 
 <div class="panels">
 	<PanelBox>
