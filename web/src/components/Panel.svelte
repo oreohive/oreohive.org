@@ -9,7 +9,7 @@
 
 <div class="panel-container">
         <div class="panel" style="background: {colour}">
-                <img src={img_url} />
+                <img src={img_url} alt={desc} />
         </div>
         <div class="panel-desc">
                 <p>{desc}</p>

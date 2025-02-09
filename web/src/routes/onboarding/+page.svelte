@@ -14,7 +14,7 @@
 
 <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
         <button type="submit" name="accept">
-                i accept the oreohive organisation's terms & ethics of use.
+                i accept the oreohive organisation's terms & ethics of use
         </button>
 </form>
-<p>you may need to review and accept updates in the future.</p>
+<p>nb! you may need to review and accept updates in the future.</p>
