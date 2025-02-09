@@ -13,7 +13,7 @@
 <main>
 	<h3>terms index</h3>
 
-	{#each data.terms.reverse() as term} <!-- reverses array to make most recent appear first -->
+	{#each [...data.terms].reverse() as term} <!-- copies array ([...]) then reverses array, to make most recent appear first -->
 		<section>
 		<h3>{term.folder}</h3>
 		{#if term.files.length > 0}
