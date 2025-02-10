@@ -1,0 +1,17 @@
+{
+  "format": "custom",
+  "id": "author",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      }
+    }
+  },
+  "label": "author",
+  "repeatable": true,
+  "status": true
+}

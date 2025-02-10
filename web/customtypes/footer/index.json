@@ -1,0 +1,10 @@
+{
+  "format": "custom",
+  "id": "footer",
+  "json": {
+    "Main": {}
+  },
+  "label": "footer",
+  "repeatable": false,
+  "status": true
+}
