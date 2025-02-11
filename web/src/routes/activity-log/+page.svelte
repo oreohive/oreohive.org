@@ -9,7 +9,7 @@ export let data;
 
 {#if data.posts && data.posts.length > 0}
 <ul>
-  {#each [...data.posts].reverse() as post}
+  {#each [...data.posts] as post} <!-- hm. newest first by default. neat. thanks prismic :)) (no need to reverse) -->
     <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
       <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
       <div>
