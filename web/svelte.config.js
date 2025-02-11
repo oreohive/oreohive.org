@@ -24,7 +24,6 @@ const config = {
                         handleHttpError: 'ignore'
                         },
                 },
-        },
-};
+        }
 
 export default config;
