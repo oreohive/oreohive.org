@@ -11,9 +11,7 @@ export let data;
 <ul>
   {#each [...data.posts].reverse() as post}
     <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
-      <a href={`/activity-log/${post.uid}`}>
-        <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
-      </a>
+      <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
       <div>
         <h3>{post.data.title}</h3>
         <p>{post.data.date}</p>
