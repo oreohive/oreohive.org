@@ -42,9 +42,18 @@ export const handle: Handle = async ({ event, resolve }) => {
         if (!terms_accepted) {
                 return new Response(null, {
                         status: 303,
-                        headers: { location: "/onboarding" },
+                        headers: {location: "/onboarding"},
                 });
         }
 
-        return resolve(event);
+        const response = await resolve(event);
+
+        if (response.status === 404) {
+                return new Response(null, {
+                        status: 303,
+                        headers: {location: "https://youtu.be/dQw4w9WgXcQ"} // not me hardcoding a rickroll
+                });
+        }
+
+        return response;
 };

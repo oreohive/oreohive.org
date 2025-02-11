@@ -5,12 +5,15 @@
         export let colour: string = ''; // a string for the background colour
         export let desc: string = ''; // a string for the description text
         export let img_url: string = ''; // a string for the picture url
+        export let href: string = ''; // a string for the link the panel is to take one
 </script>
 
-<div class="panel-container">
-        <div class="panel" style="background: {colour}">
-                <img src={img_url} alt={desc} />
-        </div>
+<div class="panel-container"> 
+        <!-- clickable me -->
+        <a href={href} class="panel" style="background: {colour}; align-items: center"> 
+                <img src={img_url} alt={desc} width=120px height=120px/>
+                <slot />
+        </a>
         <div class="panel-desc">
                 <p>{desc}</p>
         </div>
@@ -40,7 +43,6 @@
                 --panel-height: 120px;
                 width: calc(var(--panel-height) * 1.5);
                 height: var(--panel-height);
-                background: #ffbcd4;
                 border-radius: calc(var(--panel-height) * 0.1);
                 box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
                 z-index: 1;

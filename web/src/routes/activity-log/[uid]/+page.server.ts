@@ -3,9 +3,13 @@ import { createClient } from "$lib/prismicio";
 export const prerender = false;
 
 export async function load({ params, fetch, cookies }) {
+  console.log("params.uid:", params.uid); // temp: to inspect params.uid
+
   const client = createClient({ fetch, cookies });
 
   const page = await client.getByUID("post", params.uid);
+
+  console.log("page:", page); // temp: to inspect page object
 
   return {
     page,
