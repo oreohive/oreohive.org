@@ -9,18 +9,18 @@ export let data;
 
 {#if data.posts && data.posts.length > 0}
 <ul>
-{#each [...data.posts].reverse() as post}
-<div>
-	<li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
-        <a href={`/activity-log/${post.uid}`}>
-            <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
-        </a>
+  {#each [...data.posts].reverse() as post}
+    <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
+      <a href={`/activity-log/${post.uid}`}>
+        <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
+      </a>
+      <div>
         <h3>{post.data.title}</h3>
-	<p>{post.data.date}</p>
-	<p>{post.data.author}</p>
-	</li>
-</div>
-{/each}
+        <p>{post.data.date}</p>
+        <p>{post.data.author}</p>
+      </div>
+    </li>
+  {/each}
 </ul>
 
 {:else}
@@ -28,10 +28,10 @@ export let data;
 {/if}
 
 <style>
-        .panel {
-                /* rectangle */
-                width: 50vw !important;
-                height: 256px !important;
-                background: #fcfcff !important;
-    }
+  .panel {
+    /* rectangle */
+    width: 50vw !important;
+    height: 256px !important;
+    background: #fcfcff !important;
+  }
 </style>
