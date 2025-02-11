@@ -28,6 +28,8 @@
             }
         }
     });
+
+    export const prerender = false; // turn off prerendering globally (at least, for all files using this layout)
 </script>
 
 {#if subdomain === 'edu'}
