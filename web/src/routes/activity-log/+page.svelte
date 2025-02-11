@@ -13,8 +13,9 @@ export let data;
 <div>
 	<li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
         <a href={`/activity-log/${post.uid}`}>
-            <Panel colour="#fcfcff" desc={post.data.title} img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
+            <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
         </a>
+        <h3>desc={post.data.title}</h3>
 	<p>{post.data.date}</p>
 	<p>{post.data.author}</p>
 	</li>
