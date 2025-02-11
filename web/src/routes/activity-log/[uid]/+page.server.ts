@@ -1,5 +1,7 @@
 import { createClient } from "$lib/prismicio";
 
+export const prerender = false;
+
 export async function load({ params, fetch, cookies }) {
   const client = createClient({ fetch, cookies });
 

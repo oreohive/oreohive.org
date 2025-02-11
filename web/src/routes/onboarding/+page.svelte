@@ -7,8 +7,6 @@
                         localStorage.setItem('accepted_terms', 'true');
                 }
         }
-
-        export const prerender = false;
 </script>
 
 <p>oreohive.org/onboarding</p>

@@ -2,8 +2,6 @@
         import Panel from "../components/Panel.svelte";
         import PanelBox from "../components/PanelBox.svelte";
 	import TitleBox from "../components/TitleDisplay.svelte";
-
-	export const prerender = false;
 </script>
 
 <TitleBox title="welcome to oreohive.org" />

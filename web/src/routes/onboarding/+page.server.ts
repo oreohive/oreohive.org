@@ -1,5 +1,7 @@
 import { redirect } from "@sveltejs/kit";
 
+export const prerender = false;
+
 export const actions = {
 	accept: async ({ cookies }) => {
 		// set the accepted_terms cookie (valid for one week)
