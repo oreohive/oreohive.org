@@ -14,7 +14,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
         if (host) {
                 // split host into parts (for example: "edu.oreohive.org" becomes ["edu", "oreohive", "org"])
-                const host_parts = host.split('.');
+                const host_parts = host.split(".");
 
                 // if there're more than two parts, assume the first part is subdomain
                 if (host_parts.length > 2) {
@@ -26,12 +26,14 @@ export const handle: Handle = async ({ event, resolve }) => {
         event.locals.subdomain = subdomain;
 
         // server (this hooks.server.ts) checks for accepted_terms cookie
-        const terms_accepted = event.cookies.get('accepted_terms');
+        const terms_accepted = event.cookies.get("accepted_terms");
 
-        // allow access to onboarding page and api routes
+        // allow access to onboarding page, api routes, and static assets
         if (
-                event.url.pathname === '/onboarding' ||
-                event.url.pathname.startsWith('/api')
+                event.url.pathname === "/onboarding" ||
+                event.url.pathname.startsWith("api") ||
+                event.url.pathname.startsWith("/global.css") ||
+                event.url.pathname.startsWith("/app.css")
         ) {
                 return resolve(event);
         }
@@ -40,7 +42,7 @@ export const handle: Handle = async ({ event, resolve }) => {
         if (!terms_accepted) {
                 return new Response(null, {
                         status: 303,
-                        headers: { location: '/onboarding' },
+                        headers: { location: "/onboarding" },
                 });
         }
 
