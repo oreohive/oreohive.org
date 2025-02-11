@@ -15,7 +15,7 @@ export let data;
         <a href={`/activity-log/${post.uid}`}>
             <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
         </a>
-        <h3>desc={post.data.title}</h3>
+        <h3>{post.data.title}</h3>
 	<p>{post.data.date}</p>
 	<p>{post.data.author}</p>
 	</li>
