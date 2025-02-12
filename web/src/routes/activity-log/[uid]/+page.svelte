@@ -41,8 +41,9 @@
       background-color: #fcfcff;
       border-radius: 12px;
       box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-      max-width: 25vw !important;
-      padding: 12px;
+      max-width: 40vw !important;
+      padding-left: 24px;
+      padding-right: 24px;
       margin: 12px;
   }
 
