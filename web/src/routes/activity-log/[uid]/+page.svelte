@@ -18,7 +18,7 @@
   <PrismicImage field={data.page.data.image} />
 
 <div class="text-box">
-  <PrismicRichText field={data.page.data.post_content} />
+  <p><PrismicRichText field={data.page.data.post_content} /></p>
 </div>
   <SliceZone slices={data.page.data.slices} {components} />
 {/if}
@@ -47,8 +47,15 @@
       margin: 12px;
   }
 
-  h1, h2, h3, h4, h5, h6, p {
-    margin-bottom: 0px;
-    margin-top: 0px;
+  p {
+    color: #5a5467;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+    margin-bottom: -1px !important;
+    margin-top: -1px !important;
+  }
+
+  
 </style>
