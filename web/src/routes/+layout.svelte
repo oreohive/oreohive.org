@@ -6,6 +6,7 @@
     import { onMount } from 'svelte';
 
     let subdomain: string | null = null;
+    console.log("subdomain =", subdomain)
 
     $: {
         page.subscribe(value => {
@@ -35,14 +36,30 @@
 {:else if subdomain === 'labs'}
     <p>labs.oreohive.org | welcome to the labs subdomain!</p>
 {:else}
-    <p>oreohive.org | welcome to the main site! (no subdomain)</p>
+    <p style="font-weight: 300; font-size: 0.8rem; ">oreohive.org | welcome to the main site! (no subdomain)</p>
 {/if}
 
 <div class="container">
+
     <slot></slot>
+
 </div>
 
 <style>
+    * {
+        display: flex;
+	    flex-direction: column;
+	    align-items: left;
+	    align-self: center;
+	    justify-content: left;
+	    justify-self: center;
+	    font-family: Poppins, sans-serif;
+	    border-radius: 12px;
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+
+    }
     .container {
         display: flex;
         flex-direction: column;

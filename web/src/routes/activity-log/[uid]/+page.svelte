@@ -8,7 +8,7 @@
   export let data;
 </script>
 
-<h1>oreohive activity log</h1>
+<br><br><h1>oreohive activity log</h1>
 
 {#if data.page}
   <h1>{data.page.data.title}</h1>
@@ -41,7 +41,8 @@
       background-color: #fcfcff;
       border-radius: 12px;
       box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-      max-width: 40vw !important;
+      max-width: 720px !important;
+      min-width: 384px !important;
       padding-left: 24px;
       padding-right: 24px;
       margin: 12px;

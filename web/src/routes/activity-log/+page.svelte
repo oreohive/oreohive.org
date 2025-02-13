@@ -28,7 +28,7 @@ export let data;
 <style>
   .panel {
     /* rectangle */
-    width: 50vw !important;
+    max-width: 80vw !important;
     height: 256px !important;
     background: #fcfcff !important;
   }

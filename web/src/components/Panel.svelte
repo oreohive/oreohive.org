@@ -4,16 +4,19 @@
         // declare props to accept values from the parent component
         export let colour: string = ''; // a string for the background colour
         export let desc: string = ''; // a string for the description text
-        export let img_url: string = ''; // a string for the picture url
+        export let img_url: string = '/logo.webp'; // a string for the picture url
         export let href: string = ''; // a string for the link the panel is to take one
 </script>
 
 <div class="panel-container"> 
         <!-- clickable me -->
-        <a href={href} class="panel" style="background: {colour}; align-items: center"> 
-                <img src={img_url} alt={desc} width=120px height=120px/>
+        <a href={href} class="panel" style="background: {colour}; align-content: center;">
+                <div style="position: relative; align-items: center; align-self: center; justify-content: center; justify-self: center;">
+                <img src={img_url} alt={desc} width=50px height=50px/>
+                </div>
                 <slot />
         </a>
+        
         <div class="panel-desc">
                 <p>{desc}</p>
         </div>
