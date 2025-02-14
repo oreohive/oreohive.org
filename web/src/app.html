@@ -1,6 +1,21 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<!-- how to stop the flashbangs. very very happy indeed -->
+		<script>
+			// immediately check localStorage and apply dark mode if needed
+			(function() {
+			  try {
+			    const theme = localStorage.getItem("theme");
+			    if (theme === "dark") {
+			      document.documentElement.classList.add("dark");
+			    }
+			  } catch (e) {
+			    // if localStorage is not available, do nothing
+			  }
+			})();
+		</script>
+		
 		<link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96" />
 		<link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
 		<link rel="shortcut icon" href="/icons/favicon.ico" />

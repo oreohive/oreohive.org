@@ -31,4 +31,10 @@
 		overflow-y: visible;
 		z-index: -1;
 	}
+
+	.dark .panel-box {
+		background: #1a1a1a;
+		background-color: #1a1a1a;
+		box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
+	}
 </style>

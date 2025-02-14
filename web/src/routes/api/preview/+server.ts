@@ -1,5 +1,5 @@
-import { redirectToPreviewURL } from "@prismicio/svelte/kit";
-import { createClient } from "$lib/prismicio";
+import { redirectToPreviewURL } from '@prismicio/svelte/kit';
+import { createClient } from '$lib/prismicio';
 
 export async function GET({ fetch, request, cookies }) {
   const client = createClient({ fetch });
