@@ -34,7 +34,7 @@
         once you've accepted, you can then access oreohive.org/terms, on which you may check for later revisions or updated publications which may apply to you. we advise you routinely do this.<br><br>
         you can only use any of our (the oreohive organisation's) services, sites, software, products, or experiences for any purpose, ever, in any circumstance, if you agree that you understand, have read, and will honour our terms & ethics of use.
         <br>in using, interacting with, utilising, downloading, sending content or requests to, or otherwise manipulating or leveraging our products, services, software, apis or experiences, you agree to our terms & ethics of use of most recent publishing.<br><br>
-        however, we strongly and <b>sincerely believe that our terms & ethics of use do not infringe on your rights</b>, including your right to privacy, and mainly exist to protect us from dodgy actors and weird people.<br><br>
+        however, we strongly and <b>sincerely believe that our terms & ethics of use do not infringe on your rights</b>, including your right to privacy, and mainly exist to protect us from silly actors and silly people.<br><br>
         this includes respecting the licenses with which we distribute our content (GNU AGPL-3.0 by default for code, CC BY-NC-SA 4.0 by default for anything else) and not feeding any of our content to ai models for training, learning or remembering, or exposing any of it in an environment in which this could happen.<br><br>
         oreohive.org, this website, comes with <b>absolutely NO WARRANTY</b>, to the extent <b>permitted by applicable law</b>. <b>we are not liable</b>. get rekt
         <br><br>
