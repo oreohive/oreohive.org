@@ -126,7 +126,7 @@ our terms & ethics of use take precedence over any of these licensing agreements
 
 any and all of **your use of oreohive resources, resources published by the oreohive organisation** and / or resources under / in / a part of the oreohive project are **subject to our terms & ethics of use**. please find them on our website.
 
-sensible inclusions of the oreohive(.org) name in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks, silly.
+sensible inclusions of the oreohive(.org) name or logo in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks, silly.
 
 ### third-party licenses
 
