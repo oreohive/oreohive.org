@@ -1,17 +1,12 @@
-// web/sveltekit-app/src/app.css
+// web/static/global.css
 
 p {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
-	align-self: center;
-	justify-content: left;
-	justify-self: center;
 	font-family: Poppins, sans-serif;
 	background-color: #fcfcff;
 	border-radius: 12px;
 	box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-	max-width: 50vw !important;
 }
 
 // poppins classes
@@ -116,10 +111,6 @@ p {
 .text-box {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
-	align-self: center;
-	justify-content: left;
-	justify-self: center;
 	font-family: Poppins, sans-serif;
 	background-color: #fcfcff;
 	border-radius: 12px;

@@ -33,21 +33,17 @@
     * {
         display: flex;
 	    flex-direction: column;
-	    align-items: left;
-	    align-self: center;
-	    justify-content: left;
-	    justify-self: center;
 	    font-family: Poppins, sans-serif;
 	    border-radius: 12px;
         margin: 0px;
         padding: 0px;
         gap: 0px;
+        max-width: 100vw;
 
     }
     .container {
         display: flex;
         flex-direction: column;
-        align-items: center;
         font-family: Poppins, sans-serif;
     }
 </style>

@@ -32,29 +32,14 @@
 {/if}
 
 <style>
-  .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: Poppins, sans-serif;
-  }
-
   .text-box {
       display: flex;
       flex-direction: column;
-      align-items: left;
-      align-self: center;
-      justify-content: left;
-      justify-self: center;
       font-family: Poppins, sans-serif;
       background-color: #fcfcff;
       border-radius: 12px;
       box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-      max-width: 720px !important;
-      min-width: 384px !important;
-      padding-left: 24px;
-      padding-right: 24px;
-      margin: 12px;
+      max-width: 50vw;
   }
 
   p {
@@ -63,22 +48,15 @@
 
   h1, h2, h3, h4, h5, h6 {
     color: #000000 !important;
-    margin-bottom: -1px !important;
-    margin-top: -1px !important;
   }
 
   .text-box {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        align-self: center;
-        justify-content: flex-start;
-        justify-self: center;
         font-family: Poppins, sans-serif;
         background-color: #fcfcff;
         border-radius: 12px;
         box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-        max-width: 50vw !important;
     }
 
     /* inverted styles for dark mode */
