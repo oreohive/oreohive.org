@@ -23,8 +23,7 @@
     });
 </script>
 
-<Navbar>
-</Navbar>
+<Navbar />
 
 <div class="container">
     <slot></slot>

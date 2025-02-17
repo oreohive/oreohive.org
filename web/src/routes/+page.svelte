@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Panel from "../components/Panel.svelte";
 	import PanelBox from "../components/PanelBox.svelte";
-	import TitleBox from "../components/TitleDisplay.svelte";
+	import FullPageTitle from "../components/FullPageTitle.svelte";
 </script>
 
-<TitleBox title="welcome to oreohive.org!" />
+<FullPageTitle title="welcome to oreohive.org" />
 
 <div class="panels">
 	<PanelBox>

@@ -1,4 +1,4 @@
-<!-- web/sveltekit-app/src/components/TitleDisplay.svelte-->
+<!-- web/src/components/TitleDisplay.svelte-->
 
 <script>
     export let title;
@@ -17,10 +17,12 @@
         color: #f5f5f5;
     }
     .title-display {
+        z-index: -1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 16px;
+        margin: 16px;
     }
 </style>
