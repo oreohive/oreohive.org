@@ -11,7 +11,7 @@ export let data;
 <ul>
   {#each [...data.posts] as post} <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
     <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
-      <Panel colour="#fcfcff" img_url={post.data.image.url} href={`/activity-log/${post.uid}`}/>
+      <Panel colour="#fcfcff" img_url={post.data.image.url ?? "No post image URL found"} href={`/activity-log/${post.uid}`}/>
       <div>
         <h3>{post.data.title}</h3>
         <p>{post.data.date}</p>
@@ -24,12 +24,3 @@ export let data;
 {:else}
   <p>oops! no posts found. sorry!</p>
 {/if}
-
-<style>
-  .panel {
-    /* rectangle */
-    max-width: 80vw !important;
-    height: 256px !important;
-    background: #fcfcff !important;
-  }
-</style>

@@ -4,64 +4,414 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
-interface AuthorDocumentData {}
+type DoodleDocumentDataSlicesSlice = never;
 
 /**
- * author document from Prismic
+ * Content for Doodle documents
+ */
+interface DoodleDocumentData {
+  /**
+   * Title field in *Doodle*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Doodle title goes here
+   * - **API ID Path**: doodle.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Date field in *Doodle*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: Date goes here
+   * - **API ID Path**: doodle.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
+   * Timestamp field in *Doodle*
+   *
+   * - **Field Type**: Timestamp
+   * - **Placeholder**: Timestamp goes here
+   * - **API ID Path**: doodle.timestamp
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#timestamp
+   */
+  timestamp: prismic.TimestampField;
+
+  /**
+   * Author field in *Doodle*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Author name goes here
+   * - **API ID Path**: doodle.author
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  author: prismic.RichTextField;
+
+  /**
+   * Description field in *Doodle*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Description goes here
+   * - **API ID Path**: doodle.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Notes field in *Doodle*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Notes can go here
+   * - **API ID Path**: doodle.notes
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  notes: prismic.RichTextField;
+
+  /**
+   * Picture field in *Doodle*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: doodle.picture
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  picture: prismic.ImageField<never>;
+
+  /**
+   * Slice Zone field in *Doodle*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: doodle.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<DoodleDocumentDataSlicesSlice> /**
+   * Meta Title field in *Doodle*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A title of the page used for social media and search engines
+   * - **API ID Path**: doodle.meta_title
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */;
+  meta_title: prismic.KeyTextField;
+
+  /**
+   * Meta Description field in *Doodle*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A brief summary of the page
+   * - **API ID Path**: doodle.meta_description
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  meta_description: prismic.KeyTextField;
+
+  /**
+   * Meta Image field in *Doodle*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: doodle.meta_image
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  meta_image: prismic.ImageField<never>;
+}
+
+/**
+ * Doodle document from Prismic
  *
- * - **API ID**: `author`
+ * - **API ID**: `doodle`
  * - **Repeatable**: `true`
  * - **Documentation**: https://prismic.io/docs/custom-types
  *
  * @typeParam Lang - Language API ID of the document.
  */
-export type AuthorDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithUID<Simplify<AuthorDocumentData>, "author", Lang>;
+export type DoodleDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<Simplify<DoodleDocumentData>, "doodle", Lang>;
 
-interface FooterDocumentData {}
+type HumanArticleDocumentDataSlicesSlice = never;
 
 /**
- * footer document from Prismic
+ * Content for Human Article documents
+ */
+interface HumanArticleDocumentData {
+  /**
+   * Title field in *Human Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Placeholder title
+   * - **API ID Path**: humanArticle.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * Date field in *Human Article*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: Placeholder date
+   * - **API ID Path**: humanArticle.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
+   * Author field in *Human Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Placeholder author
+   * - **API ID Path**: humanArticle.author
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  author: prismic.KeyTextField;
+
+  /**
+   * Description field in *Human Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Placeholder description
+   * - **API ID Path**: humanArticle.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Image field in *Human Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: humanArticle.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * Article Content field in *Human Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Article content goes here
+   * - **API ID Path**: humanArticle.article_content
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  article_content: prismic.RichTextField;
+
+  /**
+   * Slice Zone field in *Human Article*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: humanArticle.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<HumanArticleDocumentDataSlicesSlice> /**
+   * Meta Title field in *Human Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A title of the page used for social media and search engines
+   * - **API ID Path**: humanArticle.meta_title
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */;
+  meta_title: prismic.KeyTextField;
+
+  /**
+   * Meta Description field in *Human Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A brief summary of the page
+   * - **API ID Path**: humanArticle.meta_description
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  meta_description: prismic.KeyTextField;
+
+  /**
+   * Meta Image field in *Human Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: humanArticle.meta_image
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  meta_image: prismic.ImageField<never>;
+}
+
+/**
+ * Human Article document from Prismic
  *
- * - **API ID**: `footer`
- * - **Repeatable**: `false`
+ * - **API ID**: `humanArticle`
+ * - **Repeatable**: `true`
  * - **Documentation**: https://prismic.io/docs/custom-types
  *
  * @typeParam Lang - Language API ID of the document.
  */
-export type FooterDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithoutUID<
-    Simplify<FooterDocumentData>,
-    "footer",
+export type HumanArticleDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<HumanArticleDocumentData>,
+    "humanArticle",
     Lang
   >;
 
-interface GlobalNavDocumentData {}
+type LabsArticleDocumentDataSlicesSlice = never;
 
 /**
- * global nav document from Prismic
+ * Content for Labs Article documents
+ */
+interface LabsArticleDocumentData {
+  /**
+   * Title field in *Labs Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Placeholder title
+   * - **API ID Path**: labsArticle.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Timestamp field in *Labs Article*
+   *
+   * - **Field Type**: Timestamp
+   * - **Placeholder**: Placeholder timestamp
+   * - **API ID Path**: labsArticle.timestamp
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#timestamp
+   */
+  timestamp: prismic.TimestampField;
+
+  /**
+   * Author field in *Labs Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Author name goes here
+   * - **API ID Path**: labsArticle.author
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  author: prismic.RichTextField;
+
+  /**
+   * Description field in *Labs Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Placeholder description
+   * - **API ID Path**: labsArticle.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Image field in *Labs Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: labsArticle.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * Article Content field in *Labs Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Article content goes here
+   * - **API ID Path**: labsArticle.article_content
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  article_content: prismic.RichTextField;
+
+  /**
+   * Slice Zone field in *Labs Article*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: labsArticle.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<LabsArticleDocumentDataSlicesSlice> /**
+   * Meta Title field in *Labs Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A title of the page used for social media and search engines
+   * - **API ID Path**: labsArticle.meta_title
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */;
+  meta_title: prismic.KeyTextField;
+
+  /**
+   * Meta Description field in *Labs Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A brief summary of the page
+   * - **API ID Path**: labsArticle.meta_description
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  meta_description: prismic.KeyTextField;
+
+  /**
+   * Meta Image field in *Labs Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: labsArticle.meta_image
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  meta_image: prismic.ImageField<never>;
+}
+
+/**
+ * Labs Article document from Prismic
  *
- * - **API ID**: `global_nav`
- * - **Repeatable**: `false`
+ * - **API ID**: `labsArticle`
+ * - **Repeatable**: `true`
  * - **Documentation**: https://prismic.io/docs/custom-types
  *
  * @typeParam Lang - Language API ID of the document.
  */
-export type GlobalNavDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithoutUID<
-    Simplify<GlobalNavDocumentData>,
-    "global_nav",
+export type LabsArticleDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<LabsArticleDocumentData>,
+    "labsArticle",
     Lang
   >;
 
 type PostDocumentDataSlicesSlice = never;
 
 /**
- * Content for post documents
+ * Content for Post documents
  */
 interface PostDocumentData {
   /**
-   * Title field in *post*
+   * Title field in *Post*
    *
    * - **Field Type**: Text
    * - **Placeholder**: Placeholder title
@@ -72,7 +422,7 @@ interface PostDocumentData {
   title: prismic.KeyTextField;
 
   /**
-   * Date field in *post*
+   * Date field in *Post*
    *
    * - **Field Type**: Date
    * - **Placeholder**: *None*
@@ -83,7 +433,7 @@ interface PostDocumentData {
   date: prismic.DateField;
 
   /**
-   * Author field in *post*
+   * Author field in *Post*
    *
    * - **Field Type**: Text
    * - **Placeholder**: Author name goes here
@@ -94,7 +444,7 @@ interface PostDocumentData {
   author: prismic.KeyTextField;
 
   /**
-   * Description field in *post*
+   * Description field in *Post*
    *
    * - **Field Type**: Text
    * - **Placeholder**: Placeholder description
@@ -105,7 +455,7 @@ interface PostDocumentData {
   description: prismic.KeyTextField;
 
   /**
-   * Image field in *post*
+   * Image field in *Post*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -116,7 +466,7 @@ interface PostDocumentData {
   image: prismic.ImageField<never>;
 
   /**
-   * Post Content field in *post*
+   * Post Content field in *Post*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: Placeholder post content goes here
@@ -127,7 +477,7 @@ interface PostDocumentData {
   post_content: prismic.RichTextField;
 
   /**
-   * Slice Zone field in *post*
+   * Slice Zone field in *Post*
    *
    * - **Field Type**: Slice Zone
    * - **Placeholder**: *None*
@@ -136,7 +486,7 @@ interface PostDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#slices
    */
   slices: prismic.SliceZone<PostDocumentDataSlicesSlice> /**
-   * Meta Title field in *post*
+   * Meta Title field in *Post*
    *
    * - **Field Type**: Text
    * - **Placeholder**: A title of the page used for social media and search engines
@@ -147,7 +497,7 @@ interface PostDocumentData {
   meta_title: prismic.KeyTextField;
 
   /**
-   * Meta Description field in *post*
+   * Meta Description field in *Post*
    *
    * - **Field Type**: Text
    * - **Placeholder**: A brief summary of the page
@@ -158,7 +508,7 @@ interface PostDocumentData {
   meta_description: prismic.KeyTextField;
 
   /**
-   * Meta Image field in *post*
+   * Meta Image field in *Post*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -170,7 +520,7 @@ interface PostDocumentData {
 }
 
 /**
- * post document from Prismic
+ * Post document from Prismic
  *
  * - **API ID**: `post`
  * - **Repeatable**: `true`
@@ -181,11 +531,173 @@ interface PostDocumentData {
 export type PostDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<PostDocumentData>, "post", Lang>;
 
+type UniverseArticleDocumentDataSlicesSlice = never;
+
+/**
+ * Content for Universe Article documents
+ */
+interface UniverseArticleDocumentData {
+  /**
+   * Title field in *Universe Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Placeholder title
+   * - **API ID Path**: universeArticle.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Timestamp field in *Universe Article*
+   *
+   * - **Field Type**: Timestamp
+   * - **Placeholder**: Placeholder timestamp
+   * - **API ID Path**: universeArticle.timestamp
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#timestamp
+   */
+  timestamp: prismic.TimestampField;
+
+  /**
+   * Author field in *Universe Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Author name goes here
+   * - **API ID Path**: universeArticle.author
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  author: prismic.RichTextField;
+
+  /**
+   * Description field in *Universe Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Placeholder description
+   * - **API ID Path**: universeArticle.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Image field in *Universe Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: universeArticle.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * Article Content field in *Universe Article*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Article content goes here
+   * - **API ID Path**: universeArticle.article_content
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  article_content: prismic.RichTextField;
+
+  /**
+   * Slice Zone field in *Universe Article*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: universeArticle.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<UniverseArticleDocumentDataSlicesSlice> /**
+   * Meta Title field in *Universe Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A title of the page used for social media and search engines
+   * - **API ID Path**: universeArticle.meta_title
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */;
+  meta_title: prismic.KeyTextField;
+
+  /**
+   * Meta Description field in *Universe Article*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A brief summary of the page
+   * - **API ID Path**: universeArticle.meta_description
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  meta_description: prismic.KeyTextField;
+
+  /**
+   * Meta Image field in *Universe Article*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: universeArticle.meta_image
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  meta_image: prismic.ImageField<never>;
+}
+
+/**
+ * Universe Article document from Prismic
+ *
+ * - **API ID**: `universeArticle`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type UniverseArticleDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<UniverseArticleDocumentData>,
+    "universeArticle",
+    Lang
+  >;
+
 export type AllDocumentTypes =
-  | AuthorDocument
-  | FooterDocument
-  | GlobalNavDocument
-  | PostDocument;
+  | DoodleDocument
+  | HumanArticleDocument
+  | LabsArticleDocument
+  | PostDocument
+  | UniverseArticleDocument;
+
+/**
+ * Default variation for TextBlock Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type TextBlockSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Record<string, never>,
+  never
+>;
+
+/**
+ * Slice variation for *TextBlock*
+ */
+type TextBlockSliceVariation = TextBlockSliceDefault;
+
+/**
+ * TextBlock Shared Slice
+ *
+ * - **API ID**: `text_block`
+ * - **Description**: TextBlock
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type TextBlockSlice = prismic.SharedSlice<
+  "text_block",
+  TextBlockSliceVariation
+>;
 
 declare module "@prismicio/client" {
   interface CreateClient {
@@ -208,16 +720,25 @@ declare module "@prismicio/client" {
 
   namespace Content {
     export type {
-      AuthorDocument,
-      AuthorDocumentData,
-      FooterDocument,
-      FooterDocumentData,
-      GlobalNavDocument,
-      GlobalNavDocumentData,
+      DoodleDocument,
+      DoodleDocumentData,
+      DoodleDocumentDataSlicesSlice,
+      HumanArticleDocument,
+      HumanArticleDocumentData,
+      HumanArticleDocumentDataSlicesSlice,
+      LabsArticleDocument,
+      LabsArticleDocumentData,
+      LabsArticleDocumentDataSlicesSlice,
       PostDocument,
       PostDocumentData,
       PostDocumentDataSlicesSlice,
+      UniverseArticleDocument,
+      UniverseArticleDocumentData,
+      UniverseArticleDocumentDataSlicesSlice,
       AllDocumentTypes,
+      TextBlockSlice,
+      TextBlockSliceVariation,
+      TextBlockSliceDefault,
     };
   }
 }

@@ -1,7 +1,7 @@
 {
   "format": "page",
-  "id": "post",
-  "label": "Post",
+  "id": "universeArticle",
+  "label": "Universe Article",
   "repeatable": true,
   "status": true,
   "json": {
@@ -13,48 +13,57 @@
         }
       },
       "title": {
-        "type": "Text",
+        "type": "StructuredText",
         "config": {
           "label": "Title",
-          "placeholder": "Placeholder title"
+          "placeholder": "Placeholder title",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,embed,list-item,o-list-item,rtl"
         }
       },
-      "date": {
-        "type": "Date",
+      "timestamp": {
+        "type": "Timestamp",
         "config": {
-          "label": "Date",
-          "placeholder": ""
+          "label": "Timestamp",
+          "placeholder": "Placeholder timestamp"
         }
       },
       "author": {
-        "type": "Text",
+        "type": "StructuredText",
         "config": {
           "label": "Author",
-          "placeholder": "Author name goes here"
+          "placeholder": "Author name goes here",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,embed,list-item,o-list-item,rtl"
         }
       },
       "description": {
-        "type": "Text",
+        "type": "StructuredText",
         "config": {
           "label": "Description",
-          "placeholder": "Placeholder description"
+          "placeholder": "Placeholder description",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
         }
       },
       "image": {
         "type": "Image",
         "config": {
           "label": "Image",
-          "constraint": {},
+          "constraint": {
+            "width": 512,
+            "height": 512
+          },
           "thumbnails": []
         }
       },
-      "post_content": {
+      "article_content": {
         "type": "StructuredText",
         "config": {
-          "label": "Post Content",
-          "placeholder": "Placeholder post content goes here",
+          "label": "Article Content",
+          "placeholder": "Article content goes here",
           "allowTargetBlank": true,
-          "multi": "preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,paragraph"
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
         }
       },
       "slices": {
