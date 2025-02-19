@@ -15,9 +15,12 @@
 
 <h1>welcome to oreohive.org</h1>
 
-<audio src="/music/2025-02-14-spectrumstep.mp3" loop autoplay hidden>
+<div data-tap-disabled="true" >
+<audio loop autoplay hidden>
+    <source src="/music/spectrum-obligato-ebb-&-flow-oreohive-onboarding-ver.mp3" type="audio/mpeg">
     your browser does not support the audio element.
 </audio>
+</div>
 
 <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
     <button type="submit" name="accept">
@@ -40,15 +43,3 @@
         <br><br>
 </p>
 </div>
-
-
-<style global>
-    @keyframes colourShift {
-        0% {
-            filter: hue-rotate(0deg);
-        }
-        100% {
-            filter: hue-rotate(360deg);
-        }
-    }
-</style>
