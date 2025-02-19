@@ -1,17 +1,32 @@
 # oreohive.org
 **this is a git repo for the website hosted at oreohive.org.**
-
 it includes its sveltekit frontend ('web'), its cms app ('cms'), and pretty much all surrounding workings.
 
 this website is built with **sveltekit** + **vite**.
 
 this website also has **msdvex built-in** (which interprets markdown files), so we can contribute and create pages **just by adding .md (markdown) files**! no code required!
 
+--
+
+
 ## the purpose of this website
 
-this website serves not only as an 'activity log' (like a blog but cooler) for us queen bees who run it, but also as an educational playground and place for us to host little tools and other things contributing to our mission of making technology and internet-connected services and experiences easy.
+please read https://www.oreohive.org/about to learn about our mission and why we're here.
+in short, we're here for **simpler software** and **easier experiences**. we feel the internet shouldn't have to be scary.
 
-we feel the internet shouldn't have to be scary. we are for **simpler software** and **easier experiences**.
+we wanted a place to share our knowledge of things we've learned, and keep it all nice and organised, while documenting it for public availability.
+
+this is also largely a place for me to learn about webdev and the ins-and-outs of nodejs and our framework.
+
+you can learn more about our opinions on the current state of technology, and why we feel there is a need for change, here: https://www.oreohive.org/activity-log/intro
+
+we will likely, as part of the oreohive portfolio, build up simple tools that 'just work'; things like calculators and other silly internet tools will likely be added over time as we figure out how to best implement them. one of our earliest projects was called 'pitchplay', a simple tool that'd let you enter in two notes and inform you as to the multiplier you'd need to pitch the first to the second. we definitely intend on bringing this one back at some point.
+
+any contributions, be they of code, ideas / suggestions, or both, are hugely appreciated. :))
+
+thank you so much for stopping by, and i hope something we make, even if it's just one of our quick tutorials, can help you out someday. :>
+
+--
 
 
 ## licensing and resource usage
@@ -25,42 +40,20 @@ this means you can modify, distribute and use the code **so long as you**:
 
 any and all other media, content, resources, assets, pictures, videos, images or any other such materials published by the oreohive organisation are, by default, licensed under cc by-nc-sa 4.0.
 
-this license allows you to:
-- copy and redistribute the code in any medium or format, and
-- remix transform, use and build upon the code
-so long as you:
-- give appropriate attributions (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
-- provide a link to the license, and indicate if changes to the material you used were made
-- release this material, including any changes you may've made, under the **same license** (or a newer version of the exact license at your discretion), and
-- **don't use the material or content, modified or otherwise, for any commercial or for-profit purposes**.
+--
 
-# our identity
 
-### oreohive branding and marks
-oreohive branding, oreohive marks, oreohive mascots or other such / related assets included in the repo, the website or any materials we may publish are protected under ***copyright*** means.
-
-as such, you cannot use them under the same terms of either of these licenses.
-
-you're allowed to **either**:
-- host a completely **unaltered**, freely-available, open-source, unmodified version of the oreohive.org website or api with branding for **non-commercial**, **not-for-profit** purposes, or
-
-- host a **greatly / significantly modified**, significantly built-upon version of the oreohive.org website as a 'fork' without any of the branding (including the name) but with significant and appropriate attributions to the oreohive organisation @ oreohive.org, clearly stating that you built the website upon our work at oreohive.org.
-
-ultimately, what is considered 'greatly / significantly modified' is up to our discretion, but this is something we'd consider ourselves really quite fair about.
-
----
-
-### conclusion, and terms & ethics of use
+## conclusion, and terms & ethics of use
 in general, **it's highly unlikely you'll find us chasing people or entities over licensing crap if they're doing us no direct harm**. this is just to stop naughty people stealing our stuff without giving back to the community.
-
-means of using or adapting our oreohive branding, name, oreohive marks or other such / related assets (included in this repo or otherwise) that are not explicitly allowed are strictly prohibited.
-our terms & ethics of use take precedence over any of these licensing agreements, licenses or licensing terms. please find them at our website.
 
 any and all of **your use of oreohive resources, resources published by the oreohive organisation** and / or resources under / in / a part of the oreohive project are **subject to our terms & ethics of use**. please find them on our website.
 
 sensible inclusions of the oreohive(.org) name or logo in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks, silly.
 
-### third-party licenses
+--
+
+
+## third-party licenses
 
 - [poppins](https://fonts.google.com/specimen/Poppins) fonts, used in our website and brand identity, are licensed under the [ofl](https://fonts.google.com/specimen/Poppins/license) license.
 - this page uses sentence structuring, vocab choices and other such choices inspired by or evolved from those of similar readmes in [cobalt's repo](https://github.com/imputnet/cobalt).
