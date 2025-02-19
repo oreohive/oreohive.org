@@ -54,7 +54,10 @@
     align-content: center;
     justify-content: center;
     max-width: 480px;
-    margin: 48px;
+    margin-top: 64px;
+    margin-bottom: 6px;
+    margin-left: 48px;
+    margin-right: 48px;
     padding: 0px;
     gap: 0px;
 

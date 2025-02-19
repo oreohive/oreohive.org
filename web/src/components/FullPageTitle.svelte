@@ -1,7 +1,6 @@
 <!-- web/src/components/FullPageTitle.svelte-->
 
 <script>
-  import ScrollDownArrow from "./ScrollDownArrow.svelte";
 
     export let title;
 </script>
@@ -9,9 +8,6 @@
 <div class="title-display">
     <h1>{title}</h1>
 
-    <div class="scroll-down-arrow">
-        <ScrollDownArrow />
-    </div>
 </div>
 
 <style>
@@ -33,9 +29,5 @@
         min-width: 100vw;
         background-color: #e8e8e8;
         margin: 8px;
-    }
-    .scroll-down-arrow {
-        position: relative;
-        top: 392px
     }
 </style>
