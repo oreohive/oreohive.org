@@ -40,7 +40,7 @@ we're so glad to hear it!!! i'm sure my source code i've cobbled together over t
 we love crediting our contributors, so you can expect us to be singing your praises on the website. :'))
 we'd love to hear what new features or fixes you have ideas for!!
 
--
+--
 
 
 ## licensing and resource usage
