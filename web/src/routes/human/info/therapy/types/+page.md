@@ -33,9 +33,3 @@ Some therapies, like **EMDR**, fall somewhere in-between, not being considered a
 EMDR’s signature emphasis is on **processing our memories**, rather than **exploring them in-depth** in conversations.
 
 [EMDR](types/emdr)
-
-[CBT](types/cbt)
-
-[ECT](types/ect)
-
-[Integrative therapy](types/it)

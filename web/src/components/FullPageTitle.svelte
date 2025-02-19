@@ -16,7 +16,6 @@
         position: absolute;
     }
     .dark h1 {
-        background-color: #121212;
         color: #f5f5f5;
     }
     .title-display {
