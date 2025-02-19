@@ -17,6 +17,7 @@
 	/* rectangle */
 	.panel-box {
 		display: flex;
+		flex-wrap: wrap;
 		flex-direction: row;
 		align-items: center;
 		align-self: center;
@@ -28,7 +29,8 @@
 		padding: 16px;
 		overflow-x: visible; /* allow horizontal scrolling if needed */
 		overflow-y: visible;
-		z-index: -1;
+		z-index: -1 !important;
+		max-width: 85vw;
 	}
 
 	.dark .panel-box {

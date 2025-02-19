@@ -14,10 +14,10 @@
     }
     .dark h1 {
         background-color: #121212;
-        color: #f5f5f5;
+        color: #f5f5f5 !important;
     }
     .title-display {
-        z-index: -1;
+        /* don't put z-index: -1; here apparently wtf */
         display: flex;
         flex-direction: column;
         align-items: center;

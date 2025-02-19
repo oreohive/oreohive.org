@@ -7,11 +7,13 @@
 </script>
 
 <div class="footer">
+    <div class="footer-logo">
     <a href="https://ko-fi.com/oreohive">
         <div class="logo-background">
-        <img src={img_url} alt="logo" style="width: 96px; height: 96px; border-radius: 0%;" />
+        <img src={img_url} alt="logo" style="border-radius: 0%;" />
         </div>
     </a>
+    </div>
     <div class="footer-message">
     <p style="font-size: 0.75em; color: #ffebbc;">copyleft 2025 <a href="https://github.com/oreohive" target=”_blank”>the oreohive organisation</a> @ oreohive.org  |  attributions are required!</p>
     <p>in using, accessing, engaging with, contributing to or connecting to this website, you agree to our <a href="/onboarding" target=”_blank”>terms & ethics of use</a>.</p>
@@ -24,8 +26,9 @@
     
     <p style="font-size: 1.25em;">all our code is licensed (by default) under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text" target=”_blank”>GNU AGPL-3.0</a>. all our other works, by default, are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target=”_blank”>CC BY-NC-SA 4.0</a>!</p>
     </div>
-    
-    <p>made with &lt;3 by <a href="https://github.com/dopreo" target=”_blank”>a kid in the UK</a></p>
+    <div class="made-message">
+    <p style="width: 235.5px !important; min-width: 235.5px !important;">made with &lt;3 by <a href="https://github.com/dopreo" target=”_blank”>a kid in the UK</a></p>
+    </div>
     <slot />
 </div>
 
@@ -33,13 +36,14 @@
     .footer{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-self: center;
         align-items: center;
         justify-content: space-between;
         z-index: 1;
         padding: 24px;
         margin: -8px !important;
-        gap: 0px !important;
+        gap: 16px !important;
 
         background-color: #5a5a5a;
         color: #ece4ff;
@@ -47,8 +51,8 @@
     }
 
     .footer-message p {
-        max-width: 200vw !important;
-        width: 1440px;
+        max-width: 50vw !important;
+        min-width: 20vw;
         border-style: none;
         margin: 0px;
         gap: 0px;
@@ -65,10 +69,18 @@
         margin: 16px;
         border-radius: 48%;
         z-index: -1;
+        max-width: 96px;
+        max-height: 96px;
+        min-width: 12px;
+        min-height: 12px;
     }
 
     img {
         z-index: 1;
+        max-width: 96px;
+        max-height: 96px;
+        min-width: 12px;
+        min-height: 12px;
     }
 
     a {

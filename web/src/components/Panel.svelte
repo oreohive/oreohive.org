@@ -35,6 +35,7 @@
         .panel-container {
                 position: relative;
                 display: flex;
+                flex-wrap: wrap;
                 flex-direction: column;
                 align-items: center;
                 gap: 0px;
@@ -61,7 +62,7 @@
                 font-family: Poppins, sans-serif;
                 color: #1f2937;
                 top: calc(var(--panel-height) + 6px);
-                z-index: 1;
+                z-index: 1 !important;
                 text-transform: lowercase;
         }
 
