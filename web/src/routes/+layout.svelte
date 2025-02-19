@@ -121,9 +121,11 @@
   :global(.dark body) {
     /* container but for dark theme */
     background: #1a1a1a !important;
+    color: #ffffff;
   }
   :global(.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6) {
     /* @css-ignore */
+    color: #ffffff;
   }
   :global(.dark .text-box) {
     /* text-box but for dark theme */
