@@ -51,7 +51,7 @@ export const handle: Handle = async ({ event, resolve }) => {
         if (response.status === 404) {
                 return new Response(null, {
                         status: 303,
-                        headers: {location: "https://oreohive.org/error-pages/404"} // not me hardcoding a rickroll
+                        headers: {location: "https://www.oreohive.org/error-pages/404"} // i'm sure there's a better way to do this lmao please help me out here
                 });
         }
 
