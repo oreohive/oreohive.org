@@ -6,6 +6,7 @@
         export let desc: string = ''; // a string for the description text
         export let img_url: string = '/logo.webp'; // a string for the picture url
         export let href: string = ''; // a string for the link the panel is to take one
+        console.log('img_url:', img_url);
 </script>
 
 <div class="panel-container"> 
@@ -46,6 +47,7 @@
                 --panel-height: 120px;
                 width: calc(var(--panel-height) * 1.5);
                 height: var(--panel-height);
+                border-style: none;
                 border-radius: calc(var(--panel-height) * 0.1);
                 box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
                 z-index: 1;
@@ -54,11 +56,16 @@
         .panel-desc {
                 --panel-height: 120px;
                 position: absolute;
+                border-style: none;
                 font-size: 1rem;
                 font-family: Poppins, sans-serif;
                 color: #1f2937;
                 top: calc(var(--panel-height) + 6px);
                 z-index: 1;
                 text-transform: lowercase;
+        }
+
+        p {
+                border-style: none;
         }
 </style>

@@ -5,7 +5,6 @@
 	export let desc: string = ' '; // a string for the description text, whitespace by default
 </script>
 
-<p class="panel-desc">{desc}</p>
 <div class="panel-box">
 	<slot />
 </div>

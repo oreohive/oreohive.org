@@ -24,11 +24,7 @@
 </script>
 
 <Navbar />
-<div class="container">
-  <div class="centre-container">
-    <slot></slot>
-  </div>
-</div>
+<slot></slot>
 
 <style global>
   * {
@@ -66,7 +62,6 @@
     
   }
 
-
   :global(p, ul, ol, li) {
     border-radius: 12px;
     border-width: 1px;
@@ -98,6 +93,8 @@
     display: flex;
     flex-direction: column;
     max-width: 1080px;
+    min-width: 720px;
+    min-height: 360px;
     align-items: center !important;
     justify-items: center !important;
     align-content: center !important;
@@ -107,7 +104,7 @@
     margin-bottom: 64px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top: 64px;
+    padding-top: 16px;
     padding-bottom: 16px;
     padding-left: -48px;
     padding-right: -48px;
@@ -115,6 +112,7 @@
     border-width: 3px;
     border-style: dashed;
     border-color: #5a5467;
+    border-radius: 12px;
     font-family: Poppins, sans-serif;
   }
 
@@ -125,17 +123,16 @@
   }
   :global(.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6) {
     /* @css-ignore */
-    color: #f5f5f5 !important;
   }
   :global(.dark .text-box) {
     /* text-box but for dark theme */
     background-color: #2a2a2a !important;
-    color: #f5f5f5 !important;
+    color: #f5f5f5;
     box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.05);
   }
   :global(.dark .container) {
     /* container but for dark theme */
     background-color: #121212;
-    color: #f5f5f5 !important;
+    color: #f5f5f5;
   }
 </style>
