@@ -1,4 +1,9 @@
-<!-- web/sveltekit-app/src/components/Panel.svelte-->
+<!-- src/components/Panel.svelte-->
+
+<!-- this is our component for our Panels 
+Panels are kind of like our own special big fat ui buttons
+they can be used for navigation or just to display info
+they have colours and have neat animations on hover etc. -->
 
 <script lang="ts">
         // declare props to accept values from the parent component

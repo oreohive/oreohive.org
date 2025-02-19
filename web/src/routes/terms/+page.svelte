@@ -1,3 +1,5 @@
+<!-- src/routes/terms/+page.svelte -->
+
 <script>
 	export let data;
 </script>

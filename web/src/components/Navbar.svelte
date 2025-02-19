@@ -1,3 +1,9 @@
+<!-- src/components/Navbar.svelte -->
+
+<!-- this component is used for the navbar at the top of the screen
+it contains the logo, welcome message, and theme toggle switch
+currently little actual navigation going on but maybe soon enough we might throw some quick links up here lol -->
+
 <script lang="ts">
     export let img_url: string = '/logo.webp'; // a string for image / corner icon / logo url
     import WelcomeMsg from "./WelcomeMsg.svelte";

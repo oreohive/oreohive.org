@@ -1,9 +1,25 @@
 <!-- src/components/Footer.svelte -->
 
+<!-- this component might be pretty self-explanatory, but i'll write a comment here
+just to give you a helping hand :))
+this Footer.svelte component is the footer that appears at the bottom of each and every one of our pages.
+this is quite important because it contains some licensing / restrictions stuff
+
+it's referenced in the global +layout.svelte that appears at root (src/) so it appears on every page (in src) -->
+
+<!-- the footer is made up of three main sections:
+1. the footer-logo
+2. the footer-message
+3. the made-message
+
+the footer-logo contains the logo of the oreohive organisation, which atm is a clickable link to our ko-fi page
+the footer-message contains a bunch of text that explains some licensing and restrictions stuff
+the made-message contains a message that says who made the website etc., links to my github (might change this if community contributions catch on?)
+:'))
+-->
+
 <script lang="ts">
     export let img_url: string = '/logo.webp'; // a string for image / corner icon / logo url
-    import WelcomeMsg from "./WelcomeMsg.svelte";
-    import ThemeToggle from "./ThemeToggle.svelte";
 </script>
 
 <div class="footer">
@@ -17,10 +33,13 @@
     <div class="footer-message">
     <p style="font-size: 0.75em; color: #ffebbc;">copyleft 2025 <a href="https://github.com/oreohive" target=”_blank”>the oreohive organisation</a> @ oreohive.org  |  attributions are required!</p>
     <p>in using, accessing, engaging with, contributing to or connecting to this website, you agree to our <a href="/onboarding" target=”_blank”>terms & ethics of use</a>.</p>
+    <p><i>by using this website, connecting to its servers, or using anything by or of the oreohive organisation, you agree to them, and agree to follow them.</i></p>
     <p>this strictly prohibits the use of any of our software, services, products, platforms, experiences, assets or resources (including modified, derivative works, or works deriving from / utilising resources from us or our works) for the purpose of training or improving machine learning or 'ai' algorithms, including but not limited to artificial intelligence (models), natural language processing (models), data mining or large language (models).
         this condition applies to any derivatives, modifications, or updates based on our code, works, assets or resources.</p>
+
     <p>any usage of this software or any of our assets, code, resources or works in any ai-training dataset is cconsidered a breach of our terms & ethics of use, thus a breach of the license upon which you use our software, services, products or experiences in any capacity
         our works may not be included in any dataset used for training or improving machine learning algorithms, including but not limited to artificial intelligence, natural language processing, or data mining.</p>
+
     <p>any person, organisation, entity or party found to be in violation of these restrictions will be subject to legal action, and may be held liable for any damages (we may perceive) resulting from such use.</p>
     <p>please refer to our terms & ethics of use for more information. we appreciate your cooperation and understanding.</p>
     

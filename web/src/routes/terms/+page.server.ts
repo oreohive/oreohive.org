@@ -1,4 +1,4 @@
-// +page.server.ts
+// src/routes/terms/+page.server.ts
 
 import fs from 'fs';
 import path from 'path';

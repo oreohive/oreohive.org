@@ -1,8 +1,9 @@
+// src/routes/activity-log/[uid]/+page.server.ts
+
 import { createClient } from "$lib/prismicio";
-
 export const prerender = false;
-
 export async function load({ params, fetch, cookies }) {
+
   console.log("params.uid:", params.uid); // temp: to inspect params.uid
 
   const client = createClient({ fetch, cookies });

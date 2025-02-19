@@ -1,3 +1,9 @@
+<!-- src/components/WelcomeMsg.svelte -->
+
+<!-- this component is used only in the navbar
+it's the central message that pops up indicating current subdomain
+(currently irrelevant but still good for testing and future) -->
+
 <script lang="ts">
     import { browser } from "$app/environment";
     import { page } from "$app/stores";

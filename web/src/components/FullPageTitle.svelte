@@ -1,4 +1,11 @@
-<!-- web/src/components/FullPageTitle.svelte-->
+<!-- src/components/FullPageTitle.svelte-->
+
+<!-- this component takes up an entire page's worth of screen real estate 
+it's kind of like a slice of webpage
+it has a background, then centres a title in the middle of it
+this title is centred both vertically and horizontally on top of the background image chosen
+this might perhaps not be the most elegant solution ever, maybe it's better to use a background image in the parent component and then have the title display on top of that?
+we can work on it :))) -->
 
 <script>
     export let title;
