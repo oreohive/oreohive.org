@@ -87,6 +87,7 @@
     justify-items: center !important;
     align-content: center !important;
     justify-content: center !important;
+    font-family: Poppins, sans-serif;
   }
 
   :global(.centre-container) {
@@ -140,7 +141,7 @@
   }
 
   :global(a) {
-    color: #ffbcd4;
+    color: #df5f8c;
     text-decoration: underline dashed #ffffff;
   }
 </style>

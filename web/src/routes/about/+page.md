@@ -54,13 +54,13 @@ as the world becomes increasingly technological, we deem it an injustice that th
 
 
 ### - q: **what might be here?**
-- a: planned spin-off subdomains, some of which are already accessible with some very early-access content and some of which deviate from the main, central focus of technology, include:
+- a: planned spin-offs, some of which are already accessible with some very early-access content and some of which deviate from the main, central focus of technology, include:
 
-  - **labs.oreohive.org**  -  for all things homelab, tinkering with such things, automation, scripts (e.g. convenience scripts), and the like!
+  - **labs**  -  for all things homelab, tinkering with such things, automation, scripts (e.g. convenience scripts), and the like!
   
-  - **universe.oreohive.org**  -  largely just a place for the organisation's creative works, which largely consist of digital art (and maybe a bit of storytelling?).
+  - **universe**  -  largely just a place for the organisation's creative works, which largely consist of digital art (and maybe a bit of storytelling?).
   
-  - **human.oreohive.org**  -  for resources surrounding equality, diversity and acceptance, and to help little people who find themselves in a big world.
+  - **human**  -  for resources surrounding equality, diversity and acceptance, and to help little people who find themselves in a big world.
     this may also feature resources for disabled / send students in public uk education, so those with neurodivergence, dyslexia and the like can get their access arrangements sorted.
 
   these subdomains, and the other such subdomains planned, **are to contain different styles of content**, and cover different flavours of topics, **though mainly just in relation to technology and education**.
@@ -107,11 +107,13 @@ oreohive branding, oreohive marks, oreohive mascots or other such / related asse
 as such, you cannot use them under the same terms of either of these licenses.
 
 you're allowed to **either**:
-- host an **unaltered**, freely-available, open-source, unmodified version of the oreohive.org website or api with branding for **non-commercial**, **not-for-profit** purposes, or
-- host a **greatly / significantly modified**, significantly built-upon version of the oreohive.org website as a 'fork' without any of the branding (including the name) but with significant and appropriate attributions to the oreohive organisation @ oreohive.org, clearly stating that you built the website upon our work at oreohive.org.
-ultimately, what is considered 'greatly / significantly modified' is up to our discretion, but this is something we consider ourselves really quite fair about.
+- host a completely **unaltered**, freely-available, open-source, unmodified version of the oreohive.org website or api with branding for **non-commercial**, **not-for-profit** purposes, or
 
---
+- host a **greatly / significantly modified**, significantly built-upon version of the oreohive.org website as a 'fork' without any of the branding (including the name) but with significant and appropriate attributions to the oreohive organisation @ oreohive.org, clearly stating that you built the website upon our work at oreohive.org.
+
+ultimately, what is considered 'greatly / significantly modified' is up to our discretion, but this is something we'd consider ourselves really quite fair about.
+
+---
 
 ### conclusion, and terms & ethics of use
 in general, **it's highly unlikely you'll find us chasing people or entities over licensing crap if they're doing us no direct harm**. this is just to stop naughty people stealing our stuff without giving back to the community.
@@ -126,5 +128,5 @@ sensible inclusions of the oreohive(.org) name or logo in attributions, clearly 
 ### third-party licenses
 
 - [poppins](https://fonts.google.com/specimen/Poppins) fonts, used in our website and brand identity, are licensed under the [ofl](https://fonts.google.com/specimen/Poppins/license) license.
-- this readme.md file uses sentence structuring, vocab choices and other such choices inspired by or evolved from those of similar readmes in [cobalt's repo](https://github.com/imputnet/cobalt).
+- this page uses sentence structuring, vocab choices and other such choices inspired by or evolved from those of similar readmes in [cobalt's repo](https://github.com/imputnet/cobalt).
   [cobalt](https://cobalt.tools/about) by [imput(.net)](https://github.com/imputnet) has its repo largely licensed under the [gnu agpl-3.0](https://www.gnu.org/licenses/agpl-3.0), with some aspects, files or sections licensed instead under [cc by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).

@@ -10,6 +10,8 @@
   <div class="centre-container">
     <div class="panels">
       <PanelBox>
+        <Panel colour="#ffbcd4" desc="back to onboarding" href="/onboarding" />
+        <Panel colour="#bcd3ff" desc="about" href="/about" />
         <!-- <Panel colour="#a4fdff" desc="edu" href="/placeholder"/> -->
         <!-- <Panel colour="#b0ffbe" desc="labs" href="/placeholder"/> -->
         <!-- <Panel colour="#bcd3ff" desc="universe" href="/placeholder"/> -->

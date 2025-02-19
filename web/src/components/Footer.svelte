@@ -70,4 +70,9 @@
     img {
         z-index: 1;
     }
+
+    a {
+    color: #ffbcd4;
+    text-decoration: underline dashed #ffffff;
+  }
 </style>
