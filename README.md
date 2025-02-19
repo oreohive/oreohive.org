@@ -1,6 +1,6 @@
 # oreohive.org
 **this is a git repo for the website hosted at oreohive.org.**
-it includes its sveltekit frontend ('web'), its cms app ('cms'), and pretty much all surrounding workings.
+it includes its sveltekit frontend ('web'), its upcoming, planned api ('api'), and pretty much all surrounding workings.
 
 this website is built with **sveltekit** + **vite**.
 
