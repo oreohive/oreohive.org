@@ -29,6 +29,20 @@ thank you so much for stopping by, and i hope something we make, even if it's ju
 --
 
 
+# wanna contribute?
+
+we're so glad to hear it!!! i'm sure my source code i've cobbled together over the months of building this first project of mine could use some improvements.
+
+- fork the repo
+- open a pull request explaining your changes
+- ta-da!!! we'll consider letting it in!! thank you so much!!! :D
+
+we love crediting our contributors, so you can expect us to be singing your praises on the website. :'))
+we'd love to hear what new features or fixes you have ideas for!!
+
+-
+
+
 ## licensing and resource usage
 
 any code published within the oreohive project (or with the oreohive name) by the oreohive organisation is, by default, licensed under the gnu agpl-3.0.
