@@ -25,8 +25,9 @@
         display: flex;
         flex-direction: row;
         align-self: center;
+        align-items: center;
         justify-content: space-between;
-        gap: 12px;
+        gap: 4px;
         padding: 8px;
         z-index: 1;
 

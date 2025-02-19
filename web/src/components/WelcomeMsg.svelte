@@ -47,7 +47,8 @@
         align-self: flex-start;
         justify-content: flex-start;
         justify-self: flex-start;
-        text-align: left;
+        text-align: start;
+        word-break: normal;
 
         font-size: inherit;
         font-weight: inherit;

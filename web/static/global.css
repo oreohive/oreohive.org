@@ -1,14 +1,5 @@
 // web/static/global.css
 
-p {
-	display: flex;
-	flex-direction: column;
-	font-family: Poppins, sans-serif;
-	background-color: #fcfcff;
-	border-radius: 12px;
-	box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-}
-
 // poppins classes
 .poppins-thin {
 	font-family: 'Poppins', sans-serif;
@@ -99,38 +90,4 @@ p {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-style: italic;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-family: Poppins, sans-serif;
-}
-
-.text-box {
-	display: flex;
-	flex-direction: column;
-	font-family: Poppins, sans-serif;
-	background-color: #fcfcff;
-	border-radius: 12px;
-	box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-	max-width: 50vw !important;
-}
-
-/* inverted styles for dark mode */
-.dark body {
-	background: #1a1a1a !important; 
-}
-.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-	color: #f5f5f5 !important;
-}
-.dark .text-box {
-	background-color: #2a2a2a !important;
-	color: #f5f5f5 !important; // text lol
-	box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.05);
-}
-.dark .container {
-	background-color: #121212;
-	color: #f5f5f5 !important;
 }
