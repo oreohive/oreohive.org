@@ -5,6 +5,7 @@
   import { page } from "$app/stores";
   import { onMount } from "svelte";
   import Navbar from "$components/Navbar.svelte";
+  import Footer from "$components/Footer.svelte";
 
   onMount(() => {
     // client (+layout.svelte) checks local storage
@@ -24,7 +25,8 @@
 </script>
 
 <Navbar />
-<slot></slot>
+<slot />
+<Footer />
 
 <style global>
   * {
@@ -59,7 +61,6 @@
 
     word-break: break-word !important;
     white-space: normal !important;
-    
   }
 
   :global(p, ul, ol, li) {
@@ -134,5 +135,10 @@
     /* container but for dark theme */
     background-color: #121212;
     color: #f5f5f5;
+  }
+
+  :global(a) {
+    color: #ffbcd4;
+    text-decoration: underline dashed #ffffff;
   }
 </style>
