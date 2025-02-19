@@ -25,7 +25,7 @@ it's the central message that pops up indicating current subdomain
 {:else if subdomain === "labs"}
     <p>labs.oreohive.org | welcome to the labs subdomain!</p>
 {:else}
-    <p><a href="https://oreohive.org">oreohive.org</a>&nbsp;| welcome to the main site! (no subdomain)</p>
+    <p><a href="https://www.oreohive.org">oreohive.org</a>&nbsp;| welcome to the main site! (no subdomain)</p>
 
 
 {/if}
