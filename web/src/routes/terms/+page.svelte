@@ -12,21 +12,7 @@
 	<p><weak>failure to comply with or understand these terms & ethics of use may put you at risk of legal repercussions, penalties or disqualifications from using our services.</p>
 </section>
 
-<main>
-	<h3>terms index</h3>
-
-	{#each [...data.terms].reverse() as term} <!-- copies array ([...]) then reverses array, to make most recent appear first -->
-		<section>
-		<h3>{term.folder}</h3>
-		{#if term.files.length > 0}
-			<ul>
-			{#each term.files as file}
-					<li><a href="{file}" target="_blank">{file}</a></li>
-			{/each}
-			</ul>
-		{:else}
-			<p>no .md files found in this directory. *crickets*</p>
-		{/if}
-		</section>
-	{/each}
+<main> <!-- require manual updates because i couldn't for the life of me figure out an elegant way to index that static/terms folder lol -->
+	<p><a href="terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html">terms & ethics of use r1.0.1</a></p>
+	<p><a href="terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html">terms of purchasing & exchange r1.0.1</a></p>
 </main>
