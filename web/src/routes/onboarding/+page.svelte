@@ -23,7 +23,7 @@
 
 <div data-tap-disabled="true" >
 <audio loop autoplay hidden>
-    <source src="/music/spectrum-obligato-ebb-&-flow-oreohive-onboarding-ver.mp3" type="audio/mpeg">
+    <source src="/music/mkwii-license-menu-oreohive-ver.mp3" type="audio/mpeg">
     your browser does not support the audio element.
 </audio>
 </div>
@@ -31,11 +31,12 @@
 <div class="accept-button">
 <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
     <button type="submit" name="accept">
-        i accept the oreohive organisation's terms & ethics of use
+        i accept the oreohive organisation's terms & ethics of use, thus the use of cookies
     </button>
 </form>
 </div>
 <p style="font-size: 0.9em; padding: 12px; margin-top: 32px;">nb! you may need to review and accept updates in the future.</p>
+<p style="max-width: 448.474px;">btw, you'll need to <b>go back and click on the link again</b> if you were trying to go somewhere; these silly bees haven't figured out the best way to store your previous url yet. sorry about that one :'))</p>
 
 <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
 <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>
