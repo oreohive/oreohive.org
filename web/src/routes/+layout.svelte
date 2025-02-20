@@ -6,6 +6,7 @@
   import { onMount } from "svelte";
   import Navbar from "$components/Navbar.svelte";
   import Footer from "$components/Footer.svelte";
+  import FullPageTitle from "$components/FullPageTitle.svelte";
 
   onMount(() => {
     // client (+layout.svelte) checks local storage
@@ -24,12 +25,21 @@
   });
 </script>
 
-<Navbar />
-<slot />
-<Footer />
+
+  <Navbar />
+
+    <slot />
+
+  <Footer />
+
 
 <style global>
-  * {
+  :global(html) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  * { /* hmm */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +51,38 @@
     gap: 0px;
     word-break: break-word !important;
     white-space: normal !important;
+    border-radius: 12px;
+    font-family: Poppins, sans-serif;
+  }
+
+  :global(.container) {
+    /* for centring and positioning centre-container */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+    font-family: Poppins, sans-serif;
+  }
+
+  :global(.centre-container) {
+    /* sits within container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 32px;
+    margin-bottom: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #5a5467;
     border-radius: 12px;
     font-family: Poppins, sans-serif;
   }
@@ -67,9 +109,8 @@
     border-radius: 12px;
     border-width: 1px;
     border-style: dashed;
-    font-size: 0.95em;
+    font-size: 1em;
     font-family: Poppins, sans-serif;
-    max-width: 480px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 6px;
@@ -79,44 +120,7 @@
     white-space: normal !important;
   }
 
-  :global(.container) {
-    /* for centring and positioning centre-container */
-    display: flex;
-    flex-direction: column;
-    align-items: center !important;
-    justify-items: center !important;
-    align-content: center !important;
-    justify-content: center !important;
-    font-family: Poppins, sans-serif;
-  }
 
-  :global(.centre-container) {
-    /* sits within container */
-    display: flex;
-    flex-direction: column;
-    max-width: 1080px;
-    min-width: 720px;
-    min-height: 360px;
-    align-items: center !important;
-    justify-items: center !important;
-    align-content: center !important;
-    justify-content: center !important;
-
-    margin-top: 32px;
-    margin-bottom: 64px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: -48px;
-    padding-right: -48px;
-
-    border-width: 3px;
-    border-style: dashed;
-    border-color: #5a5467;
-    border-radius: 12px;
-    font-family: Poppins, sans-serif;
-  }
 
   /* inverted styles for dark mode */
   :global(.dark body) {
@@ -125,7 +129,6 @@
     color: #ffffff !important;
   }
   :global(.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6) {
-    /* @css-ignore */
     color: #ffffff !important;
   }
   :global(.dark .text-box) {
@@ -143,5 +146,13 @@
   :global(a) {
     color: #df5f8c;
     text-decoration: underline dashed #ffffff;
+  }
+
+  :global(img) {
+    float: left;
+    max-width:  256px;
+    max-height: 256px;
+    object-fit: cover;
+    background-size: cover;
   }
 </style>

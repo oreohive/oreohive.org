@@ -19,7 +19,7 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
 	}
 
 	/* rectangle */
-	.panel-box {
+	:global(.panel-box) {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;

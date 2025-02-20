@@ -32,11 +32,11 @@ we can work on it :))) -->
         align-items: center;
         justify-content: center;
         min-height: calc(100vh - 76px) !important; /* since navbar is 76px tall, we need to account for that */
-        max-width: 100vw;
         background-color: #e8e8e8;
         margin: 0px;
         background-image: url("/backgrounds/palette.png");
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         overflow: hidden;
     }

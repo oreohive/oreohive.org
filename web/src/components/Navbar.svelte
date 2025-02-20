@@ -37,8 +37,9 @@ currently little actual navigation going on but maybe soon enough we might throw
     .navbar {
         display: flex;
         flex-direction: row;
-        align-self: center;
+        flex-wrap: wrap;
         align-items: center;
+        align-self: center;
         justify-content: space-between;
         gap: 4px;
         padding: 8px;
@@ -48,6 +49,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         color: #5a5467;
         border-radius: 12px;
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
+        width: 100;
     }
 
     .logo-background {

@@ -8,8 +8,8 @@
 
 <FullPageTitle title="welcome to oreohive.org" />
 
-<div class="container">
-  <div class="centre-container">
+<div class="centre-container">
+  <div class="container" style="height: 256px">
     <div class="panels">
       <PanelBox>
         <Panel colour="#ffbcd4" desc="back to onboarding" href="/onboarding" />
