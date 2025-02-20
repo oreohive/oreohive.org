@@ -59,10 +59,10 @@ the made-message contains a message that says who made the website etc., links t
         align-self: center;
         align-items: center;
         justify-content: space-between;
-        z-index: 1;
+        z-index: -1;
         padding: 24px;
-        margin: -8px !important;
-        gap: 16px !important;
+        margin-bottom: -8px;
+        gap: 16px;
 
         background-color: #5a5a5a;
         color: #ece4ff;

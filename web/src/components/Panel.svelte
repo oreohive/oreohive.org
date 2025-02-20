@@ -22,10 +22,7 @@ they have colours and have neat animations on hover etc. -->
                 </div>
                 <slot />
         </a>
-        
-        <div class="panel-desc">
-                <p>{desc}</p>
-        </div>
+        <p>{desc}</p>
 </div>
 
 <style>

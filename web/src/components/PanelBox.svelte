@@ -14,10 +14,6 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
 </div>
 
 <style>
-	* {
-		z-index: -1;
-	}
-
 	/* rectangle */
 	:global(.panel-box) {
 		display: flex;
@@ -26,14 +22,12 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
 		align-items: center;
 		align-self: center;
 		justify-content: center;
-		gap: 24px;
+		gap: 16px;
 		background: #ffffff;
 		border-radius: 12px;
 		box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
 		padding: 16px;
-		overflow-x: visible; /* allow horizontal scrolling, if needed! */
-		overflow-y: visible;
-		z-index: -1 !important;
+		z-index: 1;
 		max-width: 85vw;
 	}
 
