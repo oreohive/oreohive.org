@@ -65,6 +65,9 @@
         border-color: #ffbcd4;
         background-color: hsl(330, 100%, 98%);
     }
+    .dark .docs-note { /* oops forgot to add this lmao */
+        color: #000000 !important; /* make text colour black so it's readable on background */
+    }
     .svelte-notice {
         display: flex;
         margin: 12px;
