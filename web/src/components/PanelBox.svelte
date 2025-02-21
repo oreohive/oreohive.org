@@ -30,9 +30,7 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
 		z-index: 1;
 		max-width: 85vw;
 	}
-
-	.dark .panel-box {
-		background: #1a1a1a;
+	:global(.dark .panel-box) {
 		background-color: #1a1a1a;
 		box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
 	}

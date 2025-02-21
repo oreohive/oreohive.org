@@ -103,21 +103,21 @@
   :global(.dark body) {
     /* container but for dark theme */
     background: #1a1a1a !important;
-    color: #ffffff !important;
+    color: #ffffff;
   }
   :global(.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6) {
-    color: #ffffff !important;
+    color: #ffffff;
   }
   :global(.dark .text-box) {
     /* text-box but for dark theme */
     background-color: #2a2a2a !important;
-    color: #f5f5f5 !important;
+    color: #f5f5f5;
     box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.05);
   }
   :global(.dark .container) {
     /* container but for dark theme */
     background-color: #121212;
-    color: #f5f5f5 !important;
+    color: #f5f5f5;
   }
 
   :global(a) {
@@ -132,4 +132,8 @@
     object-fit: cover;
     background-size: cover;
   }
+
+  :global(.dark .navbar) {
+        background-color: #362729;
+    }
 </style>

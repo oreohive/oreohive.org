@@ -14,13 +14,10 @@ but this is now taken care of by the FullPageTitle.svelte component -->
 </div>
 
 <style>
-    h1 {
-        color: #000000;
-    }
-    .dark h1 {
-        background-color: #121212;
-        color: #f5f5f5 !important;
-    }
+    /* I FOUND YOU */
+    /* finally found the style here that was giving me grief in making titles remain black even in dark mode */
+    /* YES I FINALLY FOUND YOU */
+
     .title-display {
         /* don't put z-index: -1; here apparently, else it hides the title */
         display: flex;
