@@ -11,9 +11,16 @@
   } from "@prismicio/svelte";
   import { components } from "$lib/slices";
   import { page } from "$app/state";
+  import SEO from "$components/SEO.svelte";
 
   export let data;
 </script>
+
+<SEO
+  title="{data.page.data.meta_title ?? ""} | oreohive.org"
+  description="{data.page.data.meta_description ?? ""}"
+  image="{data.page.data.meta_image.url ?? ""}"
+/>
 
 <h1>oreohive human</h1>
 
