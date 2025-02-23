@@ -11,7 +11,16 @@
 		"strict": true,
 		"moduleResolution": "bundler",
 		"types": ["node"],
+		"baseUrl": ".", // cheese https://github.com/vercel/next.js/discussions/32141
 	},
+	"include": [
+        "src/**/*.ts",
+        "src/**/*.svelte"
+    ],
+    "exclude": [
+        "node_modules",
+        "public/build"
+    ],
 	// Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
 	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
 	//
