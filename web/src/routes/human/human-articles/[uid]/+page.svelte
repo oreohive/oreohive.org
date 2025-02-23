@@ -24,7 +24,7 @@
 
   <PrismicImage field={data.page.data.image ?? ""} />
 
-  <div class="text-box">
+  <div class="text-box" style="border-style: none !important; border-width: 0px !important;">
     <PrismicRichText field={data.page.data.article_content ?? "Something weird happened, and there's no article content here anymore...? Sorry about that. :'))"} />
   </div>
   <SliceZone slices={data.page.data.slices} {components} />
