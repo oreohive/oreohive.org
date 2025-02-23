@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@sveltejs/kit": "^2.17.2",
-    "zimmerframe": "^1.1.2"
-  }
-}
