@@ -23,7 +23,7 @@ we can work on it :))) -->
         font-family: Poppins, sans-serif;
     }
     .dark h1 {
-        color: #5a5467 !important;
+        color: #5a5467;
     }
     .title-display {
         position:  relative;
