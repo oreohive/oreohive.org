@@ -16,7 +16,11 @@
   export let data;
 </script>
 
-<SEO title="{data.page.data.meta_title ?? ""} | oreohive.org" description="{data.page.data.meta_description ?? "oops; couldn't fetch a meta description lol"}" image="{data.page.data.meta_image.url ?? "oop- no meta image!"}"/>
+<SEO
+  title={data.page.data.meta_title ?? "oreohive.org"} 
+  description={data.page.data.meta_description ?? "oops; couldn't fetch a meta description lol"} 
+  image={data.page.data.meta_image.url ?? "oop- no meta image!"}
+/>
 
 <h1>oreohive human</h1>
 
