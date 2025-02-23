@@ -35,6 +35,9 @@ it's the central message that pops up indicating current subdomain
         display: flex;
         flex-direction: row;
 
+        margin-top: 2px;
+        margin-bottom: 2px;
+
         align-items: flex-start;
         align-self: flex-start;
         justify-content: flex-start;
@@ -44,7 +47,10 @@ it's the central message that pops up indicating current subdomain
         font-size: 0.8rem;
         font-weight: 600;
         color: #fcfcff;
-        font-family: Poppins, sans-serif
+        font-family: Poppins, sans-serif;
+
+        border-style: dashed;
+        border-width: 1px;
     }
     a {
         display: inline;
