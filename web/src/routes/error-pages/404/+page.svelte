@@ -14,8 +14,8 @@ skull emoji moment -->
   <div class="centre-container">
     <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
       <img
-        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHY5YjIxcjZ6NW1rb3NqZXZhMmVibHVhbGJkZXJoZWVwbWN3aThrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4amydtsT11DMxWCdP/giphy.gif"
-        alt="get stickbugged lol"
+        src="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif"
+        alt="rickrolled"
       />
     </a>
     <h1>404 - page not found... yet!!!</h1>
