@@ -11,9 +11,19 @@
   } from "@prismicio/svelte";
   import { components } from "$lib/slices";
   import { page } from "$app/state";
+  import { url } from "inspector";
 
   export let data;
 </script>
+
+<!-- testing - metadata / og -->
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="data.page.data.image.url" />
+<meta property="og:site_name" content="oreohive.org">
+<meta property="og:title" content="data.page.data.title">
+<meta property="og:description" content="data.page.data.description">
+<meta property="og:url" content="url">
 
 <h1>oreohive activity log</h1>
 
