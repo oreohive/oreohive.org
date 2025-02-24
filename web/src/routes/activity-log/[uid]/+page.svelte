@@ -16,6 +16,7 @@
   export let data;
 </script>
 
+<svelte:head>
 <!-- testing - metadata / og -->
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
@@ -24,6 +25,7 @@
 <meta property="og:title" content="data.page.data.title">
 <meta property="og:description" content="data.page.data.description">
 <meta property="og:url" content="url">
+</svelte:head>
 
 <h1>oreohive activity log</h1>
 
@@ -33,7 +35,6 @@
   <p>{data.page.data.description ?? ""}</p>
 
   <PrismicImage field={data.page.data.image ?? ""} />
-
 
   <PrismicRichText field={data.page.data.post_content ?? "Something weird happened, and there's no article content here anymore...? Sorry about that. :'))"} />
   
