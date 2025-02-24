@@ -20,7 +20,7 @@ this is also largely a place for me to learn about webdev and the ins-and-outs o
 
 you can learn more about our opinions on the current state of technology, and why we feel there is a need for change, here: https://www.oreohive.org/activity-log/intro
 
-we will likely, as part of the oreohive portfolio, build up simple tools that 'just work'; things like calculators and other silly internet tools will likely be added over time as we figure out how to best implement them. one of our earliest projects was called 'pitchplay', a simple tool that'd let you enter in two notes and inform you as to the multiplier you'd need to pitch the first to the second. [we've now brought this back!](https://www.oreohive.org/sliceydicey/pitchplay)
+we will likely, as part of the oreohive portfolio, build up simple tools that 'just work'; things like calculators and other silly internet tools will likely be added over time as we figure out how to best implement them. one of our earliest projects was called 'pitchplay', a simple tool that'd let you enter in two notes and inform you as to the multiplier you'd need to pitch the first to the second. we definitely intend on bringing this one back at some point.
 
 any contributions, be they of code, ideas / suggestions, or both, are hugely appreciated. :))
 
