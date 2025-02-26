@@ -156,10 +156,25 @@
 		box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
 		padding: 12px;
 		z-index: 1;
-		max-width: 532px !important;
+		max-width: 622px !important;
 	}
 	:global(.dark .panel-box) {
 		background-color: #1a1a1a;
 		box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
 	}
+
+  :global(.panel-box h1) {
+    position: relative;
+    align-self: flex-start;
+    text-align: center;
+    left: -24px;
+    top: 16px;
+    margin-right: 48px;
+    margin-left: 96px;
+    margin-bottom: 32px;
+    width: 180px;
+    height: 120px;
+    border-radius: 12px;
+    border-width: 1px;
+  }
 </style>

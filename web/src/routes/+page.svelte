@@ -12,12 +12,12 @@
 </div>
 
 <div class="container">
-
   <div class="centre-container">
     
     <div class="panel-box">
-      <p>here</p>
+      
       <PanelBox>
+        <h1>here</h1>
         <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
         <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" />
         <!-- <Panel colour="#a4fdff" desc="edu" href="/placeholder"/> -->
@@ -32,8 +32,9 @@
 
   <div class="centre-container">
     <div class="panel-box">
-      <p>connect</p>
+      
       <PanelBox>
+        <h1>connect</h1>
         <Panel colour="#ffffff" desc="edu notion"
 	      href="https://orchid-wolverine-5ca.notion.site/resources-162e15a8c91d8065b158cb539d17cddc"/>
 	      <Panel colour="#c7bdff" desc="tumblr"
