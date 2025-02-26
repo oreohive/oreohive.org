@@ -40,11 +40,6 @@
         desc="pitchplay"
         href="/sliceydicey/pitchplay"
       />
-      <Panel
-        colour="#ffcd3e"
-        desc="incomplete"
-        href="/sliceydicey/incomplete"
-      />
     </PanelBox>
   </div>
 </div>

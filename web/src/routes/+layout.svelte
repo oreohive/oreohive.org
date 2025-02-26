@@ -82,9 +82,10 @@
     align-content: center;
     justify-content: center;
     max-width: 480px;
-    margin-top: 32px;
+    margin-top: 12px;
     margin-bottom: 0px;
-    margin-left: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
     padding: 0px;
     gap: 0px;
 
@@ -95,9 +96,10 @@
   :global(p, ul, ol, li) {
     border-radius: 12px;
     border-width: 1px;
+    border-style: dashed;
     font-family: Poppins, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     margin-left: 6px;
     margin-right: 6px;
     padding: 10px;

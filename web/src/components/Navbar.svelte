@@ -67,9 +67,4 @@ currently little actual navigation going on but maybe soon enough we might throw
         align-items: center;
         gap: 8px;
     }
-
-    p { /* text is actually largely located elsewhere (WelcomeMsg.svelte) */
-        border-style: dashed;
-        border-width: 1px;
-    }
 </style>
