@@ -7,6 +7,8 @@
   import Navbar from "$components/Navbar.svelte";
   import Footer from "$components/Footer.svelte";
   import FullPageTitle from "$components/FullPageTitle.svelte";
+  import KofiButton from "$components/KofiButton.svelte";
+  import ConnectionsDisplay from "$components/ConnectionsDisplay.svelte";
 
   onMount(() => {
     // client (+layout.svelte) checks local storage
@@ -25,7 +27,6 @@
   });
 </script>
 
-
 <Navbar />
 <slot />
 <Footer />
@@ -36,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    background-color: #fffdf5
   }
 
   :global(.container) {
@@ -57,13 +59,17 @@
 
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
 
     border-width: 3px;
     border-style: dashed;
     border-color: #5a5467;
-    border-radius: 12px;
+    border-radius: 32px;
     font-family: Poppins, sans-serif;
     min-height: fit-content;
     max-width: 720px;
@@ -82,8 +88,8 @@
     padding: 0px;
     gap: 0px;
 
-    word-break: break-word !important;
-    white-space: normal !important;
+    word-break: break-word;
+    white-space: normal;
   }
 
   :global(p, ul, ol, li) {
@@ -110,7 +116,7 @@
     /* text-box but for dark theme */
     background-color: #2a2a2a !important;
     color: #f5f5f5;
-    box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.05);
+    box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
   }
   :global(.dark .container) {
     /* container but for dark theme */
@@ -134,4 +140,24 @@
   :global(.dark .navbar) {
         background-color: #362729;
     }
+  
+  /* rectangle */
+	:global(.panel-box) {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+		background: #ffffff;
+		border-radius: 20px !important;
+		box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
+		padding: 12px;
+		z-index: 1;
+		max-width: 532px !important;
+	}
+	:global(.dark .panel-box) {
+		background-color: #1a1a1a;
+		box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
+	}
 </style>

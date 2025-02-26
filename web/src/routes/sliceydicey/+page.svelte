@@ -6,9 +6,7 @@
   import TitleDisplay from '$components/TitleDisplay.svelte';
 </script>
 
-<TitleDisplay
-  title="oreohive.org/sliceydicey"
-/>
+<TitleDisplay title="oreohive.org/sliceydicey"/>
 
 <p>
   this is a toolbox of miscallaneous
