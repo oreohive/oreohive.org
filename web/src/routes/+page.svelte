@@ -14,8 +14,9 @@
 <div class="container">
 
   <div class="centre-container">
-    <p>here</p>
+    
     <div class="panel-box">
+      <p>here</p>
       <PanelBox>
         <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
         <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" />
@@ -30,8 +31,8 @@
   </div>
 
   <div class="centre-container">
-    <p>connect</p>
     <div class="panel-box">
+      <p>connect</p>
       <PanelBox>
         <Panel colour="#ffffff" desc="edu notion"
 	      href="https://orchid-wolverine-5ca.notion.site/resources-162e15a8c91d8065b158cb539d17cddc"/>
