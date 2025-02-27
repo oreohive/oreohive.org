@@ -71,8 +71,8 @@
     border-color: #5a5467;
     border-radius: 32px;
     font-family: Poppins, sans-serif;
-    max-width: 720px;
     max-width: 100vw;
+    max-width: 720px;
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
