@@ -96,7 +96,7 @@
   :global(p, ul, ol, li) {
     border-radius: 12px;
     border-width: 1px;
-    border-style: dashed;
+    border-style: none;
     font-family: Poppins, sans-serif;
     margin-top: 4px;
     margin-bottom: 4px;
