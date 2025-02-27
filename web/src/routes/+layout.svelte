@@ -61,21 +61,22 @@
     margin-bottom: 32px;
     margin-left: 32px;
     margin-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
 
     border-width: 3px;
     border-style: dashed;
     border-color: #5a5467;
     border-radius: 32px;
     font-family: Poppins, sans-serif;
-    min-height: fit-content;
     max-width: 720px;
+    max-width: 100vw;
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
@@ -89,11 +90,11 @@
     padding: 0px;
     gap: 0px;
 
-    word-break: break-word;
+    word-break: bottom;
     white-space: normal;
   }
 
-  :global(p, ul, ol, li) {
+  :global(p) {
     border-radius: 12px;
     border-width: 1px;
     border-style: none;
@@ -104,6 +105,24 @@
     margin-right: 6px;
     padding: 10px;
   }
+
+  :global(ul, ol, li) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: none;
+    font-family: Poppins, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    max-width: 100vw;
+  }
+
+
 
   /* inverted styles for dark mode */
   :global(.dark body) {

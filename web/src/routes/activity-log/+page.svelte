@@ -14,8 +14,8 @@ export let data;
       <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/activity-log/${post.uid}`}/>
       <div>
         <a href={`/activity-log/${post.uid}`}><h3>{post.data.title}</h3></a>
-        <div style="display: flex; margin-left: 32px;">
-        <p>{post.data.date}</p><p>by {post.data.author}</p>
+        <div style="display: flex; margin-left: 16px;">
+        <p>{post.data.date} by {post.data.author}</p>
         
       </div>
       </div>
