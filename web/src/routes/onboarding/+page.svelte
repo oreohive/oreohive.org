@@ -11,7 +11,7 @@
 
 
 <div class="top-section" style="display: flex; flex-direction: row; align-items: center;">
-    <p style="display: flex; min-height: 24px;">oreohive.org/onboarding</p>
+    <p style="display: flex; min-height: 24px; border-style: dashed;">oreohive.org/onboarding</p>
 
     <div class="svelte-notice">
         <img src="icons/svelte.svg" width="32px" height="32px" alt="svelte logo" style="vertical-align: middle;"/>
@@ -35,8 +35,8 @@
     </button>
 </form>
 </div>
-<p style="font-size: 0.9em; padding: 12px; margin-top: 32px;">nb! you may need to review and accept updates in the future.</p>
-<p style="max-width: 448.474px;">btw, you'll need to <b>go back and click on the link again</b> if you were trying to go somewhere; these silly bees haven't figured out the best way to store your previous url yet. sorry about that one :'))</p>
+<p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
+<p style="max-width: 448.474px; border-style: dashed; border-width: 1.25px;">btw, you'll need to <b>go back and click on the link again</b> if you were trying to go somewhere; these silly bees haven't figured out the best way to store your previous url yet. sorry about that one :'))</p>
 
 <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
 <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>

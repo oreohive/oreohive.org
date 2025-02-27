@@ -57,15 +57,6 @@
       transform 0.05s ease,
       box-shadow 0.05s ease;
   }
-  :global(.panel-desc) {
-    --panel-height: 120px;
-    position: relative;
-    border-style: none;
-    font-size: 0.9rem !important;
-    font-family: Poppins, sans-serif;
-    color: #1f2937;
-    text-transform: lowercase;
-  }
 
   p {
     border-style: none;

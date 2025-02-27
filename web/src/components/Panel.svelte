@@ -62,10 +62,12 @@ they have colours and have neat animations on hover etc. -->
     --panel-height: 120px;
     position: relative;
     border-style: none;
-    font-size: 0.9rem !important;
+    font-size: 0.85rem;
     font-family: Poppins, sans-serif;
     color: #1f2937;
     text-transform: lowercase;
+    text-wrap: wrap;
+    margin: 0px;
   }
 
   p {

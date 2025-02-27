@@ -46,7 +46,7 @@ the made-message contains a message that says who made the website etc., links t
     <p style="font-size: 1.25em;">all our code is licensed (by default) under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text" target=”_blank”>GNU AGPL-3.0</a>. all our other works, by default, are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target=”_blank”>CC BY-NC-SA 4.0</a>!</p>
     </div>
     <div class="made-message">
-    <p style="width: 235.5px !important; min-width: 235.5px !important;">made with &lt;3 by <a href="https://github.com/dopreo" target=”_blank”>a kid in the UK</a></p>
+    <p style="width: 235.5px !important; min-width: 235.5px !important; border-style: dashed;">made with &lt;3 by <a href="https://github.com/dopreo" target=”_blank”>a kid in the UK</a></p>
     </div>
     <slot />
 </div>
