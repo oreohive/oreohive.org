@@ -107,7 +107,6 @@
   }
 
   :global(ul, ol, li) {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border-radius: 12px;
