@@ -9,7 +9,7 @@
     {
       "src": "api/package.json",
       "use": "@vercel/node"
-    },
+    }
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/src/routes/$1" },
