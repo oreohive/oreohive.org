@@ -1,3 +1,5 @@
+// src/routes/quotes.js
+
 import express from "express";
 const router = express.Router();
 
@@ -38,7 +40,7 @@ const quotes = {
       to: "Osborne",
     },
     { 
-      text: "You may find he’s—he’s a little bit quick-tempered.",
+      text: "You may find he’s — he’s a little bit quick-tempered.",
     },
     {
       text: "Oh, I know old Dennis’s temper! I remember once at school he caught some chaps in a study with a bottle of whisky. Lord! the roof nearly blew off. He gave them a dozen each with a cricket stump.",
