@@ -1,22 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "web/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "build" }
-    },
-    {
-      "src": "api/src/routes/**/*.js",
-      "use": "@vercel/node"
-    },
-    { "src": "api/src/routes/quotes.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/src/routes/quotes.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/src/routes/$1" },
-    { "src": "/(.*)", "dest": "/web/$1" },
     { "src": "/api/quotes/(.*)", "dest": "/api/src/routes/quotes.js" }
   ]
 }
