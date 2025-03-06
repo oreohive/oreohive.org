@@ -6,8 +6,8 @@ const port = 3000;
 
 
 // import and use quotes router
-const quoteRoutes = require("./routes/quotes");
-app.use("/api/quote", quoteRoutes);
+import quoteRoutes from "./routes/quotes.js";
+app.use("/api/quotes", quoteRoutes); // this dictates route at which quotes are retrieved
 
 /*
 C for Create: http POST
