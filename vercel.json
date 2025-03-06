@@ -3,7 +3,6 @@
   "builds": [
     {
       "src": "web/package.json",
-      "use": "@sveltejs/adapter-vercel",
       "config": { "distDir": "build" }
     },
     {
