@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "web/package.json",
-      "use": "@vercel/static-build",
+      "use": "@sveltejs/adapter-vercel",
       "config": { "distDir": "build" }
     },
     {
@@ -12,7 +12,6 @@
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/src/routes/$1" },
     { "src": "/(.*)", "dest": "/web/$1" }
   ]
 }
