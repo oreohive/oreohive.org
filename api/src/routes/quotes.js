@@ -1,5 +1,4 @@
-const express = require("express");
-const router = express.Router();
+import express from "express";
 
 const quotes = {
   je: [
@@ -187,4 +186,4 @@ router.get("/:play", (req, res) => {
   res.json({ quote: randomQuote });
 });
 
-module.exports = router;
+export default router;

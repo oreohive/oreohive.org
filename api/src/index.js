@@ -1,8 +1,9 @@
 // src/index.js
 
-const express = require("express");
+import express from "express";
 const app = express();
 const port = 3000;
+
 
 // import and use quotes router
 const quoteRoutes = require("./routes/quotes");
