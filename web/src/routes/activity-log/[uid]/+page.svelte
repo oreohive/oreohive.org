@@ -18,21 +18,13 @@
 
 <svelte:head>
 <!-- testing - metadata / og -->
+<title>{data.page.data.title}</title>
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content={data.page.data.image.url} />
 <meta property="og:site_name" content="oreohive.org">
-<meta property="og:title" content={data.page.data.title} />
 <meta property="og:description" content={data.page.data.description} />
 <meta property="og:url" content={data.page.url} />
-
-<meta property="locale" content="en_GB" />
-<meta property="type" content="article" />
-<meta property="image" content={data.page.data.image.url} />
-<meta property="site_name" content="oreohive.org">
-<meta property="title" content={data.page.data.title} />
-<meta property="description" content={data.page.data.description} />
-<meta property="url" content={data.page.url} />
 
 </svelte:head>
 
