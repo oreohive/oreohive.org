@@ -15,9 +15,13 @@
     if (browser) {
       const accepted = localStorage.getItem("accepted_terms");
 
+      // check if current path starts with '/onboarding'
+      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
+
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && page.url.pathname !== "/onboarding") {
-        window.location.href = "/onboarding";
+      if (!accepted && !isOnOnboardingPath) {
+        const currentUrl = encodeURIComponent(page.url.href);
+        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
     }
   });
