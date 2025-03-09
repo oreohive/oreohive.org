@@ -34,7 +34,6 @@
 <meta property="title" content={data.page.data.title} />
 <meta property="description" content={data.page.data.description} />
 <meta property="url" content={data.page.url} />
-
 </svelte:head>
 
 <h1>oreohive activity log</h1>
