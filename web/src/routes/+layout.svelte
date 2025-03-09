@@ -2,7 +2,7 @@
 
 <script lang="ts">
   import { browser } from "$app/environment";
-  import { page } from "$app/stores";
+  import { page } from "$app/state";
   import { onMount } from "svelte";
   import Navbar from "$components/Navbar.svelte";
   import Footer from "$components/Footer.svelte";
@@ -16,11 +16,7 @@
       const accepted = localStorage.getItem("accepted_terms");
 
       // redirect if localStorage is missing and we're not on onboarding
-      let currentPage = { url: { pathname: "" } };
-      page.subscribe((value) => {
-        currentPage = value;
-      });
-      if (!accepted && currentPage.url.pathname !== "/onboarding") {
+      if (!accepted && page.url.pathname !== "/onboarding") {
         window.location.href = "/onboarding";
       }
     }
