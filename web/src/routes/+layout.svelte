@@ -4,11 +4,19 @@
   import { browser } from "$app/environment";
   import { page } from "$app/state";
   import { onMount } from "svelte";
+  import { beforeNavigate, afterNavigate } from "$app/navigation";
   import Navbar from "$components/Navbar.svelte";
   import Footer from "$components/Footer.svelte";
   import FullPageTitle from "$components/FullPageTitle.svelte";
   import KofiButton from "$components/KofiButton.svelte";
   import ConnectionsDisplay from "$components/ConnectionsDisplay.svelte";
+  import { on } from "events";
+
+  let isOtherMusicPlaying = false;
+  function checkOtherMusicPlaying() {
+        const audios = document.querySelectorAll("audio");
+        isOtherMusicPlaying = Array.from(audios).some(audio => !audio.paused && !audio.ended && !audio.classList.contains("home-audio"));
+  }
 
   onMount(() => {
     // client (+layout.svelte) checks local storage
@@ -28,8 +36,35 @@
   export const prerender = false;
   export const ssr = true
   export const trailingSlash = "never";
+
+  {onMount(() => {
+    checkOtherMusicPlaying();
+    document.addEventListener("play", checkOtherMusicPlaying, true);
+    document.addEventListener("pause", checkOtherMusicPlaying, true);
+    document.addEventListener("ended", checkOtherMusicPlaying, true);
+  })}
+  {beforeNavigate(() => {
+    checkOtherMusicPlaying();
+    document.addEventListener("play", checkOtherMusicPlaying, true);
+    document.addEventListener("pause", checkOtherMusicPlaying, true);
+    document.addEventListener("ended", checkOtherMusicPlaying, true);
+  })}
+  {afterNavigate(() => {
+    checkOtherMusicPlaying();
+    document.addEventListener("play", checkOtherMusicPlaying, true);
+    document.addEventListener("pause", checkOtherMusicPlaying, true);
+    document.addEventListener("ended", checkOtherMusicPlaying, true);
+  })}
 </script>
 
 <Navbar />
+
+<div data-tap-disabled="true" >
+{#if !isOtherMusicPlaying}
+<audio class="home-audio" loop autoplay hidden>
+<source src="/music/oreohive.org-the-good-internet-dec-2024.mp3" type="audio/mpeg">your browser does not support the audio element.</audio>
+{/if}
+</div>
+
 <slot />
 <Footer />
