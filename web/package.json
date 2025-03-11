@@ -20,6 +20,7 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@types/node": "^22.13.0",
 		"mdsvex": "^0.12.3",
+		"qrcode": "^1.5.4",
 		"slice-machine-ui": "^2.12.3",
 		"svelte": "^5.20.2",
 		"svelte-check": "^4.0.0",

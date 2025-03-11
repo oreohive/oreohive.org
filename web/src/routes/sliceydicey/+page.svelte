@@ -40,6 +40,11 @@
         desc="pitchplay"
         href="/sliceydicey/pitchplay"
       />
+      <Panel
+        colour="#e8e8e8"
+        desc="qr-gen"
+        href="/sliceydicey/qr-gen"
+      />
     </PanelBox>
   </div>
 </div>
