@@ -144,9 +144,6 @@ img {
 .dark .left-pane {
 	background-color: #1c1b1b !important;
 }
-.dark h1 {
-	color: #f5f5f5 !important; /* grr why does this need an !important on it, which one of you buggers is it?!? */
-}
 
 /* poppins classes */
 .poppins-thin {
