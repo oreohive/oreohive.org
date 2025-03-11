@@ -66,8 +66,8 @@
     margin-right: 32px;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
 
     border-width: 3px;
     border-style: dashed;
