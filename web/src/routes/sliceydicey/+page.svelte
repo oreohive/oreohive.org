@@ -8,6 +8,7 @@
 
 <TitleDisplay title="oreohive.org/sliceydicey"/>
 
+<div class="centre-container">
 <p>
   this is a toolbox of miscallaneous
   little, well, tools.
@@ -21,6 +22,7 @@
   i would absolutely love some suggestions
   on what i could put here. any simple little
 </p>
+</div>
 
 <div class="centre-container">
   <div class="panels">
