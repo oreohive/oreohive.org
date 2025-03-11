@@ -11,7 +11,7 @@ they have colours and have neat animations on hover etc. -->
   export let colour: string = ""; // a string for the background colour
   export let desc: string = ""; // a string for the description text
   export let img_url: string = "/logo.webp"; // a string for the picture url
-  export let img_height: string = "64px"; // a string for the picture's height
+  export let img_width: string = "96px"; // a string for the picture's height
   export let href: string = ""; // a string for the link the panel is to take one
   console.log("img_url:", img_url);
 </script>
@@ -20,7 +20,7 @@ they have colours and have neat animations on hover etc. -->
   <!-- clickable me -->
   <a {href} class="panel" style="width: {panel_width}; background: {colour}; align-content: center;">
     {#if img_url != ""}
-    <img src={img_url} alt={desc} width="auto" height={img_height} />
+    <img src={img_url} alt={desc} width={img_width} height="auto" />
     {/if}
     <slot />
   </a>

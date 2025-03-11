@@ -9,9 +9,9 @@ export async function load({ fetch, cookies }) {
 
   const posts = await client.getAllByType("labsArticle", {
     
-    orderings: [
-      { field: "my.post.timestamp", direction: "desc" }
-    ]
+  orderings: [
+  { field: "my.labsArticle.timestamp", direction: "desc" }
+  ]
   
   });
 

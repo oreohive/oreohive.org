@@ -15,17 +15,17 @@
   export let data;
 </script>
 
-<h1>oreohive labs research log</h1>
+<h1 style="font-size: 22px;">oreohive labs research log</h1>
 
 {#if data.page}
   <h1><PrismicRichText field={data.page.data.title ?? "a title"} /></h1>
   <div style="display: flex; flex-direction: row; align-items: flex-end;"><p>{data.page.data.timestamp ?? ""}<br>logged by:</p><PrismicRichText field={data.page.data.author ?? "an author"} /></div>
   <PrismicRichText field={data.page.data.description ?? ""} />
 
-  <PrismicImage field={data.page.data.image ?? ""} />
+  <PrismicImage field={data.page.data.image ?? ""} width=256px/>
 
 
-    <PrismicRichText field={data.page.data.article_content} />
+  <PrismicRichText field={data.page.data.article_content} />
   <SliceZone slices={data.page.data.slices} {components} />
 {/if}
 
