@@ -18,6 +18,7 @@
 
 <svelte:head>
 <!-- testing - metadata / og -->
+<title>{data.page.data.title}</title>
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content={data.page.data.image.url} />
@@ -33,7 +34,6 @@
 <meta property="title" content={data.page.data.title} />
 <meta property="description" content={data.page.data.description} />
 <meta property="url" content={data.page.url} />
-
 </svelte:head>
 
 <h1>oreohive activity log</h1>

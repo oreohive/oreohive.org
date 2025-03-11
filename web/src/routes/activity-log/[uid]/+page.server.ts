@@ -2,6 +2,7 @@
 
 import { createClient } from "$lib/prismicio";
 export const prerender = false;
+export const ssr = true
 export async function load({ params, fetch, cookies }) {
 
   console.log("params.uid:", params.uid); // temp: to inspect params.uid

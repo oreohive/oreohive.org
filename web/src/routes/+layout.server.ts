@@ -1,3 +1,3 @@
 // src/routes/+layout.server.ts
 
-export const prerender = "auto";
+export const prerender = false;
