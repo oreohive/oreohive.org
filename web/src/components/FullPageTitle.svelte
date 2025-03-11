@@ -11,7 +11,7 @@ we can work on it :))) -->
     export let title;
 </script>
 
-<div class="title-display">
+<div class="fullpagetitle-display">
     <div class="blur"></div>
     <h1>{title}</h1>
 </div>
@@ -25,16 +25,15 @@ we can work on it :))) -->
     .dark h1 {
         color: #5a5467;
     }
-    .title-display {
+    .fullpagetitle-display {
         position:  relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         min-height: calc(100vh - 76px) !important; /* since navbar is 76px tall, we need to account for that */
-        background-color: #e8e8e8;
         margin: 0px;
-        background-image: url("/backgrounds/palette.png");
+        background-image: url("/backgrounds/codioful.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
