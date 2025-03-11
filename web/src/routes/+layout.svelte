@@ -14,7 +14,7 @@
     // client (+layout.svelte) checks local storage
     if (browser) {
       const accepted = localStorage.getItem("accepted_terms");
-
+ 
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
 
@@ -75,7 +75,7 @@
     border-radius: 32px;
     font-family: Poppins, sans-serif;
     max-width: 100vw;
-    max-width: 743.2px;
+    max-width: 720px;
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
@@ -122,6 +122,7 @@
     padding: 10px;
     max-width: 100vw;
   }
+
 
 
   /* inverted styles for dark mode */
