@@ -26,5 +26,8 @@ but this is now taken care of by the FullPageTitle.svelte component -->
         justify-content: center;
         padding: 16px;
         margin: 16px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        font-family: Poppins, sans-serif;
     }
 </style>

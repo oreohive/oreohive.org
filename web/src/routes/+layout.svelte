@@ -66,8 +66,8 @@
     margin-right: 32px;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
 
     border-width: 3px;
     border-style: dashed;
@@ -75,7 +75,7 @@
     border-radius: 32px;
     font-family: Poppins, sans-serif;
     max-width: 100vw;
-    max-width: 720px;
+    max-width: 743.2px;
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
@@ -122,7 +122,6 @@
     padding: 10px;
     max-width: 100vw;
   }
-
 
 
   /* inverted styles for dark mode */
