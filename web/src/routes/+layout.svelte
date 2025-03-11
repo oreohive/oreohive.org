@@ -2,7 +2,7 @@
 
 <script lang="ts">
   import { browser } from "$app/environment";
-  import { page } from "$app/state";
+  import { page, navigating, updated } from "$app/state";
   import { onMount } from "svelte";
   import { beforeNavigate, afterNavigate } from "$app/navigation";
   import Navbar from "$components/Navbar.svelte";
@@ -28,7 +28,7 @@
 
       // redirect if localStorage is missing and we're not on onboarding
       if (!accepted && !isOnOnboardingPath) {
-        const currentUrl = encodeURIComponent(page.url.href);
+        let currentUrl = page.url.pathname
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
     }
@@ -36,6 +36,7 @@
   export const prerender = false;
   export const ssr = true
   export const trailingSlash = "never";
+  export const currentUrl = page.url.pathname;
 
   {onMount(() => {
     checkOtherMusicPlaying();

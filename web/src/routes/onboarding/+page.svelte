@@ -5,6 +5,13 @@
     function accept_locally() {
         if (browser) {
             localStorage.setItem("accepted_terms", "true");
+
+            // extract the redirect query parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const redirectTo = urlParams.get("redirect") || "/";
+
+            // redirect to the specified path or home if not specified
+            window.location.href = redirectTo;
         }
     }
 </script>
@@ -36,7 +43,7 @@
 </form>
 </div>
 <p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
-<p style="max-width: 448.474px; border-style: dashed; border-width: 1.25px;">btw, you'll need to <b>go back and click on the link again</b> if you were trying to go somewhere; these silly bees haven't figured out the best way to store your previous url yet. sorry about that one :'))</p>
+<p style="max-width: 448.474px; border-style: dashed; border-width: 1.25px;"><b>new!</b> pressing accept should now take you to where you were wanting to go!</p>
 
 <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
 <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>

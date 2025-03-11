@@ -30,20 +30,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 
         // allow access to onboarding page, api routes, and static assets
         if (
-                event.url.pathname === "/onboarding" ||
-                event.url.pathname.startsWith("api") ||
+                event.url.pathname.startsWith("/onboarding") ||
+                event.url.pathname.startsWith("/api") ||
                 event.url.pathname.startsWith("/global.css") ||
                 event.url.pathname.startsWith("/app.css")
         ) {
                 return resolve(event);
-        }
-
-        // if terms not accepted, redirect to onboarding
-        if (!terms_accepted) {
-                return new Response(null, {
-                        status: 303,
-                        headers: {location: "/onboarding"},
-                });
         }
 
         const response = await resolve(event);

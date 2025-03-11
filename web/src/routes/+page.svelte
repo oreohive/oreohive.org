@@ -13,9 +13,7 @@
 
 <div class="container">
   <div class="centre-container">
-    
     <div class="panel-box">
-      
       <PanelBox>
         <h1>here</h1>
         <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
