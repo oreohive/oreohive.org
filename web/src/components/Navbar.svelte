@@ -14,7 +14,7 @@ currently little actual navigation going on but maybe soon enough we might throw
 </script>
 
 <div class="navbar">
-    <div class="links">
+    <div class="left links">
     <a href="https://www.oreohive.org">
         <div class="logo-background">
         <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
@@ -28,7 +28,9 @@ currently little actual navigation going on but maybe soon enough we might throw
     
 
     <WelcomeMsg />
+    <div class="right links">
     <ThemeToggle />
+    </div>
 
     <slot />
 </div>
@@ -39,7 +41,6 @@ currently little actual navigation going on but maybe soon enough we might throw
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        align-self: center;
         justify-content: space-between;
         margin: -8px 0px 0px 0px;
         gap: 4px;
@@ -52,19 +53,18 @@ currently little actual navigation going on but maybe soon enough we might throw
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
         width: 100;
     }
-
     .logo-background {
         display: flex;
-        justify-content: center;
         align-items: center;
         border-radius: 12%;
         background-color: #fff;
+        margin: 0px;
     }
-
     .links{
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 8px;
+        width: 180px; /* consistent width across both left links and right links ensures main central WelcomeMsg is centred */
     }
 </style>
