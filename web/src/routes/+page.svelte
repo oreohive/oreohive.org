@@ -25,13 +25,13 @@
     </PanelSegment>
 </div>
 
-<HPoint direction="left" title="designed for you">
+<HPoint direction="left" title="designed for you" img_url="backgrounds/homelab.png">
             <p>we design the beehive in dedication to its primary purpose; to provide information and encourage learning.</p>
             <p>with no tracking of your personal info, no intrusive ads, and, most importantly to us, no paywalls, the beehive is designed to be a place of information and documentation truly accessible to all*.</p>
             <p>in our design, we prioritise cleanliness, transparency, and clarity. we weave our core values into everything we design, build and write, from our explanations and breakdowns to entire articles on niche topics.</p>
 </HPoint>
 
-<HPoint direction="right" title="designed for speed">
+<HPoint direction="right" title="designed for speed" img_url="pictures/speed.png">
             <p>we build the beehive to be fast, efficient, and open to running on a variety of different hardware and platforms.
             us queen bees are incredibly new to full-stack development, and web development in general, but we still wanted to create this as a website to promote inclusivity and ease of access.</p>
 
@@ -50,7 +50,7 @@
             streamlined and responsive.</p>
 </HPoint>
 
-<HPoint direction="left" title="designed for expression">
+<HPoint direction="left" title="designed for expression" img_url="pictures/expression.png">
             <p>we have a general love for human expression, and means
             through which we can healthily express ourselves.</p>
 
@@ -73,7 +73,7 @@
             <p>tell us your story!</p>
 </HPoint>
 
-<HPoint direction="right" title="designed for growth">
+<HPoint direction="right" title="designed for growth" img_url="pictures/growth.png">
             <p>we build the beehive to promote and encourage your growth and
             development.</p>
 
@@ -94,7 +94,7 @@
             understand, and easy to remember.</p>
 </HPoint>
 
-<HPoint direction="left" title="designed for all">
+<HPoint direction="left" title="designed for all" img_url="pictures/all.png">
             <p>we design the beehive in dedication to its
             accessibility.</p>
 
@@ -113,7 +113,7 @@
             request or an issue on our github.</p>
 </HPoint>
 
-<HPoint direction="right" title="designed for humans">
+<HPoint direction="right" title="designed for humans" img_url="pictures/humans.png">
             <p>every element of the beehive is passionately designed to be intuitive to
             human minds; that’s not just one standard of human mind, either.</p>
 
@@ -134,7 +134,7 @@
             labels that get straight to the point.</p>
 </HPoint>
 
-<HPoint direction="left" title="designed for community">
+<HPoint direction="left" title="designed for community" img_url="backgrounds/design.png">
             <p>we believe in the power of a passionate
             community of contributors; it’s baked right
             into our name and identity.</p>

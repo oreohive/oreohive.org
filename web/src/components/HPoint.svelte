@@ -25,7 +25,7 @@
     {:else}
         <div class="background-image">
             <div class="blur">
-                <img src={img_url}>
+                <img class="point-picture" src={img_url}>
             </div>
         </div>
 
