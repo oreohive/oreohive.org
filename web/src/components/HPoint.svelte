@@ -4,6 +4,7 @@
     export let title;
     export let desc;
     export let direction = "left"
+    export let img_url = "/logo.webp"
 </script>
 
 <div class="homepoint-display">
@@ -17,12 +18,14 @@
 
         <div class="background-image">
             <div class="blur">
-            </div>  
+                <img src={img_url}>
+            </div>
         </div>
 
     {:else}
         <div class="background-image">
             <div class="blur">
+                <img src={img_url}>
             </div>
         </div>
 
@@ -57,6 +60,9 @@
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
     .blur {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background: rgba(255, 255, 255, 0); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
@@ -100,7 +106,7 @@
     .background-image {
         position:  relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
 
