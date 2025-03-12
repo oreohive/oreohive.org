@@ -33,10 +33,8 @@ it's the central message that pops up indicating current subdomain
 <style>
     p {
         display: flex;
-        flex-direction: row;
-
         align-items: flex-start;
-        align-self: flex-start;
+        align-self: center; /* important! :) */
         justify-content: flex-start;
         justify-self: flex-start;
         text-align: left;
