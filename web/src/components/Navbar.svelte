@@ -15,16 +15,23 @@ currently little actual navigation going on but maybe soon enough we might throw
 
 <div class="navbar">
     <div class="left links">
-    <a href="https://www.oreohive.org">
-        <div class="logo-background">
-        <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
-        <!-- if this img is 48px tall, the navbar should take up 64px vertically at the top of the screen -->
-        <!-- this is increased by the 12px of margin it has to 76px -->
-        <!-- we factor this into the likes of fullpagetitle component configuration and use -->
+        <a href="https://www.oreohive.org">
+            <div class="logo-background">
+            <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
+            <!-- if this img is 48px tall, the navbar should take up 64px vertically at the top of the screen -->
+            <!-- this is increased by the 12px of margin it has to 76px -->
+            <!-- we factor this into the likes of fullpagetitle component configuration and use -->
+            </div>
+        </a>
+        <button on:click={navigateToHome}>go home!</button>
+        <div style="margin-left: 16px; display: flex; flex-direction: row; gap: 12px; justify-content: space-between; align-content: center;">
+            <a href="https://github.com/oreohive/oreohive.org">github</a>
+            <a href="https://ko-fi.com/oreohive">ko-fi</a>
+            <a href="https://liberapay.com/oreohive">liberapay</a>
+            <a href="https://tumblr.com/oreohive">tumblr</a>
         </div>
-    </a>
-    <button on:click={navigateToHome}>go home!</button>
     </div>
+    
     
 
     <WelcomeMsg />
@@ -66,5 +73,14 @@ currently little actual navigation going on but maybe soon enough we might throw
         align-items: center;
         gap: 8px;
         width: 180px; /* consistent width across both left links and right links ensures main central WelcomeMsg is centred */
+    }
+    a {
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+        font-family: Poppins, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        text-wrap: nowrap;
     }
 </style>
