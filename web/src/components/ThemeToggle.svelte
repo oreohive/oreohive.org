@@ -4,8 +4,8 @@
 that appears in the navbar -->
 
 <script>
-  import { onMount } from 'svelte';
-  import { browser } from '$app/environment'; // import browser check (checks if in browser)
+  import { onMount } from "svelte";
+  import { browser } from "$app/environment"; // import browser check (checks if in browser)
 
   let isDark = false; // tracks if dark mode is active
 

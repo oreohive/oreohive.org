@@ -17,14 +17,14 @@
         </div>
 
         <div class="background-image">
-            <div class="blur">
+            <div class="hpoint-blur">
                 <img src={img_url}>
             </div>
         </div>
 
     {:else}
         <div class="background-image">
-            <div class="blur">
+            <div class="hpoint-blur">
                 <img class="point-picture" src={img_url}>
             </div>
         </div>
@@ -41,14 +41,14 @@
 </div>
 <style>
     :global(p) {
-        font-size: 0.8em;
+        font-size: 1em;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
     :global(h1) {
-        font-size: 1.2em;
+        font-size: 1.5em;
         color:rgb(201, 111, 111);
         font-family: Poppins, sans-serif;
         margin-left: 8px;
@@ -59,16 +59,19 @@
 
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
-    .blur {
+    .hpoint-blur {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(255, 255, 255, 0.75); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
 	    width: 100%;
         max-width: 100vw;
         overflow: hidden;
+    }
+    .hpoint-blur .dark { /* todo: fix lmao */
+        background: rgba(255, 255, 255, 0.1) !important;
     }
     .homepoint-display {
         position:  relative;

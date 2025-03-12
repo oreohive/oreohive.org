@@ -15,12 +15,12 @@
             </div>
         </div>
         <div class="background-image">
-        <div class="blur">
+        <div class="htitle-blur">
     </div>  
     </div>
     {:else}
         <div class="background-image">
-        <div class="blur">
+        <div class="htitle-blur">
         </div>
         </div>
         <div class="title-pane">
@@ -44,11 +44,10 @@
     :global(.dark h1) {
         color: #ffbcd4;
     }
-    
   
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
-    .blur {
+    .htitle-blur {
         background: rgba(255, 255, 255, 0); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
