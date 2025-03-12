@@ -2,6 +2,7 @@
 
 <script lang="ts">
     import QRCode from "qrcode";
+    import KofiDonateMsg from "$components/KofiDonateMsg.svelte";
 
     let url: string = "oreohive.org";
 
@@ -27,6 +28,8 @@
     
 </div>
 </div>
+
+<KofiDonateMsg />
 
 <style>
     #qrcode {

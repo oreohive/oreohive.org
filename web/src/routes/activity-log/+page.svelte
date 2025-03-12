@@ -2,6 +2,7 @@
 import Panel from "$components/Panel.svelte";
 import PanelBox from "$components/PanelBox.svelte";
 import TitleDisplay from "$components/TitleDisplay.svelte";
+import KofiDonateMsg from "$components/KofiDonateMsg.svelte";
 export let data;
 </script>
 

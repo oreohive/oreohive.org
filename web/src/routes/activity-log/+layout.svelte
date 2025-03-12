@@ -1,6 +1,7 @@
 <!-- src/routes/activity-log/+layout.svelte -->
 <script>
   import TitleDisplay from "$components/TitleDisplay.svelte";
+  import KofiDonateMsg from "$components/KofiDonateMsg.svelte";
 </script>
 
 <TitleDisplay title="oreohive activity log" />
@@ -9,4 +10,6 @@
     <div class="centre-container">
       <slot />
     </div>
-  </div>  
+    <KofiDonateMsg />
+</div>  
+

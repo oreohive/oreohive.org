@@ -1,6 +1,7 @@
 <!-- src/routes/sliceydicey/pitchplay/+page.svelte -->
 
 <script lang="ts">
+  import KofiDonateMsg from "$components/KofiDonateMsg.svelte";
   let startingNoteInput = $state('C');
   let desiredNoteInput = $state('G');
   let semitoneDiff = $state(0);
@@ -124,6 +125,8 @@
 <p style="background-color: #b0ffbe; color: black !important;">
   pitch multiplier: <b>{pitchMultiplier}</b>
 </p>
+
+<KofiDonateMsg />
 
 <style>
   p {
