@@ -11,7 +11,7 @@
       colour="#2b313b"
       href="https://ko-fi.com/oreohive"
       img_url="https://storage.ko-fi.com/cdn/cup-border.png"
-      img_height="36px;"
+      img_width="38px;"
     >
       <iframe
         src="/widgets/ko-fi-widget.html"
