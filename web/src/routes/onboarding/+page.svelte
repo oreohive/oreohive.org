@@ -47,7 +47,7 @@
 
 <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
 <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>
-<a href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-182e-r1.0.1.html" target="_blank">terms of purchasing & exchange (oreohive document 183e) r1.0.1 (html)</a>
+<a href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html" target="_blank">terms of purchasing & exchange (oreohive document 183e) r1.0.1 (html)</a>
 <p style="font-size: 0.675em; max-width: 40vw;">
         as it states, agreeing to our terms & ethics of use (182e) means also agreeing to the associated / most recent terms of purchasing & exchange (183e).<br>
         once you've accepted, you can then access oreohive.org/terms, on which you may check for later revisions or updated publications which may apply to you. we advise you routinely do this.<br><br>
