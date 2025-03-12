@@ -141,9 +141,6 @@ img {
 	background-color: #1a1a1a;
 	box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
 }
-.dark .left-pane {
-	background-color: #1c1b1b !important;
-}
 
 /* poppins classes */
 .poppins-thin {
