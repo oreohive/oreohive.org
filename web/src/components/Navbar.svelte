@@ -24,11 +24,12 @@ currently little actual navigation going on but maybe soon enough we might throw
             </div>
         </a>
         <button on:click={navigateToHome}>go home!</button>
-        <div style="margin-left: 16px; display: flex; flex-direction: row; gap: 12px; justify-content: space-between; align-content: center;">
+        <div style="margin-left: 16px; display: flex; flex-direction: row; gap: 14px; justify-content: space-between; align-content: center;">
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
             <a href="https://tumblr.com/oreohive">tumblr</a>
+            <a href="/sliceydicey">internetting tools</a>
         </div>
     </div>
     
