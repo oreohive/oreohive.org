@@ -1,13 +1,13 @@
 <!-- src/components/KofiDonateMsg.svelte -->
 
-<div on:click={window.location="https://ko-fi.com/oreohive"} class="card" style="cursor: pointer;">
+<div on:click={window.open("https://ko-fi.com/oreohive", "_blank") || window.location.replace("https://ko-fi.com/oreohive")} class="card" style="cursor: pointer;">
   <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi 'coffee' logo - abstract white mug with heart icon inside"/>
   <p>i didn't wanna put an ad here, but we've got bills to pay, so i put this here instead.</p>
 </div>
 
 <style>
   p {
-    font-size: 0.65em;
+    font-size: 0.75em;
     color: #5a5467
     text-decoration: none;
     text-emphasis: none;
@@ -50,6 +50,6 @@
     
   }
   img {
-    width: 24px;
+    width: 26px;
   }
 </style>
