@@ -157,14 +157,10 @@
 </HPoint>
 
 <div class="container">
-
-    
-
     <PanelSegment> <h1>connect</h1>
         <Panel colour="#ffffff" desc="notion revision stuff" href="https://orchid-wolverine-5ca.notion.site/resources-162e15a8c91d8065b158cb539d17cddc"/>
 	      <Panel colour="#c7bdff" desc="tumblr" href="https://oreohive.tumblr.com"/>
         <KofiButton />
         <Panel colour="#2b3137" desc="we're open source <3" img_url="/icons/github/github-mark-white.png" href="https://github.com/oreohive/oreohive.org"/>
     </PanelSegment>
-
 </div>

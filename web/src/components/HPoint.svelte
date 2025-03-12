@@ -63,7 +63,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.75); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(255, 255, 255, 0.9); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
 	    width: 100%;

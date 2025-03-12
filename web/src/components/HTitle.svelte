@@ -32,19 +32,14 @@
     </div>
     {/if}
 
-
-    
 </div>
 <style>
     h1 {
-        color: #000000;
         font-family: Poppins, sans-serif;
-        margin-left: 16px;
+        margin-left: 12.558333px; /* just enough to wrap as i want it to and look a little more flush with the other text lol */
+                                  /* todo: maybe see to this bs lmfao */
+                                  /* if you have any intention of fixing this, fire up a dev server and play with this on the homepage, see what i mean */
     }
-    :global(.dark h1) {
-        color: #ffbcd4;
-    }
-  
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
     .htitle-blur {

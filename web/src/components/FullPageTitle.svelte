@@ -17,14 +17,6 @@ we can work on it :))) -->
 </div>
 
 <style>
-    h1 {
-        color: #000000;
-        position: absolute;
-        font-family: Poppins, sans-serif;
-    }
-    .dark h1 {
-        color: #5a5467;
-    }
     .fullpagetitle-display {
         position:  relative;
         display: flex;
