@@ -41,7 +41,7 @@
 </div>
 <style>
     :global(p) {
-        font-size: 1em;
+        font-size: 1.1em;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
@@ -65,7 +65,7 @@
         justify-content: center;
         background: rgba(255, 255, 255, 0.9); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
-        height: 100vh;
+        min-height: 80vh;
 	    width: 100%;
         max-width: 100vw;
         overflow: hidden;
@@ -77,34 +77,41 @@
         position:  relative;
         display: flex;
         flex-direction: row;
-        min-height: 80vh;
-        max-height: 160vh;
+        flex-wrap: wrap;
+        min-height: 60vh;
+        max-height: 180vh;
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! */
         overflow: hidden;
     }
     .pane {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         width: 50vw;
-        min-height: fit-content;
-        max-height: 160vh;
+        min-height: 60vh;
+        max-height: 180vh;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
         background-color: #fcfcff;
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     .pane-text {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: flex-start;
-        max-height: 95vh;
+        min-height: 60vh;
+        max-height: 180vh;
         max-width: 512px;
         padding: 8px;
         justify-content: center;
         background-color: #ffffff;
         border-radius: 12px;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     .background-image {
         position:  relative;
@@ -114,6 +121,7 @@
         justify-content: center;
 
         width: 50vw;
+        max-height: 80vh;
         margin: 0px;
 
         background-image: url("/backgrounds/codioful.jpg");
