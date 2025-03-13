@@ -48,7 +48,7 @@
         margin-bottom: 0px;
     }
     :global(h1) {
-        font-size: 1.5em;
+        font-size: 1.75em;
         color:rgb(201, 111, 111);
         font-family: Poppins, sans-serif;
         margin-left: 8px;
@@ -95,6 +95,7 @@
         justify-content: center;
         background-color: #fcfcff;
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
+        padding: 0px !important;
         overflow-y: scroll;
         overflow-x: hidden;
     }
