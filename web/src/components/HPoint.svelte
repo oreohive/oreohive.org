@@ -41,7 +41,7 @@
 </div>
 <style>
     :global(p) {
-        font-size: 1em;
+        font-size: 0.9em;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
