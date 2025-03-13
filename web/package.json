@@ -24,6 +24,7 @@
 		"slice-machine-ui": "^2.12.3",
 		"svelte": "^5.20.2",
 		"svelte-check": "^4.0.0",
+		"svelte-keydown": "^0.7.0",
 		"typescript": "^5.0.0",
 		"vite": "^6.0.0"
 	},
