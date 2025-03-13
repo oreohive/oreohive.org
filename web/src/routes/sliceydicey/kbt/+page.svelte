@@ -5,6 +5,7 @@
 <script>
   import { page } from "$app/state";
   import Keydown from "svelte-keydown";
+  /** @type {any[]} **/
   let evt = [];
   let showModal = true;
 </script>
