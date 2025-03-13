@@ -36,7 +36,7 @@ it's the central message that pops up indicating current subdomain
         align-items: flex-start;
         align-self: center; /* important! :) */
         justify-content: flex-start;
-        justify-self: flex-start;
+        justify-self: center;
         text-align: left;
 
         font-size: 0.8rem;

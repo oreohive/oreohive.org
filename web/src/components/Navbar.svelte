@@ -25,7 +25,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         </a>
         <button on:click={navigateToHome}>go home!</button>
     </div>
-    <div style="width: 20vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center;">
+    <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: white; border-radius: 12px; padding: 10px;">
             <a href="/activity-log">activity log</a>
             <a href="/sliceydicey">tools</a>
             <a href="/about">about</a>
@@ -33,7 +33,7 @@ currently little actual navigation going on but maybe soon enough we might throw
     
 
     <WelcomeMsg />
-    <div style="width: 20vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center;">
+    <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: white; border-radius: 12px; padding: 10px;">
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
