@@ -11,18 +11,15 @@
   <ul>
     {#each [...data.documents] as post}
       <li
-        style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;"
+        style="display: flex; flex-direction: column; flex-wrap: wrap; align-items: center; margin-bottom: 64px; gap: 8px; padding: 0px;"
       >
         <Panel
           colour="#fcfcff"
-          img_url={post.data.image.url ?? "No image  URL found"}
+          img_url={post.data.image.url ?? "logo.webp"}
           href={`/human/human-articles/${post.uid}`}
         />
-        <div>
-          <h3>{post.data.title ?? "No article title found"}</h3>
-          <p>{post.data.date ?? "No article date found"}</p>
-          <p>{post.data.author ?? "No article author found"}</p>
-        </div>
+        <a href={`/human/human-articles/${post.uid}`}><i>{post.data.title ?? "no title found!"}</i></a>
+        <p>{post.data.date ?? "no article date found!"} by {post.data.author ?? "oops! no author found!"}</p>
       </li>
     {/each}
   </ul>

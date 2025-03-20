@@ -22,6 +22,8 @@
         <!-- <Panel colour="#ffbcd4" desc="human" href="/placeholder"/> -->
         <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" />
         <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" />
+        <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" />
+        <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" />
     </PanelSegment>
 </div>
 
