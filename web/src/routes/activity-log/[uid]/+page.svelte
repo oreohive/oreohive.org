@@ -18,30 +18,13 @@
 </script>
 
 <svelte:head>
-<!-- testing - metadata / og -->
-<title>{data.page.data.meta_title}</title>
-<meta property="og:locale" content="en_GB" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content={data.page.data.image.url} />
-<meta property="og:site_name" content="oreohive.org">
-<meta property="og:title" content={data.page.data.title} />
-<meta property="og:description" content={data.page.data.description} />
-<meta property="og:url" content={data.page.url} />
-
-<meta property="locale" content="en_GB" />
-<meta property="type" content="article" />
-<meta property="image" content={data.page.data.image.url} />
-<meta property="site_name" content="oreohive.org">
-<meta property="title" content={data.page.data.title} />
-<meta property="description" content={data.page.data.description} />
-<meta property="url" content={data.page.url} />
-
-{#if isFilled.keyText(page.data.meta_description)}
+  <title>{data.page.data.meta_title}</title>
+  {#if isFilled.keyText(data.page.data.meta_description)}
     <meta name="description" content={page.data.meta_description} />
-{/if}
-{#if isFilled.image(page.data.meta_image)}
+  {/if}
+  {#if isFilled.image(page.data.meta_image)}
     <meta property="og:image" content={asImageSrc(page.data.meta_image)} />
-{/if}
+  {/if}
 </svelte:head>
 
 <h1>oreohive activity log</h1>

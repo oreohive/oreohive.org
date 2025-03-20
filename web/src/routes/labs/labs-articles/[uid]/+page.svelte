@@ -11,11 +11,22 @@
   } from "@prismicio/svelte";
   import { components } from "$lib/slices";
   import { page } from "$app/state";
+  import { isFilled, asImageSrc } from "@prismicio/client";
 
   export let data;
 </script>
 
 <h1 style="font-size: 22px;">oreohive labs research log</h1>
+
+<svelte:head>
+  <title>{data.page.data.meta_title}</title>
+  {#if isFilled.keyText(data.page.data.meta_description)}
+    <meta name="description" content={page.data.meta_description} />
+  {/if}
+  {#if isFilled.image(page.data.meta_image)}
+    <meta property="og:image" content={asImageSrc(page.data.meta_image)} />
+  {/if}
+</svelte:head>
 
 {#if data.page}
   <h1><PrismicRichText field={data.page.data.title ?? "a title"} /></h1>
