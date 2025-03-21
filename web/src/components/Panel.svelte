@@ -11,7 +11,7 @@ they have colours and have neat animations on hover etc. -->
   export let colour: string = ""; // a string for the background colour
   export let desc: string = ""; // a string for the description text
   export let img_url: string = "/logo.webp"; // a string for the picture url
-  export let img_width: string = "64px"; // a string for the picture's height
+  export let img_width: string = "42px"; // a string for the picture's height
   export let href: string = ""; // a string for the link the panel is to take one
   console.log("img_url:", img_url);
 </script>

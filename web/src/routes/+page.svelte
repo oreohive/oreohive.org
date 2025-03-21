@@ -160,7 +160,7 @@
 
 <div class="container">
     <PanelSegment> <h1>connect</h1>
-        <Panel colour="#ffffff" desc="ao3" href="https://youtu.be/D5Df191WJ3o&t=32"/>
+        <Panel colour="#ffffff" desc="ao3" href="https://youtu.be/D5Df191WJ3o&t=32" img_url="/icons/ao3/ao3.png"/>
 	      <Panel colour="#c7bdff" desc="tumblr" href="https://oreohive.tumblr.com"/>
         <KofiButton />
         <Panel colour="#2b3137" desc="we're open source <3" img_url="/icons/github/github-mark-white.png" href="https://github.com/oreohive/oreohive.org"/>
