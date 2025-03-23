@@ -35,7 +35,7 @@
 </audio>
 </div>
 
-<div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap; max-height: 45vh;">
+<div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap; min-height: 45vh;">
     <div>
         <div class="accept-button">
         <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
