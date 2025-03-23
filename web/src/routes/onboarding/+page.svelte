@@ -1,14 +1,21 @@
 <script>
     import { enhance } from "$app/forms";
     import { browser } from "$app/environment";
-
-    function accept_locally() {
+    import { onMount } from "svelte";
+    let redirectTo = "/";
+    
+    onMount(() => {
+        // if the user has already accepted the terms, redirect to the home page
         if (browser) {
-            localStorage.setItem("accepted_terms", "true");
 
             // extract the redirect query parameter
             const urlParams = new URLSearchParams(window.location.search);
-            const redirectTo = urlParams.get("redirect") || "/";
+            redirectTo = urlParams.get("redirect") || "/";
+        }
+    });
+    function accept_locally() {
+        if (browser) {
+            localStorage.setItem("accepted_terms", "true");
 
             // redirect to the specified path or home if not specified
             window.location.href = redirectTo;
@@ -37,14 +44,17 @@
 
 <div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap; min-height: 45vh;">
     <div>
-        <div class="accept-button">
+        
         <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
+            <div class="accept-button" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
             <button type="submit" name="accept">
-                i accept the oreohive organisation's terms & ethics of use, thus the use of cookies
+                i accept the oreohive organisation's terms & ethics of use, thus the use of cookies :)
             </button>
+            <p style="color: #ff0059;">next stop: {redirectTo}. choo choo!</p>
+            </div>
             <p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
         </form>
-        </div>
+        
     </div>
     <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
         <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>
