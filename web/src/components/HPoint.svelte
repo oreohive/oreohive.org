@@ -40,23 +40,6 @@
 
 </div>
 <style>
-    :global(p) {
-        font-size: 0.9em;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    :global(h1) {
-        font-size: 1.75em;
-        color:rgb(201, 111, 111);
-        font-family: Poppins, sans-serif;
-        margin-left: 8px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
     .hpoint-blur {

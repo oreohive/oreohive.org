@@ -41,29 +41,19 @@ html {
 	max-width: 744px; /* should be just enough to squeeze in two activity log cards */
 }
 h1, h2, h3, h4, h5, h6 {
-	flex-direction: column;
-	align-items: center;
-	justify-items: center;
-	align-content: center;
-	justify-content: center;
 	max-width: 480px;
-
 	margin-top: 12px;
 	margin-bottom: 0px;
-	margin-left: 48px;
-	margin-right: 48px;
+	margin-left: 12px;
+	margin-right: 12px;
 	padding: 0px;
 	gap: 0px;
-
 	word-break: bottom;
-	white-space: normal;
 	font-family: Poppins, sans-serif;
 }
 h1 {
 	position: relative;
-	border-radius: 12px;
-	border-width: 1px;
-}
+	font-size: 1.75em;}
 p {
 	border-radius: 12px;
 	border-width: 1px;
@@ -71,8 +61,6 @@ p {
 	font-family: Poppins, sans-serif;
 	margin-top: 4px;
 	margin-bottom: 4px;
-	margin-left: 6px;
-	margin-right: 6px;
 	padding: 10px;
 }
 a {
