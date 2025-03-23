@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="centre-container">
-        <slot />
+    <div style="max-width: 100vw; margin: 0 auto;">
+    <slot />
     </div>
 </div>
