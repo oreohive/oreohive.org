@@ -42,20 +42,7 @@
 </audio>
 </div>
 
-<div style="display: flex; flex-direction: row-reverse; flex-wrap: wrap; min-height: 45vh;">
-    <div>
-        
-        <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
-            <div class="accept-button" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
-            <button type="submit" name="accept">
-                i accept the oreohive organisation's terms & ethics of use, thus the use of cookies :)
-            </button>
-            <p style="color: #ff0059;">next stop: {redirectTo}. choo choo!</p>
-            </div>
-            <p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
-        </form>
-        
-    </div>
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; min-height: 45vh;">
     <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
         <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>
         <a href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html" target="_blank">terms of purchasing & exchange (oreohive document 183e) r1.0.1 (html)</a>
@@ -70,6 +57,19 @@
         oreohive.org, this website, comes with <b>absolutely NO WARRANTY</b>, to the extent <b>permitted by applicable law</b>. <b>we are not liable</b>. get rekt
         
         </p>
+    </div>
+    <div>
+        
+        <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
+            <div class="accept-button" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+            <button type="submit" name="accept">
+                i accept the oreohive organisation's terms & ethics of use, thus the use of cookies :)
+            </button>
+            <p style="color: #ff0059;">next stop: {redirectTo}. choo choo!</p>
+            </div>
+            <p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
+        </form>
+        
     </div>
 </div>
 
