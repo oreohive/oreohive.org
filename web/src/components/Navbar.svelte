@@ -23,6 +23,7 @@ currently little actual navigation going on but maybe soon enough we might throw
             <!-- we factor this into the likes of fullpagetitle component configuration and use -->
             </div>
         </a>
+        <button on:click={history.back()}>&lt;- back</button>
         <button on:click={navigateToHome}>go home!</button>
     </div>
     <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: white; border-radius: 12px; padding: 10px;">

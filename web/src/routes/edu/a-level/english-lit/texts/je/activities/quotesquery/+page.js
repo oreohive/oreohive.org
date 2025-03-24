@@ -1,3 +1,5 @@
+// src/routes/edu/a-level/english-lit/texts/je/activities/quotesquery/+page.js
+
 export async function load({ fetch }) {
     const response = await fetch("https://api.oreohive.org/quotes/je");
     if (!response.ok) {
@@ -5,5 +7,5 @@ export async function load({ fetch }) {
     }
     const data = await response.json();
     console.log(data);
-    return { quotes: data };
+    return { quote: data.quote };
 }

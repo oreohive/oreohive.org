@@ -1,6 +1,21 @@
-<h1>Summary</h1>
-<p>WORK IN PROGRESS - check out our GitHub to clone our repo and contribute!</p>
-<button on:click={history.back()}>back</button>
+<h1><i>Journey's End</i> - Summary</h1>
+
+<div class="centre-container">
+    <p>
+        WORK IN PROGRESS - check out our GitHub to clone our repo and
+        contribute!<br /><br />
+        If you've never used GitHub or don't know how to code,
+        <b>we welcome your feedback too</b>!<br />
+        Please just <b>reach out to me via our normal mediums</b> with any
+        additions or changes you want to make.<br /><br />
+        For example, if you wanna help me <b>finish off this bit</b>, just
+        <b>email me</b>
+        with your contributions; I'll take care of the technical stuff. :)<br
+        /><br />
+        <b>I thank you ever so much in advance</b> if you decide to chip in your
+        efforts to make this place more fleshed-out!
+    </p>
+</div>
 
 <div class="centre-container">
     <h2>Act I</h2>
