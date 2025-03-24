@@ -37,6 +37,19 @@
         toIsCorrect = false;
     };
 
+    // function to fetch a new quote from the api
+    const getNewQuote = async () => {
+        const response = await fetch("https://api.oreohive.org/quotes/je");
+        if (response.ok) {
+            const newData = await response.json();
+            data = newData;
+            resetSpeakerQuiz();
+            resetToQuiz();
+        } else {
+            console.error("oops! failed to fetch new quote.");
+        }
+    };
+
     onMount(() => {
         resetSpeakerQuiz();
         resetToQuiz();
@@ -143,6 +156,7 @@
             issue if this keeps happening for a few minutes.
         </p>
     {/if}
+    <button on:click={getNewQuote}>New Quote</button>
 </div>
 
 <style>
@@ -158,6 +172,10 @@
         border-color: #5a5467;
         border-style: dashed;
         border-width: 2px;
+        color: #5a5467 !important;
+    }
+
+    p, h1, h2, h3 {
         color: #5a5467 !important;
     }
     .centre-container {
@@ -189,6 +207,7 @@
         border-style: dashed;
     }
     button {
+        margin-top: 0.5em;
         margin-left: 0.5em;
         padding: 0.5em 1em;
     }
