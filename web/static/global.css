@@ -101,7 +101,8 @@ img {
 	padding: 12px;
 	z-index: 1;
 	max-width: 622px !important;
-	margin-bottom: 42px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 /* inverted styles for dark mode */
