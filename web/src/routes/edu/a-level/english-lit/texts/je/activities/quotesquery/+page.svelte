@@ -151,7 +151,6 @@
         align-content: center;
         align-self: center;
         text-align: center;
-        width: 40em;
         min-height: 256px;
         max-height: 512px;
         background-color: #fff;
@@ -162,7 +161,7 @@
         color: #5a5467 !important;
     }
     .centre-container {
-        width: 50em;
+        width: 90vw;
         height: fit-content;
     }
     .quiz {
