@@ -25,7 +25,7 @@
 </div>
 
 <div class="centre-container">
-  <div class="panels">
+  <div class="panel-box">
     <PanelBox>
       <Panel
         colour="#ffebbc"
