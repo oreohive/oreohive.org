@@ -28,12 +28,13 @@ export const handle: Handle = async ({ event, resolve }) => {
         // server (this hooks.server.ts) checks for accepted_terms cookie
         const terms_accepted = event.cookies.get("accepted_terms");
 
-        // allow access to onboarding page, api routes, and static assets
+        // allow access to onboarding page, api routes, static assets and edu resources
         if (
                 event.url.pathname.startsWith("/onboarding") ||
                 event.url.pathname.startsWith("/api") ||
                 event.url.pathname.startsWith("/global.css") ||
                 event.url.pathname.startsWith("/app.css")
+                event.url.pathname.startsWith("/edu") // allow access to edu resources
         ) {
                 return resolve(event);
         }
