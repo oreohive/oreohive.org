@@ -39,6 +39,21 @@
   export const currentUrl = page.url.pathname;
 
   {onMount(() => {
+    if (browser) {
+      // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
+      const accepted = localStorage.getItem("accepted_terms");
+ 
+      // check if current path starts with '/onboarding'
+      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
+      const isOnEdu = page.url.pathname.startsWith("/edu");
+
+      // redirect if localStorage is missing and we're not on onboarding
+      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+        let currentUrl = page.url.pathname
+        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
+      }
+    }
+
     checkOtherMusicPlaying();
     document.addEventListener("play", checkOtherMusicPlaying, true);
     document.addEventListener("pause", checkOtherMusicPlaying, true);
@@ -66,6 +81,21 @@
     document.addEventListener("ended", checkOtherMusicPlaying, true);
   })}
   {afterNavigate(() => {
+    if (browser) {
+      // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
+      const accepted = localStorage.getItem("accepted_terms");
+ 
+      // check if current path starts with '/onboarding'
+      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
+      const isOnEdu = page.url.pathname.startsWith("/edu");
+
+      // redirect if localStorage is missing and we're not on onboarding
+      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+        let currentUrl = page.url.pathname
+        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
+      }
+    }
+
     checkOtherMusicPlaying();
     document.addEventListener("play", checkOtherMusicPlaying, true);
     document.addEventListener("pause", checkOtherMusicPlaying, true);
