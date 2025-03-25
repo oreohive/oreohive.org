@@ -58,6 +58,7 @@
 </script>
 
 <div class="centre-container">
+    <p><u>Quotes quizzing for <i><b>Journey's End</b></i> by R.C. Sherriff</u></p>
     {#if data.quote}
         {console.log(data.quote)}
         <div class="quote">

@@ -70,6 +70,45 @@ html {
       var(--color-bg-2) 50%
     );
 }
+.centre-container {
+  /* sits within container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #5a5467;
+  border-radius: 32px;
+  font-family: Poppins, sans-serif;
+  max-width: 100vw;
+  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
+
+  background-image:
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.75) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-bg-0) 0%,
+      var(--color-bg-1) 15%,
+      var(--color-bg-2) 50%
+    );
+}
+.dark .centre-container {
+  background-color: #121212;
+}
 h1,
 h2,
 h3,
@@ -126,22 +165,7 @@ img {
   object-fit: cover;
   background-size: cover;
 }
-.panel-box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  background: #ffffff;
-  border-radius: 20px !important;
-  box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
-  padding: 12px;
-  z-index: 1;
-  max-width: 622px !important;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
+
 
 /* inverted styles for dark mode */
 .dark body {
@@ -172,10 +196,7 @@ img {
 .dark h6 {
   color: #ffffff;
 }
-.dark .panel-box {
-  background-color: #1a1a1a;
-  box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
-}
+
 
 /* poppins classes */
 .poppins-thin {
