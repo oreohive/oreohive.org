@@ -68,7 +68,7 @@ a {
 	text-decoration: underline dashed #ffffff;
 }
 ul, ol, li {
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	border-radius: 12px;
 	border-width: 1px;

@@ -12,7 +12,7 @@ export let data;
 <ul>
   <div style="display: flex; flex-wrap: wrap;">
   {#each [...data.posts] as post} <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
-    <li style="height: 324x; width: 300px; margin: 20px; border-style: dashed; background-color:rgb(245, 239, 241, 0.05);">
+    <li>
       <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/activity-log/${post.uid}`}/>
       <div>
         <a href={`/activity-log/${post.uid}`}><h3>{post.data.title}</h3></a>
@@ -29,3 +29,14 @@ export let data;
 {:else}
   <p>oops! no posts found. sorry!</p>
 {/if}
+
+<style>
+  li {
+    height: 300px;
+    width: 275px;
+    margin-left: 20px;
+    margin-top: 12px;
+    border-style: dashed;
+    background-color:rgb(245, 239, 241, 0.05);
+  }
+</style>
