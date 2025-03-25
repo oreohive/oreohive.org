@@ -16,6 +16,15 @@
         speakerIsCorrect =
             speakerAnswer.trim().toLowerCase() ===
             data.quote.speaker.trim().toLowerCase();
+        speakerIsCorrect ? playWinSound() : playLossSound();
+    };
+
+    const checkToAnswer = () => {
+        toSubmitted = true;
+        toIsCorrect =
+            toAnswer.trim().toLowerCase() ===
+            data.quote.to.trim().toLowerCase();
+        toIsCorrect ? playWinSound() : playLossSound();
     };
 
     const resetSpeakerQuiz = () => {
@@ -24,18 +33,24 @@
         speakerIsCorrect = false;
     };
 
-    const checkToAnswer = () => {
-        toSubmitted = true;
-        toIsCorrect =
-            toAnswer.trim().toLowerCase() ===
-            data.quote.to.trim().toLowerCase();
-    };
-
     const resetToQuiz = () => {
         toAnswer = "";
         toSubmitted = false;
         toIsCorrect = false;
     };
+
+    const totalWinSounds = 10;
+    const totalLossSounds = 4;
+    const playWinSound = () => {
+        const randomIndex = Math.floor(Math.random() * totalWinSounds);
+        const audio = new Audio(`/sfx/win/win${randomIndex}.mp3`);
+        audio.play();
+    }
+    const playLossSound = () => {
+        const randomIndex = Math.floor(Math.random() * totalLossSounds);
+        const audio = new Audio(`/sfx/loss/loss${randomIndex}.mp3`);
+        audio.play();
+    }
 
     // function to fetch a new quote from the api
     const getNewQuote = async () => {
