@@ -54,7 +54,6 @@
         resetSpeakerQuiz();
         resetToQuiz();
     });
-    
 </script>
 
 <div class="centre-container">
@@ -73,6 +72,7 @@
                     bind:value={speakerAnswer}
                     placeholder="e.g. 'Osborne'..."
                     disabled={speakerSubmitted}
+                    on:keydown={(e) => e.key === "Enter" && checkSpeakerAnswer()}
                 />
                 <p style="font-size: 0.75em;">
                     <i
@@ -113,6 +113,7 @@
                     bind:value={toAnswer}
                     placeholder="e.g. 'Raleigh'..."
                     disabled={toSubmitted}
+                    on:keydown={(e) => e.key === "Enter" && checkToAnswer()}
                 />
                 <p style="font-size: 0.75em;">
                     <i
