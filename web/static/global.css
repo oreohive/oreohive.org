@@ -1,226 +1,270 @@
 /* web/static/global.css */
 
+:root {
+  /* snatched from sveltekit vercel boilerplate tysm */
+  max-width: 100vw;
+  --font-body: Poppins, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --color-bg-0: hsl(60, 100.00%, 99.80%);
+  --color-bg-1: hsl(55, 100.00%, 97.60%);
+  --color-bg-2: hsl(300, 100.00%, 99.20%);
+  --color-theme-1: #fff7ac;
+  --color-theme-2: #bcd3ff;
+  --color-text: rgba(0, 0, 0, 0.7);
+  --column-width: 42rem;
+  --column-margin-top: 4rem;
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
 html {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-items: center;
-	background-color: #fffdf5
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: #fffdf5;
 }
 .container {
-	/* for centring and positioning centre-container */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-family: Poppins, sans-serif;
-	width: 100vw;
-	min-height: fit-content;
+  /* for centring and positioning centre-container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  width: 100vw;
+  min-height: fit-content;
 }
 .centre-container {
-	/* sits within container */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  /* sits within container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-	margin-top: 32px;
-	margin-bottom: 32px;
-	margin-left: 32px;
-	margin-right: 32px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 12px;
-	padding-right: 12px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 
-	border-width: 3px;
-	border-style: dashed;
-	border-color: #5a5467;
-	border-radius: 32px;
-	font-family: Poppins, sans-serif;
-	max-width: 100vw;
-	max-width: 744px; /* should be just enough to squeeze in two activity log cards */
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #5a5467;
+  border-radius: 32px;
+  font-family: Poppins, sans-serif;
+  max-width: 100vw;
+  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
+
+  background-image:
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.75) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-bg-0) 0%,
+      var(--color-bg-1) 15%,
+      var(--color-bg-2) 50%
+    );
 }
-h1, h2, h3, h4, h5, h6 {
-	max-width: 480px;
-	margin-top: 12px;
-	margin-bottom: 0px;
-	margin-left: 12px;
-	margin-right: 12px;
-	padding: 0px;
-	gap: 0px;
-	word-break: bottom;
-	font-family: Poppins, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  max-width: 480px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 0px;
+  gap: 0px;
+  word-break: bottom;
+  font-family: Poppins, sans-serif;
 }
 h1 {
-	position: relative;
-	font-size: 1.75em;}
+  position: relative;
+  font-size: 1.75em;
+}
 p {
-	border-radius: 12px;
-	border-width: 1px;
-	border-style: none;
-	font-family: Poppins, sans-serif;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	padding: 10px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: none;
+  font-family: Poppins, sans-serif;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 10px;
 }
 a {
-	color: #df5f8c;
-	text-decoration: underline dashed #ffffff;
+  color: #df5f8c;
+  text-decoration: underline dashed #ffffff;
 }
-ul, ol, li {
-	flex-direction: row;
-	flex-wrap: wrap;
-	border-radius: 12px;
-	border-width: 1px;
-	border-style: none;
-	font-family: Poppins, sans-serif;
-	margin-top: -6px;
-	margin-bottom: -8px;
-	margin-left: 18px;
-	margin-right: 18px;
-	padding: 10px;
-	max-width: 100vw;
+ul,
+ol,
+li {
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: none;
+  font-family: Poppins, sans-serif;
+  margin-top: -6px;
+  margin-bottom: -8px;
+  margin-left: 18px;
+  margin-right: 18px;
+  padding: 10px;
+  max-width: 100vw;
 }
 img {
-	float: left;
-	max-width: 256px;
-	max-height: 256px;
-	object-fit: cover;
-	background-size: cover;
+  float: left;
+  max-width: 256px;
+  max-height: 256px;
+  object-fit: cover;
+  background-size: cover;
 }
 .panel-box {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 16px;
-	background: #ffffff;
-	border-radius: 20px !important;
-	box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
-	padding: 12px;
-	z-index: 1;
-	max-width: 622px !important;
-	margin-top: 16px;
-	margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #ffffff;
+  border-radius: 20px !important;
+  box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
+  padding: 12px;
+  z-index: 1;
+  max-width: 622px !important;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /* inverted styles for dark mode */
 .dark body {
-	/* container but for dark theme */
-	background: #1a1a1a !important;
-	color: #ffffff;
+  /* container but for dark theme */
+  background: #1a1a1a !important;
+  color: #ffffff;
 }
 .dark .container {
-	/* container but for dark theme */
-	background-color: #121212;
-	color: #f5f5f5;
+  /* container but for dark theme */
+  background-color: #121212;
+  color: #f5f5f5;
 }
 .dark .navbar {
-	background-color: #362729;
+  background-color: #362729;
 }
 .dark .text-box {
-	/* text-box but for dark theme */
-	background-color: #2a2a2a !important;
-	color: #f5f5f5;
-	box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
+  /* text-box but for dark theme */
+  background-color: #2a2a2a !important;
+  color: #f5f5f5;
+  box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
 }
-.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-	color: #ffffff;
+.dark p,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #ffffff;
 }
 .dark .panel-box {
-	background-color: #1a1a1a;
-	box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
+  background-color: #1a1a1a;
+  box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
 }
 
 /* poppins classes */
 .poppins-thin {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 100;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .poppins-extralight {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 200;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 .poppins-light {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .poppins-regular {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .poppins-medium {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .poppins-semibold {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .poppins-bold {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .poppins-extrabold {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .poppins-black {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 900;
-	font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .poppins-thin-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 100;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
 }
 .poppins-extralight-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 200;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
 }
 .poppins-light-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 .poppins-regular-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .poppins-medium-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 .poppins-semibold-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
 }
 .poppins-bold-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 .poppins-extrabold-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 800;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 .poppins-black-italic {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 900;
-	font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
