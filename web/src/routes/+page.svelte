@@ -2,7 +2,6 @@
 
 <script lang="ts">
   import Panel from "../components/Panel.svelte";
-  import PanelBox from "../components/PanelBox.svelte";
   import HTitle from "../components/HTitle.svelte";
   import HPoint from "../components/HPoint.svelte";
   import KofiButton from "$components/KofiButton.svelte";
