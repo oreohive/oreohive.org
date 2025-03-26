@@ -10,6 +10,7 @@
   import FullPageTitle from "$components/FullPageTitle.svelte";
   import KofiButton from "$components/KofiButton.svelte";
   import ConnectionsDisplay from "$components/ConnectionsDisplay.svelte";
+  import SettingsWidget from "$components/SettingsWidget.svelte";
   import { on } from "events";
 
   let isOtherMusicPlaying = false;
@@ -113,4 +114,5 @@
 </div>
 
 <slot />
+<SettingsWidget />
 <Footer />
