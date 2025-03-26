@@ -156,12 +156,6 @@ li {
   padding: 10px;
   max-width: 100vw;
 }
-img {
-  float: left;
-  max-width: 100%;
-  max-height: auto;
-}
-
 
 /* inverted styles for dark mode */
 .dark body {
