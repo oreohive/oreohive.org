@@ -16,6 +16,15 @@
         speakerIsCorrect =
             speakerAnswer.trim().toLowerCase() ===
             data.quote.speaker.trim().toLowerCase();
+        speakerIsCorrect ? playWinSound() : playLossSound();
+    };
+
+    const checkToAnswer = () => {
+        toSubmitted = true;
+        toIsCorrect =
+            toAnswer.trim().toLowerCase() ===
+            data.quote.to.trim().toLowerCase();
+        toIsCorrect ? playWinSound() : playLossSound();
     };
 
     const resetSpeakerQuiz = () => {
@@ -24,18 +33,24 @@
         speakerIsCorrect = false;
     };
 
-    const checkToAnswer = () => {
-        toSubmitted = true;
-        toIsCorrect =
-            toAnswer.trim().toLowerCase() ===
-            data.quote.to.trim().toLowerCase();
-    };
-
     const resetToQuiz = () => {
         toAnswer = "";
         toSubmitted = false;
         toIsCorrect = false;
     };
+
+    const totalWinSounds = 10;
+    const totalLossSounds = 4;
+    const playWinSound = () => {
+        const randomIndex = Math.floor(Math.random() * totalWinSounds);
+        const audio = new Audio(`/sfx/win/win${randomIndex}.mp3`);
+        audio.play();
+    }
+    const playLossSound = () => {
+        const randomIndex = Math.floor(Math.random() * totalLossSounds);
+        const audio = new Audio(`/sfx/loss/loss${randomIndex}.mp3`);
+        audio.play();
+    }
 
     // function to fetch a new quote from the api
     const getNewQuote = async () => {
@@ -54,7 +69,6 @@
         resetSpeakerQuiz();
         resetToQuiz();
     });
-    
 </script>
 
 <div class="centre-container">
@@ -73,6 +87,7 @@
                     bind:value={speakerAnswer}
                     placeholder="e.g. 'Osborne'..."
                     disabled={speakerSubmitted}
+                    on:keydown={(e) => e.key === "Enter" && checkSpeakerAnswer()}
                 />
                 <p style="font-size: 0.75em;">
                     <i
@@ -113,6 +128,7 @@
                     bind:value={toAnswer}
                     placeholder="e.g. 'Raleigh'..."
                     disabled={toSubmitted}
+                    on:keydown={(e) => e.key === "Enter" && checkToAnswer()}
                 />
                 <p style="font-size: 0.75em;">
                     <i
