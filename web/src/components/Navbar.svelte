@@ -18,8 +18,6 @@ currently little actual navigation going on but maybe soon enough we might throw
         <a href="https://www.oreohive.org">
             <div class="logo-background">
             <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
-            <!-- if this img is 48px tall, the navbar should take up 64px vertically at the top of the screen -->
-            <!-- this is increased by the 12px of margin it has to 76px -->
             <!-- we factor this into the likes of fullpagetitle component configuration and use -->
             </div>
         </a>
