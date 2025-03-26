@@ -17,7 +17,7 @@ currently little actual navigation going on but maybe soon enough we might throw
     <div class="left links">
         <a href="https://www.oreohive.org">
             <div class="logo-background">
-            <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
+            <img src={img_url} alt="logo" style="width: 48px; height: auto; border-radius: 50%;" />
             <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
             </div>
         </a>
