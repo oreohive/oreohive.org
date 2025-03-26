@@ -18,7 +18,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         <a href="https://www.oreohive.org">
             <div class="logo-background">
             <img src={img_url} alt="logo" style="width: 48px; height: 48px; border-radius: 50%;" />
-            <!-- we factor this into the likes of fullpagetitle component configuration and use -->
+            <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
             </div>
         </a>
         <button on:click={history.back()}>&lt;- back</button>
