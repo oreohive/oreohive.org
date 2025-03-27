@@ -39,7 +39,7 @@ currently little actual navigation going on but maybe soon enough we might throw
             <a href="https://tumblr.com/oreohive">tumblr</a>
     </div>
     <div class="right links">
-    <ThemeToggle />margin-left: 16px;
+    <ThemeToggle />
     </div>
 
     <slot />
