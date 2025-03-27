@@ -2,6 +2,7 @@
 
 <script>
     import { onMount } from 'svelte';
+    import { settings } from "$lib/globalState.svelte";
 
     export let data;
     let speakerAnswer = "";
@@ -42,11 +43,13 @@
     const totalWinSounds = 10;
     const totalLossSounds = 4;
     const playWinSound = () => {
+        if (!settings.sfxEnabled) return;
         const randomIndex = Math.floor(Math.random() * totalWinSounds);
         const audio = new Audio(`/sfx/win/win${randomIndex}.mp3`);
         audio.play();
     }
     const playLossSound = () => {
+        if (!settings.sfxEnabled) return;
         const randomIndex = Math.floor(Math.random() * totalLossSounds);
         const audio = new Audio(`/sfx/loss/loss${randomIndex}.mp3`);
         audio.play();
