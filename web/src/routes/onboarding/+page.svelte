@@ -43,7 +43,22 @@
 </div>
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; min-height: 45vh;">
-    <div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
+    <div>
+        
+        <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
+            <div class="accept-button" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+            <button type="submit" name="accept">
+                <b>i accept the oreohive organisation's terms & ethics of use</b>, thus the use of cookies :)
+            </button>
+            <p style="color: #ff0059;">next stop: {redirectTo}. choo choo!</p>
+            <p style="max-width: fit-content; font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+<div class="docs-note" style="display: flex; flex-direction: column; align-items: center;">
         <a href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html" target="_blank">terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a>
         <a href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html" target="_blank">terms of purchasing & exchange (oreohive document 183e) r1.0.1 (html)</a>
         <p style="font-size: 0.675em; max-width: 40vw;">
@@ -58,20 +73,6 @@
         
         </p>
     </div>
-    <div>
-        
-        <form method="post" action="?/accept" use:enhance on:submit={accept_locally}>
-            <div class="accept-button" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
-            <button type="submit" name="accept">
-                i accept the oreohive organisation's terms & ethics of use, thus the use of cookies :)
-            </button>
-            <p style="color: #ff0059;">next stop: {redirectTo}. choo choo!</p>
-            </div>
-            <p style="font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">nb! you may need to review and accept updates in the future.</p>
-        </form>
-        
-    </div>
-</div>
 
 <style>
     .accept-button {
@@ -102,16 +103,20 @@
         color: #000000;
         background-color: #fff7ac;
         transform: scale(1.05);
-        box-shadow: 8px 8px 32px 16px rgba(0, 0, 0, 0.05);
+        box-shadow: 8px 8px 64px 16px rgba(0, 0, 0, 0.2);
     }
     button {
         color: #5a5467;
         background-color: #ffebbc;
+        border-style: dashed !important;
+        border-width: 2.5px !important;
+        border-color: #5a5467 !important;
         border-radius: 12px;
         border-style: none;
         padding: 12px;
         font-size: 1.5em;
         transition: transform 0.04s ease, box-shadow 0.1s ease;
+        box-shadow: 0px 0px 32px 16px rgba(255, 218, 30, 0.2);
     }
     .docs-note p {
         color: #5a5467 !important; /* make text colour readable on background */
