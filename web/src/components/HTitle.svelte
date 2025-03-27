@@ -64,6 +64,7 @@
         align-items: center;
         justify-content: center;
         background-color: #e8e8e8;
+        background-image: linear-gradient(270deg, #e8e8e8 0%, #fff 100%);
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
         gap: 0px;
     }
@@ -94,5 +95,6 @@
     }
     :global(.dark .title-pane) {
         background-color: #1c1c1b;
+        background-image: linear-gradient(270deg, #1c1c1b 0%, #2d2020);
     }
 </style>

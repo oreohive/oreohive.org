@@ -5,9 +5,9 @@
   max-width: 100vw;
   --font-body: Poppins, sans-serif;
   --font-mono: "Courier New", Courier, monospace;
-  --color-bg-0: hsl(60, 100.00%, 99.80%);
-  --color-bg-1: hsl(55, 100.00%, 97.60%);
-  --color-bg-2: hsl(300, 100.00%, 99.20%);
+  --color-bg-0: hsl(60, 100%, 99.8%);
+  --color-bg-1: hsl(55, 100%, 97.6%);
+  --color-bg-2: hsl(300, 100%, 99.2%);
   --color-theme-1: #fff7ac;
   --color-theme-2: #bcd3ff;
   --color-text: rgba(0, 0, 0, 0.7);
@@ -23,6 +23,8 @@ html {
   align-items: center;
   justify-items: center;
   background-color: #fffdf5;
+  background-image: linear-gradient(45deg, #fffdf5 0%,#fff6f9 100%);
+
 }
 .container {
   /* for centring and positioning centre-container */
@@ -56,19 +58,6 @@ html {
   font-family: Poppins, sans-serif;
   max-width: 100vw;
   max-width: 744px; /* should be just enough to squeeze in two activity log cards */
-
-  background-image:
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(255, 255, 255, 0.75) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      180deg,
-      var(--color-bg-0) 0%,
-      var(--color-bg-1) 15%,
-      var(--color-bg-2) 50%
-    );
 }
 .centre-container {
   /* sits within container */
@@ -92,19 +81,6 @@ html {
   font-family: Poppins, sans-serif;
   max-width: 100vw;
   max-width: 744px; /* should be just enough to squeeze in two activity log cards */
-
-  background-image:
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(255, 255, 255, 0.75) 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      180deg,
-      var(--color-bg-0) 0%,
-      var(--color-bg-1) 15%,
-      var(--color-bg-2) 50%
-    );
 }
 .dark .centre-container {
   background-color: #121212;
@@ -159,11 +135,10 @@ li {
 }
 img {
   max-width: 75%; /* max width of images by this default is 75% of what container allows */
-                  /* please remember to override this if and where necessary! */
+  /* please remember to override this if and where necessary! */
   height: auto;
   border-radius: 6px;
 }
-
 
 /* inverted styles for dark mode */
 .dark body {
@@ -194,7 +169,6 @@ img {
 .dark h6 {
   color: #ffffff;
 }
-
 
 /* poppins classes */
 .poppins-thin {

@@ -65,6 +65,7 @@ the made-message contains a message that says who made the website etc., links t
         gap: 16px;
 
         background-color: #5a5a5a;
+        background-image: linear-gradient(315deg, #5a5a5a 0%, #5a5467 100%);
         color: #ece4ff;
         border-radius: 6px 6px 0px 0px;
     }

@@ -18,7 +18,7 @@ they have colours and have neat animations on hover etc. -->
 
 <div class="panel-container">
   <!-- clickable me -->
-  <a {href} class="panel" style="width: {panel_width}; background: {colour}; align-content: center;">
+  <a {href} class="panel" style="box-shadow: 0px 0px 72px -12px {colour}; width: {panel_width}; background: {colour}; align-content: center;">
     {#if img_url != ""}
     <img src={img_url} alt={desc} width={img_width} height="auto" />
     {/if}
@@ -57,6 +57,8 @@ they have colours and have neat animations on hover etc. -->
     transition:
       transform 0.05s ease,
       box-shadow 0.05s ease;
+  /* in order: x offset, y offset, blur size, spread size, color */
+  /* blur size and spread size are optional (they default to 0) */
   }
   :global(.panel-desc) {
     --panel-height: 120px;

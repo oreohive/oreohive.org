@@ -54,7 +54,7 @@
         overflow: hidden;
     }
     .hpoint-blur .dark { /* todo: fix lmao */
-        background: rgba(255, 255, 255, 0.1) !important;
+        background: hsla(0, 0.00%, 100.00%, 0.10) !important;
     }
     .homepoint-display {
         position:  relative;

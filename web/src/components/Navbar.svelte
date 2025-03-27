@@ -58,6 +58,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         z-index: 1;
 
         background-color: #5a5467;
+        background-image: linear-gradient(315deg, #5a5a5a 0%, #5a5467 50%);
         color: #5a5467;
         border-radius: 0px 0px 12px 12px;
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
