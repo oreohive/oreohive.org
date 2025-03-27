@@ -5,6 +5,11 @@ export let data;
 
 <h2>logs</h2>
 
+<svelte:head>
+  <title>activity log | oreohive.org</title>
+  <meta name="description" content="the oreohive activity log - a powerful place for peculiar pieces."/>
+</svelte:head>
+
 {#if data.posts && data.posts.length > 0}
 <ul>
   <div style="display: flex; flex-wrap: wrap;">

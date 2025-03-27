@@ -23,6 +23,10 @@
     }
 </script>
 
+<svelte:head>
+  <title>onboarding | oreohive.org</title>
+  <meta name="description" content="oreohive.org/onboarding - you don't sign your soul away by using our stuff, don't worry."/>
+</svelte:head>
 
 <div class="top-section" style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 12px; gap: 12px;">
     <p style="min-height: 24px; border-style: dashed;">oreohive.org/onboarding</p>

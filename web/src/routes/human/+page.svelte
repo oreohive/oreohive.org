@@ -5,6 +5,11 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>human | oreohive.org</title>
+  <meta name="description" content="oreohive human - a place for political commentary (a.k.a. deep stuff) and other toss you may or may not care about."/>
+</svelte:head>
+
 <TitleDisplay title="human" />
 
 {#if data.documents && data.documents.length > 0}

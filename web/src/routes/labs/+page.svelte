@@ -6,6 +6,11 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>labs | oreohive.org</title>
+  <meta name="description" content="oreohive labs | perhaps not quite as scientific as it might sound."/>
+</svelte:head>
+
 <TitleDisplay title="labs articles" />
 
 {#if data.posts && data.posts.length > 0}

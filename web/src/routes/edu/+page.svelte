@@ -3,6 +3,11 @@
     import Panel from "$components/Panel.svelte";
 </script>
 
+<svelte:head>
+  <title>edu | oreohive.org</title>
+  <meta name="description" content="oreohive edu - where we keep our free educational things. may contain nuts."/>
+</svelte:head>
+
 <div class="container"> <!-- necessary for taking 100vw rn? -->
     <h1>edu</h1>
     <h3>welcome to edu</h3>
