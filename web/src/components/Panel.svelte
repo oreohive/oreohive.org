@@ -18,7 +18,7 @@ they have colours and have neat animations on hover etc. -->
 
 <div class="panel-container">
   <!-- clickable me -->
-  <a {href} class="panel" style="box-shadow: 0px 0px 72px -12px {colour}; width: {panel_width}; background: {colour}; align-content: center;">
+  <a {href} class="panel" style="box-shadow: 0px 0px 72px -24px {colour}; width: {panel_width}; background: {colour}; align-content: center;">
     {#if img_url != ""}
     <img src={img_url} alt={desc} width={img_width} height="auto" />
     {/if}
