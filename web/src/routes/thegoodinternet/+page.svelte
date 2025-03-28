@@ -37,6 +37,14 @@
         </p>
     </div>
 
+    <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
+        <Panel href="https://insertcontroller.com" desc="insertcontroller.com" colour="#ff508d" />
+        <div>
+        <h1>Insert Controller</h1>
+        <p>My friend and a few bros set sail in the wonderful world of games back in 2011. Join Insert Controller in its reimagination.</p>
+        </div>
+    </div>
+
     <div class="centre-container" style="align-items: center; flex-direction: row; gap: 12px; margin-bottom: 32px;">
         <Panel href="https://luvstarkei.com" desc="luvstarkei.com" colour="#ffbcd4" />
         <div>
@@ -54,7 +62,7 @@
     </div>
 
     <div class="centre-container">
-        <h3><i>if your site is here, feel free to reach out to us about it!</i></h3>
+        <h3><i>if your site is here, feel free to reach out to me about it!</i></h3>
         <p style="font-size: 0.6em;">
             <i>
                 by the way, we will usually comply with requests for websites to be removed from
@@ -62,6 +70,7 @@
             </i>
         </p>
     </div>
+    
 
     <p><i>
         i am not affiliated with any of these websites in any way, shape or form, unless i otherwise explicitly and officially note.
