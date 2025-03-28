@@ -27,9 +27,10 @@
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
       const isOnEdu = page.url.pathname.startsWith("/edu");
+      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
 
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnTheGoodInternet) {
         let currentUrl = page.url.pathname
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
