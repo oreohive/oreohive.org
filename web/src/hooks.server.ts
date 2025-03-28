@@ -34,7 +34,8 @@ export const handle: Handle = async ({ event, resolve }) => {
                 event.url.pathname.startsWith("/api") ||
                 event.url.pathname.startsWith("/global.css") ||
                 event.url.pathname.startsWith("/app.css") ||
-                event.url.pathname.startsWith("/edu") // allow access to edu resources
+                event.url.pathname.startsWith("/edu") || // allow access to edu resources
+                event.url.pathname.startsWith("/thegoodinternet") // allow access to edu resources
         ) {
                 return resolve(event);
         }
