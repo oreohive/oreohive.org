@@ -38,10 +38,10 @@
     </div>
 
     <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
-        <Panel href="https://insertcontroller.com" desc="insertcontroller.com" colour="#ff508d" />
+        <Panel href="https://cobalt.tools" desc="cobalt.tools" colour="#000" />
         <div>
-        <h1>Insert Controller</h1>
-        <p>My friend and a few bros set sail in the wonderful world of games back in 2011. Join Insert Controller in its reimagination.</p>
+        <h1>cobalt - the ad-free youtube downloader that's super lean</h1>
+        <p>cobalt is an in-browser youtube downloader that's super easy to use and won't annoy you.</p>
         </div>
     </div>
 
@@ -54,10 +54,19 @@
     </div>
 
     <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
-        <Panel href="https://cobalt.tools" desc="cobalt.tools" colour="#000" />
+        <Panel href="https://insertcontroller.com" desc="insertcontroller.com" colour="#ff508d" />
         <div>
-        <h1>cobalt - the ad-free youtube downloader that's super lean</h1>
-        <p>cobalt is an in-browser youtube downloader that's super easy to use and won't annoy you.</p>
+        <h1>Insert Controller</h1>
+        <p>My friend and a few bros set sail in the wonderful world of games back in 2011. Join Insert Controller in its reimagination.</p>
+        </div>
+    </div>
+
+    <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
+        <Panel href="https://flathub.org/apps/com.github.huluti.Coulr" desc="Coulr on Flathub" colour="#44f27c" img_url="icons/coulr/com.github.huluti.Coulr.svg"/>
+        <div>
+        <h1>Coulr (Flatpak on Flathub)</h1>
+        <p>Enjoy colours and feel happy.</p>
+        <p>Coulr is a simple colour picker to help developers and designers.</p>
         </div>
     </div>
 
