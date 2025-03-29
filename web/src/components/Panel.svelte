@@ -64,12 +64,21 @@ they have colours and have neat animations on hover etc. -->
     --panel-height: 120px;
     position: relative;
     border-style: none;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-family: Poppins, sans-serif;
     color: #1f2937;
     text-transform: lowercase;
     text-wrap: wrap;
+    overflow: hidden;
+    max-width: calc(var(--panel-height) * 1.5);
+
     margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    gap: 0px;
   }
 
   p {
