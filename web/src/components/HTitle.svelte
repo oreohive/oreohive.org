@@ -3,36 +3,33 @@
 <script>
     export let title;
     export let desc;
-    export let direction = "left"
+    export let direction = "left";
 </script>
 
 <div class="hometitle-display">
     {#if direction == "left"}
         <div class="title-pane">
             <div class="title-pane-text">
-            <h1>{title}</h1>
-            <p>{desc}</p>
+                <h1>{title}</h1>
+                <p>{desc}</p>
             </div>
         </div>
         <div class="background-image">
-        <div class="htitle-blur">
-    </div>  
-    </div>
+            <div class="htitle-blur"></div>
+        </div>
     {:else}
         <div class="background-image">
-        <div class="htitle-blur">
-        </div>
+            <div class="htitle-blur"></div>
         </div>
         <div class="title-pane">
             <div class="title-pane-text">
                 <h1>{title}</h1>
                 <p>{desc}</p>
-            
-    </div>  
-    </div>
+            </div>
+        </div>
     {/if}
-
 </div>
+
 <style>
     h1 {
         font-family: Poppins, sans-serif;
@@ -41,18 +38,25 @@
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
     .htitle-blur {
-        background: rgba(255, 255, 255, 0); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(
+            255,
+            255,
+            255,
+            0
+        ); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
-	    width: 100%;
+        width: 100%;
         max-width: 100vw;
         overflow: hidden;
     }
     .hometitle-display {
-        position:  relative;
+        position: relative;
         display: flex;
         flex-direction: row;
-        height: calc(100vh - 65px); /* since navbar is like 65px tall, we need to account for that */
+        height: calc(
+            100vh - 65px
+        ); /* since navbar is like 65px tall, we need to account for that */
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! */
         background-position: center;
         overflow: hidden;
@@ -76,23 +80,40 @@
         max-width: 380px;
     }
     .background-image {
-        position:  relative;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-        height: calc(100vh - 65px); /* since navbar is like 65px tall, we need to account for that */
+
+        height: calc(
+            100vh - 65px
+        ); /* since navbar is like 65px tall, we need to account for that */
         width: 50vw;
         margin: 0px;
 
-        background-image: url("/backgrounds/codioful.jpg");
-        background-size: cover;
+        background: repeating-linear-gradient(147deg, #fff7ac, #ffbcd4, #b0ffbe, #5757e4);
+        background-size: 300% 300%;
+        animation: gradient-animation 30s ease infinite;
+
         background-position: center;
         background-repeat: no-repeat;
 
         overflow: hidden;
     }
+
+    @keyframes gradient-animation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
     :global(.dark .title-pane) {
         background-color: #1c1c1b;
         background-image: linear-gradient(270deg, #1c1c1b 0%, #2d2020);
