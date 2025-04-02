@@ -123,7 +123,7 @@
 
 <style>
     .centre-container {
-        flex-direction: row;
+        flex-direction: column;
         gap: 12px;
         margin-bottom: 32px;
         min-width: 75vw;
