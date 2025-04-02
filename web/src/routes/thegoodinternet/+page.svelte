@@ -48,19 +48,10 @@ Please ask us first. Thank you. -->
             </p>
         </div>
     </div>
+</div>
+<div class="container">
+    <h1>The Strong</h1>
     <div class="entry-container">
-        <div class="entry">
-            <div class="details">
-                <h1>cobalt.tools</h1>
-                <p><i>cobalt - the ad-free youtube downloader that's super lean<i></i></p>
-                <p>
-                    cobalt is an in-browser youtube downloader that's super easy to use and won't
-                    annoy you.
-                </p>
-            </div>
-            <Panel href="https://cobalt.tools" desc="cobalt.tools" colour="#000" />
-        </div>
-
         <div class="entry">
             <div class="details">
                 <h1>LuvstarKei's website</h1>
@@ -73,7 +64,6 @@ Please ask us first. Thank you. -->
             </div>
             <Panel href="https://luvstarkei.com" desc="luvstarkei.com" colour="#ffbcd4" />
         </div>
-
         <div class="entry">
             <div class="details">
                 <h1>Insert Controller</h1>
@@ -88,7 +78,48 @@ Please ask us first. Thank you. -->
                 colour="#ff508d"
             />
         </div>
+    </div>
 
+    <h1>The Stars</h1>
+    <div class="entry-container">
+        <div class="entry">
+            <div class="details">
+                <h1>cobalt.tools</h1>
+                <p>
+                    <i>
+                        cobalt - the ad-free youtube downloader that's super lean
+                        <i></i>
+                    </i>
+                </p>
+                <p>
+                    cobalt is an in-browser youtube downloader that's super easy to use and won't
+                    annoy you.
+                </p>
+            </div>
+            <Panel href="https://cobalt.tools" desc="cobalt.tools" colour="#000" />
+        </div>
+        <div class="entry">
+            <div class="details">
+                <h1>khinsider</h1>
+                <p>
+                    Kingdom Hearts Insider has basically become the best repository for video game
+                    OST rips and samples in the world.
+                </p>
+                <p>
+                    they do some impeccable work, and i encourage you to support the project if this
+                    is reasonable, comfortable and viable for you.
+                </p>
+            </div>
+            <Panel
+                href="https://downloads.khinsider.com"
+                desc="downloads.khinsider.com"
+                colour="#ffebbc"
+            />
+        </div>
+    </div>
+
+    <h1>The Scattered</h1>
+    <div class="entry-container">
         <div class="entry">
             <div class="details">
                 <h1>Coulr (Flatpak on Flathub)</h1>
@@ -104,28 +135,51 @@ Please ask us first. Thank you. -->
         </div>
     </div>
 
-    <div class="entry">
-        <div class="details">
-            <h1>Your site</h1>
-            <p>
-                Want your site to be here?
-                <br />
-                Hit me up on my socials; if it fits, I'd be more than happy to add it here!
+    <h1>Your Turn</h1>
+    <div class="entry-container">
+        <div class="entry">
+            <div class="details">
+                <h1>Your site</h1>
+                <p>
+                    Want your site to be here?
+                    <br />
+                    Hit me up on my socials; if it fits, I'd be more than happy to add it here!
+                </p>
+            </div>
+            <Panel href="/" desc="back home" colour="#fff7ac" />
+        </div>
+        <div class="entry">
+            <h3>
+                <i>if your site is here, feel free to reach out to me about it!</i>
+            </h3>
+            <p style="font-size: 0.6em;">
+                <i>
+                    by the way, we will usually comply with requests for websites to be removed from
+                    this area, even if we're not obligated to do so.
+                </i>
             </p>
         </div>
-        <Panel href="/" desc="back home" colour="#fff7ac" />
-    </div>
-
-    <div class="entry">
-        <h3>
-            <i>if your site is here, feel free to reach out to me about it!</i>
-        </h3>
-        <p style="font-size: 0.6em;">
-            <i>
-                by the way, we will usually comply with requests for websites to be removed from
-                this area, even if we're not obligated to do so.
-            </i>
-        </p>
+        <div class="entry" style="width: 45vw; max-width: 45vw; min-width: 45vw;">
+            <div class="centre-container">
+                <h1>Here you stand.</h1>
+                <p>Now, it's your turn.</p>
+                <p>
+                    If you want to join the movement to decentralise the web, promote freedom and
+                    individuality, and support the diversity of the internet at large, join us in
+                    our mission.
+                    <br />
+                    <br />
+                    Grab a domain (they're like a fiver a year from Cloudflare), and get writing your
+                    posts!
+                    <br />
+                    <br />
+                    Get drawing your art. Get publishing your guides. Get speaking your words.
+                    <br />
+                    <br />
+                    Also, it looks great on your CV to have your own website. Just saying.
+                </p>
+            </div>
+        </div>
     </div>
 
     <p>
@@ -141,8 +195,14 @@ Please ask us first. Thank you. -->
         flex-direction: column;
         gap: 12px;
         margin-bottom: 32px;
-        min-width: 75vw;
+        max-width: 45vw;
+        align-items: flex-start;
+        line-height: 36px;
     }
+    .centre-container p {
+        line-height: 28px;
+    }
+
     .entry {
         align-items: flex-end;
         justify-content: center;
@@ -174,7 +234,13 @@ Please ask us first. Thank you. -->
         padding: 0px;
         gap: 16px;
     }
-    p, h1, h2, h3, h4, h5, h6 {
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         text-transform: lowercase;
     }
 </style>
