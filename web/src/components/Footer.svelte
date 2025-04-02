@@ -44,6 +44,12 @@ the made-message contains a message that says who made the website etc., links t
     <p>please refer to our terms & ethics of use for more information. we appreciate your cooperation and understanding.</p>
     
     <p style="font-size: 1.25em;">all our code is licensed (by default) under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text" target=”_blank”>GNU AGPL-3.0</a>. all our other works, by default, are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target=”_blank”>CC BY-NC-SA 4.0</a>!</p>
+    <p>
+        we are (the oreohive organisation and oreohive.org are) in NO WAY affiliated with, endorsed by or in any official agreement with <a href="https://www.oreo.com">OREO</a>, <a href="https://en.wikipedia.org/wiki/Oreo">the American brand of sandwich cookie</a>, or its parent company, Mondelēz International group.
+        <br>OREO is a registered trademark of 
+        <a href="https://www.mondelezinternationalfoodservice.com/web-trademark-guidelines">Mondelēz International group.</a>
+        we use the name 'oreohive' as not only an acronym, but also a play on the alias of the creator of this website, and did not conceive of this name in relation to, regard for or in light of Mondelēz International group or any of its products, services or brand identities.
+    </p>
     </div>
     <div class="made-message">
     <p style="width: 235.5px !important; min-width: 235.5px !important; border-style: dashed;">made with &lt;3 by <a href="https://github.com/dopreo" target=”_blank”>a kid in the UK</a></p>
