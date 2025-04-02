@@ -15,6 +15,7 @@
     <ul>
         <li><a href="/activity-log">activity log</a> - our own little diary
         <li><a href="/sliceydicey">sliceydicey</a> - our purified toolbox</li>
+        <li><a href="/thegoodinternet">good internet</a> - know your allies</li>
         <li><a href="/labs">labs</a> - here brews tutorials</li>
         <li><a href="/edu">edu</a> - some personal revision stuff, but we figured we'd share it with the world anyway</li>
     </ul>
