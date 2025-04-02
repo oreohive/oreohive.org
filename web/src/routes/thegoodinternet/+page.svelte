@@ -115,7 +115,7 @@
 
     <p>
         <i>
-            i am not affiliated with any of these websites in any way, shape or
+            i am not affiliated with any of these websites, applications or projects in any way, shape or
             form, unless i otherwise explicitly and officially note.
         </i>
     </p>
