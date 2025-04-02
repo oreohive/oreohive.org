@@ -158,6 +158,8 @@ Please ask us first. Thank you. -->
         margin-bottom: 8px;
         margin-left: 0px;
         margin-right: 0px;
+        padding: 16px;
+        gap: 16px;
     }
     .details {
         max-width: 256px;
@@ -171,5 +173,8 @@ Please ask us first. Thank you. -->
         margin: 0px;
         padding: 0px;
         gap: 16px;
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+        text-transform: lowercase;
     }
 </style>
