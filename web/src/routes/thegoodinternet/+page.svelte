@@ -159,7 +159,7 @@ Please ask us first. Thank you. -->
                 </i>
             </p>
         </div>
-        <div class="entry" style="width: 45vw; max-width: 45vw; min-width: 45vw;">
+        <div class="entry" style="min-width: 50vw; max-width: 70w;">
             <div class="centre-container">
                 <h1>Here you stand.</h1>
                 <p>Now, it's your turn.</p>
@@ -194,8 +194,8 @@ Please ask us first. Thank you. -->
     .centre-container {
         flex-direction: column;
         gap: 12px;
-        margin-bottom: 32px;
-        max-width: 45vw;
+        margin: 0px;
+        max-width: 100%;
         align-items: flex-start;
         line-height: 36px;
     }
