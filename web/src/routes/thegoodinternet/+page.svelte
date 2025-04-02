@@ -51,7 +51,8 @@ Please ask us first. Thank you. -->
     <div class="entry-container">
         <div class="entry">
             <div class="details">
-                <h1>cobalt - the ad-free youtube downloader that's super lean</h1>
+                <h1>cobalt.tools</h1>
+                <p><i>cobalt - the ad-free youtube downloader that's super lean<i></i></p>
                 <p>
                     cobalt is an in-browser youtube downloader that's super easy to use and won't
                     annoy you.
@@ -143,7 +144,7 @@ Please ask us first. Thank you. -->
         min-width: 75vw;
     }
     .entry {
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
