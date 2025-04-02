@@ -71,7 +71,7 @@
         position: relative;
         display: flex;
         flex-direction: row;
-        height: calc(
+        min-height: calc(
             100vh - 65px
         ); /* since navbar is like 65px tall, we need to account for that */
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! */

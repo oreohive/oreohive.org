@@ -9,3 +9,9 @@
         </PanelBox>
     </div>
 </div>
+
+<style>
+    .centre-container {
+        min-width: 256px;
+    }
+</style>
