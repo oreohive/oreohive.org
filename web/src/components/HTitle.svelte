@@ -11,7 +11,8 @@
         <div class="title-pane">
             <div class="title-pane-text">
                 <h1>{title}</h1>
-                <p>{desc}</p>
+                <p class="desc">{desc}</p>
+                <slot />
             </div>
         </div>
         <div class="background-image">
@@ -24,7 +25,8 @@
         <div class="title-pane">
             <div class="title-pane-text">
                 <h1>{title}</h1>
-                <p>{desc}</p>
+                <p class="desc">{desc}</p>
+                <slot />
             </div>
         </div>
     {/if}
@@ -33,6 +35,21 @@
 <style>
     h1 {
         font-family: Poppins, sans-serif;
+        margin: 12px;
+        gap: 0px;
+        padding: 0px;
+    }
+    .desc {
+        margin-left: 12px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        gap: 0px;
+        font-weight: 200;
+        color: #7f7f7f;
+        font-style: italic;
+        font-family:'Courier New', Courier, monospace;
     }
 
     /* background blur using backdrop-filter */

@@ -9,7 +9,16 @@
 </script>
 
 <HTitle direction="left" title="welcome to the good internet."
-            desc="welcome to the beehive, which is not only a personal log, but our place where we publish tutorials, guides, and resources, all for free, for you. with no intrusive ads, no mandatory accounts, no mailing lists being pushed and no ai bs, we're ready to put the passionate humans of the internet first and foremost."/>
+            desc="welcome to the beehive.">
+    <p>this is more than just another personal blog.<br>
+    is it a personal blog? yes. but this is also a place to share with the world what's possible when we put humans first, and user experiences before bottom lines.</p>
+    <ul>
+        <li><a href="/activity-log">activity log</a> - our own little diary
+        <li><a href="/sliceydicey">sliceydicey</a> - our purified toolbox</li>
+        <li><a href="/labs">labs</a> - here brews tutorials</li>
+        <li><a href="/edu">edu</a> - some personal revision stuff, but we figured we'd share it with the world anyway</li>
+    </ul>
+</HTitle>"
 
 <div class="container">
     <PanelSegment> <h1>here</h1>
@@ -165,3 +174,10 @@
         <Panel colour="#2b3137" desc="we're open source <3" img_url="/icons/github/github-mark-white.png" href="https://github.com/oreohive/oreohive.org"/>
     </PanelSegment>
 </div>
+
+<style>
+    ul li {
+        font-size: 0.9em;
+        line-height: 24px;
+    }
+</style>
