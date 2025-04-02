@@ -12,7 +12,6 @@
 </svelte:head>
 
 <div class="container">
-
     <p>oreohive.org/thegoodinternet</p>
     <h2>welcome to the good internet</h2>
 
@@ -21,59 +20,112 @@
             <b>welcome to oreohive.org/thegoodinternet</b>!
         </p>
         <p>
-            this is a place where we honour our <b>favourite places of the web</b>.
+            this is a place where we honour our <b
+                >favourite places of the web</b
+            >.
         </p>
         <p>
-            be they small, independently-run projects, indie websites where artists share the work
-            they pour their love and hearts into, or things in-between, we love sharing them here!
+            be they small, independently-run projects, indie websites where
+            artists share the work they pour their love and hearts into, or
+            things in-between, we love sharing them here!
         </p>
         <p>
-            the sites here should have minimal / no ads, a streamlined user experience free of bloat
-            or intrusive nonsense, and clean, less commercialised vibes.
+            the sites here should have minimal / no ads, a streamlined user
+            experience free of bloat or intrusive nonsense, and clean, less
+            commercialised vibes.
         </p>
         <p>
-            while i hope you enjoy this little section here, we hope to drive traffic and support to
-            these websites, because we think what they're doing is really cool!!! &lt;3
+            while i hope you enjoy this little section here, we hope to drive
+            traffic and support to these websites, because we think what they're
+            doing is really cool!!! &lt;3
         </p>
     </div>
 
-    <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
-        <Panel href="https://insertcontroller.com" desc="insertcontroller.com" colour="#ff508d" />
-        <div>
-        <h1>Insert Controller</h1>
-        <p>My friend and a few bros set sail in the wonderful world of games back in 2011. Join Insert Controller in its reimagination.</p>
-        </div>
-    </div>
-
-    <div class="centre-container" style="align-items: center; flex-direction: row; gap: 12px; margin-bottom: 32px;">
-        <Panel href="https://luvstarkei.com" desc="luvstarkei.com" colour="#ffbcd4" />
-        <div>
-        <h1>LuvstarKei's website</h1>
-        <p>Here, they showcase their art and share blog posts!<br>They seem to have made this in direct response to the turn of social media, and we appreciate that they've embarked on a journey not too dissimilar from our own!</p>
-        </div>
-    </div>
-
-    <div class="centre-container" style="flex-direction: row; gap: 12px; margin-bottom: 32px;">
+    <div class="centre-container">
         <Panel href="https://cobalt.tools" desc="cobalt.tools" colour="#000" />
         <div>
-        <h1>cobalt - the ad-free youtube downloader that's super lean</h1>
-        <p>cobalt is an in-browser youtube downloader that's super easy to use and won't annoy you.</p>
+            <h1>cobalt - the ad-free youtube downloader that's super lean</h1>
+            <p>
+                cobalt is an in-browser youtube downloader that's super easy to
+                use and won't annoy you.
+            </p>
         </div>
     </div>
 
     <div class="centre-container">
-        <h3><i>if your site is here, feel free to reach out to me about it!</i></h3>
+        <Panel
+            href="https://luvstarkei.com"
+            desc="luvstarkei.com"
+            colour="#ffbcd4"
+        />
+        <div>
+            <h1>LuvstarKei's website</h1>
+            <p>
+                Here, they showcase their art and share blog posts!<br />They
+                seem to have made this in direct response to the turn of social
+                media, and we appreciate that they've embarked on a journey not
+                too dissimilar from our own!
+            </p>
+        </div>
+    </div>
+
+    <div class="centre-container">
+        <Panel
+            href="https://insertcontroller.com"
+            desc="insertcontroller.com"
+            colour="#ff508d"
+        />
+        <div>
+            <h1>Insert Controller</h1>
+            <p>
+                My friend and a few bros set sail in the wonderful world of
+                games back in 2011. Join Insert Controller in its reimagination.
+            </p>
+        </div>
+    </div>
+
+    <div class="centre-container">
+        <Panel
+            href="https://flathub.org/apps/com.github.huluti.Coulr"
+            desc="Coulr on Flathub"
+            colour="#44f27c"
+            img_url="icons/coulr/com.github.huluti.Coulr.svg"
+        />
+        <div>
+            <h1>Coulr (Flatpak on Flathub)</h1>
+            <p>Enjoy colours and feel happy.</p>
+            <p>
+                Coulr is a simple colour picker to help developers and
+                designers.
+            </p>
+        </div>
+    </div>
+
+    <div class="centre-container">
+        <h3>
+            <i>if your site is here, feel free to reach out to me about it!</i>
+        </h3>
         <p style="font-size: 0.6em;">
             <i>
-                by the way, we will usually comply with requests for websites to be removed from
-                this area, even if we're not obligated to do so.
+                by the way, we will usually comply with requests for websites to
+                be removed from this area, even if we're not obligated to do so.
             </i>
         </p>
     </div>
-    
 
-    <p><i>
-        i am not affiliated with any of these websites in any way, shape or form, unless i otherwise explicitly and officially note.
-    </i></p>
-
+    <p>
+        <i>
+            i am not affiliated with any of these websites in any way, shape or
+            form, unless i otherwise explicitly and officially note.
+        </i>
+    </p>
 </div>
+
+<style>
+    .centre-container {
+        flex-direction: row;
+        gap: 12px;
+        margin-bottom: 32px;
+        min-width: 75vw;
+    }
+</style>
