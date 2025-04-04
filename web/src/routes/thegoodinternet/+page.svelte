@@ -78,6 +78,45 @@ Please ask us first. Thank you. -->
                 colour="#ff508d"
             />
         </div>
+        <div class="entry">
+            <div class="details">
+                <h1>rice.place</h1>
+                <p>
+                    'A hot bowl of rice', a warm cup of tea, and a place to call home...?
+                </p>
+            </div>
+            <Panel
+                href="https://rice.place"
+                desc="rice.place"
+                colour="#cff4f7"
+            />
+        </div>
+        <div class="entry">
+            <div class="details">
+                <h1>july.lol</h1>
+                <p>
+                    An incredibly well-written website. Also, points for accessibility; the (cool asf btw) CRT effect can be disabled!
+                </p>
+            </div>
+            <Panel
+                href="https://july.lol"
+                desc="july.lol"
+                colour="#73f3bb"
+            />
+        </div>
+        <div class="entry">
+            <div class="details">
+                <h1>POLLYGON by Apollo</h1>
+                <p>
+                    This is legitimately one of the coolest, most original websites I've seen in my entire life. I don't think I even wanna spoil it. Seriously, check it out. Please.
+                </p>
+            </div>
+            <Panel
+                href="https://pollygon.dev"
+                desc="pollygon.dev"
+                colour="#ffafd7"
+            /> <!-- their --brand-pink!!! -->
+        </div>
     </div>
 
     <h1>The Stars</h1>
