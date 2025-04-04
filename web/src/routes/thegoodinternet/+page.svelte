@@ -117,6 +117,20 @@ Please ask us first. Thank you. -->
                 colour="#ffafd7"
             /> <!-- their --brand-pink!!! -->
         </div>
+        <div class="entry">
+            <div class="details">
+                <h1>seals.in.net</h1>
+                <p>
+                    Apparently, their current status is 'i cant figure out linux for the life of me'; I'm here if you need any help...? :'))
+                    Either way, your website is really, really cool... it's all Wii-themed and it's got old mid-2000s vibes. I love it!
+                </p>
+            </div>
+            <Panel
+                href="https://seals.in.net"
+                desc="seals.in.net"
+                colour="#768a99"
+            /> <!-- not their --brand-pink -->
+        </div>
     </div>
 
     <h1>The Stars</h1>
