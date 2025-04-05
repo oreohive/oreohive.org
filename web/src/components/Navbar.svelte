@@ -25,7 +25,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         <button on:click={navigateToHome}>go home!</button>
     </div>
     <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: white; border-radius: 12px; padding: 10px;">
-            <a href="/activity-log">activity log</a>
+            <a href="/activity-log">blog</a>
             <a href="/sliceydicey">tools</a>
             <a href="/about">about</a>
     </div>
