@@ -15,6 +15,8 @@
         is it a personal blog? yes. but this is also a place to share with the world what's possible
         when we put humans first, and user experiences before bottom lines.
     </p>
+
+    <div style="display: flex; flex-direction: row;">
     <ul>
         <li>
             <a href="/activity-log">activity log</a>
@@ -33,6 +35,7 @@
              - here brews tutorials
         </li>
     </ul>
+    </div>
 </HTitle>
 
 <div class="container">
