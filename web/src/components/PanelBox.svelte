@@ -25,8 +25,8 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         padding: 12px;
         z-index: 1;
         max-width: 622px !important;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     :global(.dark .panel-box) {
         background-color: #1a1a1a !important;
