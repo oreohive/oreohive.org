@@ -67,6 +67,7 @@ currently little actual navigation going on but maybe soon enough we might throw
     .logo-background {
         display: flex;
         align-items: center;
+        justify-content: center;
         border-radius: 12%;
         background-color: #fff;
         margin: 0px;
