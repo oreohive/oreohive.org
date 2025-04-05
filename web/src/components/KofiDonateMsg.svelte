@@ -32,7 +32,7 @@
     --card-height: 72px;
     width: 40vw;
     height: 72px;
-    margin-top: 16px;
+    margin-top: 48px;
     margin-bottom: 48px;
     margin-left: 0px;
     margin-right: 0px;
