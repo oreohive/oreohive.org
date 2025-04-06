@@ -116,4 +116,6 @@
 
 <slot />
 <SettingsWidget />
-<Footer />
+<Footer>
+  <slot name="footer" />
+</Footer>

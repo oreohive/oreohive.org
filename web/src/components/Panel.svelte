@@ -81,7 +81,8 @@ they have colours and have neat animations on hover etc. -->
     gap: 0px;
   }
 
-  p {
+  p, a {
     border-style: none;
+    color: inherit;
   }
 </style>
