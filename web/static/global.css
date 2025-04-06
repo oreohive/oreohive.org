@@ -50,6 +50,7 @@ html {
   padding-bottom: 12px;
   padding-left: 12px;
   padding-right: 12px;
+  gap: 18px;
 
   border-width: 3px;
   border-style: dashed;
