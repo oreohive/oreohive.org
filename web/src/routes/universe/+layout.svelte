@@ -3,3 +3,9 @@
         <slot />
     </div>
 </div>
+
+<style>
+    :global(html) {
+        background-color: #ffbcd4;
+    }
+</style>

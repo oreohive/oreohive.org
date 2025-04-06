@@ -5,24 +5,26 @@
     import PanelBox from "$components/PanelBox.svelte";
     import TitleDisplay from "$components/TitleDisplay.svelte";
     export let data;
+
+    let chapters = data.documents;
 </script>
 
-<TitleDisplay title="human" />
+<TitleDisplay title="universe stories - lease of life" />
 
-{#if data.chapters && data.chapters.length > 0}
+{#if chapters && chapters.length > 0}
     <ul>
-        {#each [...data.chapters] as chapter}
-            <li
-                style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;"
-            >
-                <div>
+        {#each [...chapters] as chapter}
+            <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 256px;">
                     <h1>Chapter {chapter.data.chapter_number}</h1>
                     <h3>'{chapter.data.chapter_name}'</h3>
                 </div>
                 <Panel
-                    colour="#fcfcff"
+                    colour={chapter.data.chapter_colour}
                     href={`/universe/stories/lease-of-life/${chapter.uid}`}
                 />
+            </div>
             </li>
         {/each}
     </ul>

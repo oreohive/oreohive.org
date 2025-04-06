@@ -9,7 +9,7 @@
 
 {#if data.documents && data.documents.length > 0}
   <ul>
-    {#each [...data.documents] as post}
+    {#each [...data.documents.reverse()] as post}
       <li
         style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;"
       >
