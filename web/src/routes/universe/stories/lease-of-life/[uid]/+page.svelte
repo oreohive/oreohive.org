@@ -46,7 +46,7 @@
         background-color: #fcfcff;
         border-radius: 12px;
         box-shadow: 8px 8px 24px 12px rgba(0, 0, 0, 0.05);
-        max-width: 50vw;
+        max-width: 100%;
     }
 
     p {
