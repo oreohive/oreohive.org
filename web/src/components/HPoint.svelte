@@ -108,7 +108,7 @@
         max-height: 80vh;
         margin: 0px;
 
-        background-image: url("/backgrounds/codioful.jpg");
+        background-image: url("/backgrounds/codioful.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

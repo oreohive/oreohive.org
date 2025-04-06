@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<HPoint direction="left" title="designed for you" img_url="backgrounds/homelab.png">
+<HPoint direction="left" title="designed for you" img_url="backgrounds/homelab.webp">
     <p>
         we design the beehive in dedication to its primary purpose; to provide information and
         encourage learning.
@@ -78,7 +78,7 @@
     </p>
 </HPoint>
 
-<HPoint direction="right" title="designed for speed" img_url="pictures/speed.png">
+<HPoint direction="right" title="designed for speed" img_url="pictures/speed.webp">
     <p>
         we build the beehive to be fast, efficient, and open to running on a variety of different
         hardware and platforms. us queen bees are incredibly new to full-stack development, and web
@@ -101,7 +101,7 @@
     <p>we want the beehive experience to be clean, minimal, streamlined and responsive.</p>
 </HPoint>
 
-<HPoint direction="left" title="designed for expression" img_url="pictures/expression.png">
+<HPoint direction="left" title="designed for expression" img_url="pictures/expression.webp">
     <p>
         we have a general love for human expression, and means through which we can healthily
         express ourselves.
@@ -129,7 +129,7 @@
     <p>tell us your story!</p>
 </HPoint>
 
-<HPoint direction="right" title="designed for growth" img_url="pictures/growth.png">
+<HPoint direction="right" title="designed for growth" img_url="pictures/growth.webp">
     <p>we build the beehive to promote and encourage your growth and development.</p>
 
     <p>
@@ -153,7 +153,7 @@
     </p>
 </HPoint>
 
-<HPoint direction="left" title="designed for all" img_url="pictures/all.png">
+<HPoint direction="left" title="designed for all" img_url="pictures/all.webp">
     <p>we design the beehive in dedication to its accessibility.</p>
 
     <p>
@@ -177,7 +177,7 @@
     </p>
 </HPoint>
 
-<HPoint direction="right" title="designed for humans" img_url="pictures/humans.png">
+<HPoint direction="right" title="designed for humans" img_url="pictures/humans.webp">
     <p>
         every element of the beehive is passionately designed to be intuitive to human minds; that’s
         not just one standard of human mind, either.
@@ -204,7 +204,7 @@
     </p>
 </HPoint>
 
-<HPoint direction="left" title="designed for community" img_url="backgrounds/design.png">
+<HPoint direction="left" title="designed for community" img_url="backgrounds/design.webp">
     <p>
         we believe in the power of a passionate community of contributors; it’s baked right into our
         name and identity.
