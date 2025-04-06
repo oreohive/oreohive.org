@@ -14,8 +14,8 @@
 {#if chapters && chapters.length > 0}
     <ul>
         {#each [...chapters] as chapter}
-            <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; gap: 32px;">
-            <div style="display: flex; flex-direction: row;">
+            <li style="display: flex; flex-direction: row; align-items: center; margin-bottom: 16px; margin-top: 0px; margin-left: 0px; margin-right: 0px; gap: 32px;">
+            <div style="display: flex; flex-direction: column;">
                 <div>
                     <h3>Chapter {chapter.data.chapter_number}</h3>
                     <h3>'{chapter.data.chapter_name}'</h3>
