@@ -21,6 +21,8 @@
   <br /><br />
   i would absolutely love some suggestions
   on what i could put here. any simple little
+  tools, scripts or games you wanna see here?
+  please lmk!
 </p>
 </div>
 
