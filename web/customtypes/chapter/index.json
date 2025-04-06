@@ -1,0 +1,88 @@
+{
+  "format": "page",
+  "id": "chapter",
+  "label": "Chapter",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "chapter_number": {
+        "type": "Number",
+        "config": {
+          "label": "Chapter",
+          "placeholder": "Please enter your chapter number here"
+        }
+      },
+      "chapter_name": {
+        "type": "Text",
+        "config": {
+          "label": "Chapter Name",
+          "placeholder": "Please enter your chapter name here"
+        }
+      },
+      "story_name": {
+        "type": "Text",
+        "config": {
+          "label": "Story",
+          "placeholder": "Please enter your story name here"
+        }
+      },
+      "chapter_content": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Content",
+          "placeholder": "Please enter your chapter content here",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "chapter_colour": {
+        "type": "Color",
+        "config": {
+          "label": "Chapter Colour",
+          "placeholder": "Please enter your chapter colour here"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  }
+}

@@ -4,6 +4,126 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
+type ChapterDocumentDataSlicesSlice = never;
+
+/**
+ * Content for Chapter documents
+ */
+interface ChapterDocumentData {
+  /**
+   * Chapter field in *Chapter*
+   *
+   * - **Field Type**: Number
+   * - **Placeholder**: Please enter your chapter number here
+   * - **API ID Path**: chapter.chapter_number
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#number
+   */
+  chapter_number: prismic.NumberField;
+
+  /**
+   * Chapter Name field in *Chapter*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Please enter your chapter name here
+   * - **API ID Path**: chapter.chapter_name
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  chapter_name: prismic.KeyTextField;
+
+  /**
+   * Story field in *Chapter*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: Please enter your story name here
+   * - **API ID Path**: chapter.story_name
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  story_name: prismic.KeyTextField;
+
+  /**
+   * Content field in *Chapter*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Please enter your chapter content here
+   * - **API ID Path**: chapter.chapter_content
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  chapter_content: prismic.RichTextField;
+
+  /**
+   * Chapter Colour field in *Chapter*
+   *
+   * - **Field Type**: Color
+   * - **Placeholder**: Please enter your chapter colour here
+   * - **API ID Path**: chapter.chapter_colour
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#color
+   */
+  chapter_colour: prismic.ColorField;
+
+  /**
+   * Slice Zone field in *Chapter*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: chapter.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<ChapterDocumentDataSlicesSlice> /**
+   * Meta Title field in *Chapter*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A title of the page used for social media and search engines
+   * - **API ID Path**: chapter.meta_title
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */;
+  meta_title: prismic.KeyTextField;
+
+  /**
+   * Meta Description field in *Chapter*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: A brief summary of the page
+   * - **API ID Path**: chapter.meta_description
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  meta_description: prismic.KeyTextField;
+
+  /**
+   * Meta Image field in *Chapter*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: chapter.meta_image
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  meta_image: prismic.ImageField<never>;
+}
+
+/**
+ * Chapter document from Prismic
+ *
+ * - **API ID**: `chapter`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type ChapterDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<ChapterDocumentData>,
+    "chapter",
+    Lang
+  >;
+
 type DoodleDocumentDataSlicesSlice = never;
 
 /**
@@ -663,6 +783,7 @@ export type UniverseArticleDocument<Lang extends string = string> =
   >;
 
 export type AllDocumentTypes =
+  | ChapterDocument
   | DoodleDocument
   | HumanArticleDocument
   | LabsArticleDocument
@@ -720,6 +841,9 @@ declare module "@prismicio/client" {
 
   namespace Content {
     export type {
+      ChapterDocument,
+      ChapterDocumentData,
+      ChapterDocumentDataSlicesSlice,
       DoodleDocument,
       DoodleDocumentData,
       DoodleDocumentDataSlicesSlice,

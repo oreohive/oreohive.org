@@ -1,4 +1,4 @@
-<!-- src/routes/activity-log/[uid]/+page.svelte -->
+<!-- src/routes/universe/universe-articles/[uid]/+page.svelte -->
 
 <script lang="ts">
   import {

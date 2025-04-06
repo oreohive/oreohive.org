@@ -5,7 +5,7 @@
   export let data;
 </script>
 
-<TitleDisplay title="human" />
+<TitleDisplay title="universe" />
 
 {#if data.documents && data.documents.length > 0}
   <ul>
