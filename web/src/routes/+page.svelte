@@ -76,6 +76,7 @@
         values into everything we design, build and write, from our explanations and breakdowns to
         entire articles on niche topics.
     </p>
+    <p style="font-size: 0.75em;">*<i>we reserve the right to exclude or disqualify certain individuals from using or engaging with our products, services and experiences on the grounds that they have violated our Terms & Ethics of Use, but we won't do so on the grounds of race, ethnicity, age, religion or disability.</i></p>
 </HPoint>
 
 <HPoint direction="right" title="designed for speed" img_url="pictures/speed.webp">
