@@ -25,9 +25,7 @@ it's the central message that pops up indicating current subdomain
 {:else if subdomain === "labs"}
     <p>labs.oreohive.org | welcome to the labs subdomain!</p>
 {:else}
-    <p style="border-style: dashed;"><a href="https://www.oreohive.org">oreohive.org</a>&nbsp;| welcome to the main site! (no subdomain)</p>
-
-
+    <p class="navbar-msg"><a href="https://www.oreohive.org">oreohive.org</a>&nbsp;| welcome to the main site! (no subdomain)</p>
 {/if}
 
 <style>
@@ -57,5 +55,13 @@ it's the central message that pops up indicating current subdomain
         font-size: inherit;
         font-weight: inherit;
         color: inherit;
+    }
+
+    .navbar-msg {
+        /* some styles of p have been discontinued in p's refinement
+        this is a place for those style choices to continue to be established
+        on messages specifically in the navbar */
+        border-style: dashed;
+        padding: 10px;
     }
 </style>

@@ -38,26 +38,24 @@
     </div>
 </HTitle>
 
-<div class="container">
-    <div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100vw; align-items: center; justify-content: center;">
-        <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
-            <h1>let's make the internet less like a dystopian sci-fi novel.</h1>
-        </div>
-        <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
-            <PanelSegment>
-            <h1>here</h1>
-            <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
-            <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" />
-            <!-- <Panel colour="#a4fdff" desc="edu" href="/placeholder"/> -->
-            <!-- <Panel colour="#b0ffbe" desc="labs" href="/placeholder"/> -->
-            <!-- <Panel colour="#bcd3ff" desc="universe" href="/placeholder"/> -->
-            <!-- <Panel colour="#ffbcd4" desc="human" href="/placeholder"/> -->
-            <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" />
-            <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" />
-            <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" />
-            <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" />
-            </PanelSegment>
-        </div>
+<div class="container" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100vw; align-items: center; justify-content: center;">
+    <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
+        <h1>let's make the internet less like a dystopian sci-fi novel.</h1>
+    </div>
+    <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
+        <PanelSegment>
+        <h1>here</h1>
+        <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
+        <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" />
+        <!-- <Panel colour="#a4fdff" desc="edu" href="/placeholder"/> -->
+        <!-- <Panel colour="#b0ffbe" desc="labs" href="/placeholder"/> -->
+        <!-- <Panel colour="#bcd3ff" desc="universe" href="/placeholder"/> -->
+        <!-- <Panel colour="#ffbcd4" desc="human" href="/placeholder"/> -->
+        <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" />
+        <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" />
+        <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" />
+        <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" />
+        </PanelSegment>
     </div>
 </div>
 

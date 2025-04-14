@@ -36,7 +36,7 @@ html {
   width: 100vw;
   min-height: fit-content;
 }
-.centre-container {
+.centre-container { /* pls fix lol; duplicate entries in this file for .centre-container? */
   /* sits within container */
   display: flex;
   flex-direction: column;
@@ -44,6 +44,10 @@ html {
 
   margin-top: 32px;
   margin-bottom: 32px;
+  /* margin-top and margin-bottom must remain the same
+  for this element class can sometimes appear by itself with
+  no title above or below, so any difference would be
+  visible and ultimately unappealing */
   margin-left: 32px;
   margin-right: 32px;
   padding-top: 12px;
@@ -93,8 +97,8 @@ h4,
 h5,
 h6 {
   max-width: 480px;
-  margin-top: 12px;
-  margin-bottom: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   margin-left: 12px;
   margin-right: 12px;
   padding: 0px;
@@ -112,7 +116,10 @@ p {
   font-family: Poppins, sans-serif;
   margin-top: 4px;
   margin-bottom: 4px;
-  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 a {
   color: #df5f8c;
