@@ -37,7 +37,6 @@
     }
   });
 
-  export const trailingSlash = "never";
   export const currentUrl = page.url.pathname;
 
   {onMount(() => {
