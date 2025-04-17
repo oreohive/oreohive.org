@@ -295,5 +295,5 @@
     to get an extremely simplified overview of how these agents work. How can
     Gemini fetch me an answer, anyway...?!?
   </p>
-  <a href="ai/what-is-ai">learn ->></a>
+  <a href="what-is-ai">learn ->></a>
 </div>
