@@ -165,5 +165,5 @@
     currently being used in our society and our world, and discover just a
     sliver of my own personal views and anecdotes.
   </p>
-  <a href="ai/benefits-and-drawbacks">learn ->></a>
+  <a href="benefits-and-drawbacks">learn ->></a>
 </div>
