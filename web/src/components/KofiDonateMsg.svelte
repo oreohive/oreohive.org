@@ -1,14 +1,25 @@
 <!-- src/components/KofiDonateMsg.svelte -->
 
-<button on:click={window.open("https://ko-fi.com/oreohive", "_blank") || window.location.replace("https://ko-fi.com/oreohive")} class="card" style="cursor: pointer;">
-  <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi 'coffee' logo - abstract white mug with heart icon inside"/>
-  <p>i didn't wanna put an ad here, but we've got bills to pay, so i put this here instead.</p>
+<button
+  on:click={window.open("https://ko-fi.com/oreohive", "_blank") ||
+    window.location.replace("https://ko-fi.com/oreohive")}
+  class="card"
+  style="cursor: pointer;"
+>
+  <img
+    src="https://storage.ko-fi.com/cdn/cup-border.png"
+    alt="Ko-fi 'coffee' logo - abstract white mug with heart icon inside"
+  />
+  <p>
+    i didn't wanna put an ad here, but we've got bills to pay, so i put this
+    here instead.
+  </p>
 </button>
 
 <style>
   p {
     font-size: 0.75em;
-    color: #5a5467
+    color: #5a5467 !important; /* ensures this isn't overriden by dark mode since the background remains white */
     text-decoration: none;
     text-emphasis: none;
     text-decoration-line: none;
@@ -47,7 +58,6 @@
     border-color: #2b313b;
     border-width: 2px;
     border-radius: 64px;
-    
   }
   img {
     width: 26px;

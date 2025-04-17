@@ -29,7 +29,6 @@
 		justify-content: center;
 		gap: 16px;
 		background: #ffffff;
-		border-radius: 12px !important;
 		box-shadow: 8px 12px 24px 16px rgba(0, 0, 0, 0.075) !important;
 		padding: 16px;
 		z-index: 1;
