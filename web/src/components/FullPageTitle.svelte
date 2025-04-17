@@ -20,6 +20,12 @@ we can work on it :))) -->
 
 <style>
     .fullpagetitle-display {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/backgrounds/codioful.webp");
+
+        overflow: hidden;
         position:  relative;
         display: flex;
         flex-direction: column;
@@ -27,11 +33,6 @@ we can work on it :))) -->
         justify-content: center;
         min-height: calc(100vh - 76px) !important; /* since navbar is 76px tall, we need to account for that */
         margin: 0px;
-        background-image: url("/backgrounds/codioful.webp");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: hidden;
     }
   
     /* background blur using backdrop-filter */
