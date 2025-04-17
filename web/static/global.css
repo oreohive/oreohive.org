@@ -61,8 +61,11 @@ html {
   border-color: #5a5467;
   border-radius: 32px;
   font-family: Poppins, sans-serif;
-  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
   max-width: 100vw;
+  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
+  
+  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 .centre-container {
   /* sits within container */
@@ -84,8 +87,11 @@ html {
   border-color: #5a5467;
   border-radius: 32px;
   font-family: Poppins, sans-serif;
-  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
   max-width: 100vw;
+  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
+  
+  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 .dark .centre-container {
   background-color: #40444b;
