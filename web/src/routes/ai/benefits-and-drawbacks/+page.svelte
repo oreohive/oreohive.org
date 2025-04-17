@@ -222,6 +222,7 @@
     evil, but are instead being used for the wrong things, whether that's in a
     chase for capitalism or just straight-up malice and hate.
   </p>
+  <h3>So, here's where I stand.</h3>
   <p>
     AI and these kinds of machine learning / pattern recognition technologies do
     have the power to make real, positive differences in our world for a public
