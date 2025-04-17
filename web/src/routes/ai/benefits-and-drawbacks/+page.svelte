@@ -1,3 +1,5 @@
+<!-- src/routes/ai/benefits-and-drawbacks/+page.svelte -->
+
 <script>
   import HPoint from "$components/HPoint.svelte";
 </script>

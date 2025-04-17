@@ -1,4 +1,7 @@
+<!-- src/routes/ai/what-is-ai/+page.svelte -->
+
 <script>
+  import { page } from "$app/state";
   import HPoint from "$components/HPoint.svelte";
 </script>
 

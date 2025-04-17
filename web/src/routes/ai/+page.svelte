@@ -1,4 +1,7 @@
+<!-- src/routes/ai/+page.svelte -->
+
 <script>
+  import { page } from "$app/state";
   import FullPageTitle from "$components/FullPageTitle.svelte";
   import HPoint from "$components/HPoint.svelte";
   import HTitle from "$components/HTitle.svelte";
