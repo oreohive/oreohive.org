@@ -260,14 +260,17 @@
     and what is not.
   </p>
   <p>
-    <i>Platforms have pockets full of individuals engaging with AI images, under
-    the misguidance or influence that these are pieces of real art, or,
-    alarmingly, real photographic images. Not too long ago on Facebook, I saw a
-    picture of numerous cleanly-cut skeletons beneath the sea in a plane
-    following a real-world plane crash. The claim was that this had been found
-    in the real world; I may be savvy enough to have identified this as an
-    AI-generated image rather than a real picture of our real world, but it
-    appeared the same was not true for many, many people. Like, a lot of people.</i>
+    <i
+      >Platforms have pockets full of individuals engaging with AI images, under
+      the misguidance or influence that these are pieces of real art, or,
+      alarmingly, real photographic images. Not too long ago on Facebook, I saw
+      a picture of numerous cleanly-cut skeletons beneath the sea in a plane
+      following a real-world plane crash. The claim was that this had been found
+      in the real world; I may be savvy enough to have identified this as an
+      AI-generated image rather than a real picture of our real world, but it
+      appeared the same was not true for many, many people. Like, a lot of
+      people.</i
+    >
   </p>
   <p>
     The now widespread accessibility and lack of regulation on these kinds of
@@ -282,4 +285,15 @@
     reasonings, but it was admittedly very difficult to do this without becoming
     opinionated, and I've blog posts to write for that.</i
   >
+</div>
+
+<div class="centre-container">
+  <h1>want to learn more about the foundations of ai?</h1>
+  <p>
+    If you've somehow made it this far without knowing the very basic
+    fundamentals of what makes up an AI, you can go here to this neighbour page
+    to get an extremely simplified overview of how these agents work. How can
+    Gemini fetch me an answer, anyway...?!?
+  </p>
+  <a href="ai/benefits-and-drawbacks">learn ->></a>
 </div>
