@@ -12,8 +12,10 @@ we can work on it :))) -->
 </script>
 
 <div class="fullpagetitle-display">
-    <div class="blur"></div>
-    <h1>{title}</h1>
+    <div class="blur">
+        <div class="title-pill"><h1>{title}</h1></div>
+        <slot />
+    </div>
 </div>
 
 <style>
@@ -35,11 +37,36 @@ we can work on it :))) -->
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
     .blur {
-        background: rgba(255, 255, 255, 0.5); /* make sure this colour has an opacity of less than 1! */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(90, 84, 103, 0.75); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
 	    width: 100%;
-        max-width: 100vw;
+        width: 100vw;
         overflow: hidden;
+    }
+    .title-pill {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 6px;
+        border-color: #fff;
+        min-width: 25vw;
+        max-width: 50vw;
+        border-radius: 256px;
+        padding: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        
+    }
+    h1 {
+        font-style: normal;
+        font-weight: 500;
+        color: #fcfcff;
     }
 </style>

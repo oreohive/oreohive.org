@@ -71,7 +71,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         width: 50vw;
-        min-height: 60vh;
+        min-height: fit-content;
         max-height: 180vh;
         align-items: center;
         flex-wrap: wrap;
