@@ -70,7 +70,6 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 25vw;
         min-height: fit-content;
         max-height: 180vh;
         align-items: center;
@@ -99,6 +98,7 @@
         border-radius: 12px;
         overflow-y: scroll;
         overflow-x: hidden;
+        z-index: 2;
     }
     .background-image {
         position:  relative;
@@ -116,6 +116,7 @@
         background-repeat: no-repeat;
 
         overflow: hidden;
+        z-index: -1;
     }
     :global(.dark .pane) {
         background-color: #5a5467;
