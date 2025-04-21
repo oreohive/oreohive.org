@@ -70,14 +70,17 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 50vw;
+        width: 25vw;
         min-height: fit-content;
         max-height: 180vh;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
         background-color: #fcfcff;
-        margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
+        margin-right: 0px !important;
         padding: 0px !important;
         overflow-y: scroll;
         overflow-x: hidden;

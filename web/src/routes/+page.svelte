@@ -59,6 +59,8 @@
     </div>
 </div>
 
+<div class="container">
+
 <HPoint direction="left" title="designed for you" img_url="backgrounds/homelab.webp">
     <p>
         we design the beehive in dedication to its primary purpose; to provide information and
@@ -249,6 +251,8 @@
             href="https://github.com/oreohive/oreohive.org"
         />
     </PanelSegment>
+</div>
+
 </div>
 
 <style>
