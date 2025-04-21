@@ -48,7 +48,7 @@
         justify-content: center;
         background: rgba(255, 255, 255, 0.9); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
-        min-height: 80vh;
+        min-height: 100%;
 	    width: 100%;
         max-width: 100vw;
         overflow: hidden;
@@ -105,7 +105,6 @@
         justify-content: center;
 
         width: 50vw;
-        max-height: 80vh;
         margin: 0px;
 
         background-image: url("/backgrounds/codioful.webp");
