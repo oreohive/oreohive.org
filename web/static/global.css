@@ -151,7 +151,7 @@ img {
   max-width: 75%; /* max width of images by this default is 75% of what container allows */
   /* please remember to override this if and where necessary! */
   height: auto;
-  border-radius: 6px;
+  border-radius: 32px;
 }
 
 /* inverted styles for dark mode */
