@@ -19,7 +19,20 @@
   </p>
 </div>
 
-<HPoint direction="left" title="what is ai?">
+<HPoint direction="left" title="what is ai?" img_url="/photos/google-deepmind-Oy2yXvl1WLg-unsplash.jpg">
+  <p>
+    <i>
+      photo by <a
+        href="https://unsplash.com/@googledeepmind?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Google DeepMind</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/a-crystal-vase-with-pink-flowers-in-it-Oy2yXvl1WLg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >unsplash!</a
+      >
+    </i>
+  </p>
   <p>
     AI ('artificial intelligence') is a term we use to describe <b
       >computer systems that can perform tasks</b
@@ -43,7 +56,24 @@
   </p>
 </HPoint>
 
-<HPoint direction="right" title="what is 'machine learning'?">
+<HPoint
+  direction="right"
+  title="what is 'machine learning'?"
+  img_url="/photos/elimende-inagella-4ApmfdVo32Q-unsplash.jpg"
+>
+  <p>
+    <i>
+      photo by <a
+        href="https://unsplash.com/@elimendeinagella?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Elimende Inagella</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/white-sheep-on-white-surface-4ApmfdVo32Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >unsplash!</a
+      >
+    </i>
+  </p>
   <p>A large language model is a type of machine learning model.</p>
   <p>
     Machine learning is a field of study <i>within</i> AI that focuses on
@@ -74,7 +104,24 @@
   </p>
 </HPoint>
 
-<HPoint direction="left" title="how do llms respond?">
+<HPoint
+  direction="left"
+  title="how do llms respond?"
+  img_url="/photos/emiliano-vittoriosi-vEN1bsdSjxM-unsplash.jpg"
+>
+  <p>
+    <i
+      >photo by <a
+        href="https://unsplash.com/@emilianovittoriosi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >Emiliano Vittoriosi</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-words-on-it-vEN1bsdSjxM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >unsplash!</a
+      >
+    </i>
+  </p>
   <p>
     This leaves a <b>fairly obvious question</b> about these 'chatbots', then; how
     exactly do these LLMs 'find' it within themselves to respond?
@@ -119,7 +166,24 @@
   </p>
 </HPoint>
 
-<HPoint direction="right" title="llms are similar to predictive text">
+<HPoint
+  direction="right"
+  title="llms are similar to predictive text"
+  img_url="/photos/aj_aaaab-UuGGxuBfYic-unsplash.jpg"
+>
+  <p>
+    <i
+      >photo by <a
+        href="https://unsplash.com/@ajing_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >aj_aaaab</a
+      >
+      on
+      <a
+        href="https://unsplash.com/photos/crt-tv-turned-on-UuGGxuBfYic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+        >unsplash!</a
+      >
+    </i>
+  </p>
   <p>
     Given this, then, these LLM 'chatbots' are actually <b
       >architecturally very similar to the 'predictive text' means of artificial
