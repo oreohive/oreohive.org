@@ -33,6 +33,7 @@ we can work on it :))) -->
         justify-content: center;
         min-height: calc(100vh - 76px) !important; /* since navbar is 76px tall, we need to account for that */
         margin: 0px;
+        width: 100vw;
     }
   
     /* background blur using backdrop-filter */
@@ -41,10 +42,9 @@ we can work on it :))) -->
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(90, 84, 103, 0.75); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(255, 255, 255, 0.75); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
-	    width: 100%;
         width: 100vw;
         overflow: hidden;
     }
@@ -56,18 +56,20 @@ we can work on it :))) -->
         border-width: 6px;
         border-color: #fff;
         min-width: 25vw;
-        max-width: 50vw;
+        max-width: 100%;
         border-radius: 256px;
         padding: 4px;
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 8px;
         padding-right: 8px;
-        
+        margin: 0px;
+        overflow: hidden;
     }
     h1 {
         font-style: normal;
         font-weight: 500;
-        color: #fcfcff;
+        color: #000;
+        margin: 18px;
     }
 </style>

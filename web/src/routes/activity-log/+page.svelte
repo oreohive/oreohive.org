@@ -38,6 +38,10 @@ export let data;
     width: 275px;
     margin-left: 20px;
     margin-top: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-style: dashed;
     background-color:rgb(245, 239, 241, 0.05);
   }

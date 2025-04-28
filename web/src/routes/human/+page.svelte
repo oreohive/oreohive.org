@@ -1,3 +1,5 @@
+<!-- src/routes/human/+page.svelte -->
+
 <script lang="ts">
   import Panel from "$components/Panel.svelte";
   import PanelBox from "$components/PanelBox.svelte";

@@ -195,7 +195,7 @@
         color: #5a5467 !important;
     }
 
-    p, h1, h2, h3 {
+    p, h1 {
         color: #5a5467 !important;
     }
     .centre-container {
