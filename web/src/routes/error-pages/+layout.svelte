@@ -1,5 +1,4 @@
-<div class="container">
-    <div class="centre-container">
-        <slot />
-    </div>
-</div>
+<!-- src/routes/error-pages/404/+layout.svelte -->
+
+<slot />
+    
