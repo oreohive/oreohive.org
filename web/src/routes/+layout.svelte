@@ -105,14 +105,14 @@
 </script>
 
 <Navbar />
-
+<!--
 <div data-tap-disabled="true" >
 {#if !isOtherMusicPlaying && page.url.pathname === "/"}
 <audio class="home-audio" loop autoplay hidden>
 <source src="/music/oreohive.org-the-good-internet-dec-2024.mp3" type="audio/mpeg">your browser does not support the audio element.</audio>
 {/if}
 </div>
-
+-->
 <slot />
 <SettingsWidget />
 <Footer>
