@@ -86,9 +86,9 @@ they have colours and have neat animations on hover etc. -->
     color: inherit;
   }
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
+  :global(img) {
+    max-width: 75%;
+    max-height: 90%;
+    overflow: hidden !important;
   }
 </style>
