@@ -83,9 +83,9 @@
 </div>
 
 <div
-    style="display: flex; flex-direction: row; flex-wrap: wrap; min-height: 45vh;"
+    style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh;"
 >
-    <div>
+    <div style="position: relative;">
         <form on:submit={accept_locally}>
             <div
                 class="accept-button"
@@ -173,9 +173,10 @@
         gap: 6px;
         padding: 12px;
         border-radius: 12px;
-        border-style: dashed;
-        border-color: #ffbcd4;
-        background-color: hsl(330, 100%, 98%);
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.2);
     }
     .svelte-notice {
         display: flex;
@@ -208,6 +209,7 @@
             transform 0.04s ease,
             box-shadow 0.1s ease;
         box-shadow: 0px 0px 32px 16px rgba(255, 218, 30, 0.2);
+        max-width: 512px;
     }
     .docs-note p {
         color: #5a5467 !important; /* make text colour readable on background */
