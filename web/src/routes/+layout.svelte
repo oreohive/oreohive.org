@@ -60,6 +60,7 @@
     document.addEventListener("pause", checkOtherMusicPlaying, true);
     document.addEventListener("ended", checkOtherMusicPlaying, true);
   })}
+
   {beforeNavigate(() => {
     if (browser) {
       // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
@@ -81,6 +82,7 @@
     document.addEventListener("pause", checkOtherMusicPlaying, true);
     document.addEventListener("ended", checkOtherMusicPlaying, true);
   })}
+
   {afterNavigate(() => {
     if (browser) {
       // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
@@ -115,6 +117,7 @@
 -->
 <slot />
 <SettingsWidget />
+
 <Footer>
   <slot name="footer" />
 </Footer>
