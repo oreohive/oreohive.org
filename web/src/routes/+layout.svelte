@@ -31,7 +31,12 @@
 
       // redirect if localStorage is missing and we're not on onboarding
       if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnTheGoodInternet) {
-        let currentUrl = page.url.pathname
+        if (page.url.pathname.length > 1 && page.url.pathname.endsWith("/")) {
+          let currentUrl = page.url.pathname.slice(0, -1)
+        }
+        else {
+          let currentUrl = page.url.pathname
+        }
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
     }
