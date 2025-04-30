@@ -6,6 +6,7 @@
 <h1>resources</h1>
 <h3>for a-level english lit</h3>
 
+<div class="container">
 <div class="centre-container">
     <h1>notion collection</h1>
     <div class="panel-box">
@@ -25,4 +26,5 @@
         <Panel href="https://orchid-wolverine-5ca.notion.site/162e15a8c91d807faa4dc5c456f6d06f" desc="Metaphysical Poetry" />
         <Panel href="https://orchid-wolverine-5ca.notion.site/162e15a8c91d80a78d43c0b7c217fa96" desc="Restoration Poetry" />
     </div>
+</div>
 </div>

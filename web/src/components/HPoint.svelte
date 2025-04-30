@@ -9,6 +9,7 @@
 
 <div class="homepoint-display">
     {#if direction == "left"}
+    <div style="display: flex; flex-direction: row;">
         <div class="pane">
             <div class="pane-text">
                 <h1>{title}</h1>
@@ -18,27 +19,28 @@
 
         <div class="background-image">
             <div class="hpoint-blur">
-                <img src={img_url}>
-            </div>
-        </div>
-
-    {:else}
-        <div class="background-image">
-            <div class="hpoint-blur">
                 <img class="point-picture" src={img_url}>
             </div>
         </div>
-
+    </div>
+    {:else}
+    <div style="display: flex; flex-direction: row-reverse;">
         <div class="pane">
             <div class="pane-text">
                 <h1>{title}</h1>
                 <slot />
             </div>  
         </div>
+        <div class="background-image">
+            <div class="hpoint-blur">
+                <img class="point-picture" src={img_url}>
+            </div>
+        </div>
+    </div>
 
     {/if}
-
 </div>
+
 <style>
     /* background blur using backdrop-filter */
     /* https://blog.prototypr.io/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60 <3 */
@@ -46,15 +48,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.9); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(255, 255, 255, 0.9) !important; /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         min-height: 100%;
 	    width: 100%;
         max-width: 100vw;
         overflow: hidden;
-    }
-    .hpoint-blur .dark { /* todo: fix lmao */
-        background: hsla(0, 0.00%, 100.00%, 0.10) !important;
     }
     .homepoint-display {
         position:  relative;
@@ -116,7 +115,6 @@
         background-repeat: no-repeat;
 
         overflow: hidden;
-        z-index: -1;
     }
     :global(.dark .pane) {
         background-color: #5a5467;

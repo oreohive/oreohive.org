@@ -40,10 +40,12 @@ html {
   /* sits within container */
   display: flex;
   flex-direction: column;
+  align-self: center;
   align-items: flex-start;
+  justify-self: center;
 
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   /* margin-top and margin-bottom must remain the same
   for this element class can sometimes appear by itself with
   no title above or below, so any difference would be
@@ -52,16 +54,15 @@ html {
   margin-right: 0px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
 
   border-width: 3px;
   border-style: dashed;
   border-color: #5a5467;
   border-radius: 32px;
   font-family: Poppins, sans-serif;
-  width: 744px; /* should be just enough to squeeze in two activity log cards */
-  max-width: 100%;
+  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
   
   flex-wrap: wrap;
   word-wrap: break-word;
@@ -77,8 +78,8 @@ h4,
 h5,
 h6 {
   max-width: 480px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 0x;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
@@ -132,7 +133,7 @@ img {
 /* inverted styles for dark mode */
 .dark body {
   /* container but for dark theme */
-  background: #1a1a1a !important;
+  background-color: #1a1a1a;
   color: #ffffff;
 }
 .dark .container {
@@ -140,15 +141,16 @@ img {
   background-color: #121212;
   color: #f5f5f5;
 }
-.dark .navbar {
-  background-color: #362729;
-}
 .dark .text-box {
   /* text-box but for dark theme */
-  background-color: #2a2a2a !important;
+  background-color: #2a2a2a;
   color: #f5f5f5;
   box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
 }
+.dark .navbar {
+  background-color: #362729;
+}
+
 .dark p,
 .dark h1,
 .dark h2,

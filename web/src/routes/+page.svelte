@@ -10,9 +10,9 @@
 
 <HTitle direction="left" title="welcome to the good internet." desc="welcome to the beehive.">
     <p>
-        this is more than just another personal blog.
+        this is more than just our personal blog.
         <br />
-        is it a personal blog? yes. but this is also a place to share with the world what's possible
+        this is a place to share with the world what's possible
         when we put humans first, and user experiences before bottom lines.
     </p>
 

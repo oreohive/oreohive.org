@@ -10,9 +10,9 @@
     you should also probably see a doctor about that half-finished websites thing.
 </p>
 
-<div class="container" style="min-height: 76vh; gap: 0px; padding: 0px;">
-    <slot />
+<slot />
 
+<div class="container" style="min-height: 76vh; gap: 0px; padding: 0px; height: 24px; min-height: 25vh;">
     <div class="footnote" style="font-size: 0.85em;">
         <b>edu on oreohive.org is ridiculously incomplete</b>, and <b>all that resides here for now is pretty much proof-of-concept</b>.
         if you're looking for <b>legitimate</b>, <b>fleshed-out</b> revision resources, i personally recommend <a href="https://senecalearning.com"><b>seneca learning</b></a>.<br>
