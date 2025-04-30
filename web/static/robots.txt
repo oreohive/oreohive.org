@@ -1,0 +1,61 @@
+# static/robots.txt
+# accessible at oreohive.org/robots.txt
+
+# ---------------------- #
+
+# all oreohive content (all content, materials, assets and resources distributed by the oreohive organisation) is distributed, shared and uploaded
+# under the oreohive.org Terms & Ethics of Use.
+# These are readable at https://www.oreohive.org/onboarding, at which a link to the most recent copy should be available.
+# These Terms & Ethics of Use STRICTLY PROHIBIT the use of ANY oreohive content, assets or materials (any made or distributed by the oreohive
+# organisation at oreohive.org) as AI training, diagnostic or improvement material.
+
+# Any use of ANY oreohive resources from oreohive.org for training or improving AI / ML models or any such computational algorithms is STRICTLY a
+# BREACH of our Terms & Ethics  of Use.
+# As such, anyone doing this under any circumstance is vulnerable to legal actions, repercussions and consequences from the oreohive organisation.
+
+# ---------------------- #
+
+# https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click
+# here, Cloudflare mentions a Google Form through which one can report unauthorised AI scraper bots to them:
+# https://docs.google.com/forms/d/14bX0RJH_0w17_cAUiihff5b3WLKzfieDO4upRlo5wj8
+
+# ---------------------- #
+
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: Amazonbot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+‍User-agent: Claude-Web
+Disallow: /
+User-Agent: FacebookBot
+Disallow: /
+User-Agent: Applebot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: ImagesiftBot
+Disallow: /
+User-agent: Omgilibot
+Disallow: /
+User-agent: Omgili
+Disallow: /
+User-agent: YouBot
+Disallow: /
