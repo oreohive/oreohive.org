@@ -85,7 +85,7 @@
 <div
     style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh;"
 >
-    <div style="position: relative;">
+    <div style="position: relative; height: 35vw; display: flex; align-items: center; justify-content: center;">
         <form on:submit={accept_locally}>
             <div
                 class="accept-button"
@@ -212,6 +212,5 @@
         max-width: 512px;
     }
     .docs-note p {
-        color: #5a5467 !important; /* make text colour readable on background */
     }
 </style>
