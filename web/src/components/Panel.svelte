@@ -88,7 +88,7 @@ they have colours and have neat animations on hover etc. -->
 
   :global(img) {
     max-width: 75%;
-    max-height: 90%;
+    max-height: 75%;
     overflow: hidden !important;
   }
 </style>

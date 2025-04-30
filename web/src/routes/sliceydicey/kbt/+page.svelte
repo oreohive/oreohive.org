@@ -17,6 +17,6 @@
   }}
 />
 
-<div class="centre-container" style="text-wrap: wrap; flex-wrap: wrap; overflow-y: scroll; overflow-x: hidden;">
+<div class="centre-container" style="text-wrap: wrap; flex-wrap: wrap; overflow-y: hidden; overflow-x: hidden;">
     <div style="display: flex; text-wrap: break; flex-wrap: wrap; flex-direction: column; overflow: hidden;">{evt.join("")}</div>
 </div>

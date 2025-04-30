@@ -80,7 +80,7 @@
         margin-left: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! x2 */
         margin-right: 0px !important;
         padding: 0px !important;
-        overflow-y: scroll;
+        overflow-y: hidden;
         overflow-x: hidden;
     }
     .pane-text {
