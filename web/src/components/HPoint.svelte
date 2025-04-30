@@ -95,8 +95,7 @@
         justify-content: center;
         background-color: #ffffff;
         border-radius: 12px;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        overflow: hidden;
         z-index: 2;
     }
     .background-image {
@@ -106,7 +105,7 @@
         align-items: center;
         justify-content: center;
 
-        width: 50vw;
+        width: 40vw;
         margin: 0px;
 
         background-image: url("/backgrounds/codioful.webp");
@@ -114,12 +113,14 @@
         background-position: center;
         background-repeat: no-repeat;
 
-        overflow: hidden;
+        overflow: hidden !important;
     }
     :global(.dark .pane) {
-        background-color: #5a5467;
+        background-color: inherit;
+        border-color: #fff;
     }
     :global(.dark .pane-text) {
         background-color:rgb(120, 112, 137);
+        min-height: 100%; /* stop them from being cut short when image beside is particularly tall */
     }
 </style>

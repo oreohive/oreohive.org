@@ -35,12 +35,12 @@
 <style>
     h1 {
         font-family: Poppins, sans-serif;
-        margin: 12px;
+        margin: 0px;
         gap: 0px;
         padding: 0px;
     }
     .desc {
-        margin-left: 12px;
+        margin-left: 0px; /* this keeps it aligned with rest of the text */
         margin-right: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -133,6 +133,6 @@
 
     :global(.dark .title-pane) {
         background-color: #1c1c1b;
-        background-image: linear-gradient(270deg, #1c1c1b 0%, #2d2020);
+        background-image: linear-gradient(270deg, hsl(259, 10%, 25%) 0%, hsl(259, 10%, 20%));
     }
 </style>

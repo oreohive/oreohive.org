@@ -69,7 +69,7 @@ html {
 }
 
 .dark .centre-container {
-  background-color: #40444b;
+  background-color: #5a5467;
 }
 h1,
 h2,
@@ -138,7 +138,7 @@ img {
 }
 .dark .container {
   /* container but for dark theme */
-  background-color: #121212;
+  background-color:rgb(80, 74, 93);
   color: #f5f5f5;
 }
 .dark .text-box {

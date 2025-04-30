@@ -29,7 +29,7 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         margin-bottom: 0px;
     }
     :global(.dark .panel-box) {
-        background-color: #1a1a1a !important;
+        background-color: #787089 !important;
         box-shadow: 8px 8px 24px 4px rgba(255, 255, 255, 0.05);
     }
 </style>
