@@ -115,6 +115,12 @@
 
         overflow: hidden !important;
     }
+    :global(.dark .hpoint-blur) {
+        background: rgba(0, 0, 0, 0.9) !important; /* make sure this colour has an opacity of less than 1! */
+    }
+    .dark .background-image {
+        background-image: url("/backgrounds/ultrafruit.webp")
+    }
     :global(.dark .pane) {
         background-color: inherit;
         border-color: #fff;

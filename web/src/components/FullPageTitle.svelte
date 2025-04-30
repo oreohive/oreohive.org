@@ -42,7 +42,7 @@ we can work on it :))) -->
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.75); /* make sure this colour has an opacity of less than 1! */
+        background: rgba(0, 0, 0, 0.4); /* make sure this colour has an opacity of less than 1! */
         backdrop-filter: blur(8px); /* this be the blur! */
         height: 100vh;
         width: 100vw;
@@ -69,7 +69,7 @@ we can work on it :))) -->
     h1 {
         font-style: normal;
         font-weight: 500;
-        color: #000;
+        color: #fff !important;
         margin: 18px;
     }
 </style>
