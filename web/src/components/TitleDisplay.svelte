@@ -27,7 +27,10 @@ but this is now taken care of by the FullPageTitle.svelte component -->
         padding: 16px;
         margin: 16px;
         margin-top: 16px;
-        margin-bottom: 0px;
+        margin-bottom: 16px;
         font-family: Poppins, sans-serif;
+    }
+    h1 {
+        margin: 0px;
     }
 </style>
