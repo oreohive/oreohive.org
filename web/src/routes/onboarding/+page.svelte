@@ -49,75 +49,53 @@
     />
 </svelte:head>
 
-<div
-    class="top-section"
-    style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 12px; gap: 12px;"
->
+<div class="container">
+
+<div class="top-section" style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 12px; gap: 12px;">
     <p style="min-height: 24px; border-style: dashed;">
         oreohive.org/onboarding
     </p>
 
     <div class="svelte-notice">
-        <img
-            src="icons/svelte.svg"
-            width="32px"
-            height="32px"
-            alt="svelte logo"
-        />
-        <p style="margin: 0px; gap: 0px; border-style: none; min-height: 24px;">
-            oreohive.org is built with sveltekit + vite &lt;3
-        </p>
+        <img src="icons/svelte.svg" width="32px" height="32px" alt="svelte logo" />
+        <p style="margin: 0px; gap: 0px; border-style: none; min-height: 24px;">oreohive.org is built with sveltekit + vite &lt;3</p>
     </div>
 </div>
 
 <h1 style="margin-top: 64px; margin-bottom: 16px;">welcome to oreohive.org</h1>
 
 <div data-tap-disabled="true">
-    <audio loop autoplay hidden>
-        <source
-            src="/music/2025-02-27-oreohive-spectrumstep.mp3"
-            type="audio/mpeg"
-        />
+    <audio loop autoplay hidden><source src="/music/2025-02-27-oreohive-spectrumstep.mp3" type="audio/mpeg" />
         oops! your browser does not support the audio element.
     </audio>
 </div>
 
-<div
-    style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh;"
->
-    <div style="position: relative; height: 35vw; display: flex; align-items: center; justify-content: center;">
+<div style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh; align-items: center; justify-content: centre;">
+
+    <div style="position: relative; min-height: 35vw; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;"> <!-- don't give this a height or max-height lol -->
         <form on:submit={accept_locally}>
-            <div
-                class="accept-button"
-                style="display: flex; flex-direction: column; align-items: center; gap: 16px;"
-            >
+
+            <div class="centre-conta" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+
                 <button type="submit" name="accept">
-                    <b
-                        >i accept the oreohive organisation's terms & ethics of
-                        use</b
-                    >, thus the use of cookies :)
+                    <b>i accept the oreohive organisation's terms & ethics of use</b>, thus the use of cookies :)
                 </button>
-                <div style="display: flex; flex-direction: row; gap: 32px;">
-                    <p style="color: #ff0059;">
-                        you'll be taken here when you hit this button:
-                    </p>
-                    <p style="text-decoration: none;">
-                        oreohive.org{redirectToCleaned}
-                    </p>
+
+                <div style="display: flex; flex-direction: row; gap: 12px;">
+                    <p style="color: #ff0059;">you'll be taken here when you hit this button:</p>
+                    <p style="text-decoration: none;">oreohive.org{redirectToCleaned}</p>
                 </div>
-                <p
-                    style="max-width: fit-content; font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;"
-                >
+
+                <p style="max-width: fit-content; font-size: 0.9em; padding: 12px; margin-top: 32px; border-style: dashed; border-width: 1.25px;">
                     nb! you may need to review and accept updates in the future.
                 </p>
+
             </div>
+
         </form>
     </div>
 
-    <div
-        class="docs-note"
-        style="display: flex; flex-direction: column; align-items: center;"
-    >
+    <div class="docs-note">
         <a
             href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html"
             target="_blank"
@@ -162,14 +140,19 @@
         </p>
     </div>
 </div>
+</div>
 
 <style>
     .accept-button {
         margin: 48px;
     }
     .docs-note {
-        margin: 16px;
-        margin-bottom: 62px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0px;
         gap: 6px;
         padding: 12px;
         border-radius: 12px;
@@ -210,7 +193,5 @@
             box-shadow 0.1s ease;
         box-shadow: 0px 0px 32px 16px rgba(255, 218, 30, 0.2);
         max-width: 512px;
-    }
-    .docs-note p {
     }
 </style>
