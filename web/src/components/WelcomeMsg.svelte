@@ -39,7 +39,7 @@ it's the central message that pops up indicating current subdomain
 
         font-size: 0.8rem;
         font-weight: 600;
-        color: #fcfcff;
+        color: #beb7cc !important; /* !important prevents dark mode overruling to white lol */
         font-family: Poppins, sans-serif
     }
     a {
@@ -62,6 +62,7 @@ it's the central message that pops up indicating current subdomain
         this is a place for those style choices to continue to be established
         on messages specifically in the navbar */
         border-style: dashed;
+        border-color: #585266;
         padding: 10px;
     }
 </style>
