@@ -45,16 +45,16 @@
     <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
         <PanelSegment>
         <h1>here</h1>
-        <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" />
-        <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" />
+        <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" img_url=""><span class="material-icons md-48">favorite</span></Panel>
+        <Panel panel_width="160px" colour="#bcd3ff" desc="about" href="/about" img_url=""><span class="material-icons md-48">info</span></Panel>
         <!-- <Panel colour="#a4fdff" desc="edu" href="/placeholder"/> -->
         <!-- <Panel colour="#b0ffbe" desc="labs" href="/placeholder"/> -->
         <!-- <Panel colour="#bcd3ff" desc="universe" href="/placeholder"/> -->
         <!-- <Panel colour="#ffbcd4" desc="human" href="/placeholder"/> -->
-        <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" />
-        <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" />
-        <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" />
-        <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" />
+        <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" img_url=""><span class="material-icons md-48">inventory_2</span></Panel>
+        <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" img_url=""><span class="material-icons md-48">engineering</span></Panel>
+        <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" img_url=""><span class="material-icons md-48">bolt</span></Panel>
+        <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" img_url=""><span class="material-icons md-48">diversity_1</span></Panel>
         </PanelSegment>
     </div>
 </div>
@@ -236,21 +236,11 @@
 <div class="container">
     <PanelSegment>
         <h1>connect</h1>
-        <Panel
-            colour="#ffffff"
-            desc="ao3"
-            href="https://youtu.be/D5Df191WJ3o&t=32"
-            img_url="/icons/ao3/ao3.png"
-        />
-        <Panel colour="#c7bdff" desc="tumblr" href="https://oreohive.tumblr.com" />
+        <Panel colour="#970000" desc="ao3" href="https://youtu.be/D5Df191WJ3o&t=32" img_url=""><span class="material-icons md-48 md-light">book</span></Panel>
+        <Panel colour="#c7bdff" desc="tumblr" href="https://oreohive.tumblr.com" img_url=""><span class="material-icons md-48">campaign</span></Panel>
         <KofiButton />
-        <Panel
-            colour="#2b3137"
-            desc="we're open source <3"
-            img_url="/icons/github/github-mark-white.png"
-            href="https://github.com/oreohive/oreohive.org"
-        />
-    </PanelSegment>
+        <Panel colour="#2b3137" desc="we're open source <3" href="https://github.com/oreohive/oreohive.org" img_url=""><span class="material-icons md-48 md-light">code</span></Panel>
+</PanelSegment>
 </div>
 
 </div>

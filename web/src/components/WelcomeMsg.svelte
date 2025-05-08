@@ -38,7 +38,7 @@ it's the central message that pops up indicating current subdomain
         text-align: left;
 
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 400;
         color: #beb7cc !important; /* !important prevents dark mode overruling to white lol */
         font-family: Poppins, sans-serif
     }

@@ -33,3 +33,19 @@ that appears in the navbar -->
 <button on:click={toggleDark}>
   {isDark ? "light mode" : "dark mode"}
 </button>
+
+<style>
+  button {
+    margin: 0px;
+    gap: 0px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgba(255, 176, 176, 0.075);
+    border-width: 2x !important;
+    border-color: rgba(0, 0, 0, 0.25) !important;
+    border-style: solid !important;
+    color: #beb7cc;
+    border-radius: 6px;
+  }
+</style>

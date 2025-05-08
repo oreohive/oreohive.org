@@ -24,6 +24,8 @@ const config = {
                         $components: "src/components",
                         $lib: "src/lib",
                         $utils: "src/lib/utils",
+                        $icons: "static/icons",
+                        $icons_md4: "static/icons/material-design-icons-4.0.0/android",
                 },
                 prerender: {
                         handleHttpError: 'ignore'

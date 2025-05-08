@@ -36,7 +36,6 @@ currently little actual navigation going on but maybe soon enough we might throw
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
-            <a href="https://tumblr.com/oreohive">tumblr</a>
     </div>
     <div class="right links">
     <ThemeToggle />
@@ -69,7 +68,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         align-items: center;
         justify-content: center;
         border-radius: 12%;
-        background-color: #fff;
+        background-color: #ffebbc;
         margin: 0px;
     }
     .links{
@@ -79,21 +78,21 @@ currently little actual navigation going on but maybe soon enough we might throw
         gap: 8px;
         width: 180px; /* consistent width across both left links and right links ensures main central WelcomeMsg is centred */
     }
-    a {
+
+    a, button {
         margin: 0px;
-        padding: 0px;
         gap: 0px;
         font-family: Poppins, sans-serif;
+        font-weight: 300;
         text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.075);
+        border-width: 2px !important;
+        border-color: rgba(0, 0, 0, 0.075) !important;
+        border-style: solid !important;
         color: #beb7cc;
+        border-radius: 6px;
     }
     a :hover {
         color: #fff !important;
-    }
-    button {
-        background-color: #585266;
-        color: #fff;
-        border-radius: 24px;
-        border-width: 1px;
     }
 </style>

@@ -68,7 +68,6 @@ they have colours and have neat animations on hover etc. -->
     font-family: Poppins, sans-serif;
     color: #1f2937;
     text-transform: lowercase;
-    text-wrap: wrap;
     overflow: hidden;
     max-width: calc(var(--panel-height) * 1.5);
 
@@ -84,6 +83,7 @@ they have colours and have neat animations on hover etc. -->
   p, a {
     border-style: none;
     color: inherit;
+    text-decoration: none; /* removes underline from images and other children of panels */
   }
 
   :global(img) {

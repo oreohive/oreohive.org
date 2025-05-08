@@ -3,6 +3,21 @@
 :root {
   /* snatched from sveltekit vercel boilerplate tysm */
   max-width: 100vw;
+
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  gap: 0px;
+
   --font-body: Poppins, sans-serif;
   --font-mono: "Courier New", Courier, monospace;
   --color-bg-0: hsl(60, 100%, 99.8%);
@@ -58,9 +73,10 @@ html {
   padding-right: 12px;
 
   border-width: 3px;
-  border-style: dashed;
+  border-style: solid;
   border-color: #5a5467;
   border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.25);
   font-family: Poppins, sans-serif;
   max-width: 744px; /* should be just enough to squeeze in two activity log cards */
   
@@ -149,6 +165,10 @@ img {
 }
 .dark .navbar {
   background-color: #362729;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
 }
 
 .dark p,
@@ -276,6 +296,23 @@ img {
   white-space: nowrap;
   width: 1px;
 }
+
+/* Material Design Icons classes */
+
+/* rules for sizing the icon */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* rules for using icons as black on a light background */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* rules for using icons as white on a dark background */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
 
 /* thank you w3schools for these css rules! */
 #notice {
