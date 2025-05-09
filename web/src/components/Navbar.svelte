@@ -46,12 +46,13 @@ currently little actual navigation going on but maybe soon enough we might throw
 
 <style>
     .navbar {
+        width: 100vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        margin: -8px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         gap: 4px;
         padding: 8px;
         z-index: 1;

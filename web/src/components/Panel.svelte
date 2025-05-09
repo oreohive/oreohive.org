@@ -82,7 +82,7 @@ they have colours and have neat animations on hover etc. -->
 
   p, a {
     border-style: none;
-    color: inherit;
+    color: #5a5467; /* keeps contrast against light panel backgrounds :) */
     text-decoration: none; /* removes underline from images and other children of panels */
   }
 
