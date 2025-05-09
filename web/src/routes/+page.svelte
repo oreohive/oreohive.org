@@ -236,10 +236,10 @@
 <div class="container">
     <PanelSegment>
         <h1>connect</h1>
-        <Panel colour="#970000" desc="ao3" href="https://youtu.be/D5Df191WJ3o&t=32" img_url=""><span class="material-icons md-48 md-light">book</span></Panel>
+        <Panel colour="#ff7d7d" desc="ao3" href="https://youtu.be/D5Df191WJ3o&t=32" img_url=""><span class="material-icons md-48 md-light">book</span></Panel> <!-- #970000, #ff4b4b */ -->
         <Panel colour="#c7bdff" desc="tumblr" href="https://oreohive.tumblr.com" img_url=""><span class="material-icons md-48">campaign</span></Panel>
         <KofiButton />
-        <Panel colour="#2b3137" desc="we're open source <3" href="https://github.com/oreohive/oreohive.org" img_url=""><span class="material-icons md-48 md-light">code</span></Panel>
+        <Panel colour="#BFFFD1" desc="we're open source <3" href="https://github.com/oreohive/oreohive.org" img_url=""><span class="material-icons md-48 md-light">code</span></Panel> <!-- #2b3137 (, #5FED83) -->
 </PanelSegment>
 </div>
 
