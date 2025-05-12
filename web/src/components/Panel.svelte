@@ -1,4 +1,4 @@
-<!-- src/components/Panel.svelte-->
+<!-- src/components/Panel.svelte -->
 
 <!-- this is our component for our Panels 
 Panels are kind of like our own special big fat ui buttons
