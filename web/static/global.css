@@ -45,6 +45,7 @@ html {
 body {
   margin: 0px; /* body seems to otherwise default to margin: 8px; */
   /* scrollbar width is 100vw - 100% */
+  overflow-x: hidden;
 }
 .dark html {
   background-color: #312d37 !important;
@@ -65,6 +66,7 @@ body {
   font-family: Poppins, sans-serif;
   width: 100vw;
   min-height: fit-content;
+  overflow-x: hidden;
 }
 .centre-container {
   /* pls fix lol; duplicate entries in this file for .centre-container? */
