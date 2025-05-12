@@ -80,10 +80,13 @@ they have colours and have neat animations on hover etc. -->
     gap: 0px;
   }
 
-  p, a {
+  a {
     border-style: none;
     color: #5a5467; /* keeps contrast against light panel backgrounds :) */
     text-decoration: none; /* removes underline from images and other children of panels */
+  }
+  p {
+    color: #fff;
   }
 
   :global(img) {
