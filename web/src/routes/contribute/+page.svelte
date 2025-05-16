@@ -87,8 +87,8 @@
                     <br /><br />we're planning on bringing tutorials about
                     technology to the wider world in an accessible flavour; this
                     is hard for us to perfect, so things can take a while, but
-                    we get there, and by the end, it tends to be pretty cool!
-                    <br><br>
+                    we get                     <br><br>there, and by the end, it tends to be pretty cool!
+
                     we're working on some pretty fun content for our <a href="https://www.youtube.com/@oreohive">youtube</a>.
                 </p>
                 <h3>buy our merch</h3>
