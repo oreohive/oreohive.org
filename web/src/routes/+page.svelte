@@ -53,7 +53,7 @@
         <!-- <Panel colour="#ffbcd4" desc="human" href="/placeholder"/> -->
         <Panel panel_width="140px" colour="#fff7ac" desc="activity log" href="/activity-log" img_url=""><span class="material-icons md-48">inventory_2</span></Panel>
         <Panel panel_width="220px" colour="#b0ffbe" desc="sliceydicey" href="/sliceydicey" img_url=""><span class="material-icons md-48">engineering</span></Panel>
-        <Panel panel_width="220px" colour="#afffe5" desc="labs" href="/labs" img_url=""><span class="material-icons md-48">bolt</span></Panel>
+        <Panel panel_width="150px" colour="#afffe5" desc="labs" href="/labs" img_url=""><span class="material-icons md-48">bolt</span></Panel>
         <Panel panel_width="220px" colour="#c8ffaf" desc="human" href="/human" img_url=""><span class="material-icons md-48">diversity_1</span></Panel>
         </PanelSegment>
     </div>
