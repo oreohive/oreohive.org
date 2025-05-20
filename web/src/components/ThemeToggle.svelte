@@ -7,7 +7,7 @@ that appears in the navbar -->
   import { onMount } from "svelte";
   import { browser } from "$app/environment"; // import browser check (checks if in browser)
 
-  let isDark = false; // tracks if dark mode is active
+  let isDark = true; // tracks if dark mode is active
 
   /* function to toggle dark mode */
   function toggleDark() {
