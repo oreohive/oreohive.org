@@ -27,10 +27,11 @@
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
       const isOnEdu = page.url.pathname.startsWith("/edu");
+      const isOnStudies = page.url.pathname.startsWith("/studies");
       const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
 
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnTheGoodInternet) {
+      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnTheGoodInternet && !isOnStudies) {
         if (page.url.pathname.length > 1 && page.url.pathname.endsWith("/")) {
           let currentUrl = page.url.pathname.slice(0, -1)
         }
@@ -52,9 +53,11 @@
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
       const isOnEdu = page.url.pathname.startsWith("/edu");
+      const isOnStudies = page.url.pathname.startsWith("/studies");
+      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
 
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
         let currentUrl = page.url.pathname
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
@@ -74,9 +77,11 @@
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
       const isOnEdu = page.url.pathname.startsWith("/edu");
+      const isOnStudies = page.url.pathname.startsWith("/studies");
+      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
 
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
         let currentUrl = page.url.pathname
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
@@ -96,9 +101,11 @@
       // check if current path starts with '/onboarding'
       const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
       const isOnEdu = page.url.pathname.startsWith("/edu");
+      const isOnStudies = page.url.pathname.startsWith("/studies");
+      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
 
       // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu) {
+      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
         let currentUrl = page.url.pathname
         window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
       }
