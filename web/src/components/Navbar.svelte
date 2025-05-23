@@ -24,7 +24,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         <button on:click={history.back()}>&lt;- back</button>
         <button on:click={navigateToHome}>go home!</button>
     </div>
-    <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: #585266; border-radius: 12px; padding: 10px;">
+    <div class="entries">
             <a href="/activity-log">blog</a>
             <a href="/sliceydicey">tools</a>
             <a href="/about">about</a>
@@ -32,7 +32,7 @@ currently little actual navigation going on but maybe soon enough we might throw
 
     <WelcomeMsg />
 
-    <div style="font-size: 0.8rem; font-weight: 600; width: 19vw; display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-content: center; border-style: dashed; border-width: 1px; border-color: #585266; border-radius: 12px; padding: 10px;">
+    <div class="entries">
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
@@ -46,28 +46,32 @@ currently little actual navigation going on but maybe soon enough we might throw
 
 <style>
     .navbar {
-        width: 100vw;
+        width: 100%;
         display: flex;
+        position: fixed;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
+        align-self: center;
         justify-content: space-between;
+        justify-self: center;
         margin: 0px 0px 0px 0px;
         gap: 4px;
-        padding: 8px;
-        z-index: 1;
+        padding: 0px;
+        z-index: 99;
 
         background-color: #5a5467;
         background-image: linear-gradient(315deg, #5a5a5a 0%, #5a5467 50%);
         color: #5a5467;
-        border-radius: 0px 0px 12px 12px;
+        border-radius: 12px;
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
-        width: 100;
     }
     .logo-background {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 32px;
+        height: 32px;
         border-radius: 12%;
         background-color: #ffebbc;
         margin: 0px;
@@ -77,7 +81,6 @@ currently little actual navigation going on but maybe soon enough we might throw
         flex-direction: row;
         align-items: center;
         gap: 8px;
-        width: 180px; /* consistent width across both left links and right links ensures main central WelcomeMsg is centred */
     }
 
     a, button {
@@ -95,5 +98,20 @@ currently little actual navigation going on but maybe soon enough we might throw
     }
     a :hover {
         color: #fff !important;
+    }
+    .entries {
+        font-size: 0.8rem;
+        font-weight: 600;
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: space-between;
+        align-content: center;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: #585266;
+        border-radius: 12px;
     }
 </style>
