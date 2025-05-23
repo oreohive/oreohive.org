@@ -6,9 +6,10 @@
 
 <TitleDisplay title="oreohive activity log" />
 
+<slot />
+
 <div class="container">
     <div class="centre-container">
-      <slot />
     </div>
     <div>
     <h3>you can also check out:</h3>

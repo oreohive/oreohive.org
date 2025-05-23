@@ -42,7 +42,7 @@ that appears in the navbar -->
     font-weight: 400;
     text-decoration: none;
     background-color: rgba(255, 176, 176, 0.075);
-    border-width: 2x !important;
+    border-width: 2px !important;
     border-color: rgba(0, 0, 0, 0.25) !important;
     border-style: solid !important;
     color: #beb7cc;

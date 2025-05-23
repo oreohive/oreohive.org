@@ -3,6 +3,8 @@
 :root {
   /* snatched from sveltekit vercel boilerplate tysm */
   max-width: 100vw;
+  min-width: 100vw;
+  width: 100vw;
 
   margin: 0px;
   margin-top: 0px;
@@ -34,9 +36,9 @@
 
 html {
   /* scrollbar-gutter: stable; messes with firefox (particularly on mobile) */
-  background-color: #fffdf5;
+  background-color: rgb(255, 255, 254);
   background-image: none;
-  width: 100vw;
+  width: 100%;
   ::-webkit-scrollbar {
     display: none;
 }
@@ -44,7 +46,10 @@ html {
 body {
   margin: 0px; /* body seems to otherwise default to margin: 8px; */
   /* scrollbar width is 100vw - 100% */
-  overflow-x: hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .dark html {
   background-color: #312d37 !important;
@@ -63,9 +68,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Poppins, sans-serif;
-  width: 100vw;
+  width: 100%;
   min-height: fit-content;
-  overflow-x: hidden;
 }
 .centre-container {
   display: flex;

@@ -25,9 +25,9 @@ but this is now taken care of by the FullPageTitle.svelte component -->
         align-items: center;
         justify-content: center;
         padding: 16px;
-        margin: 16px;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        margin: 0px;
+        margin-top: 0px; /* WHY DOES THIS AFFECT THE NAVBAR */
+        margin-bottom: 0px;
         font-family: Poppins, sans-serif;
     }
     h1 {

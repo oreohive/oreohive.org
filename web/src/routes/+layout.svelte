@@ -119,6 +119,7 @@
 </script>
 
 <Navbar />
+
 <!--
 <div data-tap-disabled="true" >
 {#if !isOtherMusicPlaying && page.url.pathname === "/"}
