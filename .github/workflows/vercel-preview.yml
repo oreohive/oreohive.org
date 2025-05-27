@@ -28,10 +28,10 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id:  ${{ secrets.ORG_ID }}
           vercel-project-id: ${{ secrets.PROJECT_ID }}
-          # no --prod → preview by default
+          # no --prod, so preview
 
       - name: Comment Preview URL
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ github.event_name == 'pull_request' && steps.vercel.outputs.preview-url }}
         run: |
           echo "Preview URL: ${{ steps.vercel.outputs.preview-url }}"
           gh pr comment ${{ github.event.pull_request.number }} \
