@@ -19,7 +19,6 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-
       - name: Vercel Preview
         id: vercel
         uses: amondnet/vercel-action@v25.2.0
@@ -30,9 +29,16 @@ jobs:
           vercel-project-id: ${{ secrets.PROJECT_ID }}
           # no --prod, so preview
 
-      - name: Comment Preview URL
+      # PLEASE TRY TO COMMENT ONLY IF IT'S A PR
+      - name: Comment Preview URL on PR
         if: ${{ github.event_name == 'pull_request' && steps.vercel.outputs.preview-url }}
-        run: |
-          echo "Preview URL: ${{ steps.vercel.outputs.preview-url }}"
-          gh pr comment ${{ github.event.pull_request.number }} \
-            --body "Preview URL: ${{ steps.vercel.outputs.preview-url }}"
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `Preview URL: ${steps.vercel.outputs.preview-url}`,
+            })
