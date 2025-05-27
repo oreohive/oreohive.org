@@ -1,0 +1,38 @@
+# .github/workflows/vercel-preview.yml
+
+name: Generate Vercel preview on dev branch (main)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # it needs write to create comment with preview url :)
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vercel Preview
+        id: vercel
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id:  ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+          # no --prod → preview by default
+
+      - name: Comment Preview URL
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          echo "Preview URL: ${{ steps.vercel.outputs.preview-url }}"
+          gh pr comment ${{ github.event.pull_request.number }} \
+            --body "Preview URL: ${{ steps.vercel.outputs.preview-url }}"

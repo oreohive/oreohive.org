@@ -1,0 +1,25 @@
+# .github/workflows/vercel-release.yml
+
+name: Vercel Production Deployment
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vercel Production Deployment
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
+          github-token:   ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id:  ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+          # ensures it goes to production alias (oreohive)
+          vercel-args: '--prod'
