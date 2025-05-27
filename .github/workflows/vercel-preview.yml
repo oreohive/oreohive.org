@@ -10,28 +10,41 @@ on:
       - main
 
 jobs:
-  preview:
+  # preview urls on my plain pushes (no comments)
+  preview_push:
+    # should ensure no comment logic ever runs on push
+    if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      # it needs write to create comment with preview url :)
-      issues: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - name: Vercel Preview
-        id: vercel
+      - name: Vercel Preview (push)
+        id: vercel_push
         uses: amondnet/vercel-action@v25.2.0
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
+          github-token:   ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id:  ${{ secrets.ORG_ID }}
           vercel-project-id: ${{ secrets.PROJECT_ID }}
-          # no --prod, so preview
 
-      # PLEASE TRY TO COMMENT ONLY IF IT'S A PR
-      - name: Comment Preview URL on PR
-        if: ${{ github.event_name == 'pull_request' && steps.vercel.outputs.preview-url }}
+      - name: Print preview URL
+        run: echo "Preview URL: ${{ steps.vercel_push.outputs.preview-url }}"
+
+  # preview urls and comments on prs
+  preview_pr:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vercel Preview (PR)
+        id: vercel_pr
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
+          github-token:   ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id:  ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+
+      - name: Comment preview URL on PR
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -40,5 +53,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.pull_request.number,
-              body: `Preview URL: ${steps.vercel.outputs.preview-url}`,
+              body: `Preview URL: ${steps.vercel_pr.outputs.preview-url}`,
             })
