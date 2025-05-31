@@ -94,7 +94,7 @@
         padding: 8px;
         justify-content: center;
         background-color: #ffffff;
-        border-radius: 12px;
+        border-radius: 48px;
         overflow: hidden;
         z-index: 2;
     }
@@ -112,7 +112,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
+        border-radius: 24px;
         overflow: hidden !important;
     }
     :global(.dark .hpoint-blur) {

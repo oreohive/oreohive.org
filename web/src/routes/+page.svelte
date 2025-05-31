@@ -8,7 +8,7 @@
     import PanelSegment from "$components/PanelSegment.svelte";
 </script>
 
-<HTitle direction="left" title="welcome to the good internet." desc="welcome to the beehive.">
+<HTitle direction="left" title="welcome to the good internet." desc="welcome to the beehive. HAPPY PRIDE MONTH!!!">
     <p>
         this is more than just our personal blog.
         <br />
