@@ -5,7 +5,7 @@ it contains the logo, welcome message, and theme toggle switch
 currently little actual navigation going on but maybe soon enough we might throw some quick links up here lol -->
 
 <script lang="ts">
-    export let img_url: string = '/logo.webp'; // a string for image / corner icon / logo url
+    export let img_url: string = "/logo.webp"; // a string for image / corner icon / logo url
     import WelcomeMsg from "./WelcomeMsg.svelte";
     import ThemeToggle from "./ThemeToggle.svelte";
     function navigateToHome() {
@@ -14,11 +14,16 @@ currently little actual navigation going on but maybe soon enough we might throw
 </script>
 
 <div class="navbar">
-    <div class="left links entries">
-        <a href="/" style="width: auto;"> <!-- ignore width assigned to a elements -->
+    <div class="left links">
+        <a href="/" style="width: auto;">
+            <!-- ignore width assigned to a elements -->
             <div class="logo-background">
-            <img src={img_url} alt="logo" style="width: 48px; height: auto; border-radius: 50%;" />
-            <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
+                <img
+                    src={img_url}
+                    alt="logo"
+                    style="width: 48px; height: auto; border-radius: 50%;"
+                />
+                <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
             </div>
         </a>
         <button on:click={history.back()}>&lt;- back</button>
@@ -29,18 +34,16 @@ currently little actual navigation going on but maybe soon enough we might throw
             <a href="/about">about</a>
         </div>
     </div>
-    
 
     <WelcomeMsg />
 
-    
     <div class="right links">
         <div class="entries">
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
         </div>
-    <ThemeToggle />
+        <ThemeToggle />
     </div>
 
     <slot />
@@ -78,7 +81,7 @@ currently little actual navigation going on but maybe soon enough we might throw
         background-color: #ffebbc;
         margin: 0px;
     }
-    .links{
+    .links {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -87,7 +90,8 @@ currently little actual navigation going on but maybe soon enough we might throw
         width: 35%;
     }
 
-    a, button {
+    a,
+    button {
         margin: 0px;
         gap: 0px;
         font-family: Poppins, sans-serif;
@@ -109,10 +113,8 @@ currently little actual navigation going on but maybe soon enough we might throw
     .entries {
         font-size: 0.8rem;
         font-weight: 600;
-        width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         gap: 4px;
         justify-content: space-between;
         align-content: space-between;
