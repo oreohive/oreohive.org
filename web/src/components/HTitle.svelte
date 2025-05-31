@@ -15,6 +15,7 @@
                 <slot />
             </div>
         </div>
+
         <div class="background-image">
             <div class="htitle-blur"></div>
         </div>
@@ -22,6 +23,7 @@
         <div class="background-image">
             <div class="htitle-blur"></div>
         </div>
+
         <div class="title-pane">
             <div class="title-pane-text">
                 <h1>{title}</h1>
@@ -75,12 +77,10 @@
             100vh - 65px
         ); /* since navbar is like 65px tall, we need to account for that */
         margin: 0px !important; /* THESE ARE STRICTLY DISALLOWED FROM HAVING MARGINS!!! MESSES WITH PAGE LAYOUT!!! */
-        background-position: center;
-        overflow: hidden;
+        word-wrap: break-word;
     }
     .title-pane {
         display: flex;
-        flex-direction: column;
         width: 50vw;
         align-items: center;
         justify-content: center;
@@ -90,7 +90,6 @@
         gap: 0px;
     }
     .title-pane-text {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
@@ -98,7 +97,6 @@
     }
     .background-image {
         position: relative;
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;

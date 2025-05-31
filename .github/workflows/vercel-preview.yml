@@ -1,0 +1,57 @@
+# .github/workflows/vercel-preview.yml
+
+name: Generate Vercel preview on dev branch (main)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # preview urls on my plain pushes (no comments)
+  preview_push:
+    # should ensure no comment logic ever runs on push
+    if: ${{ github.event_name == 'push' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vercel Preview (push)
+        id: vercel_push
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
+          github-token:   ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id:  ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+
+      - name: Print preview URL
+        run: echo "Preview URL: ${{ steps.vercel_push.outputs.preview-url }}"
+
+  # preview urls and comments on prs
+  preview_pr:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vercel Preview (PR)
+        id: vercel_pr
+        uses: amondnet/vercel-action@v25.2.0
+        with:
+          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
+          github-token:   ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id:  ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+
+      - name: Comment preview URL on PR
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `Preview URL: ${steps.vercel_pr.outputs.preview-url}`,
+            })

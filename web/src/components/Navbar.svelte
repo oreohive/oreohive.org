@@ -14,8 +14,8 @@ currently little actual navigation going on but maybe soon enough we might throw
 </script>
 
 <div class="navbar">
-    <div class="left links">
-        <a href="/">
+    <div class="left links entries">
+        <a href="/" style="width: auto;"> <!-- ignore width assigned to a elements -->
             <div class="logo-background">
             <img src={img_url} alt="logo" style="width: 48px; height: auto; border-radius: 50%;" />
             <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
@@ -52,14 +52,14 @@ currently little actual navigation going on but maybe soon enough we might throw
         display: flex;
         position: fixed;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
         align-self: center;
         justify-content: space-between;
         justify-self: center;
         margin: 0px 0px 0px 0px;
-        gap: 4px;
         padding: 0px;
+        gap: 0px;
         z-index: 99;
 
         background-color: #5a5467;
@@ -91,7 +91,10 @@ currently little actual navigation going on but maybe soon enough we might throw
         margin: 0px;
         gap: 0px;
         font-family: Poppins, sans-serif;
+        font-size: 0.8rem;
         font-weight: 300;
+        width: 91.5px;
+        text-align: center;
         text-decoration: none;
         background-color: rgba(0, 0, 0, 0.075);
         border-width: 2px !important;

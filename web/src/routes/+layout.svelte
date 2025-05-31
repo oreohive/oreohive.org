@@ -1,136 +1,90 @@
 <!-- src/routes/+layout.svelte -->
-
 <script lang="ts">
-  import { browser } from "$app/environment";
-  import { page, navigating, updated } from "$app/state";
-  import { onMount } from "svelte";
-  import { beforeNavigate, afterNavigate } from "$app/navigation";
-  import Navbar from "$components/Navbar.svelte";
-  import Footer from "$components/Footer.svelte";
-  import FullPageTitle from "$components/FullPageTitle.svelte";
-  import KofiButton from "$components/KofiButton.svelte";
-  import ConnectionsDisplay from "$components/ConnectionsDisplay.svelte";
-  import SettingsWidget from "$components/SettingsWidget.svelte";
-  import { on } from "events";
+  import { browser } from '$app/environment';
+  import { page, navigating, updated } from '$app/state';
+  import { onMount, onDestroy } from 'svelte';
+  import { beforeNavigate, afterNavigate } from '$app/navigation';
+  import Navbar from '$components/Navbar.svelte';
+  import Footer from '$components/Footer.svelte';
+  import SettingsWidget from '$components/SettingsWidget.svelte';
 
+  let navHeight = 0;
   let isOtherMusicPlaying = false;
+
+  function updateNavbarHeight() {
+    const navEl = document.querySelector(".navbar") as HTMLElement;
+    if (navEl) {
+      /* console.log('updateNavbarHeight() fired!'); */
+      navHeight = navEl.offsetHeight ?? 0;
+      /* console.log("navHeight:", navHeight); */
+    }
+  }
+
   function checkOtherMusicPlaying() {
-        const audios = document.querySelectorAll("audio");
-        isOtherMusicPlaying = Array.from(audios).some(audio => !audio.paused && !audio.ended && !audio.classList.contains("home-audio"));
+    const audios = document.querySelectorAll('audio:not(.home-audio)');
+    isOtherMusicPlaying = Array.from(audios).some(a => !a.paused && !a.ended);
+  }
+
+  function ensureAccepted() {
+    if (!browser) return;
+    const accepted = localStorage.getItem('accepted_terms');
+    const path = page.url.pathname;
+    const skip = ['/onboarding', '/edu', '/studies', '/thegoodinternet'];
+    if (!accepted && !skip.some(p => path.startsWith(p))) {
+      window.location.href = `/onboarding?redirect=${encodeURIComponent(path)}`;
+    }
   }
 
   onMount(() => {
-    // client (+layout.svelte) checks local storage
-    if (browser) {
-      const accepted = localStorage.getItem("accepted_terms");
- 
-      // check if current path starts with '/onboarding'
-      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
-      const isOnEdu = page.url.pathname.startsWith("/edu");
-      const isOnStudies = page.url.pathname.startsWith("/studies");
-      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
+    // initial stuff
+    updateNavbarHeight();
+    checkOtherMusicPlaying();
+    ensureAccepted();
 
-      // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnTheGoodInternet && !isOnStudies) {
-        if (page.url.pathname.length > 1 && page.url.pathname.endsWith("/")) {
-          let currentUrl = page.url.pathname.slice(0, -1)
-        }
-        else {
-          let currentUrl = page.url.pathname
-        }
-        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
-      }
-    }
+    // resize watchman
+    window.addEventListener('resize', updateNavbarHeight);
+
+    // audio watchman
+    ['play','pause','ended'].forEach(evt =>
+      document.addEventListener(evt, checkOtherMusicPlaying, true)
+    );
+
+    // hook into nav
+    beforeNavigate(() => {
+      ensureAccepted();
+      checkOtherMusicPlaying();
+    });
+    afterNavigate(() => {
+      ensureAccepted();
+      checkOtherMusicPlaying();
+      updateNavbarHeight();
+    });
+
+    onDestroy(() => {
+      window.removeEventListener('resize', updateNavbarHeight);
+      ['play','pause','ended'].forEach(evt =>
+        document.removeEventListener(evt, checkOtherMusicPlaying, true)
+      );
+    });
   });
-
-  export const currentUrl = page.url.pathname;
-
-  {onMount(() => {
-    if (browser) {
-      // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
-      const accepted = localStorage.getItem("accepted_terms");
- 
-      // check if current path starts with '/onboarding'
-      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
-      const isOnEdu = page.url.pathname.startsWith("/edu");
-      const isOnStudies = page.url.pathname.startsWith("/studies");
-      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
-
-      // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
-        let currentUrl = page.url.pathname
-        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
-      }
-    }
-
-    checkOtherMusicPlaying();
-    document.addEventListener("play", checkOtherMusicPlaying, true);
-    document.addEventListener("pause", checkOtherMusicPlaying, true);
-    document.addEventListener("ended", checkOtherMusicPlaying, true);
-  })}
-
-  {beforeNavigate(() => {
-    if (browser) {
-      // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
-      const accepted = localStorage.getItem("accepted_terms");
- 
-      // check if current path starts with '/onboarding'
-      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
-      const isOnEdu = page.url.pathname.startsWith("/edu");
-      const isOnStudies = page.url.pathname.startsWith("/studies");
-      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
-
-      // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
-        let currentUrl = page.url.pathname
-        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
-      }
-    }
-
-    checkOtherMusicPlaying();
-    document.addEventListener("play", checkOtherMusicPlaying, true);
-    document.addEventListener("pause", checkOtherMusicPlaying, true);
-    document.addEventListener("ended", checkOtherMusicPlaying, true);
-  })}
-
-  {afterNavigate(() => {
-    if (browser) {
-      // check if terms are accepted and not in /onboarding or /edu, else bounce back to /onboarding
-      const accepted = localStorage.getItem("accepted_terms");
- 
-      // check if current path starts with '/onboarding'
-      const isOnOnboardingPath = page.url.pathname.startsWith("/onboarding");
-      const isOnEdu = page.url.pathname.startsWith("/edu");
-      const isOnStudies = page.url.pathname.startsWith("/studies");
-      const isOnTheGoodInternet = page.url.pathname.startsWith("/thegoodinternet");
-
-      // redirect if localStorage is missing and we're not on onboarding
-      if (!accepted && !isOnOnboardingPath && !isOnEdu && !isOnStudies && !isOnTheGoodInternet) {
-        let currentUrl = page.url.pathname
-        window.location.href = `/onboarding?redirect=${currentUrl}`; // redirect to onboarding with current (previous) page as a query parameter
-      }
-    }
-
-    checkOtherMusicPlaying();
-    document.addEventListener("play", checkOtherMusicPlaying, true);
-    document.addEventListener("pause", checkOtherMusicPlaying, true);
-    document.addEventListener("ended", checkOtherMusicPlaying, true);
-  })}
 </script>
 
-<Navbar />
-
-<!--
-<div data-tap-disabled="true" >
-{#if !isOtherMusicPlaying && page.url.pathname === "/"}
-<audio class="home-audio" loop autoplay hidden>
-<source src="/music/oreohive.org-the-good-internet-dec-2024.mp3" type="audio/mpeg">your browser does not support the audio element.</audio>
-{/if}
+<div>
+  <Navbar />
 </div>
--->
-<slot />
+
+<div class="content" style="padding-top: {navHeight}px;">
+  <slot />
+</div>
+
 <SettingsWidget />
 
 <Footer>
   <slot name="footer" />
 </Footer>
+
+<style>
+  .content {
+    /* Your glorious CSS here */
+  }
+</style>
