@@ -23,19 +23,23 @@ currently little actual navigation going on but maybe soon enough we might throw
         </a>
         <button on:click={history.back()}>&lt;- back</button>
         <button on:click={navigateToHome}>go home!</button>
-        <a href="/activity-log">blog</a>
-        <a href="/sliceydicey">tools</a>
-        <a href="/about">about</a>
+        <div class="entries">
+            <a href="/activity-log">blog</a>
+            <a href="/sliceydicey">tools</a>
+            <a href="/about">about</a>
+        </div>
     </div>
     
 
     <WelcomeMsg />
 
     
-    <div class="right links entries">
-        <a href="https://github.com/oreohive/oreohive.org">github</a>
-        <a href="https://ko-fi.com/oreohive">ko-fi</a>
-        <a href="https://liberapay.com/oreohive">liberapay</a>
+    <div class="right links">
+        <div class="entries">
+            <a href="https://github.com/oreohive/oreohive.org">github</a>
+            <a href="https://ko-fi.com/oreohive">ko-fi</a>
+            <a href="https://liberapay.com/oreohive">liberapay</a>
+        </div>
     <ThemeToggle />
     </div>
 
@@ -61,13 +65,13 @@ currently little actual navigation going on but maybe soon enough we might throw
         background-color: #5a5467;
         background-image: linear-gradient(315deg, #5a5a5a 0%, #5a5467 50%);
         color: #5a5467;
-        border-radius: 2px;
+        border-radius: 0px 0px 6px 6px;
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
     }
     .logo-background {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
         width: 32px;
         height: 32px;
         border-radius: 12%;
@@ -78,10 +82,9 @@ currently little actual navigation going on but maybe soon enough we might throw
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        align-content: space-between;
         gap: 8px;
-        padding: 6px;
-        min-width: 30%
+        width: 35%;
     }
 
     a, button {
@@ -106,7 +109,15 @@ currently little actual navigation going on but maybe soon enough we might throw
     .entries {
         font-size: 0.8rem;
         font-weight: 600;
+        width: 100%;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: space-between;
+        align-content: space-between;
+        border-style: dashed;
+        border-width: 1px;
         border-color: #585266;
         border-radius: 12px;
     }

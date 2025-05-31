@@ -25,17 +25,17 @@ it's the central message that pops up indicating current subdomain
 {:else if subdomain === "labs"}
     <p>labs.oreohive.org | welcome to the labs subdomain!</p>
 {:else}
-    <p class="navbar-msg"><a href="https://www.oreohive.org">oreohive.org</a>&nbsp;| welcome to the main site! (no subdomain)</p>
+    <p class="navbar-msg"><a href="https://www.oreohive.org"><b>check us out</b>! we're all dressed up for <b>pride month</b>!</p>
 {/if}
 
 <style>
     p {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         align-self: center; /* important! :) */
-        justify-content: flex-start;
+        justify-content: center;
         justify-self: center;
-        text-align: left;
+        text-align: center;
 
         font-size: 0.8rem;
         font-weight: 400;
@@ -45,11 +45,11 @@ it's the central message that pops up indicating current subdomain
     a {
         display: inline;
         
-        align-items: flex-start;
-        align-self: flex-start;
-        justify-content: flex-start;
-        justify-self: flex-start;
-        text-align: start;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        justify-self: center;
+        text-align: center;
         word-break: normal;
 
         font-size: inherit;
