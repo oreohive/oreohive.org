@@ -61,7 +61,8 @@ it's the central message that pops up indicating current subdomain
         /* some styles of p have been discontinued in p's refinement
         this is a place for those style choices to continue to be established
         on messages specifically in the navbar */
-        border-style: dashed;
+        border-style: none;
+        border-width: 0px;
         border-color: #585266;
         padding: 10px;
     }
