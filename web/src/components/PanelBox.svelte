@@ -18,13 +18,15 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        align-self: center; /* ensure it positions itself centrally inside centre-container elements (like on home landing page) */
         gap: 16px;
         background: #ffffff;
         border-radius: 20px !important;
         box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
         padding: 12px;
         z-index: 1;
-        max-width: 622px !important;
+        width: 622px; /* target */
+        max-width: 100vw !important; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
         margin-top: 0px;
         margin-bottom: 0px;
     }

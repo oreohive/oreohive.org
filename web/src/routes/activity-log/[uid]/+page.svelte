@@ -11,7 +11,6 @@
   } from "@prismicio/svelte";
   import { components } from "$lib/slices";
   import { page } from "$app/state";
-  import { url } from "inspector";
   import { isFilled, asImageSrc } from "@prismicio/client";
 
   export let data;

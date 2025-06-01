@@ -69,16 +69,6 @@ currently little actual navigation going on but maybe soon enough we might throw
         border-radius: 0px 0px 6px 6px;
         box-shadow: 8px 8px 24px 4px rgba(0, 0, 0, 0.075);
     }
-    .logo-background {
-        display: flex;
-        align-items: center;
-        justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
-        width: 32px;
-        height: 32px;
-        border-radius: 12%;
-        background-color: #ffebbc;
-        margin: 0px;
-    }
     .links {
         display: flex;
         flex-direction: row;
@@ -136,5 +126,15 @@ currently little actual navigation going on but maybe soon enough we might throw
     }
     a :hover {
         color: #fff !important;
+    }
+    :global(.logo-background) {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
+        width: 32px !important;
+        height: 32px !important;
+        border-radius: 12%;
+        background-color: #ffebbc;
+        margin: 0px;
     }
 </style>
