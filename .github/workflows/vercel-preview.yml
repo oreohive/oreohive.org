@@ -20,6 +20,10 @@ jobs:
     # should ensure no comment logic ever runs on push
     if: ${{ github.event_name == 'push' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - name: Vercel Preview (push)
