@@ -96,7 +96,7 @@ body {
   border-color: rgba(121, 102, 161, 0.1);
   border-radius: 32px;
   background-color: #ffeafc;
-  background-image: radial-gradient(#ffffd2, #ffbcd4);
+  background-image: radial-gradient(#fffff8, #fff8fa);
   font-family: Poppins, sans-serif;
   max-width: 744px; /* should be just enough to squeeze in two activity log cards */
   
@@ -222,9 +222,9 @@ img {
   padding: 8px;
   justify-content: center;
   background-color:rgb(242, 194, 229) !important;
-  background-image: radial-gradient(#f2c2e5, #ffeefb) !important;
+  background-image: radial-gradient(#fff8fd, #fff9fe) !important;
   visibility: visible !important; /* important just bc it is i guess */
-  border-radius: 12px;
+  border-radius: 2px;
   overflow: hidden;
   z-index: 2;
 }
