@@ -46,6 +46,6 @@ that appears in the navbar -->
     border-color: rgba(0, 0, 0, 0.25) !important;
     border-style: solid !important;
     color: #beb7cc;
-    border-radius: 6px;
+    border-radius: 12px;
   }
 </style>

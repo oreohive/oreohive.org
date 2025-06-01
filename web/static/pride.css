@@ -94,7 +94,7 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: rgba(121, 102, 161, 0.1);
-  border-radius: 32px;
+  border-radius: 12px;
   background-color: #ffeafc;
   background-image: radial-gradient(#fffff8, #fff8fa);
   font-family: Poppins, sans-serif;
@@ -405,7 +405,7 @@ button {
   background-color: #fcfcff; /* Black background color */
   color: #000 !important; /* White text color */
   text-align: center; /* Centered text */
-  border-radius: 2px; /* Rounded borders */
+  border-radius: 12px; /* Rounded borders */
   padding: 16px; /* Padding */
   position: fixed; /* Sit on top of the screen */
   z-index: 1; /* Add a z-index if needed */

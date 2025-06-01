@@ -57,7 +57,7 @@
       box-shadow 0.05s ease;
     border-color: #2b313b;
     border-width: 2px;
-    border-radius: 64px;
+    border-radius: 16px;
   }
   img {
     width: 26px;
