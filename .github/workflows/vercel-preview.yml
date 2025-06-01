@@ -27,7 +27,8 @@ jobs:
           vercel-project-id: ${{ secrets.PROJECT_ID }}
 
       - name: Print preview URL
-        run: echo "Preview URL: ${{ steps.vercel_push.outputs.preview-url }}"
+        run: echo "Preview URL -> ${{ steps.vercel_push.outputs.preview-url }}"
+
 
   # preview urls and comments on prs
   preview_pr:
@@ -46,6 +47,8 @@ jobs:
 
       - name: Comment preview URL on PR
         uses: actions/github-script@v6
+        env:
+          PREVIEW_URL: ${{ steps.vercel_pr.outputs.preview-url }} # pass the output as an env
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -53,5 +56,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.pull_request.number,
-              body: `Preview URL: ${steps.vercel_pr.outputs.preview-url}`,
+              body: `Preview URL: ${process.env.PREVIEW_URL}`, // access it from process.env
             })
