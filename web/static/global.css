@@ -162,7 +162,6 @@ li {
 img {
   border-radius: 12px; /* default for all images, including icons */
   max-width: 100%;
-  height: auto;
 }
 
 /* inverted styles for dark mode */
@@ -197,6 +196,19 @@ button {
 .dark h5,
 .dark h6 {
   color: #ffffff;
+}
+
+.logo-background img {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
+  width: 32px !important;
+  height: 32px !important;
+  max-width: 75% !important;
+  max-height: 75% !important;
+  border-radius: 12%;
+  background-color: #ffebbc;
+  margin: 0px;
 }
 
 .footnote {
