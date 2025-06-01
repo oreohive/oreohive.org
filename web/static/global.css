@@ -97,10 +97,15 @@ body {
   border-radius: 32px;
   background-color: #fff;
   font-family: Poppins, sans-serif;
-  max-width: 744px; /* should be just enough to squeeze in two activity log cards */
-  
-  flex-wrap: wrap;
-  word-wrap: break-word;
+  width: 744px; /* target: should be just enough to squeeze in two activity log cards */
+  max-width: 100%; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
+
+  /* ensure 'ruthless' wrapping to maximise mobile compatibility */
+  flex-wrap: wrap !important;
+  word-wrap: break-word !important;
+  text-wrap: wrap !important;
+  text-wrap-mode: wrap !important;
+  overflow-wrap: anywhere !important;
 }
 
 .dark .centre-container {
