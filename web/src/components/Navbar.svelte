@@ -14,36 +14,34 @@ currently little actual navigation going on but maybe soon enough we might throw
 </script>
 
 <div class="navbar">
-    <div class="left links">
-        <a href="/" style="width: auto;">
-            <!-- ignore width assigned to a elements -->
-            <div class="logo-background">
-                <img
-                    src={img_url}
-                    alt="logo"
-                    style="width: 48px; height: auto; border-radius: 50%;"
-                />
-                <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
-            </div>
-        </a>
-        <button on:click={history.back()}>&lt;- back</button>
-        <button on:click={navigateToHome}>go home!</button>
+    <div class="left links" style="align-self: center; justify-content: flex-start;">
         <div class="entries">
+            <a href="/" style="width: auto;">
+                <!-- ignore width assigned to a elements -->
+                <div class="logo-background">
+                    <img
+                        src={img_url}
+                        alt="logo"
+                        style="width: 48px; height: 48px; border-radius: 50%;"
+                    />
+                    <!-- we factor this (or, specifically, subsequent navbar height) into the likes of fullpagetitle component configuration and use -->
+                </div>
+            </a>
+            <button on:click={history.back()}>&lt;- back</button>
+            <button on:click={navigateToHome}>go home!</button>
             <a href="/activity-log">blog</a>
             <a href="/sliceydicey">tools</a>
             <a href="/about">about</a>
         </div>
     </div>
-
     <WelcomeMsg />
-
-    <div class="right links">
+    <div class="right links" style="align-self: center; justify-content: flex-end;">
         <div class="entries">
             <a href="https://github.com/oreohive/oreohive.org">github</a>
             <a href="https://ko-fi.com/oreohive">ko-fi</a>
             <a href="https://liberapay.com/oreohive">liberapay</a>
+            <ThemeToggle />
         </div>
-        <ThemeToggle />
     </div>
 
     <slot />
@@ -86,29 +84,9 @@ currently little actual navigation going on but maybe soon enough we might throw
         flex-direction: row;
         align-items: center;
         align-content: space-between;
+        flex-wrap: wrap;
         gap: 8px;
-        width: 35%;
-    }
-
-    a,
-    button {
-        margin: 0px;
-        gap: 0px;
-        font-family: Poppins, sans-serif;
-        font-size: 0.8rem;
-        font-weight: 300;
-        width: 91.5px;
-        text-align: center;
-        text-decoration: none;
-        background-color: rgba(0, 0, 0, 0.075);
-        border-width: 2px !important;
-        border-color: rgba(0, 0, 0, 0.075) !important;
-        border-style: solid !important;
-        color: #beb7cc;
-        border-radius: 6px;
-    }
-    a :hover {
-        color: #fff !important;
+        min-width: 30vw; /* ensures that WelcomeMsg remains centred when between the two links elements without wrapping :) */
     }
     .entries {
         font-size: 0.8rem;
@@ -118,9 +96,45 @@ currently little actual navigation going on but maybe soon enough we might throw
         gap: 4px;
         justify-content: space-between;
         align-content: space-between;
-        border-style: dashed;
-        border-width: 1px;
+        flex-wrap: wrap;
+        border-style: none;
+        border-width: 0px;
         border-color: #585266;
         border-radius: 12px;
+    }
+
+    a,
+    button {
+        display: unset !important;
+        margin: 0px;
+        gap: 0px;
+        padding: 0px; /* ensures text fully saturates available space inside buttons before overflowing */
+        padding-block: 0px;
+        align-self: center;
+        justify-self: center;
+        font-family: Poppins, sans-serif;
+        font-size: 0.8rem;
+        font-weight: 300;
+        width: auto;
+        height: 32px !important; /* to match logo-background element */
+        text-align: center;
+        text-decoration: none;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        box-sizing: unset !important; /* removes discrepancy in height between buttons and a elements */
+        
+        align-items: center;
+        align-content: center; /* horizontally centres text (on buttons and links) */
+        justify-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.075);
+        border-width: 4px !important;
+        border-color: rgba(0, 0, 0, 0.075) !important;
+        border-style: solid !important;
+        color: #beb7cc;
+        border-radius: 6px;
+    }
+    a :hover {
+        color: #fff !important;
     }
 </style>

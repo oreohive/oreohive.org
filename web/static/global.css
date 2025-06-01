@@ -160,7 +160,7 @@ li {
   max-width: 100vw;
 }
 img {
-  border-radius: 6px; /* default for all images, including icons */
+  border-radius: 12px; /* default for all images, including icons */
   max-width: 100%;
   height: auto;
 }

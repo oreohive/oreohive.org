@@ -6,8 +6,6 @@
 
 <TitleDisplay title="oreohive activity log" />
 
-
-
 <div class="container">
     <div class="centre-container">
       <slot />
@@ -20,4 +18,4 @@
     </ul>
     </div>
     <KofiDonateMsg />
-</div>  
+</div>

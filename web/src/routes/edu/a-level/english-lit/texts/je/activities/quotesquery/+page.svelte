@@ -209,7 +209,7 @@
         margin-bottom: 0em;
         padding: 1.5em;
         background-color: #fff;
-        border-radius: 24px;
+        border-radius: 12px;
         border-color: #e8e8e8;
         border-width: 3px;
         border-style: solid;
@@ -223,7 +223,7 @@
         padding: 0.5em;
         font-size: 1em;
         font-family: "Courier New", Courier, monospace;
-        border-radius: 6px;
+        border-radius: 12px;
         border-style: dashed;
     }
     button {
