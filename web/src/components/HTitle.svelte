@@ -93,7 +93,8 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        max-width: 380px;
+        width: 380px; /* target */
+        max-width: 100%; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
     }
     .background-image {
         position: relative;

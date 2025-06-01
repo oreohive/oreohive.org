@@ -32,6 +32,13 @@
   --column-margin-top: 4rem;
   font-family: var(--font-body);
   color: var(--color-text);
+
+  /* ensure 'ruthless' wrapping to maximise mobile compatibility */
+  flex-wrap: wrap !important;
+  word-wrap: break-word !important;
+  text-wrap: wrap !important;
+  text-wrap-mode: wrap !important;
+  overflow-wrap: anywhere !important;
 }
 
 html {
