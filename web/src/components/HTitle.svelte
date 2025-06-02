@@ -109,8 +109,9 @@
         margin: 0px;
 
         background: repeating-linear-gradient(147deg, #fff7ac, #ffbcd4, #b0ffbe, #5757e4);
+        background-image: url("/backgrounds/shineon.webp");
         background-size: 300% 300%;
-        animation: gradient-animation 30s ease infinite;
+        /* animation: gradient-animation 30s ease infinite; */
 
         background-position: center;
         background-repeat: no-repeat;
