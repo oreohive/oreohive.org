@@ -22,7 +22,7 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         justify-self: center !important;
         gap: 16px;
         background: #ffffff;
-        border-radius: 20px !important;
+        border-radius: 8px !important;
         box-shadow: 2px 8px 24px 4px rgba(0, 0, 0, 0.175) !important;
         padding: 12px;
         z-index: 1;
