@@ -12,16 +12,17 @@ export let data;
 
 {#if data.posts && data.posts.length > 0}
 <ul>
-  <div style="display: flex; flex-wrap: wrap;">
+  <div class="posts-display">
   {#each [...data.posts] as post} <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
     <li>
-      <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/activity-log/${post.uid}`}/>
+      <div>
+        <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/activity-log/${post.uid}`}/>
+      </div>
       <div>
         <a href={`/activity-log/${post.uid}`}><h3>{post.data.title}</h3></a>
-        <div>
-        <p>{post.data.date} by {post.data.author}</p>
-        
       </div>
+      <div>
+        <p>{post.data.date} by {post.data.author}</p>
       </div>
     </li>
   {/each}
@@ -34,15 +35,32 @@ export let data;
 
 <style>
   li {
-    height: 300px;
-    width: 275px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
     margin-left: 20px;
     margin-top: 12px;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
-    border-style: dashed;
-    background-color:rgb(245, 239, 241, 0.05);
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-width: 3px;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 12px 12px 12px 12px !important;
+    margin: 12px 16px 12px 16px !important;
+    gap: 0px 0px 0px 0px !important;
+  }
+  .posts-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 100%;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+    gap: 0px 0px 0px 0px !important;
   }
 </style>

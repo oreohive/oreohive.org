@@ -83,6 +83,7 @@ body {
   flex-direction: column;
   align-self: center;
   align-items: flex-start;
+  justify-content: flex-start;
   justify-self: center;
 
   margin-top: 16px;
@@ -91,8 +92,8 @@ body {
   for this element class can sometimes appear by itself with
   no title above or below, so any difference would be
   visible and ultimately unappealing */
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 12px;
