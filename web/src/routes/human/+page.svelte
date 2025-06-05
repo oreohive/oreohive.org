@@ -14,6 +14,7 @@
 
 <TitleDisplay title="human" />
 
+<div class="posts-display">
 {#if data.documents && data.documents.length > 0}
   <ul>
     {#each [...data.documents] as post}
@@ -33,3 +34,36 @@
 {:else}
   <p>oop- no posts found here. sorry! :'))</p>
 {/if}
+</div>
+
+<style>
+  li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-width: 3px;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 12px 12px 12px 12px !important;
+    margin: 12px 16px 12px 16px !important;
+    gap: 0px 0px 0px 0px !important;
+  }
+  .posts-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 100%;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+    gap: 0px 0px 0px 0px !important;
+  }
+</style>
