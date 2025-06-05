@@ -46,8 +46,6 @@ html {
   background-color: rgb(255, 255, 254);
   background-image: none;
   width: 100%;
-  ::-webkit-scrollbar {
-    display: none;
 }
 
 body {
