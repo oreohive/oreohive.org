@@ -16,9 +16,10 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        align-self: center; /* ensure it positions itself centrally inside centre-container elements (like on home landing page) */
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: center !important; /* ensure it positions itself centrally inside centre-container elements (like on home landing page) */
+        justify-self: center !important;
         gap: 16px;
         background: #ffffff;
         border-radius: 20px !important;
@@ -26,7 +27,7 @@ this PanelBox.svelte component just organises and sorts them; it's the intended 
         padding: 12px;
         z-index: 1;
         width: 622px; /* target */
-        max-width: 100vw !important; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
+        max-width: 95% !important; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
         margin-top: 0px;
         margin-bottom: 0px;
     }
