@@ -125,17 +125,6 @@ ul,
 ol,
 li {
   flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 12px;
-  border-width: 1px;
-  border-style: none;
-  font-family: Poppins, sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 8px;
-  margin-right: 0px;
-  padding: 0px;
-  max-width: 100vw;
 }
 
 .navbar {
