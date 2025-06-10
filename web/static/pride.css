@@ -1,4 +1,8 @@
-/* web/static/global.css */
+/* web/static/pride.css */
+
+/* partial clone of global.css */
+/* does still contain a lot of its structural styling */
+/* redunant, but i don't want to muck around with trying to make this purely stylistic if that'll risk breaking things */
 
 :root {
   /* snatched from sveltekit vercel boilerplate tysm */
