@@ -58,7 +58,7 @@ jobs:
         uses: actions/github-script@v6
         env:
           PREVIEW_URL: ${{ steps.vercel_pr.outputs.preview-url }} # pass the output as an env
-          GITHUB_TOKEN: ${{ secrets.PR_COMMENTER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
