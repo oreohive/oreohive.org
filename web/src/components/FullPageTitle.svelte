@@ -64,6 +64,8 @@ we can work on it :))) -->
         padding-left: 8px;
         padding-right: 8px;
         margin: 0px;
+        margin-left: 428px !important;
+        margin-right: 428px !important;
         overflow: hidden;
     }
     h1 {

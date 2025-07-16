@@ -1,4 +1,8 @@
-<!-- src/routes/library/+page.svelte -->
+<script>
+    import FullPageTitle2 from "$components/FullPageTitle2.svelte";
+
+</script>
+<!-- /src/routes/sliceydicey/router-dashboard/+page.svelte -->
 
 <!--
     ---------- ---------- --
@@ -12,9 +16,9 @@
 
     ---------- ---------- --
     Notably, our Terms & Ethics of Use strictly prohibit the use of our code
-    and writing for the training, improvement, diagnostics or iterations of 
+    and writing for the training, improvement, diagnostics or iterations of
     AI models and machine learning algorithms.
-    
+
     The interpretation of our works (such as this file) by machine learning
     algorithms is not necessarily prohibited. However, to maintain compliance,
     this file should not be used in training or improving ML, AI or their
@@ -48,7 +52,7 @@
     shared, (re)distributed, utilised or applied) by a party, individual,
     organisation or corporation opens it up to legal repercussions at the
     discretion of the oreohive organisation.
-    
+
     It/they may be found liable for any damages deemed to result from these
     practices, or any fine or repercussion for not following the Terms & Ethics
     of Use.
@@ -66,14 +70,92 @@
     ---------- ---------- --
 -->
 
-<script lang="ts">
-    import { page } from "$app/state";
-    import FullPageTitle2 from "$components/FullPageTitle2.svelte";
+<FullPageTitle2 title="router dashboard">
+    <h1 style="margin-right: 24px !important;">
+        Please select your brand of your router from below:
+    </h1>
+</FullPageTitle2>
 
-</script>
+<h1>To access the dashboard of your router, you may try the following IP addresses:</h1>
+<p><i>Enter these in your browser's address bar.</i></p>
 
-<div class="container">
-    <FullPageTitle2 title="oreohive library">
-    </FullPageTitle2>
+<ol>
+    <li><a href="192.168.0.1">192.168.0.1</a></li>
+    <li><a href="192.168.1.1">192.168.1.1</a></li>
 
-</div> <!-- container -->
+    <li><a href="10.0.0.1">10.0.0.1</a></li>
+    <li><a href="10.0.0.2">10.0.0.2</a></li>
+
+    <li><a href="192.168.0.100">192.168.0.100</a></li>
+    <li><a href="192.168.1.100">192.168.1.100</a></li>
+
+    <li><a href="192.168.0.254">192.168.0.254</a></li>
+    <li><a href="192.168.1.254">192.168.1.254</a></li>
+    <li><a href="192.168.254.254">192.168.254.254</a></li>
+
+    <li><a href="10.10.1.1">10.10.1.1</a></li>
+    <li><a href="10.1.1.1">10.1.1.1</a></li>
+
+    <li><a href="192.168.3.1">192.168.3.1"</li>
+    <li><a href="192.168.8.1">192.168.8.1"</li>
+    <li><a href="192.168.16.1">192.168.16.1</a></li>
+    <li><a href="192.168.0.50">192.168.0.50</a></li>
+    <li><a href="192.168.11.1">192.168.11.1</a></li>
+    <li><a href="192.168.1.99">192.168.1.99</a></li>
+</ol>
+
+<!-- wip
+<ol>
+    <li>2Wire</li>
+    <li>3Com</li>
+    <li>Actiontec</li>
+    <li>Airlink</li>
+    <li>Airlive</li>
+    <li>Airties</li>
+    <li>Apple</li>
+    <li>Amped Wireless</li>
+    <li>ASUS</li>
+    <li>Aztech</li>
+    <li>Belkin</li>
+    <li>Billion</li>
+    <li>Buffalo</li>
+    <li>Dell</li>
+    <li>Cisco</li>
+    <li>D-Link</li>
+    <li>Edimax</li>
+    <li>Eminent</li>
+    <li>Gigabyte</li>
+    <li>Hawking</li>
+    <li>Huawei</li>
+    <li>LevelOne</li>
+    <li>Linksys</li>
+    <li>Microsoft</li>
+    <li>Motorola</li>
+    <li>MSI</li>
+    <li>Netgear</li>
+    <li>NetComm</li>
+    <li>Netopia</li>
+    <li>Planet</li>
+    <li>Plusnet</li>
+    <li>Repotec</li>
+    <li>Sagemcom</li>
+    <li>Senao</li>
+    <li>Siemens</li>
+    <li>Sitecom</li>
+    <li>Sky</li>
+    <li>SMC Networks</li>
+    <li>Sonicwall</li>
+    <li>SpeedTouch</li>
+    <li>Sweex</li>
+    <li>TalkTalk</li>
+    <li>Tenda</li>
+    <li>Thomson</li>
+    <li>TP-Link</li>
+    <li>Trendnet</li>
+    <li>U.S. Robotics</li>
+    <li>Virgin Media</li>
+    <li>Zoom</li>
+    <li>ZTE</li>
+    <li>Zyxel</li>
+</ol>
+-->
