@@ -1,4 +1,4 @@
-<!-- /src/routes/labs/+page.svelte -->
+<!-- src/routes/library/+page.svelte -->
 
 <!--
     ---------- ---------- --
@@ -12,9 +12,9 @@
 
     ---------- ---------- --
     Notably, our Terms & Ethics of Use strictly prohibit the use of our code
-    and writing for the training, improvement, diagnostics or iterations of
+    and writing for the training, improvement, diagnostics or iterations of 
     AI models and machine learning algorithms.
-
+    
     The interpretation of our works (such as this file) by machine learning
     algorithms is not necessarily prohibited. However, to maintain compliance,
     this file should not be used in training or improving ML, AI or their
@@ -48,7 +48,7 @@
     shared, (re)distributed, utilised or applied) by a party, individual,
     organisation or corporation opens it up to legal repercussions at the
     discretion of the oreohive organisation.
-
+    
     It/they may be found liable for any damages deemed to result from these
     practices, or any fine or repercussion for not following the Terms & Ethics
     of Use.
@@ -67,67 +67,14 @@
 -->
 
 <script lang="ts">
-    import FullPageTitle from "$components/FullPageTitle.svelte";
-  import Panel from "$components/Panel.svelte";
-  import PanelBox from "$components/PanelBox.svelte";
-  import TitleDisplay from "$components/TitleDisplay.svelte";
-  import { PrismicRichText } from "@prismicio/svelte";
-  export let data;
+    import { page } from "$app/state";
+    import FullPageTitle2 from "$components/FullPageTitle2.svelte";
+
 </script>
 
-<svelte:head>
-  <title>labs | oreohive.org</title>
-  <meta name="description" content="oreohive labs | perhaps not quite as scientific as it might sound."/>
-</svelte:head>
+<div class="container">
+    <FullPageTitle2 title="oreohive library">
+    </FullPageTitle2>
 
-<FullPageTitle title="oreohive.org | labs" />
 
-<TitleDisplay title="labs articles" />
-
-{#if data.posts && data.posts.length > 0}
-<div style="color: #7f7fbe;">
-  {#each [...data.posts] as post} <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
-    <div style="display: flex; border-style: dashed; margin-top: 0px; margin-bottom: 32px; border-radius: 12px;">
-      <div style="display: flex; border-radius: 12px; margin: 0px; margin-top: 18px;">
-      <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/labs/labs-articles/${post.uid}`}/>
-      <div>
-        <a href={`/labs/labs-articles/${post.uid}`}><h3><PrismicRichText field={post.data.title ?? "a post title"} /></h3></a>
-        <div style="display: flex; margin-left: 16px;">
-        
-        <p>{post.data.timestamp}</p>
-        <PrismicRichText field={post.data.author ?? "an author"}/>
-        </div>
-      </div>
-      </div>
-    </div>
-  {/each}
-</div>
-
-{:else}
-  <p>oops! no posts found. sorry!</p>
-{/if}
-
-<style>
-  * {
-    min-width: fit-content;
-    text-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  p {
-    overflow: hidden;
-    max-width: 100%;
-  }
-  .dark p {
-    color: #000000 !important;
-  }
-
-  li {
-    overflow: hidden;
-    max-width: 100%;
-  }
-
-  .dark li {
-    background-color: #5a5467;
-  }
-</style>
+</div> <!-- container -->
