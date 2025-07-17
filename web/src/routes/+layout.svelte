@@ -151,7 +151,4 @@
 </Footer>
 
 <style>
-  .content {
-    /* Your glorious CSS here */
-  }
 </style>
