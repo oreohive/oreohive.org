@@ -1,4 +1,4 @@
-<!-- /src/routes/labs/+layout.svelte -->
+<!-- src/routes/labs/+layout.svelte -->
 
 <!--
     ---------- ---------- --

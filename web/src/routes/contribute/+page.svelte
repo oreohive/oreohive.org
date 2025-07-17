@@ -1,4 +1,4 @@
-<!-- /src/routes/contribute/+page.svelte -->
+<!-- src/routes/contribute/+page.svelte -->
 
 <!--
     ---------- ---------- --

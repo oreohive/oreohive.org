@@ -1,4 +1,4 @@
-<!-- /src/routes/edu/+layout.svelte -->
+<!-- src/routes/edu/+layout.svelte -->
 
 <!--
     ---------- ---------- --

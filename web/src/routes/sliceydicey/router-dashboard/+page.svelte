@@ -1,8 +1,4 @@
-<script>
-    import FullPageTitle2 from "$components/FullPageTitle2.svelte";
-
-</script>
-<!-- /src/routes/sliceydicey/router-dashboard/+page.svelte -->
+<!-- src/routes/sliceydicey/router-dashboard/+page.svelte -->
 
 <!--
     ---------- ---------- --
@@ -69,6 +65,10 @@
 
     ---------- ---------- --
 -->
+
+<script>
+    import FullPageTitle2 from "$components/FullPageTitle2.svelte";
+</script>
 
 <FullPageTitle2 title="router dashboard">
     <h1 style="margin-right: 24px !important;">

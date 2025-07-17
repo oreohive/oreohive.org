@@ -1,4 +1,4 @@
-<!-- /src/routes/sliceydicey/+page.svelte -->
+<!-- src/routes/sliceydicey/+page.svelte -->
 
 <!--
     ---------- ---------- --

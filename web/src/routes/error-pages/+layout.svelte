@@ -1,4 +1,4 @@
-<!-- /src/routes/error-pages/+layout.svelte -->
+<!-- src/routes/error-pages/+layout.svelte -->
 
 <!--
     ---------- ---------- --

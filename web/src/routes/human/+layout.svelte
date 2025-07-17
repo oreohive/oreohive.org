@@ -1,4 +1,4 @@
-<!-- /src/routes/human/+layout.svelte -->
+<!-- src/routes/human/+layout.svelte -->
 
 <!--
     ---------- ---------- --

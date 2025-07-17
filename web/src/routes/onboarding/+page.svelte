@@ -1,4 +1,4 @@
-<!-- /src/routes/onboarding/+page.svelte -->
+<!-- src/routes/onboarding/+page.svelte -->
 
 <!--
     ---------- ---------- --
