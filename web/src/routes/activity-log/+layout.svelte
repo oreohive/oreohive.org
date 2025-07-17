@@ -1,4 +1,5 @@
 <!-- src/routes/activity-log/+layout.svelte -->
+ 
 <script>
   import TitleDisplay from "$components/TitleDisplay.svelte";
   import KofiDonateMsg from "$components/KofiDonateMsg.svelte";

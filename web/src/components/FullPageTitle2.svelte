@@ -77,8 +77,8 @@ we can work on it :))) -->
         border-style: solid;
         border-width: 6px;
         border-color: #000;
-        min-width: 25vw;
-        max-width: 100%;
+        min-width: 50vw;
+        max-width: 50vw;
         border-radius: 256px;
         padding: 4px;
         padding-top: 4px;
@@ -86,6 +86,8 @@ we can work on it :))) -->
         padding-left: 8px;
         padding-right: 8px;
         margin: 0px;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
         overflow: hidden;
     }
     h1 {
