@@ -15,41 +15,19 @@ permissions:
   issues: write
 
 jobs:
-  # preview urls on my plain pushes (no comments)
-  preview_push:
-    # should ensure no comment logic ever runs on push
-    if: ${{ github.event_name == 'push' }}
+  preview:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      issues: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - name: Vercel Preview (push)
-        id: vercel_push
+      - name: Vercel Preview
+        id: vercel_preview
         uses: amondnet/vercel-action@v25.2.0
         with:
           vercel-token:   ${{ secrets.VERCEL_TOKEN }}
           github-token:   ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id:  ${{ secrets.ORG_ID }}
           vercel-project-id: ${{ secrets.PROJECT_ID }}
-
+          
       - name: Print preview URL
-        run: echo "Preview URL -> ${{ steps.vercel_push.outputs.preview-url }}"
-
-
-  # preview urls and comments on prs
-  preview_pr:
-    if: ${{ github.event_name == 'pull_request' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Vercel Preview (PR)
-        id: vercel_pr
-        uses: amondnet/vercel-action@v25.2.0
-        with:
-          vercel-token:   ${{ secrets.VERCEL_TOKEN }}
-          github-token:   ${{ secrets.GITHUB_TOKEN }}
-          vercel-org-id:  ${{ secrets.ORG_ID }}
-          vercel-project-id: ${{ secrets.PROJECT_ID }}
+        if: github.event_name == 'push'
+        run: echo "Preview URL -> ${{ steps.vercel_preview.outputs.preview-url }}"
