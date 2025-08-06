@@ -2,9 +2,9 @@
 
 <script>
     export let title;
-    export let desc;
-    export let direction = "left"
-    export let img_url = "/logo.webp"
+    export let desc = "HPoint";
+    export let direction = "left";
+    export let img_url = "/logo.webp";
 </script>
 
 <div class="homepoint-display">

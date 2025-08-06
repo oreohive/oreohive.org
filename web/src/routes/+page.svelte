@@ -74,15 +74,21 @@
     import PanelSegment from "$components/PanelSegment.svelte";
 </script>
 
-<HTitle direction="left" title="welcome to the good internet." desc="welcome to the beehive.">
+<HTitle
+    direction="left"
+    title="welcome to the good internet."
+    desc="welcome to the beehive.">
     <p>
-        this is more than just our personal blog.
-        <br />
+        this is more than just our personal blog.<br />
         this is a place to share with the world what's possible
         when we put humans first, and user experiences before bottom lines.
     </p>
 
-    <div style="display: flex; flex-direction: row;">
+    <div style="
+        display: flex;
+        flex-direction: row;
+    ">
+
     <ul>
         <li>
             <a href="/activity-log">activity log</a>
@@ -101,14 +107,34 @@
              - here brews tutorials
         </li>
     </ul>
+
     </div>
 </HTitle>
 
-<div class="container" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100vw; align-items: center; justify-content: center;">
-    <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
-        <h1>let's make the internet less like a dystopian sci-fi novel.</h1>
-    </div>
-    <div style="width: 768px; display: flex; align-items: center; justify-content: center;">
+<div class="container" style="
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+">
+
+    <h1 style="
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    ">
+        let's make the internet less like a dystopian sci-fi novel.
+    </h1>
+
+    <div style="
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    ">
         <PanelSegment>
         <h1>here</h1>
         <Panel panel_width="200px" colour="#ffbcd4" desc="<- onboarding" href="/onboarding" img_url=""><span class="material-icons md-48">favorite</span></Panel>

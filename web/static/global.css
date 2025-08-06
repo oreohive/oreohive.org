@@ -55,6 +55,11 @@ body {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+
+  flex-wrap: wrap !important;
+  word-wrap: break-word !important;
+  text-wrap: wrap !important;
+  overflow-wrap: anywhere !important;
 }
 .dark html {
   background-color: #312d37 !important;
@@ -173,7 +178,8 @@ li {
 }
 img {
   border-radius: 12px; /* default for all images, including icons */
-  max-width: 100%;
+  max-width: 50%;
+  height: auto;
 }
 
 /* inverted styles for dark mode */
