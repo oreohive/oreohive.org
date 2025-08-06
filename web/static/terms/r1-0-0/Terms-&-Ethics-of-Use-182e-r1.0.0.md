@@ -1,4 +1,4 @@
-Terms & Ethics of Use (oreohive 182e)
+oreohive Source No-AI-Training License (oreohive 182e)
 Release 1.0.0
 made by and for the oreohive organisation (@ oreohive.org)
 
@@ -6,47 +6,47 @@ You are allowed to let this document inspire similar ones of your own for your o
 the oreohive organisation is strictly NOT liable for the effectiveness of (your use of) our such resources in protecting your own content! so use this as guidance at your own risk, we have virtually no idea what we're doing.
 we personally strictly do not recommend this practice, but won't stop you. it's your prerogative.
 
-# Terms & Ethics of Use
+# oreohive Source No-AI-Training License
 
-*The redistribution of this document, outside of attributed quotes that explicitly specify the source of the oreohive organisation, is not allowed (not permitted by these Terms & Ethics of Use, nor the oreohive organisation, who publishes them).
+*The redistribution of this document, outside of attributed quotes that explicitly specify the source of the oreohive organisation, is not allowed (not permitted by these oreohive Source No-AI-Training License, nor the oreohive organisation, who publishes them).
 This includes copies, quotes, texts, screenshots, images, pictures or extracts that are modified, altered, built upon or are posted, transmitted, published or sent otherwise (verbatim).*
 
-*As part of our pledge to accessibility, inclusivity and transparency, summaries of this Terms & Ethics of Use document may be published by the oreohive organisation. However, these do not take precedence or hold (overruling) power over this Terms & Ethics of Use document itself.*
+*As part of our pledge to accessibility, inclusivity and transparency, summaries of this oreohive Source No-AI-Training License document may be published by the oreohive organisation. However, these do not take precedence or hold (overruling) power over this oreohive Source No-AI-Training License document itself.*
 
-*This Terms & Ethics of Use document does not hold power or take precedence over later iterations of Terms & Ethics of Use documents provided and published officially by the oreohive organisation.*
+*This oreohive Source No-AI-Training License document does not hold power or take precedence over later iterations of oreohive Source No-AI-Training License documents provided and published officially by the oreohive organisation.*
 
-*Adjusted or altered versions or publications of the oreohive organisation’s Terms & Ethics of Use are invalid if conducted by individuals not formally considered to be a part of the oreohive organisation by the organisation itself, even if this was or has been done under the oreohive organisation’s name, regardless of intent.*
+*Adjusted or altered versions or publications of the oreohive organisation’s oreohive Source No-AI-Training License are invalid if conducted by individuals not formally considered to be a part of the oreohive organisation by the organisation itself, even if this was or has been done under the oreohive organisation’s name, regardless of intent.*
 
 *We allow for the use of this document to inspire similar Terms documents, but we have too little an idea of what we’re doing to take responsibility should this leave loopholes or gaps. We are not liable.
 For your business or projects, you should consult a lawyer to properly write or compose for you such a Terms document without potential loopholes or weak points.*
 
-*the oreohive organisation takes zero liability. The end user is responsible for how they use our products, services, platforms, assets, resources and experiences, and they must do so in compliance with these Terms & Ethics of Use.*
+*the oreohive organisation takes zero liability. The end user is responsible for how they use our products, services, platforms, assets, resources and experiences, and they must do so in compliance with these oreohive Source No-AI-Training License.*
 
 *Regardless of what a given end user or party does with what we provide or publish, we take zero liability for any harm done or laws / rules broken by them.
 It is their responsibility what they do with our services, products, experiences, platforms and tools, all of which we provide for educational purposes and in good faith (and a respect for the public / in the public interest).*
 
 # 00. - Important notes
 
-- In agreeing with these Terms & Ethics of Use, you agree to also be in agreement with, understanding of and acceptance of future iterations of our Terms & Ethics of Use.
+- In agreeing with these oreohive Source No-AI-Training License, you agree to also be in agreement with, understanding of and acceptance of future iterations of our oreohive Source No-AI-Training License.
 - These apply to all products, services and experiences distributed under or by the oreohive organisation, or any content created by, facilitated by, provided by or solicited by the oreohive organisation.
-You may not under any circumstances use, connect to or interact with any of these without being in agreement with these Terms & Ethics of Use.
-- Largely in order to prevent abuse, we deem even your connection to our services or resources for the sole purposes of reading these Terms & Ethics of Use as an agreement to use our services, products, platforms and experiences within (the confines of) these Terms & Ethics of Use.
-- With this being said, we do not bar you from, or restrict your viewership of, our Terms & Ethics of Use, even if you have not formally and explicitly confirmed your acceptance with them via a UI element, because we think that would be silly.
-- The assumption, though, is that in connecting with our services for any reason whatsoever (including reading these Terms & Ethics of Use):
-    - you’re in agreement with these Terms & Ethics of Use,
+You may not under any circumstances use, connect to or interact with any of these without being in agreement with these oreohive Source No-AI-Training License.
+- Largely in order to prevent abuse, we deem even your connection to our services or resources for the sole purposes of reading these oreohive Source No-AI-Training License as an agreement to use our services, products, platforms and experiences within (the confines of) these oreohive Source No-AI-Training License.
+- With this being said, we do not bar you from, or restrict your viewership of, our oreohive Source No-AI-Training License, even if you have not formally and explicitly confirmed your acceptance with them via a UI element, because we think that would be silly.
+- The assumption, though, is that in connecting with our services for any reason whatsoever (including reading these oreohive Source No-AI-Training License):
+    - you’re in agreement with these oreohive Source No-AI-Training License,
     - find yourself in sincere agreement with and understanding of what they outline, and
-    - agree to utilise, interact with or connect to our services, products, platforms or experiences in accordance with (and within the confines defined by) our Terms & Ethics of Use.
-- In using our services, agreement with our Terms & Ethics of Use is not optional. It’s a compulsory measure that is assumed given any amount of engagement with us, our platforms or our services.
+    - agree to utilise, interact with or connect to our services, products, platforms or experiences in accordance with (and within the confines defined by) our oreohive Source No-AI-Training License.
+- In using our services, agreement with our oreohive Source No-AI-Training License is not optional. It’s a compulsory measure that is assumed given any amount of engagement with us, our platforms or our services.
 This even includes communicating with us via external means, like email (even if this isn’t facilitated by our own domain), or accessing our resources via third-party services and / or external domains.
-- No part of these Terms & Ethics of Use is optional, but we do encourage feedback surrounding it. Please reach out to us via our official means of contacts if you have any questions, queries, qualms or ideas for improving our Terms & Ethics of Use.
-- It might seem ridiculous for an organisation so focused on freedoms and liberties to utilise such an extensive scheme as these Terms & Ethics of Use, but we outline these to protect both ourselves and you as an end user. It’s largely up to our own discretion as an organisation whether we choose to act upon these in any given circumstance, or deem a behaviour or action by anyone or any entity in violation of these Terms & Ethics of Use.
-- We promise to be what we deem reasonable in our enforcement and policing of these Terms & Ethics of Use. We may deal with cases (of potential or definite violation) on a case-by-case basis and in our own time.
+- No part of these oreohive Source No-AI-Training License is optional, but we do encourage feedback surrounding it. Please reach out to us via our official means of contacts if you have any questions, queries, qualms or ideas for improving our oreohive Source No-AI-Training License.
+- It might seem ridiculous for an organisation so focused on freedoms and liberties to utilise such an extensive scheme as these oreohive Source No-AI-Training License, but we outline these to protect both ourselves and you as an end user. It’s largely up to our own discretion as an organisation whether we choose to act upon these in any given circumstance, or deem a behaviour or action by anyone or any entity in violation of these oreohive Source No-AI-Training License.
+- We promise to be what we deem reasonable in our enforcement and policing of these oreohive Source No-AI-Training License. We may deal with cases (of potential or definite violation) on a case-by-case basis and in our own time.
 We would only ever wish to reach a conclusion that is beneficial, constructive and protective, both of ourselves and our end users, including any potential violators, within reason and our own judgements.
 
 # 01. - Introduction
 
-This document, and its series of segmented pieces clearly specified within ‘sections’, form the Terms & Ethics of Use of the oreohive organisation.
-By using any of our (the oreohive organisation’s) works, you agree to the Terms & Ethics of use in its entirety.
+This document, and its series of segmented pieces clearly specified within ‘sections’, form the oreohive Source No-AI-Training License of the oreohive organisation.
+By using any of our (the oreohive organisation’s) works, you agree to the oreohive Source No-AI-Training License in its entirety.
 
 This includes you using, consuming, manipulating, sharing, distributing, altering, downloading or retrieving our work for any purposes and for any manner, be this for personal viewership, incorporation into your own content or materials, or any such use.
 
@@ -64,7 +64,7 @@ We are the oreohive organisation (‘we’, ‘our’, ‘us’).
 ‘the oreohive organisation’ is the name of the organisation that currently manages the [oreohive.org](http://oreohive.org) domain, the websites hosted there (including ones of any subdomains).
 We, as ‘the oreohive organisation’ hold the ‘oreohive’ brand identity.
 
-Throughout this Terms & Ethics of Use document, its sections, and other, perhaps similar means of documentation, we might be called different things (referred to in different ways).
+Throughout this oreohive Source No-AI-Training License document, its sections, and other, perhaps similar means of documentation, we might be called different things (referred to in different ways).
 In such texts and documents, we, the oreohive organisation, may be referred to with the following names, pseudonyms or phrases:
 
 - ‘(the )oreohive org(anisation)’
@@ -90,30 +90,30 @@ By default, all assets and resources we create and / or publish under ‘the ore
 
 ### 2.3 - About the [oreohive.org](http://oreohive.org) domain (name) and our website
 
-We currently own, maintain and manage (the rights to) the domain name [oreohive.org](http://oreohive.org) via our registrar, who reserves all rights of their own regardless of this Terms & Ethics of use document. This may not be the case forever; right now, we most certainly have no plans to discontinue our use of this domain or cease our payments for it, as it’s largely central to our identity.
+We currently own, maintain and manage (the rights to) the domain name [oreohive.org](http://oreohive.org) via our registrar, who reserves all rights of their own regardless of this oreohive Source No-AI-Training License document. This may not be the case forever; right now, we most certainly have no plans to discontinue our use of this domain or cease our payments for it, as it’s largely central to our identity.
 
 However, it’s important to note that our website and our domain name are indeed two separate entities, the former of which can be hosted independently of the latter. Both our acquisition and ownership of the domain name, and the website(s) we host there, including those on any subdomains, are all part of the oreohive project, and are all managed by us, the oreohive organisation.
 
 ### 2.4 - Our stuff
 
-Any ‘service’ we refer to throughout these Terms & Ethics of Use of our own covers any experience, software (web(site/page)-hosted or otherwise) provisioned by, created by, maintained by or published by the oreohive organisation, or any such service the oreohive organisation currently holds the rights to / rightfully owns or manages.
+Any ‘service’ we refer to throughout these oreohive Source No-AI-Training License of our own covers any experience, software (web(site/page)-hosted or otherwise) provisioned by, created by, maintained by or published by the oreohive organisation, or any such service the oreohive organisation currently holds the rights to / rightfully owns or manages.
 It also includes any products or services of any kind we offer, fulfil or provide to you or any given consumer, any tools, assets, works or materials we may publish as the oreohive organisation, or our development, publishing or maintenance of any of these.
 
 When we refer to an ‘asset’, a (piece of) ‘material’, a ‘product’, or (some) ‘content’ as ‘ours’ (belonging to the oreohive organisation), we are usually referring to and are including in our statement any asset, piece of material, product, service, artwork, creation, supply, image/photo, video, piece of code (be it exemplary, functional/operational in our delivery of our services, or something else) we publish under the oreohive organisation, regardless of whether it is a part of the oreohive project (or not).
 
-These Terms & Ethics of Use cover all products, services and assets (published, maintained, owned or developed) by the oreohive organisation, regardless of said asset, service or product’s status as in or a part of ‘the oreohive project’ or otherwise. As such, your use of any resource (owned or published) by the oreohive organisation is to be governed by these Terms & Ethics of Use, as described earlier.
+These oreohive Source No-AI-Training License cover all products, services and assets (published, maintained, owned or developed) by the oreohive organisation, regardless of said asset, service or product’s status as in or a part of ‘the oreohive project’ or otherwise. As such, your use of any resource (owned or published) by the oreohive organisation is to be governed by these oreohive Source No-AI-Training License, as described earlier.
 
-### 2.5 - How this Terms & Ethics of Use document, and these Terms & Ethics of Use, interface with, correspond to and engage with other licences, licensing agreements and laws (restrictions take charge)
+### 2.5 - How this oreohive Source No-AI-Training License document, and these oreohive Source No-AI-Training License, interface with, correspond to and engage with other licences, licensing agreements and laws (restrictions take charge)
 
-*In the event of a contradiction between these Terms & Ethics of Use, any other such documentation / guidelines we may publish or any licenses (usually published by third parties, like the Free Software Foundation) we may employ or use in publishing our resources, restrictions always take charge, and ALWAYS overrule freedoms.*
+*In the event of a contradiction between these oreohive Source No-AI-Training License, any other such documentation / guidelines we may publish or any licenses (usually published by third parties, like the Free Software Foundation) we may employ or use in publishing our resources, restrictions always take charge, and ALWAYS overrule freedoms.*
 
 It should not usually be the case that this document’s information clashes with the information provided by the other licenses we use to distribute our content under, and such licensing agreements we leverage, which are typically from third parties.
 
-For example, by default, **we license ALL of the assets and media we share under the oreohive organisation under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**, unless it’s **code** or inside **a programming language**, in which case, **we license it under the GNU Affero General Public License 3.0 (GNU AGPL-3.0)**.
+For example, by default, **we license ALL of the assets and media we share under the oreohive organisation under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**, unless it’s **code** or inside **a programming language**, in which case, **we license it under the GNU Affero General Public License 3.0 (oreohive Source No-AI-Training License (most recent version available))**.
 
 For clarity, to largely reiterate, ALL assets and media we publish under the oreohive organisation or on our oreohive platforms, (sub)domains, websites, repositories or services, is, by default, licensed under CC BY-NC-SA 4.0.
 
-This is with the exception of code, or text assets that are of a programming language; we license all of these pieces of code or language scripts under the GNU AGPL-3.0 instead.
+This is with the exception of code, or text assets that are of a programming language; we license all of these pieces of code or language scripts under the oreohive Source No-AI-Training License (most recent version available) instead.
 As stated, both of these are defaults; if we state that any of our assets, media or content is licensed otherwise, this may not apply.
 
 However, with this example in mind, it’s important for you to understand that:
@@ -121,7 +121,7 @@ However, with this example in mind, it’s important for you to understand that:
 - restrictions within other such licenses and Terms we use are not overruled by (freedoms granted in) this document, and
 - restrictions within this document are not overruled by (freedoms granted in) other such licenses and Terms we use.
 
-Should this document or these Terms & Ethics of Use contradict any other licenses or rules we use, please reach out to us via our official contact information.
+Should this document or these oreohive Source No-AI-Training License contradict any other licenses or rules we use, please reach out to us via our official contact information.
 However, by default, restrictions take charge. If a pair take two separate approaches and both come to apply, the most restrictive of the two approaches is to take charge.
 
 If one license or collection of Terms (& Ethics of Use) is being applied that grants a freedom, but another we apply restricts this, the restriction takes charge.
@@ -144,18 +144,18 @@ However, should we ever deliver these, we are obligated by law to provide a meth
 The only emails that you might not be able to unsubscribe from may involve:
 
 - Security
-- Updates to terms, which you agree to follow in your use of our services, such as these Terms & Ethics of Use
+- Updates to terms, which you agree to follow in your use of our services, such as these oreohive Source No-AI-Training License
 - Account activity
 - Protection of your information, data, account, profile, or personalisation
 
-Blocking these means of communication on your end that we do not offer the ability to unsubscribe from ourselves is also in violation of these Terms & Ethics of Use.
-You agree as part of these Terms & Ethics of Use not to block or impair our such means of communicating such critical information with you, since this could impair our ability (as the oreohive organisation) to properly protect and safeguard your data, yourself and / or the use of your products, services and experiences that are provisioned, published, maintained, managed and / or owned by the oreohive organisation.
+Blocking these means of communication on your end that we do not offer the ability to unsubscribe from ourselves is also in violation of these oreohive Source No-AI-Training License.
+You agree as part of these oreohive Source No-AI-Training License not to block or impair our such means of communicating such critical information with you, since this could impair our ability (as the oreohive organisation) to properly protect and safeguard your data, yourself and / or the use of your products, services and experiences that are provisioned, published, maintained, managed and / or owned by the oreohive organisation.
 
 As previously noted, we currently don't plan to implement any such system through which we directly issue, to our users, promotional materials or marketing messages through electronic means.
 In addition, a philosophy of ours is to collect as little personal information as we can while maintaining enough to be able to improve our services, or at least provide them to you as intended.
 This is why we would likely require such promotional materials or messaging to be opt-in; such a scheme would require the user to specify explicitly that they wish to subscribe to receive these kinds of communications.
 
-Also, we currently, at the time of typing this document, don't provide a way for users to create an account or profile with us. This may change in the future, hence the provision and specification of this part of our Terms & Ethics of Use.
+Also, we currently, at the time of typing this document, don't provide a way for users to create an account or profile with us. This may change in the future, hence the provision and specification of this part of our oreohive Source No-AI-Training License.
 We may allow for the creation of an account with us in order to enable or improve certain functions or features within our (provision of) services or experiences. However, an aim of ours is to ensure that this is not usually mandatory in order to utilise these services or experiences of ours, within reason and feasibility. In some circumstances, we may require a means of registration in order to prevent the abuse of our services, products or experiences, most of which available directly via our website we usually attempt to offer for public availability.
 
 # 04. - Distribution of your own content on our platforms
@@ -174,17 +174,17 @@ We reserve the right to terminate the account or profile of anyone found to be i
 You may retain any and all of your rights to any content you submit, post or display on or through our products, services and experiences, and you are responsible for protecting those rights.
 We don’t take any responsibility and assume no liability for any content you (or any third party) may post on or through our products, services or experiences.
 
-However, by posting any content using the service you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such content on and through our products, services or experiences. You agree that this license includes the right for us to make your content available to other users of service, who may also use your content subject to these Terms & Ethics of Use.
+However, by posting any content using the service you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such content on and through our products, services or experiences. You agree that this license includes the right for us to make your content available to other users of service, who may also use your content subject to these oreohive Source No-AI-Training License.
 
 the oreohive organisation has the right but not the obligation to monitor and edit all content provided by users. we are advocates for freedom in the use of our platforms and services, but we do not and will not have this used to make way for or allow for hateful speech and language, discrimination, or any other such hateful or discriminatory / excluding expression.
 
 In addition, any content found on or through our products, services or experiences are the property of the oreohive organisation or used with permission.
 You may not distribute, modify, transmit, reuse, download, repost, copy, or use said content, whether in whole or in part, in a modified form or otherwise, for commercial purposes or for personal gain, without express advance written permission from us, the oreohive organisation.
 
-We provide the resources we do for the public world to use according to our licenses / licensing agreements or setups, and these Terms & Ethics of Use.
+We provide the resources we do for the public world to use according to our licenses / licensing agreements or setups, and these oreohive Source No-AI-Training License.
 We don't provide these resources for use by for-profit entities or corporations. They’re not for for-profit or corporate / business / entrepreneurial endeavours.
 
-By agreeing to these Terms & Ethics of Use and / or making any of your user content available through this service, you hereby grant to the oreohive organisation a non-exclusive, transferable, worldwide and royalty-free license, with the right to sublicense, host, cache, use, store, reproduce, transmit, publicly display, publicly perform, publish, modify (usually for formatting purposes only) or distribute this user content solely in connection with operating and providing our products, services, experiences, materials, content and assets to you and, often depending on your own discretion, to other users, individuals and / or organisations.
+By agreeing to these oreohive Source No-AI-Training License and / or making any of your user content available through this service, you hereby grant to the oreohive organisation a non-exclusive, transferable, worldwide and royalty-free license, with the right to sublicense, host, cache, use, store, reproduce, transmit, publicly display, publicly perform, publish, modify (usually for formatting purposes only) or distribute this user content solely in connection with operating and providing our products, services, experiences, materials, content and assets to you and, often depending on your own discretion, to other users, individuals and / or organisations.
 
 You also agree that you’ve a right to do this, and you hold the rights to the content in question you submit enabling or allowing for this.
 
@@ -192,17 +192,17 @@ You also agree that you’ve a right to do this, and you hold the rights to the 
 
 ***This section outlines how you may and may not use our products, services and such offerings from the oreohive organisation.***
 
-You may use our products, services (including tools, apps, and other such programs) and experiences only for lawful purposes and in accordance with these Terms & Ethics of Use.
+You may use our products, services (including tools, apps, and other such programs) and experiences only for lawful purposes and in accordance with these oreohive Source No-AI-Training License.
 
-We are able to reasonably dictate what is in compliance with our Terms & Ethics of Use, and what is not.
+We are able to reasonably dictate what is in compliance with our oreohive Source No-AI-Training License, and what is not.
 
-What we mean by this is that we may declare something in violation of these Terms & Ethics of Use, but only with reasoning we feel is legitimately fair, reasonable, in good faith, and in compliance with a given legitimate interpretation of the Terms & Ethics of Use.
+What we mean by this is that we may declare something in violation of these oreohive Source No-AI-Training License, but only with reasoning we feel is legitimately fair, reasonable, in good faith, and in compliance with a given legitimate interpretation of the oreohive Source No-AI-Training License.
 
-Additionally, should something be in violation of our Terms & Ethics of Use, we reserve the right to act on our own accordance and, ultimately, refuse to or decide not to act accordingly in penalising the offending party, product, service or provision.
+Additionally, should something be in violation of our oreohive Source No-AI-Training License, we reserve the right to act on our own accordance and, ultimately, refuse to or decide not to act accordingly in penalising the offending party, product, service or provision.
 
-A perceived ‘failure’, unwillingness or inability to act in defence of our Terms & Ethics of Use, or a perceived ‘failure’, unwillingness or inability to penalise or act against (legally or otherwise) a party, product, service or provision in violation of our Terms & Ethics of Use, should NOT be considered a waiver or formal, official or legal excuse or pardon of the violating party, product, service, content or material, or the discontinuation of (or ceasing of the enforcement of) a given term, clause, sentence, phrase, rule or guideline stated in these Terms & Ethics of Use.
+A perceived ‘failure’, unwillingness or inability to act in defence of our oreohive Source No-AI-Training License, or a perceived ‘failure’, unwillingness or inability to penalise or act against (legally or otherwise) a party, product, service or provision in violation of our oreohive Source No-AI-Training License, should NOT be considered a waiver or formal, official or legal excuse or pardon of the violating party, product, service, content or material, or the discontinuation of (or ceasing of the enforcement of) a given term, clause, sentence, phrase, rule or guideline stated in these oreohive Source No-AI-Training License.
 
-### In agreeing with or agreeing to to these Terms & Ethics of Use, you agree not to use any of our (the oreohive organisation’s) products, services or experiences:
+### In agreeing with or agreeing to to these oreohive Source No-AI-Training License, you agree not to use any of our (the oreohive organisation’s) products, services or experiences:
 
 1.  In any way that violates any applicable national or international law or regulation.
 2. For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content or otherwise.
@@ -210,7 +210,7 @@ A perceived ‘failure’, unwillingness or inability to act in defence of our T
 4. To impersonate or attempt to impersonate the oreohive organisation, a member of the oreohive organisation, another user, or any other person or entity.
 5. In any way that infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
 6. To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment of our products, services or experiences, or which, as determined by us, may harm or offend the oreohive organisation and / or its members or contributors, its efforts or users of these such services, or expose them to liability.
-7. In any way that violates these Terms & Ethics of Use, and the terms it sets out.
+7. In any way that violates these oreohive Source No-AI-Training License, and the terms it sets out.
 
 ### Additionally, you agree not to:
 
@@ -228,7 +228,7 @@ A perceived ‘failure’, unwillingness or inability to act in defence of our T
 
 ***This section details how one is strictly disallowed and not permitted to use any of our content, assets or materials, or anything from our products, services, software or experiences, to train, improve or contribute to the development of AI models or neural networks.***
 
-In agreeing to these Terms & Ethics of Use, you agree to never, under any circumstance, utilise, use or employ our content, assets, materials, (copies, screenshots or renders of) our software, services, platforms, products and experiences).
+In agreeing to these oreohive Source No-AI-Training License, you agree to never, under any circumstance, utilise, use or employ our content, assets, materials, (copies, screenshots or renders of) our software, services, platforms, products and experiences).
 
 The only possible exception would be delivered or carried out in the form of an official exception issued by an official communication by the oreohive organisation @ oreohive.org, via one of our official communication avenues (usually by email).
 
@@ -246,11 +246,11 @@ We, as the oreohive organisation, the individuals providing the content in quest
 
 Regardless of any exception provided, official or otherwise, or ANY OTHER CIRCUMSTANCE, you agree that any use of our assets and materials remains entirely at our discretion as the oreohive organisation, and our judgement(s) are not to be and must not be ignored in regards to your training of AI or neural networks using our content or data.
 
-You agree and understand that, in agreeing with these Terms & Ethics of Use, that you are NOT to use ANY of our content, media, assets, materials, photos, videos, drawings, audio files, code or ANY OTHER MATERIAL OR ASSETS PUBLISHED BY THE OREOHIVE ORGANISATION, CREATED BY THE OREOHIVE ORGANISATION OR AUDITED / DISTRIBUTED BY THE OREOHIVE ORGANISATION, for the training of, contribution towards, teaching of, testing of, development of, or instruction of AI models, AI databases, neural networks, or ANY such computational or algorithmic means, including ANY database or (memory) location that is to be used, under any circumstance or in any capacity, to train such AI models, AI databases or neural networks.
+You agree and understand that, in agreeing with these oreohive Source No-AI-Training License, that you are NOT to use ANY of our content, media, assets, materials, photos, videos, drawings, audio files, code or ANY OTHER MATERIAL OR ASSETS PUBLISHED BY THE OREOHIVE ORGANISATION, CREATED BY THE OREOHIVE ORGANISATION OR AUDITED / DISTRIBUTED BY THE OREOHIVE ORGANISATION, for the training of, contribution towards, teaching of, testing of, development of, or instruction of AI models, AI databases, neural networks, or ANY such computational or algorithmic means, including ANY database or (memory) location that is to be used, under any circumstance or in any capacity, to train such AI models, AI databases or neural networks.
 
 ### In other, perhaps less formal words, don’t use our stuff as training data for AI. Ever.
 
-We reserve the right to, at any point, (request or attempt to) stop you from doing this, even if you have been granted an exception, and in agreeing to these Terms & Ethics of Use, you agree to honour our such wishes, even in the face of or despite potential technical restrictions.
+We reserve the right to, at any point, (request or attempt to) stop you from doing this, even if you have been granted an exception, and in agreeing to these oreohive Source No-AI-Training License, you agree to honour our such wishes, even in the face of or despite potential technical restrictions.
 
 ### Should you be granted an exception officially by us, you reserve the right to reason that this exception was issued by the oreohive organisation as a written, explicit permission to do as it permits, with the content it permits, in the time period or duration it specifically permits.
 In addition, we shan’t penalise you for conducting tasks or activities within the bounds, confines and definitions of what such an exception has permitted you to.
@@ -271,13 +271,13 @@ We pledge to maintain a transparency about the kinds of data we collect. We’re
 At the time of writing, we have no concrete plans in regards to analytics, but we do intend on implementing them at some point in the future.
 Right now, we may have enabled Cloudflare’s means of analytics. Cloudflare acts as our domain registration company and cache / ‘CDN’. We may also have enabled Vercel’s means of analytics. Vercel is currently, at the time of writing this, our web hosting service company of choice due to the ease they introduce in the provision of their services, but this may be subject to change.
 
-### Our choice of analytics or approaches to analytics, telemetry or such means of user data collection is very much subject to change, and may change to degrees that are no longer specifically reflected by these Terms & Ethics of Use in the future.
+### Our choice of analytics or approaches to analytics, telemetry or such means of user data collection is very much subject to change, and may change to degrees that are no longer specifically reflected by these oreohive Source No-AI-Training License in the future.
 
 However, we agree to ensure transparency, and maintain (and uphold) a respect for the privacy of our users in the collection of such data, in addition to a respect for their right to opt out of unnecessary data collections that don’t constitute to core or integral parts of the functionality of the services, products or experiences they receive from us or via our platforms or avenues of communication or delivery.
 
 # 08. - **No use by under-13s**
 
-***This section discusses and outlines how our services are not for use by individuals under the age of thirteen. Using this service under the age of thirteen or letting your child do so is a strict and direct violation of our Terms & Ethics of Use.***
+***This section discusses and outlines how our services are not for use by individuals under the age of thirteen. Using this service under the age of thirteen or letting your child do so is a strict and direct violation of our oreohive Source No-AI-Training License.***
 
 Service is intended only for access and use by human individuals at least thirteen (13) years old. By accessing or using our products, services or experiences, you warrant and represent that you are at least thirteen (13) years of age and with the full authority, right, and capacity to enter into this agreement and abide by all of the terms and conditions of Terms. If you are not at least thirteen (13) years old, you are prohibited from both the access and use of our products, services and experiences.
 
@@ -303,7 +303,7 @@ We do this in order to ensure to the best of our reasonable ability that our pro
 
 Our products, services and experiences and their original content (of course, excluding content provided by our ‘users’), features and functionality are and will remain the exclusive property of the oreohive organisation and its licensors. Our products, services and experiences are protected by the licensing agreements or licenses with which we publish them, and they are not to be used in (a) way(s) not in accordance with these licensing terms.
 
-For example, by default. all of our code and programming language text is protected by the GNU AGPL-3.0, unless otherwise specified. All else is, by default, under CC BY-NC-SA 4.0 unless otherwise specified, so must be used under these applicable terms and licensing agreements.
+For example, by default. all of our code and programming language text is protected by the oreohive Source No-AI-Training License (most recent version available), unless otherwise specified. All else is, by default, under CC BY-NC-SA 4.0 unless otherwise specified, so must be used under these applicable terms and licensing agreements.
 
 They may also be protected by or subject to other laws of foreign countries.
 Our (trade)marks (the oreohive marks) may not be used in connection with any product or service without the prior, explicit, official written consent of the oreohive organisation.
@@ -395,25 +395,25 @@ EXCEPT AS PROHIBITED BY LAW, IF THERE IS LIABILITY FOUND ON THE PART OF the oreo
 
 ***This section details the possibility for the termination of your use of our products, services, experiences or assets, and the right we reserve to have this happen at our own discretion, within reason.***
 
-We may terminate or suspend your account and bar access to our products, services or assets immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of Terms & Ethics of Use.
+We may terminate or suspend your account and bar access to our products, services or assets immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of oreohive Source No-AI-Training License.
 
 If you wish to terminate your account, you may simply discontinue using our services, products or assets and contact us via our official contact information with a request to delete the account and appropriate associated information if you wish.
 
-### All provisions of Terms (our Terms & Ethics of Use) which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+### All provisions of Terms (our oreohive Source No-AI-Training License) which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
 
 # 20. - **Governing laws and legislation**
 
-***This section details our pledge to comply with governing laws and legislation protecting, governing, regulating and being enforced upon organisations of our originating country, the United Kingdom, along with those of the European Union (EU), regardless of these Terms & Ethics of Use.***
+***This section details our pledge to comply with governing laws and legislation protecting, governing, regulating and being enforced upon organisations of our originating country, the United Kingdom, along with those of the European Union (EU), regardless of these oreohive Source No-AI-Training License.***
 
 These Terms shall be governed and construed in accordance with the laws of United Kingdom, which governing law applies to agreement without regard to its conflict of law provisions.
 We also wish to stay entirely in accordance with rules set out by the European Union (EU), for we respect the dedication to consumer protections the EU and its guidelines seem to demonstrate and put in place.
-Should it be the case that our Terms & Ethics of use, or any such documents or agreements we publish, do not fall in accordance with and compliance with the rules, laws and / or guidelines of either the United Kingdom (UK) or the European Union (EU), please notify us at your earliest convenience.
-These Terms & Ethics of Use are to be ‘watered down’, so to speak, for compliance with the UK’s and EU’s laws, guidelines and pieces of legislation, and brought into effect to degrees that remain in compliance with these UK and EU guidelines.
+Should it be the case that our oreohive Source No-AI-Training License, or any such documents or agreements we publish, do not fall in accordance with and compliance with the rules, laws and / or guidelines of either the United Kingdom (UK) or the European Union (EU), please notify us at your earliest convenience.
+These oreohive Source No-AI-Training License are to be ‘watered down’, so to speak, for compliance with the UK’s and EU’s laws, guidelines and pieces of legislation, and brought into effect to degrees that remain in compliance with these UK and EU guidelines.
 
-Our failure to enforce any right or provision of these Terms & Ethics of Use should not and will not be considered a waiver of those rights.
+Our failure to enforce any right or provision of these oreohive Source No-AI-Training License should not and will not be considered a waiver of those rights.
 
 If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect.
-These Terms & Ethics of Use constitute the entire agreement between us regarding our service(s) and supersede and replace any prior agreements we might have had between us regarding our service(s).
+These oreohive Source No-AI-Training License constitute the entire agreement between us regarding our service(s) and supersede and replace any prior agreements we might have had between us regarding our service(s).
 
 # 23. - **Changes to products and services**
 
@@ -426,12 +426,12 @@ From time to time, we might restrict access to some parts of our products, servi
 
 # 24. - **Amendments to terms**
 
-***This section discusses amendments to these Terms & Ethics of Use, and other policies or terms we may issue, in accordance with which you are to use our products, services and experiences.***
+***This section discusses amendments to these oreohive Source No-AI-Training License, and other policies or terms we may issue, in accordance with which you are to use our products, services and experiences.***
 
 We may amend Terms at any time by posting the amended terms on this website.
-We should notify you upon any major or significant change to or iteration of these Terms & Ethics of Use that may affect you or your use of the products, services and experiences we (the oreohive organisation) provide.
-While you do hold a responsibility in being active in checking to see if amendments have been made, we hold a duty to properly inform the user of updates to our Terms & Ethics of Use, so will aim to do so within our products, services and / or experiences.
-For major changes, we should broadcast / send information to you / users via the likes of email, providing, of course, that we have the applicable details for and consents / (Terms & Ethics of Use) agreements from said users.
+We should notify you upon any major or significant change to or iteration of these oreohive Source No-AI-Training License that may affect you or your use of the products, services and experiences we (the oreohive organisation) provide.
+While you do hold a responsibility in being active in checking to see if amendments have been made, we hold a duty to properly inform the user of updates to our oreohive Source No-AI-Training License, so will aim to do so within our products, services and / or experiences.
+For major changes, we should broadcast / send information to you / users via the likes of email, providing, of course, that we have the applicable details for and consents / (oreohive Source No-AI-Training License) agreements from said users.
 
 Your continued use of our platforms, products, services of experiences following the posting, delivery or publication of revised Terms (& Ethics of Use) means that you accept and agree to the changes.
 You are expected to check this page frequently so you are aware of any changes, as they are binding on you, but we do take a responsibility for clearly communicating these changes with our users to the greatest and most transparent degree we reasonably can.
@@ -444,13 +444,13 @@ By continuing to access or use our products, services or experiences after any r
 
 No waiver by the oreohive organisation of any term or condition set forth in Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition, and any failure of the oreohive organisation to assert a right or provision under Terms shall not constitute a waiver of such right or provision.
 
-If any provision of these Terms & Ethics of Use is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of Terms will continue in full force and effect.
+If any provision of these oreohive Source No-AI-Training License is held by a court or other tribunal of competent jurisdiction to be invalid, illegal or unenforceable for any reason, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of Terms will continue in full force and effect.
 
 # 26. - **Acknowledgement**
 
-***This section outlines how agreeing to these Terms & Ethics of Use and using our products, services, experiences and the like we provide as the oreohive organisation means agreeing to this document, these Terms & Ethics of Use in their entirety, and the idea that you fully, comprehensively and thoroughly understand them and how they may impact you and / or your usage of these such products, services, experiences and the like.***
+***This section outlines how agreeing to these oreohive Source No-AI-Training License and using our products, services, experiences and the like we provide as the oreohive organisation means agreeing to this document, these oreohive Source No-AI-Training License in their entirety, and the idea that you fully, comprehensively and thoroughly understand them and how they may impact you and / or your usage of these such products, services, experiences and the like.***
 
-BY USING OR ENGAGING WITH OUR PRODUCTS, SERVICES, EXPERIENCES, PLATFORMS OR ASSETS OR OTHER SERVICES PROVIDED BY US (IN ANY CAPACITY WHATSOEVER), YOU ACKNOWLEDGE  THAT YOU HAVE READ THESE TERMS & ETHICS OF USE (TERMS OF SERVICE) AND AGREE TO BE BOUND BY THEM.
+BY USING OR ENGAGING WITH OUR PRODUCTS, SERVICES, EXPERIENCES, PLATFORMS OR ASSETS OR OTHER SERVICES PROVIDED BY US (IN ANY CAPACITY WHATSOEVER), YOU ACKNOWLEDGE  THAT YOU HAVE READ THESE oreohive Source No-AI-Training License (TERMS OF SERVICE) AND AGREE TO BE BOUND BY THEM.
 
 # 27. - **Contact Us**
 

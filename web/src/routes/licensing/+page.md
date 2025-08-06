@@ -2,23 +2,13 @@
 
 # licensing and resource usage
 
-any code published within the oreohive project (or with the oreohive name) by the oreohive organisation is, by default, licensed under the gnu agpl-3.0.
+any media, content, resources, assets or materials, like code, pictures, videos, images or any other such materials published by the oreohive organisation are, by default, licensed under the oreohive Source No-AI-Training License.
 
 this means you can modify, distribute and use the code **so long as you**:
 - give **appropriate attributions** (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
 - provide a **link to the license**, and indicate if changes to the code were made, and
 - release the code, **including any changes you may make**, under the **same license** (the version of the gnu agpl currently used by the code you used from us, or a later one at your discretion).
-
-any and all other media, content, resources, assets, pictures, videos, images or any other such materials published by the oreohive organisation are, by default, licensed under cc by-nc-sa 4.0.
-
-this license allows you to:
-- copy and redistribute the code in any medium or format, and
-- remix transform, use and build upon the code
-so long as you:
-- give appropriate attributions (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
-- provide a link to the license, and indicate if changes to the material you used were made
-- release this material, including any changes you may've made, under the **same license** (or a newer version of the exact license at your discretion), and
-- **don't use the material or content, modified or otherwise, for any commercial or for-profit purposes**.
+- do so **within the confines**, **boundaries**, **rules**, **limitations** and **guidelines** as stated by the **most recent publication** of our **oreohive Source No-AI-Training License**, which you can find [here](https://www.oreohive.org/onboarding).
 
 # our identity
 
@@ -36,18 +26,18 @@ ultimately, what is considered 'greatly / significantly modified' is up to our d
 
 ---
 
-### conclusion, and terms & ethics of use
+### conclusion, and oreohive Source No-AI-Training License
 in general, **it's highly unlikely you'll find us chasing people or entities over licensing crap if they're doing us no direct harm**. this is just to stop naughty people stealing our stuff without giving back to the community.
 
 means of using or adapting our oreohive branding, name, oreohive marks or other such / related assets (included in this repo or otherwise) that are not explicitly allowed are strictly prohibited.
-our terms & ethics of use take precedence over any of these licensing agreements, licenses or licensing terms. please find them at our website.
+our oreohive Source No-AI-Training License take precedence over any of these licensing agreements, licenses or licensing terms. please find them at our website.
 
-any and all of **your use of oreohive resources, resources published by the oreohive organisation** and / or resources under / in / a part of the oreohive project are **subject to our terms & ethics of use**. please find them on our website.
+any and all of **your use of oreohive resources, resources published by the oreohive organisation** are **subject to our oreohive Source No-AI-Training License**. please find them on our website.
 
-sensible inclusions of the oreohive(.org) name or logo in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks, silly.
+sensible inclusions of the oreohive(.org) name or logo in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks.
 
 ### third-party licenses
 
 - [poppins](https://fonts.google.com/specimen/Poppins) fonts, used in our website and brand identity, are licensed under the [ofl](https://fonts.google.com/specimen/Poppins/license) license.
 - this page uses sentence structuring, vocab choices and other such choices inspired by or evolved from those of similar readmes in [cobalt's repo](https://github.com/imputnet/cobalt).
-  [cobalt](https://cobalt.tools/about) by [imput(.net)](https://github.com/imputnet) has its repo largely licensed under the [gnu agpl-3.0](https://www.gnu.org/licenses/agpl-3.0), with some aspects, files or sections licensed instead under [cc by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+  [cobalt](https://cobalt.tools/about) by [imput(.net)](https://github.com/imputnet) has its repo largely licensed under the [oreohive Source No-AI-Training License (most recent version available)](https://www.gnu.org/licenses/agpl-3.0), with some aspects, files or sections licensed instead under [cc by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).

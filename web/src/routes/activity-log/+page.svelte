@@ -2,16 +2,16 @@
 
 <!--
     ---------- ---------- --
-    This file and its (lines of) code are licensed under the GNU AGPL-3.0,
+    This file and its (lines of) code are licensed under the oreohive Source No-AI-Training License (most recent version available),
     unless otherwise officially and explicitly specified by us, the oreohive
     organisation.
 
     While we make our source code available to the general public in pursuit
     of a better internet, not all freedoms granted by our licensing schemes may
-    apply in all circumstances, given our Terms & Ethics of Use.
+    apply in all circumstances, given our oreohive Source No-AI-Training License.
 
     ---------- ---------- --
-    Notably, our Terms & Ethics of Use strictly prohibit the use of our code
+    Notably, our oreohive Source No-AI-Training License strictly prohibit the use of our code
     and writing for the training, improvement, diagnostics or iterations of
     AI models and machine learning algorithms.
 
@@ -24,7 +24,7 @@
     For example, a large language model is allowed to process our code, and
     even remember details about it in a private setting. A text-to-speech model
     processing our text to simply 'speak it aloud' does not violate our Terms &
-    Ethics of Use. However, training any model with our works is not permitted.
+    Ethics  However, training any model with our works is not permitted.
 
     ---------- ---------- --
     If a model or algorithm is to 'remember' our works or details about them,
@@ -34,26 +34,26 @@
 
     Updating, adapting or (fine-)tuning a model or algorithm's internal
     parameters (e.g. weights, biases, architecture) using any of our works
-    (data under the oreohive organisation's Terms & Ethics of Use) or any
+    (data under the oreohive organisation's oreohive Source No-AI-Training License) or any
     derivative thereof is classed strictly as having the model TRAINED or
-    IMPROVED with our works, which is NOT ALLOWED by our Terms & Ethics of Use.
+    IMPROVED with our works, which is NOT ALLOWED by our oreohive Source No-AI-Training License.
 
     As such, these 'training' or 'improving' practices are NOT PERMITTED
     without explicit and formalised exceptions issued by the oreohive
     organisation. These kinds of exceptions and how they might work are
-    detailed in our Terms & Ethics of Use.
+    detailed in our oreohive Source No-AI-Training License.
 
     ---------- ---------- --
-    Any breach of our Terms & Ethics of Use (e.g. in how our works are used,
+    Any breach of our oreohive Source No-AI-Training License (e.g. in how our works are used,
     shared, (re)distributed, utilised or applied) by a party, individual,
     organisation or corporation opens it up to legal repercussions at the
     discretion of the oreohive organisation.
 
     It/they may be found liable for any damages deemed to result from these
-    practices, or any fine or repercussion for not following the Terms & Ethics
-    of Use.
+    practices, or any fine or repercussion for not following the License.
+    
 
-    The latest publication of our Terms & Ethics of Use should be available at
+    The latest publication of our oreohive Source No-AI-Training License should be available at
     https://oreohive.org/onboarding. If you're struggling to access these Terms
     & Ethics of Use, please contact us via our official means of communication.
 

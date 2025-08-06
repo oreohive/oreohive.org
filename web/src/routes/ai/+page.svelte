@@ -174,7 +174,7 @@
           >any use of any of our content (across our entire website and any of
           our products, services, software or experiences) for any amount or
           nature of ai / ml training, analysis or diagnostics is strictly in
-          breach of our Terms & Ethics of Use.<br />as such, doing this is
+          breach of our oreohive Source No-AI-Training License.<br />as such, doing this is
           grounds for legal action against yourself, your party, your instructor
           and / or your employer.</i
         >
