@@ -130,27 +130,28 @@
     </div>
 </div>
 
-<h1 style="margin-top: 64px; margin-bottom: 16px;">welcome to oreohive.org</h1>
+<h1 style="margin-top: 64px; margin-bottom: 16px;">welcome to oreohive.org!</h1>
+<h4>click on this fat button to begin:</h4>
 
 <div data-tap-disabled="true">
     <audio loop autoplay hidden><source src="/music/2025-02-27-oreohive-spectrumstep.mp3" type="audio/mpeg" />
-        oops! your browser does not support the audio element.
+        oop! your browser does not support the audio element.
     </audio>
 </div>
 
 <div style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh; align-items: center; justify-content: centre;">
 
-    <div style="position: relative; min-height: 35vw; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;"> <!-- don't give this a height or max-height lol -->
+    <div style="position: relative; min-height: 35vw; max-width: 90%; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;"> <!-- don't give this a height or max-height lol -->
         <form on:submit={accept_locally}>
 
-            <div class="centre-conta" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
 
                 <button type="submit" name="accept">
-                    <b>i accept the oreohive organisation's oreohive Source No-AI-Training License</b>, thus the use of cookies :)
+                    <b>i acknowledge that all of this is given to me under the oreohive Source No-AI-Training License</b>, and agree to the use of cookies :)
                 </button>
 
                 <div style="display: flex; flex-direction: row; gap: 12px;">
-                    <p style="color: #ff0059;">you'll be taken here when you hit this button:</p>
+                    <p style="color: #ff0059;">you'll be taken here:</p>
                     <p style="text-decoration: none;">oreohive.org{redirectToCleaned}</p>
                 </div>
 
@@ -165,27 +166,18 @@
 
     <div class="docs-note">
         <a
-            href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html"
+            href="/source-license/v0.1"
             target="_blank"
-            >oreohive Source No-AI-Training License (oreohive document 182e) r1.0.1 (html)</a
-        >
-        <a
-            href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html"
-            target="_blank"
-            >terms of purchasing & exchange (oreohive document 183e) r1.0.1
-            (html)</a
+            >oreohive Source No-AI-Training License v0.1</a
         >
         <p style="font-size: 0.675em; max-width: 40vw;">
-            as it states, agreeing to our oreohive Source No-AI-Training License (182e) means
-            also agreeing to the associated / most recent terms of purchasing &
-            exchange (183e).<br />
-            once you've accepted, you can then access oreohive.org/terms, on which
+            as it states, agreeing to our oreohive Source No-AI-Training License
+            once you've accepted, you can still access oreohive.org/onboarding later, at which
             you may check for later revisions or updated publications which may apply
             to you. we advise you routinely do this.<br /><br />
             you can only use any of our (the oreohive organisation's) services, sites,
             software, products, or experiences for any purpose, ever, in any circumstance,
-            if you agree that you understand, have read, and will honour our terms
-            & ethics 
+            if you agree that you understand, have read, and will honour our oreohive Source No-AI-Training License. 
             <br />in using, interacting with, utilising, downloading, sending
             content or requests to, or otherwise manipulating or leveraging our
             products, services, software, apis or experiences, you agree to our
@@ -194,13 +186,8 @@
             <b
                 >sincerely believe that our oreohive Source No-AI-Training License do not
                 infringe on your rights</b
-            >, including your right to privacy, and mainly exist to protect us
+            >, and this mainly exists to protect us and you
             from silly actors and silly people.<br /><br />
-            this includes respecting the licenses with which we distribute our content
-            (oreohive Source No-AI-Training License (most recent version available) by default for code, CC BY-NC-SA 4.0 by default for anything
-            else) and not feeding any of our content to ai models for training, learning
-            or remembering, or exposing any of it in an environment in which this
-            could happen.<br /><br />
             oreohive.org, this website, comes with
             <b>absolutely NO WARRANTY</b>, to the extent
             <b>permitted by applicable law</b>. <b>we are not liable</b>. get
