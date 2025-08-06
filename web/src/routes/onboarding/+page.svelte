@@ -2,16 +2,16 @@
 
 <!--
     ---------- ---------- --
-    This file and its (lines of) code are licensed under the GNU AGPL-3.0,
+    This file and its (lines of) code are licensed under the oreohive Source No-AI-Training License (most recent version available),
     unless otherwise officially and explicitly specified by us, the oreohive
     organisation.
 
     While we make our source code available to the general public in pursuit
     of a better internet, not all freedoms granted by our licensing schemes may
-    apply in all circumstances, given our Terms & Ethics of Use.
+    apply in all circumstances, given our oreohive Source No-AI-Training License.
 
     ---------- ---------- --
-    Notably, our Terms & Ethics of Use strictly prohibit the use of our code
+    Notably, our oreohive Source No-AI-Training License strictly prohibit the use of our code
     and writing for the training, improvement, diagnostics or iterations of
     AI models and machine learning algorithms.
 
@@ -24,7 +24,7 @@
     For example, a large language model is allowed to process our code, and
     even remember details about it in a private setting. A text-to-speech model
     processing our text to simply 'speak it aloud' does not violate our Terms &
-    Ethics of Use. However, training any model with our works is not permitted.
+    Ethics  However, training any model with our works is not permitted.
 
     ---------- ---------- --
     If a model or algorithm is to 'remember' our works or details about them,
@@ -34,26 +34,26 @@
 
     Updating, adapting or (fine-)tuning a model or algorithm's internal
     parameters (e.g. weights, biases, architecture) using any of our works
-    (data under the oreohive organisation's Terms & Ethics of Use) or any
+    (data under the oreohive organisation's oreohive Source No-AI-Training License) or any
     derivative thereof is classed strictly as having the model TRAINED or
-    IMPROVED with our works, which is NOT ALLOWED by our Terms & Ethics of Use.
+    IMPROVED with our works, which is NOT ALLOWED by our oreohive Source No-AI-Training License.
 
     As such, these 'training' or 'improving' practices are NOT PERMITTED
     without explicit and formalised exceptions issued by the oreohive
     organisation. These kinds of exceptions and how they might work are
-    detailed in our Terms & Ethics of Use.
+    detailed in our oreohive Source No-AI-Training License.
 
     ---------- ---------- --
-    Any breach of our Terms & Ethics of Use (e.g. in how our works are used,
+    Any breach of our oreohive Source No-AI-Training License (e.g. in how our works are used,
     shared, (re)distributed, utilised or applied) by a party, individual,
     organisation or corporation opens it up to legal repercussions at the
     discretion of the oreohive organisation.
 
     It/they may be found liable for any damages deemed to result from these
-    practices, or any fine or repercussion for not following the Terms & Ethics
-    of Use.
+    practices, or any fine or repercussion for not following the License.
+    
 
-    The latest publication of our Terms & Ethics of Use should be available at
+    The latest publication of our oreohive Source No-AI-Training License should be available at
     https://oreohive.org/onboarding. If you're struggling to access these Terms
     & Ethics of Use, please contact us via our official means of communication.
 
@@ -130,27 +130,28 @@
     </div>
 </div>
 
-<h1 style="margin-top: 64px; margin-bottom: 16px;">welcome to oreohive.org</h1>
+<h1 style="margin-top: 64px; margin-bottom: 16px;">welcome to oreohive.org!</h1>
+<h4>click on this fat button to begin:</h4>
 
 <div data-tap-disabled="true">
     <audio loop autoplay hidden><source src="/music/2025-02-27-oreohive-spectrumstep.mp3" type="audio/mpeg" />
-        oops! your browser does not support the audio element.
+        oop! your browser does not support the audio element.
     </audio>
 </div>
 
 <div style="position: relative; display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh; align-items: center; justify-content: centre;">
 
-    <div style="position: relative; min-height: 35vw; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;"> <!-- don't give this a height or max-height lol -->
+    <div style="position: relative; min-height: 35vw; max-width: 90%; display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;"> <!-- don't give this a height or max-height lol -->
         <form on:submit={accept_locally}>
 
-            <div class="centre-conta" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
 
                 <button type="submit" name="accept">
-                    <b>i accept the oreohive organisation's terms & ethics of use</b>, thus the use of cookies :)
+                    <b>i acknowledge that all of this is given to me under the oreohive Source No-AI-Training License</b>, and agree to the use of cookies :)
                 </button>
 
                 <div style="display: flex; flex-direction: row; gap: 12px;">
-                    <p style="color: #ff0059;">you'll be taken here when you hit this button:</p>
+                    <p style="color: #ff0059;">you'll be taken here:</p>
                     <p style="text-decoration: none;">oreohive.org{redirectToCleaned}</p>
                 </div>
 
@@ -165,42 +166,28 @@
 
     <div class="docs-note">
         <a
-            href="/terms/r1-0-1/Terms-&-Ethics-of-Use-182e-r1.0.1.html"
+            href="/source-license/v0.1"
             target="_blank"
-            >terms & ethics of use (oreohive document 182e) r1.0.1 (html)</a
-        >
-        <a
-            href="/terms/r1-0-1/Terms-of-Purchasing-&-Exchange-183e-r1.0.1.html"
-            target="_blank"
-            >terms of purchasing & exchange (oreohive document 183e) r1.0.1
-            (html)</a
+            >oreohive Source No-AI-Training License v0.1</a
         >
         <p style="font-size: 0.675em; max-width: 40vw;">
-            as it states, agreeing to our terms & ethics of use (182e) means
-            also agreeing to the associated / most recent terms of purchasing &
-            exchange (183e).<br />
-            once you've accepted, you can then access oreohive.org/terms, on which
+            as it states, agreeing to our oreohive Source No-AI-Training License
+            once you've accepted, you can still access oreohive.org/onboarding later, at which
             you may check for later revisions or updated publications which may apply
             to you. we advise you routinely do this.<br /><br />
             you can only use any of our (the oreohive organisation's) services, sites,
             software, products, or experiences for any purpose, ever, in any circumstance,
-            if you agree that you understand, have read, and will honour our terms
-            & ethics of use.
+            if you agree that you understand, have read, and will honour our oreohive Source No-AI-Training License. 
             <br />in using, interacting with, utilising, downloading, sending
             content or requests to, or otherwise manipulating or leveraging our
             products, services, software, apis or experiences, you agree to our
-            terms & ethics of use of most recent publishing.<br /><br />
+            oreohive Source No-AI-Training License of most recent publishing.<br /><br />
             however, we strongly and
             <b
-                >sincerely believe that our terms & ethics of use do not
+                >sincerely believe that our oreohive Source No-AI-Training License do not
                 infringe on your rights</b
-            >, including your right to privacy, and mainly exist to protect us
+            >, and this mainly exists to protect us and you
             from silly actors and silly people.<br /><br />
-            this includes respecting the licenses with which we distribute our content
-            (GNU AGPL-3.0 by default for code, CC BY-NC-SA 4.0 by default for anything
-            else) and not feeding any of our content to ai models for training, learning
-            or remembering, or exposing any of it in an environment in which this
-            could happen.<br /><br />
             oreohive.org, this website, comes with
             <b>absolutely NO WARRANTY</b>, to the extent
             <b>permitted by applicable law</b>. <b>we are not liable</b>. get

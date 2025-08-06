@@ -8,7 +8,7 @@ This licence may be used by any person or organisation (’Licensor’) to distr
 
 ---
 
-Copyleft 2025 [Licensor name or organisation]
+Copyleft the oreohive organisation, @ oreohive.org
 
 ---
 

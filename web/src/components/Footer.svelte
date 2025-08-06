@@ -39,7 +39,7 @@ the made-message contains a message that says who made the website etc., links t
     <p>
       in using, accessing, engaging with, contributing to or connecting to this
       website, you agree to our <a href="/onboarding" target="”_blank”"
-        >terms & ethics of use</a
+        >oreohive Source No-AI-Training License</a
       >.
     </p>
     <p>
@@ -62,12 +62,13 @@ the made-message contains a message that says who made the website etc., links t
 
     <p>
       any usage of this software or any of our assets, code, resources or works
-      in any ai-training dataset is cconsidered a breach of our terms & ethics
-      of use, thus a breach of the license upon which you use our software,
-      services, products or experiences in any capacity our works may not be
-      included in any dataset used for training or improving machine learning
-      algorithms, including but not limited to artificial intelligence, natural
-      language processing, or data mining.
+      in any ai-training dataset is considered a breach of our oreohive Source
+      No-AI-Training License, thus a breach of the license upon which you use our
+      software, services, products or experiences in any capacity.
+      
+      our works strictly may NOT be included in any dataset used for training or
+      improving machine learning algorithms, including but not limited to artificial
+      intelligence, natural language processing, or data mining.
     </p>
 
     <p>
@@ -76,18 +77,14 @@ the made-message contains a message that says who made the website etc., links t
       for any damages (we may perceive) resulting from such use.
     </p>
     <p>
-      please refer to our terms & ethics of use for more information. we
+      please refer to our oreohive Source No-AI-Training License for more information. we
       appreciate your cooperation and understanding.
     </p>
 
     <p style="font-size: 1.25em;">
-      all our code is licensed (by default) under the <a
-        href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text"
-        target="”_blank”">GNU AGPL-3.0</a
-      >. all our other works, by default, are licensed under
-      <a
-        href="https://creativecommons.org/licenses/by-nc-sa/4.0"
-        target="”_blank”">CC BY-NC-SA 4.0</a
+      all of our bits of code, and all of our other works or resources, are licensed (by default) under the <a
+        href="https://oreohive.org/onboarding"
+        target="”_blank”">oreohive Source No-AI-Training License</a
       >!
     </p>
     <p>

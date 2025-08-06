@@ -2,8 +2,8 @@ Terms of Purchasing & Exchange (oreohive 183e)
 Release 1.0.0
 made by and for the oreohive organisation (@ oreohive.org)
 
-This document (featuring our Terms of Purchasing & Exchange) is intended to be bundled with our Terms & Ethics of Use.
-Agreeing to our Terms & Ethics of Use, as is mandated by and implied by any usage of or engagement with our (the oreohive organisation's) products, services or experiences, involves agreeing to these Terms of Purchasing & Exchange, too.
+This document (featuring our Terms of Purchasing & Exchange) is intended to be bundled with our oreohive Source No-AI-Training License.
+Agreeing to our oreohive Source No-AI-Training License, as is mandated by and implied by any usage of or engagement with our (the oreohive organisation's) products, services or experiences, involves agreeing to these Terms of Purchasing & Exchange, too.
 
 # Terms of Purchasing & Exchange
 
@@ -17,10 +17,10 @@ This could include, but may not be limited to:
 - A billing address
 - Shipping information
 
-By agreeing to these Terms & Ethics of Use, you agree that(i) you have the legal right to use any card(s) or other payment method(s) in connection with any purchase, and that (ii) the information you supply to us is true, correct, complete and in good faith.
+By agreeing to these oreohive Source No-AI-Training License, you agree that(i) you have the legal right to use any card(s) or other payment method(s) in connection with any purchase, and that (ii) the information you supply to us is true, correct, complete and in good faith.
 
 We may employ the use of third party services for the purpose of facilitating payment and the completion and / or processing of purchases. 
-By submitting your information, you grant us the right to provide the information to these third parties subject to these Terms & Ethics of Use, and any more such documentation we may provide.
+By submitting your information, you grant us the right to provide the information to these third parties subject to these oreohive Source No-AI-Training License, and any more such documentation we may provide.
 
 We reserve the right to refuse or cancel your order at any time for reasons including but not limited to:
 
