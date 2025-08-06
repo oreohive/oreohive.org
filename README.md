@@ -52,4 +52,4 @@ sensible inclusions of the oreohive(.org) name or logo in attributions, clearly 
 
 - [poppins](https://fonts.google.com/specimen/Poppins) fonts, used in our website and brand identity, are licensed under the [ofl](https://fonts.google.com/specimen/Poppins/license) license.
 - this page uses sentence structuring, vocab choices and other such choices inspired by or evolved from those of similar readmes in [cobalt's repo](https://github.com/imputnet/cobalt).
-  [cobalt](https://cobalt.tools/about) by [imput(.net)](https://github.com/imputnet) has its repo largely licensed under the [oreohive Source No-AI-Training License (most recent version available)](https://www.gnu.org/licenses/agpl-3.0), with some aspects, files or sections licensed instead under [cc by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+  [cobalt](https://cobalt.tools/about) by [imput(.net)](https://github.com/imputnet) has its repo largely licensed under the [gnu agpl-3.0](https://www.gnu.org/licenses/agpl-3.0), with some aspects, files or sections licensed instead under [cc by-nc-sa 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
