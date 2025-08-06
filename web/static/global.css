@@ -178,7 +178,8 @@ li {
 }
 img {
   border-radius: 12px; /* default for all images, including icons */
-  max-width: 100%;
+  max-width: 50%;
+  height: auto;
 }
 
 /* inverted styles for dark mode */
