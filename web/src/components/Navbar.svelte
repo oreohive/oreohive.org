@@ -37,7 +37,7 @@ currently little actual navigation going on but maybe soon enough we might throw
     <WelcomeMsg />
     <div class="right links" style="align-self: center; justify-content: flex-end;">
         <div class="entries">
-            <a href="https://github.com/oreohive/oreohive.org"><img src="/icons/github/github-mark-white.svg" style="height: 32px; width: 32px;"></a>
+            <a href="https://github.com/oreohive/oreohive.org"><img src="/icons/github/github-mark-white.svg" style="height: 32px; width: 32px; max-height: 32px; min-height: 32px; max-width: 32px; min-width: 32px;"></a>
             <a href="https://ko-fi.com/oreohive"><img src="/icons/ko-fi/kofi_symbol.svg" style="height: 32px; width: 32px;"></a>
             <a href="https://liberapay.com/oreohive"><img src="/icons/liberapay/liberapay_logo_white.svg" style="height: 32px; width: 32px;"></a>
             <ThemeToggle />
