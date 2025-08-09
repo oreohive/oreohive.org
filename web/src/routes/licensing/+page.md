@@ -6,8 +6,8 @@ any media, content, resources, assets or materials, like code, pictures, videos,
 
 this means you can modify, distribute and use the code **so long as you**:
 - give **appropriate attributions** (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
-- provide a **link to the license**, and indicate if changes to the code were made, and
-- release the code, **including any changes you may make**, under the **same license** (the version of the gnu agpl currently used by the code you used from us, or a later one at your discretion).
+- provide a **link to the license**, and indicate if changes to the code were made,
+- release the code, **including any changes you may make**, under the **same license** (or another similar license as defined inside the license), and
 - do so **within the confines**, **boundaries**, **rules**, **limitations** and **guidelines** as stated by the **most recent publication** of our **oreohive Source No-AI-Training License**, which you can find [here](https://www.oreohive.org/onboarding).
 
 # our identity
@@ -15,7 +15,7 @@ this means you can modify, distribute and use the code **so long as you**:
 ### oreohive branding and marks
 oreohive branding, oreohive marks, oreohive mascots or other such / related assets included in the repo, the website or any materials we may publish are protected under ***copyright*** means.
 
-as such, you cannot use them under the same terms of either of these licenses.
+as such, you cannot use them under the same terms of any such 'free' license.
 
 you're allowed to **either**:
 - host a completely **unaltered**, freely-available, open-source, unmodified version of the oreohive.org website or api with branding for **non-commercial**, **not-for-profit** purposes, or
