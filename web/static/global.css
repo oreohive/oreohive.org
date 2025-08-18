@@ -105,9 +105,10 @@ body {
 
   border-width: 3px;
   border-style: solid;
-  border-color: rgba(90, 84, 103, 0.1);
-  border-radius: 32px;
-  background-color: #fff;
+  border-color: rgba(90, 84, 103, 0.01);
+  border-radius: 6px;
+  background-color: #ffeafc;
+  background-image: radial-gradient(#fffff8, #fff8fa);
   font-family: Poppins, sans-serif;
   width: 744px; /* target: should be just enough to squeeze in two activity log cards */
   max-width: 90vw; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
@@ -121,8 +122,10 @@ body {
 }
 
 .dark .centre-container {
-  background-color: #5a5467;
+  background-color: rgb(147, 130, 183);
+  background-image: radial-gradient(#9382b7, #a38ca8);
 }
+
 h1,
 h2,
 h3,
@@ -143,7 +146,7 @@ h1 {
   font-size: 1.75em;
 }
 p {
-  border-radius: 12px;
+  border-radius: 6px;
   border-width: 1px;
   border-style: none;
   font-family: Poppins, sans-serif;
@@ -165,7 +168,7 @@ ol,
 li {
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 12px;
+  border-radius: 6px;
   border-width: 1px;
   border-style: none;
   font-family: Poppins, sans-serif;
@@ -177,7 +180,7 @@ li {
   max-width: 100vw;
 }
 img {
-  border-radius: 12px; /* default for all images, including icons */
+  border-radius: 6px; /* default for all images, including icons */
   max-width: 50%;
   height: auto;
 }
@@ -189,7 +192,7 @@ img {
 }
 .dark .container {
   /* container but for dark theme */
-  background-color:rgb(80, 74, 93);
+  background-color: rgb(80, 74, 93);
   color: #f5f5f5;
 }
 .dark .text-box {
@@ -348,19 +351,34 @@ button {
 /* Material Design Icons classes */
 
 /* rules for sizing the icon */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 /* rules for using icons as black on a light background */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
 
 /* rules for using icons as white on a dark background */
-.material-icons.md-light { color: #5a5467; }
-.material-icons.md-light.md-inactive { color: rgba(90, 84, 103, 0.3); }
-
+.material-icons.md-light {
+  color: #5a5467;
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(90, 84, 103, 0.3);
+}
 
 /* thank you w3schools for these css rules! */
 #notice {
