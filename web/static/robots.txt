@@ -3,20 +3,27 @@
 
 # ---------------------- #
 
-# all oreohive content (all content, materials, assets and resources distributed by the oreohive organisation) is distributed, shared and uploaded
-# under the oreohive.org oreohive Source No-AI-Training License.
-# These are readable at https://www.oreohive.org/onboarding, at which a link to the most recent copy should be available.
-# These oreohive Source No-AI-Training License STRICTLY PROHIBIT the use of ANY oreohive content, assets or materials (any made or distributed by the oreohive
-# organisation at oreohive.org) as AI training, diagnostic or improvement material.
+# all oreohive content (all content, materials, assets and resources
+# distributed by the oreohive organisation) is distributed, shared and uploaded
+# under the oreohive.org oreohive Source No-AI-Training License. This is
+# accessible at https://www.oreohive.org/onboarding, at which a link to the
+# most recent official publication (which applies) should be available.
 
-# Any use of ANY oreohive resources from oreohive.org for training or improving AI / ML models or any such computational algorithms is STRICTLY a
-# BREACH of our License  
-# As such, anyone doing this under any circumstance is vulnerable to legal actions, repercussions and consequences from the oreohive organisation.
+# This oreohive Source No-AI-Training License STRICTLY PROHIBIT the use of ANY
+# oreohive content, assets or materials (any made or distributed by the
+# oreohive organisation at oreohive.org) as AI training, diagnostic or
+# improvement material.
+
+# Any use of ANY oreohive resources from oreohive.org for training or improving
+# AI / ML models or any such computational algorithms is STRICTLY a BREACH of
+# our license. As such, anyone doing this under any circumstance is vulnerable
+# to legal actions, repercussions and consequences from the oreohive
+# organisation.
 
 # ---------------------- #
 
 # https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click
-# here, Cloudflare mentions a Google Form through which one can report unauthorised AI scraper bots to them:
+# Here, Cloudflare mentions a Google Form through which one can report unauthorised AI scraper bots to them:
 # https://docs.google.com/forms/d/14bX0RJH_0w17_cAUiihff5b3WLKzfieDO4upRlo5wj8
 
 # ---------------------- #
