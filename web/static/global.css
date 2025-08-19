@@ -1,4 +1,13 @@
-/* web/static/global.css */
+/* static/global.css */
+
+/* ##################### */
+/*   ____                */
+/*  / ___|___  _ __ ___  */
+/* | |   / _ \| '__/ _ \ */
+/* | |__| (_) | | |  __/ */
+/*  \____\___/|_|  \___| */
+/*                       */
+/* ##################### */
 
 :root {
   /* snatched from sveltekit vercel boilerplate tysm */
@@ -11,13 +20,11 @@
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-
   padding: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-
   gap: 0px;
 
   --font-body: Poppins, sans-serif;
@@ -40,14 +47,11 @@
   text-wrap-mode: wrap !important;
   overflow-wrap: anywhere !important;
 }
-
 html {
-  /* scrollbar-gutter: stable; messes with firefox (particularly on mobile) */
   background-color: rgb(255, 255, 254);
   background-image: none;
   width: 100%;
 }
-
 body {
   margin: 0px; /* body seems to otherwise default to margin: 8px; */
   /* scrollbar width is 100vw - 100% */
@@ -61,15 +65,6 @@ body {
   text-wrap: wrap !important;
   overflow-wrap: anywhere !important;
 }
-.dark html {
-  background-color: #312d37 !important;
-  background-image: none;
-}
-.dark body {
-  background-color: #312d37 !important;
-  background-image: none;
-}
-
 .container {
   /* for centring and positioning centre-container */
   display: flex;
@@ -120,12 +115,6 @@ body {
   text-wrap-mode: wrap !important;
   overflow-wrap: anywhere !important;
 }
-
-.dark .centre-container {
-  background-color: rgb(147, 130, 183);
-  background-image: radial-gradient(#9382b7, #a38ca8);
-}
-
 h1,
 h2,
 h3,
@@ -184,41 +173,10 @@ img {
   max-width: 50%;
   height: auto;
 }
-
-/* inverted styles for dark mode */
-.dark body {
-  background-color: #312d37;
-  color: #ffffff;
-}
-.dark .container {
-  /* container but for dark theme */
-  background-color: rgb(80, 74, 93);
-  color: #f5f5f5;
-}
-.dark .text-box {
-  /* text-box but for dark theme */
-  background-color: #2a2a2a;
-  color: #f5f5f5;
-  box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
-}
-.dark .navbar {
-  background-color: #362729;
-}
-
 button {
   font-family: "Poppins", sans-serif;
+  cursor: pointer; /* makes the cursor change to a pointer on hover, like what happens with <a> elements */
 }
-
-.dark p,
-.dark h1,
-.dark h2,
-.dark h3,
-.dark h4,
-.dark h5,
-.dark h6 {
-  color: #ffffff;
-}
-
 .logo-background img {
   display: flex;
   align-items: center;
@@ -231,7 +189,6 @@ button {
   background-color: #ffebbc;
   margin: 0px;
 }
-
 .footnote {
   align-items: center;
   align-self: center;
@@ -246,97 +203,61 @@ button {
   color: hsl(259, 10%, 50%);
 }
 
-/* poppins classes */
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+/* #################################################### */
+/*  ____             _                          _       */
+/* |  _ \  __ _ _ __| | __  _ __ ___   ___   __| | ___  */
+/* | | | |/ _` | '__| |/ / | '_ ` _ \ / _ \ / _` |/ _ \ */
+/* | |_| | (_| | |  |   <  | | | | | | (_) | (_| |  __/ */
+/* |____/ \__,_|_|  |_|\_\ |_| |_| |_|\___/ \__,_|\___| */
+/*                                                      */
+/* #################################################### */
+
+/* inverted styles for dark mode */
+.dark html {
+  background-color: #312d37 !important;
+  background-image: none;
 }
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+.dark body {
+  background-color: #312d37;
+  color: #ffffff;
+  background-image: none;
 }
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+.dark .container {
+  /* container but for dark theme */
+  background-color: rgb(80, 74, 93);
+  color: #f5f5f5;
 }
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.dark .centre-container {
+  background-color: rgb(147, 130, 183);
+  background-image: radial-gradient(#9382b7, #a38ca8);
 }
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+.dark .text-box {
+  /* text-box but for dark theme */
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+  box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
 }
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+.dark .navbar {
+  background-color: #362729;
 }
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.dark p,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #ffffff;
 }
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
+
+/* ############################## */
+/*  _____      _                  */
+/* | ____|_  _| |_ _ __ __ _ ___  */
+/* |  _| \ \/ / __| '__/ _` / __| */
+/* | |___ >  <| |_| | | (_| \__ \ */
+/* |_____/_/\_\\__|_|  \__,_|___/ */
+/*                                */
+/* ############################## */
 
 .visually-hidden {
   clip: rect(0 0 0 0);
@@ -348,37 +269,14 @@ button {
   width: 1px;
 }
 
-/* Material Design Icons classes */
-
-/* rules for sizing the icon */
-.material-icons.md-18 {
-  font-size: 18px;
-}
-.material-icons.md-24 {
-  font-size: 24px;
-}
-.material-icons.md-36 {
-  font-size: 36px;
-}
-.material-icons.md-48 {
-  font-size: 48px;
-}
-
-/* rules for using icons as black on a light background */
-.material-icons.md-dark {
-  color: rgba(0, 0, 0, 0.54);
-}
-.material-icons.md-dark.md-inactive {
-  color: rgba(0, 0, 0, 0.26);
-}
-
-/* rules for using icons as white on a dark background */
-.material-icons.md-light {
-  color: #5a5467;
-}
-.material-icons.md-light.md-inactive {
-  color: rgba(90, 84, 103, 0.3);
-}
+/* ############################################## */
+/*  ____                   _    _                 */
+/* / ___| _ __   __ _  ___| | _| |__   __ _ _ __  */
+/* \___ \| '_ \ / _` |/ __| |/ / '_ \ / _` | '__| */
+/*  ___) | | | | (_| | (__|   <| |_) | (_| | |    */
+/* |____/|_| |_|\__,_|\___|_|\_\_.__/ \__,_|_|    */
+/*                                                */
+/* ############################################## */
 
 /* thank you w3schools for these css rules! */
 #notice {
@@ -395,7 +293,6 @@ button {
   left: 50%; /* Center the snackbar */
   bottom: 30px; /* 30px from the bottom */
 }
-
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
 #notice.show {
   visibility: visible; /* Show the snackbar */
@@ -409,6 +306,7 @@ However, delay the fade out process for 2.5 seconds */
     fadein 0.5s,
     fadeout 0.5s 2.5s;
 }
+
 /* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
   from {

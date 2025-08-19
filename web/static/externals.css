@@ -1,0 +1,140 @@
+/* static/externals.css */
+
+/* ############################################################## */
+/*  __  __       _            _       _   ___                     */
+/* |  \/  | __ _| |_ ___ _ __(_) __ _| | |_ _|___ ___  _ __  ___  */
+/* | |\/| |/ _` | __/ _ \ '__| |/ _` | |  | |/ __/ _ \| '_ \/ __| */
+/* | |  | | (_| | ||  __/ |  | | (_| | |  | | (_| (_) | | | \__ \ */
+/* |_|  |_|\__,_|\__\___|_|  |_|\__,_|_| |___\___\___/|_| |_|___/ */
+/*                                                                */
+/* ############################################################## */
+
+/* Material Design Icons classes */
+/* rules for sizing the icon */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+/* rules for using icons as black on a light background */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+/* rules for using icons as white on a dark background */
+.material-icons.md-light {
+  color: #5a5467;
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(90, 84, 103, 0.3);
+}
+
+/* #################################### */
+/*  ____                   _            */
+/* |  _ \ ___  _ __  _ __ (_)_ __  ___  */
+/* | |_) / _ \| '_ \| '_ \| | '_ \/ __| */
+/* |  __/ (_) | |_) | |_) | | | | \__ \ */
+/* |_|   \___/| .__/| .__/|_|_| |_|___/ */
+/*            |_|   |_|                 */
+/* #################################### */
+
+/* poppins classes */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
