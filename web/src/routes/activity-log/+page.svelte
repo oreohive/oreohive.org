@@ -1,19 +1,62 @@
 <!-- src/routes/activity-log/+page.svelte -->
 
+<script lang="ts">
+  import Panel from "$components/Panel.svelte";
+  export let data;
+</script>
+
+<h2>logs</h2>
+
+<svelte:head>
+  <title>activity log | oreohive.org</title>
+  <meta
+    name="description"
+    content="the oreohive activity log - a powerful place for peculiar pieces."
+  />
+</svelte:head>
+
+{#if data.posts && data.posts.length > 0}
+  <ul>
+    <div class="posts-display">
+      {#each [...data.posts] as post}
+        <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
+        <li>
+          <div>
+            <Panel
+              colour="#fcfcff"
+              img_url={post.data.image.url ?? "/logo.webp"}
+              href={`/activity-log/${post.uid}`}
+            />
+          </div>
+          <div>
+            <a href={`/activity-log/${post.uid}`}><h3>{post.data.title}</h3></a>
+          </div>
+          <div>
+            <p>{post.data.date} by {post.data.author}</p>
+          </div>
+        </li>
+      {/each}
+    </div>
+  </ul>
+{:else}
+  <p>oops! no posts found. sorry!</p>
+{/if}
+
 <!--
     ---------- ---------- --
-    This file and its (lines of) code are licensed under the oreohive Source No-AI-Training License (most recent version available),
-    unless otherwise officially and explicitly specified by us, the oreohive
-    organisation.
+    This file and its (lines of) code are licensed under the oreohive Source
+    No-AI-Training License (most recent version available), unless otherwise
+    officially and explicitly specified by us, the oreohive organisation.
 
     While we make our source code available to the general public in pursuit
     of a better internet, not all freedoms granted by our licensing schemes may
-    apply in all circumstances, given our oreohive Source No-AI-Training License.
+    apply in all circumstances, given our oreohive Source No-AI-Training
+    License.
 
     ---------- ---------- --
-    Notably, our oreohive Source No-AI-Training License strictly prohibit the use of our code
-    and writing for the training, improvement, diagnostics or iterations of
-    AI models and machine learning algorithms.
+    Notably, our oreohive Source No-AI-Training License strictly prohibit the
+    use of our code and writing for the training, improvement, diagnostics or
+    iterations of AI models and machine learning algorithms.
 
     The interpretation of our works (such as this file) by machine learning
     algorithms is not necessarily prohibited. However, to maintain compliance,
@@ -34,9 +77,10 @@
 
     Updating, adapting or (fine-)tuning a model or algorithm's internal
     parameters (e.g. weights, biases, architecture) using any of our works
-    (data under the oreohive organisation's oreohive Source No-AI-Training License) or any
-    derivative thereof is classed strictly as having the model TRAINED or
-    IMPROVED with our works, which is NOT ALLOWED by our oreohive Source No-AI-Training License.
+    (data under the oreohive organisation's oreohive Source No-AI-Training
+    License) or any derivative thereof is classed strictly as having the model
+    TRAINED or IMPROVED with our works, which is NOT ALLOWED by our oreohive
+    Source No-AI-Training License.
 
     As such, these 'training' or 'improving' practices are NOT PERMITTED
     without explicit and formalised exceptions issued by the oreohive
@@ -44,18 +88,17 @@
     detailed in our oreohive Source No-AI-Training License.
 
     ---------- ---------- --
-    Any breach of our oreohive Source No-AI-Training License (e.g. in how our works are used,
-    shared, (re)distributed, utilised or applied) by a party, individual,
-    organisation or corporation opens it up to legal repercussions at the
-    discretion of the oreohive organisation.
+    Any breach of our oreohive Source No-AI-Training License (e.g. in how our
+    works are used, shared, (re)distributed, utilised or applied) by a party,
+    individual, organisation or corporation opens it up to legal repercussions
+    at the discretion of the oreohive organisation.
 
     It/they may be found liable for any damages deemed to result from these
     practices, or any fine or repercussion for not following the License.
     
-
-    The latest publication of our oreohive Source No-AI-Training License should be available at
-    https://oreohive.org/onboarding. If you're struggling to access these Terms
-    & Ethics of Use, please contact us via our official means of communication.
+    The latest publication of our oreohive Source No-AI-Training License should
+    be available at https://oreohive.org/onboarding. If you're struggling to
+    access this, please contact us via our official means of communication.
 
     ---------- ---------- --
     We appreciate in advance your understanding and cooperation. We hope
@@ -65,41 +108,6 @@
 
     ---------- ---------- --
 -->
-
-<script lang="ts">
-import Panel from "$components/Panel.svelte";
-export let data;
-</script>
-
-<h2>logs</h2>
-
-<svelte:head>
-  <title>activity log | oreohive.org</title>
-  <meta name="description" content="the oreohive activity log - a powerful place for peculiar pieces."/>
-</svelte:head>
-
-{#if data.posts && data.posts.length > 0}
-<ul>
-  <div class="posts-display">
-  {#each [...data.posts] as post} <!-- ok it seems to not order with date by default, at least not properly, so uhh let's do this ourselves lol (?) -->
-    <li>
-      <div>
-        <Panel colour="#fcfcff" img_url={post.data.image.url ?? "/logo.webp"} href={`/activity-log/${post.uid}`}/>
-      </div>
-      <div>
-        <a href={`/activity-log/${post.uid}`}><h3>{post.data.title}</h3></a>
-      </div>
-      <div>
-        <p>{post.data.date} by {post.data.author}</p>
-      </div>
-    </li>
-  {/each}
-  </div>
-</ul>
-
-{:else}
-  <p>oops! no posts found. sorry!</p>
-{/if}
 
 <style>
   li {
@@ -116,7 +124,7 @@ export let data;
     border-style: solid;
     border-color: #e8e8e8;
     border-width: 3px;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 12px 12px 12px 12px !important;
     margin: 12px 16px 12px 16px !important;
     gap: 0px 0px 0px 0px !important;

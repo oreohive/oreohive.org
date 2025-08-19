@@ -1,3 +1,5 @@
+// src/lib/prismicio.ts
+
 import * as prismic from "@prismicio/client";
 import {
   type CreateClientConfig,
