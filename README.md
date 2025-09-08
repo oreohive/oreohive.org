@@ -38,7 +38,7 @@ any media, content, resources, assets or materials, like code, pictures, videos,
 this means you can modify, distribute and use the code **so long as you**:
 - give **appropriate attributions** (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
 - provide a **link to the license**, and indicate if changes to the code were made, and
-- release the code, **including any changes you may make**, under the **same license** (the version of the gnu agpl currently used by the code you used from us, or a later one at your discretion).
+- release the code, **including any changes you may make**, under the **same license** (the version of the license currently used by the code you used from us, or a later one at your discretion).
 - do so **within the confines**, **boundaries**, **rules**, **limitations** and **guidelines** as stated by the **most recent publication** of our **oreohive Source No-AI-Training License**, which you can find [here](https://www.oreohive.org/onboarding).
 
 # conclusion, and oreohive Source No-AI-Training License
