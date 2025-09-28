@@ -5,7 +5,7 @@
 
   export let src;
   export let volume = 1.0;
-  export let isPlaying = true;
+  export let isPlaying = false;
 
   let audioContext;
   let sourceNode;

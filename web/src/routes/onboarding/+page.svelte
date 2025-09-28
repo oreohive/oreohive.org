@@ -8,6 +8,7 @@
   let isMusicPlaying = false; // state to control audio loop
   let redirectTo = "/";
   let redirectToCleaned = "";
+  isMusicPlaying = false;
 
   if (browser) {
     // extract the redirect query parameter
@@ -25,6 +26,7 @@
     // if the user has already accepted the terms, redirect to the home page
     if (browser) {
       isMusicPlaying = true;
+
       // extract the redirect query parameter
       const urlParams = new URLSearchParams(window.location.search);
       redirectTo = urlParams.get("redirect") || "/";
@@ -60,14 +62,14 @@
 
   <div data-tap-disabled="true">
     <SeamlessAudio
-      src="/music/obligato-factory-v1.1.mp3"
+      src="/music/obligato-factory-v1.1.ogg"
       bind:isPlaying={isMusicPlaying}
       volume={0.5}
     />
   </div>
 
   <div
-    style="display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh; align-items: center; justify-content: centre;"
+    style="display: flex; flex-direction: column; flex-wrap: wrap; min-height: 45vh; align-items: center; justify-content: center;"
   >
     <div
       style="position: relative; min-height: 20vw; max-width: 90%; display: flex; flex-wrap: nowrap; align-items: center; gap: 32px;"
