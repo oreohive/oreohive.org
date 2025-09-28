@@ -62,7 +62,7 @@
 
   <div data-tap-disabled="true">
     <SeamlessAudio
-      src="/music/obligato-factory-v1.1.ogg"
+      src="/music/obligato-factory-v2.0.ogg"
       bind:isPlaying={isMusicPlaying}
       volume={0.5}
     />
