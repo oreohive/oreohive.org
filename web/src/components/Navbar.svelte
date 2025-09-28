@@ -14,10 +14,7 @@ currently little actual navigation going on but maybe soon enough we might throw
 </script>
 
 <div class="navbar">
-  <div
-    class="left links"
-    style="align-self: center; justify-content: flex-start;"
-  >
+  <div class="left links">
     <div class="entries">
       <a href="/" style="width: auto;">
         <!-- ignore width assigned to a elements -->
@@ -76,9 +73,7 @@ currently little actual navigation going on but maybe soon enough we might throw
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    align-self: center;
     justify-content: space-between;
-    justify-self: center;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     gap: 0px;
@@ -105,8 +100,6 @@ currently little actual navigation going on but maybe soon enough we might throw
     display: flex;
     flex-direction: row;
     gap: 4px;
-    justify-content: space-between;
-    align-content: space-between;
     flex-wrap: wrap;
     border-style: none;
     border-width: 0px;
