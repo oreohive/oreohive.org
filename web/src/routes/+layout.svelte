@@ -8,6 +8,7 @@
   import Navbar from "$components/Navbar.svelte";
   import Footer from "$components/Footer.svelte";
   import SettingsWidget from "$components/SettingsWidget.svelte";
+  import { injectAnalytics } from "@vercel/analytics/sveltekit";
 
   let navHeight = 0;
   let isOtherMusicPlaying = false;
@@ -68,6 +69,9 @@
       );
     });
   });
+
+  // Vercel analytics
+  injectAnalytics();
 </script>
 
 <div>
