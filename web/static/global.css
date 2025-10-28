@@ -10,110 +10,110 @@
 /* ##################### */
 
 :root {
-  /* snatched from sveltekit vercel boilerplate tysm */
-  max-width: 100vw !important;
-  min-width: 100vw !important;
-  width: 100vw !important;
+        /* snatched from sveltekit vercel boilerplate tysm */
+        max-width: 100vw !important;
+        min-width: 100vw !important;
+        width: 100vw !important;
 
-  margin: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  gap: 0px;
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 0px;
 
-  --font-body: Poppins, sans-serif;
-  --font-mono: "Courier New", Courier, monospace;
-  --color-bg-0: hsl(60, 100%, 99.8%);
-  --color-bg-1: hsl(55, 100%, 97.6%);
-  --color-bg-2: hsl(300, 100%, 99.2%);
-  --color-theme-1: #fff7ac;
-  --color-theme-2: #bcd3ff;
-  --color-text: rgba(0, 0, 0, 0.7);
-  --column-width: 42rem;
-  --column-margin-top: 4rem;
-  font-family: var(--font-body);
-  color: var(--color-text);
+        --font-body: Poppins, sans-serif;
+        --font-mono: "Courier New", Courier, monospace;
+        --color-bg-0: hsl(60, 100%, 99.8%);
+        --color-bg-1: hsl(55, 100%, 97.6%);
+        --color-bg-2: hsl(300, 100%, 99.2%);
+        --color-theme-1: #fff7ac;
+        --color-theme-2: #bcd3ff;
+        --color-text: rgba(0, 0, 0, 0.7);
+        --column-width: 42rem;
+        --column-margin-top: 4rem;
+        font-family: var(--font-body);
+        color: var(--color-text);
 
-  /* ensure 'ruthless' wrapping to maximise mobile compatibility */
-  flex-wrap: wrap !important;
-  word-wrap: break-word !important;
-  text-wrap: wrap !important;
-  text-wrap-mode: wrap !important;
-  overflow-wrap: anywhere !important;
+        /* ensure 'ruthless' wrapping to maximise mobile compatibility */
+        flex-wrap: wrap !important;
+        word-wrap: break-word !important;
+        text-wrap: wrap !important;
+        text-wrap-mode: wrap !important;
+        overflow-wrap: anywhere !important;
 }
 html {
-  background-color: rgb(255, 255, 254);
-  background-image: none;
-  width: 100%;
+        background-color: rgb(255, 255, 254);
+        background-image: none;
+        width: 100%;
 }
 body {
-  margin: 0px; /* body seems to otherwise default to margin: 8px; */
-  /* scrollbar width is 100vw - 100% */
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+        margin: 0px; /* body seems to otherwise default to margin: 8px; */
+        /* scrollbar width is 100vw - 100% */
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
 
-  flex-wrap: wrap !important;
-  word-wrap: break-word !important;
-  text-wrap: wrap !important;
-  overflow-wrap: anywhere !important;
+        flex-wrap: wrap !important;
+        word-wrap: break-word !important;
+        text-wrap: wrap !important;
+        overflow-wrap: anywhere !important;
 }
 .container {
-  /* for centring and positioning centre-container */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: Poppins, sans-serif;
-  width: 100%;
-  min-height: fit-content;
+        /* for centring and positioning centre-container */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;
+        width: 100%;
+        min-height: fit-content;
 }
 .centre-container {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-items: flex-start;
-  justify-content: flex-start;
-  justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-self: center;
 
-  margin-top: 16px;
-  margin-bottom: 16px;
-  /* margin-top and margin-bottom must remain the same
+        margin-top: 16px;
+        margin-bottom: 16px;
+        /* margin-top and margin-bottom must remain the same
   for this element class can sometimes appear by itself with
   no title above or below, so any difference would be
   visible and ultimately unappealing */
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  align-self: center;
-  justify-content: center;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        align-self: center;
+        justify-content: center;
 
-  border-width: 3px;
-  border-style: solid;
-  border-color: rgba(90, 84, 103, 0.01);
-  border-radius: 6px;
-  background-color: #ffeafc;
-  background-image: radial-gradient(#fffff8, #fff8fa);
-  font-family: Poppins, sans-serif;
-  width: 744px; /* target: should be just enough to squeeze in two activity log cards */
-  max-width: 90vw; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgba(90, 84, 103, 0.01);
+        border-radius: 6px;
+        background-color: #ffeafc;
+        background-image: radial-gradient(#fffff8, #fff8fa);
+        font-family: Poppins, sans-serif;
+        width: 744px; /* target: should be just enough to squeeze in two activity log cards */
+        max-width: 90vw; /* maximum: to ensure proper functionality and full visibility on mobile and smaller screens */
 
-  /* ensure 'ruthless' wrapping to maximise mobile compatibility */
-  flex-wrap: wrap !important;
-  word-wrap: break-word !important;
-  text-wrap: wrap !important;
-  text-wrap-mode: wrap !important;
-  overflow-wrap: anywhere !important;
+        /* ensure 'ruthless' wrapping to maximise mobile compatibility */
+        flex-wrap: wrap !important;
+        word-wrap: break-word !important;
+        text-wrap: wrap !important;
+        text-wrap-mode: wrap !important;
+        overflow-wrap: anywhere !important;
 }
 h1,
 h2,
@@ -121,86 +121,76 @@ h3,
 h4,
 h5,
 h6 {
-  max-width: 480px;
-  margin-top: 0x;
-  margin-bottom: 4px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-  gap: 0px;
-  font-family: Poppins, sans-serif;
-  color: #000000;
+        max-width: 480px;
+        margin: 8px !important;
+        padding: 0px;
+        gap: 0px;
+        font-family: Poppins, sans-serif;
+        color: #000000;
 }
 h1 {
-  font-size: 1.75em;
+        font-size: 1.75em;
 }
 p {
-  border-radius: 6px;
-  border-width: 1px;
-  border-style: none;
-  font-family: Poppins, sans-serif;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+        border-style: none;
+        font-family: Poppins, sans-serif;
+        margin: 8px !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
 }
 a {
-  color: #df5f8c;
-  text-decoration: underline dashed #ffffff;
+        color: #df5f8c;
+        text-decoration: underline dashed #ffffff;
 }
 ul,
 ol,
 li {
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 6px;
-  border-width: 1px;
-  border-style: none;
-  font-family: Poppins, sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-  max-width: 100vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 6px;
+        border-width: 1px;
+        border-style: none;
+        font-family: Poppins, sans-serif;
+        margin: 8px;
+        padding: 0px;
+        gap: 0px;
+        max-width: 100vw;
 }
 img {
-  border-radius: 6px; /* default for all images, including icons */
-  max-width: 50%;
-  height: auto;
+        border-radius: 6px; /* default for all images, including icons */
+        max-width: 50%;
+        height: auto;
 }
 button {
-  font-family: "Poppins", sans-serif;
-  cursor: pointer; /* makes the cursor change to a pointer on hover, like what happens with <a> elements */
+        font-family: "Poppins", sans-serif;
+        cursor: pointer; /* makes the cursor change to a pointer on hover, like what happens with <a> elements */
 }
 .logo-background img {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
-  width: 32px !important;
-  height: 32px !important;
-  max-width: 75% !important;
-  max-height: 75% !important;
-  border-radius: 12%;
-  background-color: #ffebbc;
-  margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* quite important lol; makes image go skew-whiff if this is unset */
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 75% !important;
+        max-height: 75% !important;
+        border-radius: 12%;
+        background-color: #ffebbc;
+        margin: 0px;
 }
 .footnote {
-  align-items: center;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-  margin: 0px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: 16px;
-  margin-right: 16px;
-  max-width: 75vw;
-  color: hsl(259, 10%, 50%);
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        margin: 0px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 75vw;
+        color: hsl(259, 10%, 50%);
 }
 
 /* #################################################### */
@@ -214,31 +204,31 @@ button {
 
 /* inverted styles for dark mode */
 .dark html {
-  background-color: #312d37 !important;
-  background-image: none;
+        background-color: #312d37 !important;
+        background-image: none;
 }
 .dark body {
-  background-color: #312d37;
-  color: #ffffff;
-  background-image: none;
+        background-color: #312d37;
+        color: #ffffff;
+        background-image: none;
 }
 .dark .container {
-  /* container but for dark theme */
-  background-color: rgb(80, 74, 93);
-  color: #f5f5f5;
+        /* container but for dark theme */
+        background-color: rgb(80, 74, 93);
+        color: #f5f5f5;
 }
 .dark .centre-container {
-  background-color: rgb(147, 130, 183);
-  background-image: radial-gradient(#9382b7, #a38ca8);
+        background-color: rgb(147, 130, 183);
+        background-image: radial-gradient(#9382b7, #a38ca8);
 }
 .dark .text-box {
-  /* text-box but for dark theme */
-  background-color: #2a2a2a;
-  color: #f5f5f5;
-  box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
+        /* text-box but for dark theme */
+        background-color: #2a2a2a;
+        color: #f5f5f5;
+        box-shadow: 8px 8px 24px 12px rgba(255, 255, 255, 0.25);
 }
 .dark .navbar {
-  background-color: #362729;
+        background-color: #362729;
 }
 .dark p,
 .dark h1,
@@ -247,7 +237,7 @@ button {
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: #ffffff;
+        color: #ffffff;
 }
 
 /* ############################## */
@@ -260,13 +250,13 @@ button {
 /* ############################## */
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
 }
 
 /* ############################################## */
@@ -280,71 +270,71 @@ button {
 
 /* thank you w3schools for these css rules! */
 #notice {
-  visibility: hidden; /* Hidden by default. Visible on click */
-  min-width: 250px; /* Set a default minimum width */
-  margin-left: -125px; /* Divide value of min-width by 2 */
-  background-color: #fcfcff; /* Black background color */
-  color: #000 !important; /* White text color */
-  text-align: center; /* Centered text */
-  border-radius: 2px; /* Rounded borders */
-  padding: 16px; /* Padding */
-  position: fixed; /* Sit on top of the screen */
-  z-index: 1; /* Add a z-index if needed */
-  left: 50%; /* Center the snackbar */
-  bottom: 30px; /* 30px from the bottom */
+        visibility: hidden; /* Hidden by default. Visible on click */
+        min-width: 250px; /* Set a default minimum width */
+        margin-left: -125px; /* Divide value of min-width by 2 */
+        background-color: #fcfcff; /* Black background color */
+        color: #000 !important; /* White text color */
+        text-align: center; /* Centered text */
+        border-radius: 2px; /* Rounded borders */
+        padding: 16px; /* Padding */
+        position: fixed; /* Sit on top of the screen */
+        z-index: 1; /* Add a z-index if needed */
+        left: 50%; /* Center the snackbar */
+        bottom: 30px; /* 30px from the bottom */
 }
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
 #notice.show {
-  visibility: visible; /* Show the snackbar */
-  color: #000 !important; /* White text color */
-  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+        visibility: visible; /* Show the snackbar */
+        color: #000 !important; /* White text color */
+        /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
 However, delay the fade out process for 2.5 seconds */
-  -webkit-animation:
-    fadein 0.5s,
-    fadeout 0.5s 2.5s;
-  animation:
-    fadein 0.5s,
-    fadeout 0.5s 2.5s;
+        -webkit-animation:
+                fadein 0.5s,
+                fadeout 0.5s 2.5s;
+        animation:
+                fadein 0.5s,
+                fadeout 0.5s 2.5s;
 }
 
 /* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
-  from {
-    bottom: 0;
-    opacity: 0;
-  }
-  to {
-    bottom: 30px;
-    opacity: 1;
-  }
+        from {
+                bottom: 0;
+                opacity: 0;
+        }
+        to {
+                bottom: 30px;
+                opacity: 1;
+        }
 }
 @keyframes fadein {
-  from {
-    bottom: 0;
-    opacity: 0;
-  }
-  to {
-    bottom: 30px;
-    opacity: 1;
-  }
+        from {
+                bottom: 0;
+                opacity: 0;
+        }
+        to {
+                bottom: 30px;
+                opacity: 1;
+        }
 }
 @-webkit-keyframes fadeout {
-  from {
-    bottom: 30px;
-    opacity: 1;
-  }
-  to {
-    bottom: 0;
-    opacity: 0;
-  }
+        from {
+                bottom: 30px;
+                opacity: 1;
+        }
+        to {
+                bottom: 0;
+                opacity: 0;
+        }
 }
 @keyframes fadeout {
-  from {
-    bottom: 30px;
-    opacity: 1;
-  }
-  to {
-    bottom: 0;
-    opacity: 0;
-  }
+        from {
+                bottom: 30px;
+                opacity: 1;
+        }
+        to {
+                bottom: 0;
+                opacity: 0;
+        }
 }
