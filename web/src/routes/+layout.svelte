@@ -3,7 +3,6 @@
 <!-- rewritten for Svelte 5! -->
 
 <script lang="ts">
-  import type { Snippet } from "svelte";
   import { onMount } from "svelte";
   import { browser } from "$app/environment";
   import { page } from "$app/state";
@@ -20,7 +19,6 @@
   // rune for whether or not other music is playing
   let isOtherMusicPlaying = $state(false);
 
-
   // element bind for navbar
   let navbar: HTMLElement;
 
@@ -34,25 +32,25 @@
 
   // checking for playing audio
   function checkAudioState() {
-    const audios = document.querySelectorAll("audio:not(.home-audio")
+    const audios = document.querySelectorAll("audio:not(.home-audio");
     isOtherMusicPlaying = Array.from(audios).some((a) => {
-    // Assert that 'a' is an HTMLMediaElement
-    const audioEl = a as HTMLMediaElement;
-    return !audioEl.paused && !audioEl.ended;
+      // Assert that 'a' is an HTMLMediaElement
+      const audioEl = a as HTMLMediaElement;
+      return !audioEl.paused && !audioEl.ended;
     });
-  };
+  }
 
   // afterNavigate for checks after successful navigation
   afterNavigate(() => {
     if (!browser) return;
-  
+
     const accepted = localStorage.getItem("accepted_terms");
     const path = page.url.pathname;
     const skip = ["/onboarding", "/edu", "/studies", "/thegoodinternet"];
     if (!accepted && !skip.some((p) => path.startsWith(p))) {
       window.location.href = `onboarding?redirect=${encodeURIComponent(path)}`;
     }
-    
+
     // call audio check function after navigation
     checkAudioState();
   });
@@ -70,7 +68,6 @@
       });
     };
   });
-
 </script>
 
 <div bind:this={navbar}>
