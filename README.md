@@ -1,7 +1,7 @@
 # oreohive.org
 **This is a Git repo for the website hosted at oreohive.org.** Our `main` branch is our central branch for development. Our `release` branch is the branch that release builds are built from.
 
-This web app is built with **sveltekit**. its sveltekit app is inside the 'web' directory.
+This web app is built with **SvelteKit**. Its SvelteKit app is inside the `web` directory.
 
 This web app also has `msdvex` built-in. This interprets markdown files for display as Svelte pages. This lets you contribute and create pages just by adding markdown (`.md`) files, no code required.
 
@@ -29,7 +29,7 @@ We're so glad to hear! I'm sure this code I've cobbled together could use some i
 We love crediting our contributors, so you can expect us to be singing your praises on the website.
 We'd love to hear what new features or fixes you have ideas for.
 
-# licensing and resource usage
+# Licensing and resource usage
 
 Any media, content, resources, assets or materials, like code, pictures, videos, images or any other such materials published by the oreohive organisation are, by default, licensed under the oreohive Source No-AI-Training License.
 
@@ -37,12 +37,12 @@ This means you can modify, distribute and use the code **so long as you**:
 - Give **appropriate attributions** (give appropriate credit to the original source of 'the oreohive organisation @ oreohive.org')
 - Provide a **link to the license**, and indicate if changes to the code were made, and
 - Release the code, **including any changes you may make**, under the **same license** (the version of the license currently used by the code you used from us, or a later one at your discretion).
-- Do so **within the confines**, **boundaries**, **rules**, **limitations** and **guidelines** as stated by the **most recent publication** of our **oreohive Source No-AI-Training License**, which you can find [here](https://oreohive.org/onboarding).
+- Do so **within the confines**, **boundaries**, **rules**, **limitations** and **guidelines** as stated by the **most recent publication** of our **oreohive Source No-AI-Training License**, which you can find [here](https://github.com/oreohive/source/blob/main/LICENSE).
 
 # Conclusion
 In general, **it's highly unlikely you'll find us chasing people or entities over licensing crap if they're doing us no direct harm**. This is just to stop naughty people stealing our stuff without giving back to the community.
 
-Any and all of **your use of oreohive resources, resources published by the oreohive organisation** are **subject to our most recent oreohive Source No-AI-Training License**. Please find this on [our website](https://oreohive.org/onboarding).
+Any and all of **your use of oreohive resources, resources published by the oreohive organisation** are **subject to our most recent oreohive Source No-AI-Training License**. Please find this on [our website](https://github.com/oreohive/source/blob/main/LICENSE).
 
 Sensible inclusions of the oreohive(.org) name or logo in attributions, clearly as an effort to attribute or give credit rather than impersonate, do not count as infringing or disallowed use of the oreohive name or marks.
 

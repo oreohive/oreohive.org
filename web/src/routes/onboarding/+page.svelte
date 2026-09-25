@@ -62,8 +62,7 @@
     <!-- don't give this a height or max-height lol -->
     <h1>Welcome to oreohive.org!</h1>
     <p>
-      Hit that yellow button to acknowledge that all of this is given to you under the <b>oreohive Source No-AI-Training License</b>, and to agree to the use of
-      cookies:
+      Accept that this is given to you under the <b>oreohive Source No-AI-Training License</b>, and agree to cookies:
     </p>
 
     <form on:submit={accept_locally}>
@@ -75,9 +74,9 @@
     </form>
 
     <div class="docs-note">
-      <a href="/source-license/v0.1" target="_blank">oreohive Source No-AI-Training License v0.1</a>
+      <a href="https://github.com/oreohive/source/blob/main/LICENSE" target="_blank">oreohive Source No-AI-Training License (most recent)</a>
       <p style="font-size: 0.675em; max-width: 40vw;">
-        You can still visit oreohive.org/onboarding later, at which you may check for later revisions which may apply to you. We advise you routinely do this.
+        You can still visit oreohive.org/onboarding later, at which you may check for later revisions which may apply to you. We advise that you routinely do this.
         You can only use any of our (the oreohive organisation's) services, sites, software, products, or experiences for any purpose, ever, in any
         circumstance, if you agree that you understand, have read, and will honour our oreohive Source No-AI-Training License. In using, interacting with,
         utilising, downloading, sending content or requests to, or otherwise manipulating or leveraging our products, services, software, APIs or experiences,
