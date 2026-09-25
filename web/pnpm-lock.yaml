@@ -13,16 +13,16 @@ importers:
         version: 7.21.8
       '@prismicio/svelte':
         specifier: ^1.3.1
-        version: 1.5.0(@prismicio/client@7.21.8)(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)
+        version: 1.5.0(@prismicio/client@7.21.8)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)
       '@vercel/analytics':
         specifier: ^1.5.0
-        version: 1.6.1(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)
+        version: 1.6.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)
       '@vercel/next':
         specifier: '>=4.7.4'
-        version: 4.17.5(rollup@4.60.4)
+        version: 4.17.5(rollup@4.60.4)(supports-color@7.2.0)
       esbuild:
-        specifier: ^0.25.10
-        version: 0.25.12
+        specifier: ^0.28.1
+        version: 0.28.2
       glob:
         specifier: '>=13.0.6'
         version: 13.0.6
@@ -33,33 +33,33 @@ importers:
         specifier: '>=8.4.0'
         version: 8.4.2
       undici:
-        specifier: ^7.13.0
-        version: 7.26.0
+        specifier: ^7.29.0
+        version: 7.29.0
       uuid:
         specifier: '>=14.0.0'
         version: 14.0.0
       vercel:
-        specifier: ^54.6.1
-        version: 54.21.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)
+        specifier: ^54.21.1
+        version: 54.21.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)
       zimmerframe:
         specifier: ^1.1.2
         version: 1.1.4
     devDependencies:
       '@slicemachine/adapter-sveltekit':
         specifier: ^0.3.66
-        version: 0.3.96(@prismicio/types@0.2.9)(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(prettier@3.8.3)(svelte@5.56.0)
+        version: 0.3.96(@prismicio/types@0.2.9)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(prettier@3.8.3)(svelte@5.56.0)
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
-        version: 4.0.0(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))
+        version: 4.0.0(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))
       '@sveltejs/adapter-vercel':
         specifier: ^5.10.3
-        version: 5.10.3(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(rollup@4.60.4)
+        version: 5.10.3(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(rollup@4.60.4)(supports-color@7.2.0)
       '@sveltejs/kit':
-        specifier: ^2.61.1
-        version: 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+        specifier: ^2.70.3
+        version: 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.0
-        version: 5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+        version: 5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       '@types/node':
         specifier: ^22.13.0
         version: 22.19.19
@@ -71,7 +71,7 @@ importers:
         version: 1.5.4
       slice-machine-ui:
         specifier: ^2.12.3
-        version: 2.21.3(@prismicio/types@0.2.9)(zod@4.1.11)
+        version: 2.21.3(@prismicio/types@0.2.9)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(zod@3.25.76)
       svelte:
         specifier: ^5.56.0
         version: 5.56.0
@@ -85,8 +85,8 @@ importers:
         specifier: ^5.0.0
         version: 5.9.3
       vite:
-        specifier: ^6.4.2
-        version: 6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
+        specifier: ^6.4.3
+        version: 6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
 
 packages:
 
@@ -165,6 +165,12 @@ packages:
     cpu: [ppc64]
     os: [aix]
 
+  '@esbuild/aix-ppc64@0.28.2':
+    resolution: {integrity: sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
   '@esbuild/android-arm64@0.25.12':
     resolution: {integrity: sha512-6AAmLG7zwD1Z159jCKPvAxZd4y/VTO0VkprYy+3N2FtJ8+BQWFXU+OxARIwA46c5tdD9SsKGZ/1ocqBS/gAKHg==}
     engines: {node: '>=18'}
@@ -173,6 +179,12 @@ packages:
 
   '@esbuild/android-arm64@0.27.0':
     resolution: {integrity: sha512-CC3vt4+1xZrs97/PKDkl0yN7w8edvU2vZvAFGD16n9F0Cvniy5qvzRXjfO1l94efczkkQE6g1x0i73Qf5uthOQ==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.28.2':
+    resolution: {integrity: sha512-5YfKeeI8qWfBZIX+u2xZC3Zlb3Os/gLS2sbEKM+I4ZOcsWmHS2WLysCcQZDAFRslDUU5Oiq44gf6PYN1vGwG5A==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [android]
@@ -189,6 +201,12 @@ packages:
     cpu: [arm]
     os: [android]
 
+  '@esbuild/android-arm@0.28.2':
+    resolution: {integrity: sha512-kXXoiPVVGQcnIYGOeaovwOURpniDBpSq4A03qkQ+BMQqtGG6HYap3xne9C1O1yo4TR3qxlCX5IqqmX6fFo2Lqg==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
   '@esbuild/android-x64@0.25.12':
     resolution: {integrity: sha512-5jbb+2hhDHx5phYR2By8GTWEzn6I9UqR11Kwf22iKbNpYrsmRB18aX/9ivc5cabcUiAT/wM+YIZ6SG9QO6a8kg==}
     engines: {node: '>=18'}
@@ -197,6 +215,12 @@ packages:
 
   '@esbuild/android-x64@0.27.0':
     resolution: {integrity: sha512-wurMkF1nmQajBO1+0CJmcN17U4BP6GqNSROP8t0X/Jiw2ltYGLHpEksp9MpoBqkrFR3kv2/te6Sha26k3+yZ9Q==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.28.2':
+    resolution: {integrity: sha512-O387ite7SzUyCcy3JQX4P4bLtEA7bLLkx+esve5JHnyYfNTxcVpXZo9jhdB0lTKN44gztELTdU7nS8Nr16Fs1Q==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [android]
@@ -213,6 +237,12 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
+  '@esbuild/darwin-arm64@0.28.2':
+    resolution: {integrity: sha512-n4KqkOQrraxHJcgjM1RvwbigfQKIKJVpM7xp+KsxiyUSrRdIXnt73VhrPAx0fV44hgfmIVKjxMN9J1t5jySVkw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
   '@esbuild/darwin-x64@0.25.12':
     resolution: {integrity: sha512-HQ9ka4Kx21qHXwtlTUVbKJOAnmG1ipXhdWTmNXiPzPfWKpXqASVcWdnf2bnL73wgjNrFXAa3yYvBSd9pzfEIpA==}
     engines: {node: '>=18'}
@@ -221,6 +251,12 @@ packages:
 
   '@esbuild/darwin-x64@0.27.0':
     resolution: {integrity: sha512-8mG6arH3yB/4ZXiEnXof5MK72dE6zM9cDvUcPtxhUZsDjESl9JipZYW60C3JGreKCEP+p8P/72r69m4AZGJd5g==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.28.2':
+    resolution: {integrity: sha512-uq6suIWYP37qzGddBKPw5QEQPi6HiLGsO7UmkpfyaYNQ3D+rN6w6WfwH+nuqcGXWvawGwxOEroO4YGnFh95azw==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [darwin]
@@ -237,6 +273,12 @@ packages:
     cpu: [arm64]
     os: [freebsd]
 
+  '@esbuild/freebsd-arm64@0.28.2':
+    resolution: {integrity: sha512-n+I0BTSRIoy+d6RPKnEVwql5UwBJolytvY4mAOIEJorKlqgPII8ix6slVVrfZ5Tnj7glIZvloylbB/EJPMWEXw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
   '@esbuild/freebsd-x64@0.25.12':
     resolution: {integrity: sha512-TGbO26Yw2xsHzxtbVFGEXBFH0FRAP7gtcPE7P5yP7wGy7cXK2oO7RyOhL5NLiqTlBh47XhmIUXuGciXEqYFfBQ==}
     engines: {node: '>=18'}
@@ -245,6 +287,12 @@ packages:
 
   '@esbuild/freebsd-x64@0.27.0':
     resolution: {integrity: sha512-zCMeMXI4HS/tXvJz8vWGexpZj2YVtRAihHLk1imZj4efx1BQzN76YFeKqlDr3bUWI26wHwLWPd3rwh6pe4EV7g==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.28.2':
+    resolution: {integrity: sha512-78XJTJkvPs0kz2w61301PJjXl4g7q3JqiYMZ/M/yVI73EHBrCRTgkhu9oqG7vPqq+a/yadEW8aD+agKlk5xrmg==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [freebsd]
@@ -261,6 +309,12 @@ packages:
     cpu: [arm64]
     os: [linux]
 
+  '@esbuild/linux-arm64@0.28.2':
+    resolution: {integrity: sha512-pW4AC0P3it8c7do9MVM4p51FzHzdM/TZrerurgRcHJ2WTa1VQ1CIq18xncfpBJw4ojkiZZrKW2yIBWBP92j6Ug==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
   '@esbuild/linux-arm@0.25.12':
     resolution: {integrity: sha512-lPDGyC1JPDou8kGcywY0YILzWlhhnRjdof3UlcoqYmS9El818LLfJJc3PXXgZHrHCAKs/Z2SeZtDJr5MrkxtOw==}
     engines: {node: '>=18'}
@@ -269,6 +323,12 @@ packages:
 
   '@esbuild/linux-arm@0.27.0':
     resolution: {integrity: sha512-t76XLQDpxgmq2cNXKTVEB7O7YMb42atj2Re2Haf45HkaUpjM2J0UuJZDuaGbPbamzZ7bawyGFUkodL+zcE+jvQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.28.2':
+    resolution: {integrity: sha512-XlDnu2q5yoqems+xay6wSAcg9DDD7K9RLKZEBOMZm3ckNpJBvOX20tSfby8KfrrhINDyv9V2YVZKY/SpoGJI8w==}
     engines: {node: '>=18'}
     cpu: [arm]
     os: [linux]
@@ -285,6 +345,12 @@ packages:
     cpu: [ia32]
     os: [linux]
 
+  '@esbuild/linux-ia32@0.28.2':
+    resolution: {integrity: sha512-CYbnj78HsIeA+DhgUKgFCfvNsTHFhMMrinUrMZpDXJXKN8T3XViTZ/+wtHeVxEWY8ewSzTFN+nRmSwO2tZaLUQ==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+
   '@esbuild/linux-loong64@0.25.12':
     resolution: {integrity: sha512-h///Lr5a9rib/v1GGqXVGzjL4TMvVTv+s1DPoxQdz7l/AYv6LDSxdIwzxkrPW438oUXiDtwM10o9PmwS/6Z0Ng==}
     engines: {node: '>=18'}
@@ -293,6 +359,12 @@ packages:
 
   '@esbuild/linux-loong64@0.27.0':
     resolution: {integrity: sha512-QbEREjdJeIreIAbdG2hLU1yXm1uu+LTdzoq1KCo4G4pFOLlvIspBm36QrQOar9LFduavoWX2msNFAAAY9j4BDg==}
+    engines: {node: '>=18'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.28.2':
+    resolution: {integrity: sha512-buwkd8nsph4R+ajRvw0qM5Hja/TXQow3ptzWO2EbG/cqcIkHloRrdlBtQlshyYGTNFvfkfJ5tpPLVkY4DtsPfQ==}
     engines: {node: '>=18'}
     cpu: [loong64]
     os: [linux]
@@ -309,6 +381,12 @@ packages:
     cpu: [mips64el]
     os: [linux]
 
+  '@esbuild/linux-mips64el@0.28.2':
+    resolution: {integrity: sha512-ZVykbDyk7519VwiNb9Lcj9m8XM6v5V9uKPvrEMkkEedVewf+0itkhahp4HDpgERXhwLRpWFypsGbG/J8s0QjJA==}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+
   '@esbuild/linux-ppc64@0.25.12':
     resolution: {integrity: sha512-9meM/lRXxMi5PSUqEXRCtVjEZBGwB7P/D4yT8UG/mwIdze2aV4Vo6U5gD3+RsoHXKkHCfSxZKzmDssVlRj1QQA==}
     engines: {node: '>=18'}
@@ -317,6 +395,12 @@ packages:
 
   '@esbuild/linux-ppc64@0.27.0':
     resolution: {integrity: sha512-z9N10FBD0DCS2dmSABDBb5TLAyF1/ydVb+N4pi88T45efQ/w4ohr/F/QYCkxDPnkhkp6AIpIcQKQ8F0ANoA2JA==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.28.2':
+    resolution: {integrity: sha512-CAXl+Dtd9UUuJd8pKKdwh6MLm3MUMiqMPmhZ3tTSXPqfyQ3vDl6R5hZdZ/kYojK4ofXtdfSv1tFq8XzWx3heNQ==}
     engines: {node: '>=18'}
     cpu: [ppc64]
     os: [linux]
@@ -333,6 +417,12 @@ packages:
     cpu: [riscv64]
     os: [linux]
 
+  '@esbuild/linux-riscv64@0.28.2':
+    resolution: {integrity: sha512-GeXCej4IQtU1B+QlDV8W/RRvbzI3O/Stss+/bCXv4lZls5WGRtu2a+3JkA3i4qIUlMXpcHebWpF8AkJhATowuA==}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+
   '@esbuild/linux-s390x@0.25.12':
     resolution: {integrity: sha512-MsKncOcgTNvdtiISc/jZs/Zf8d0cl/t3gYWX8J9ubBnVOwlk65UIEEvgBORTiljloIWnBzLs4qhzPkJcitIzIg==}
     engines: {node: '>=18'}
@@ -341,6 +431,12 @@ packages:
 
   '@esbuild/linux-s390x@0.27.0':
     resolution: {integrity: sha512-hPlRWR4eIDDEci953RI1BLZitgi5uqcsjKMxwYfmi4LcwyWo2IcRP+lThVnKjNtk90pLS8nKdroXYOqW+QQH+w==}
+    engines: {node: '>=18'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.28.2':
+    resolution: {integrity: sha512-3H1weTYZPxt/WOhByszQZybS9w5lKzUn1FDMsgEChbHWQwHYQQRfBxgCcZvPhjHfKyJjIievvMmEUawJrdY9Dg==}
     engines: {node: '>=18'}
     cpu: [s390x]
     os: [linux]
@@ -357,6 +453,12 @@ packages:
     cpu: [x64]
     os: [linux]
 
+  '@esbuild/linux-x64@0.28.2':
+    resolution: {integrity: sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+
   '@esbuild/netbsd-arm64@0.25.12':
     resolution: {integrity: sha512-xXwcTq4GhRM7J9A8Gv5boanHhRa/Q9KLVmcyXHCTaM4wKfIpWkdXiMog/KsnxzJ0A1+nD+zoecuzqPmCRyBGjg==}
     engines: {node: '>=18'}
@@ -365,6 +467,12 @@ packages:
 
   '@esbuild/netbsd-arm64@0.27.0':
     resolution: {integrity: sha512-6m0sfQfxfQfy1qRuecMkJlf1cIzTOgyaeXaiVaaki8/v+WB+U4hc6ik15ZW6TAllRlg/WuQXxWj1jx6C+dfy3w==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@esbuild/netbsd-arm64@0.28.2':
+    resolution: {integrity: sha512-sSATRjPeDBg3pdgHoQfoYBob11Kk1FGa9lui5RIHZCoCkJa9QKlvl3/vKz2usCmYYjs7ymJR/2Nnsqe+Hjt5nw==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [netbsd]
@@ -381,6 +489,12 @@ packages:
     cpu: [x64]
     os: [netbsd]
 
+  '@esbuild/netbsd-x64@0.28.2':
+    resolution: {integrity: sha512-lqnzCV+mM0gIADaKihiCg6ifgfU2L3h5E33rNQBN1Y4MaVGnzryzmvvf7UHxprpQdE8hpqLolJ9Rl+SkIRDpyw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+
   '@esbuild/openbsd-arm64@0.25.12':
     resolution: {integrity: sha512-fF96T6KsBo/pkQI950FARU9apGNTSlZGsv1jZBAlcLL1MLjLNIWPBkj5NlSz8aAzYKg+eNqknrUJ24QBybeR5A==}
     engines: {node: '>=18'}
@@ -389,6 +503,12 @@ packages:
 
   '@esbuild/openbsd-arm64@0.27.0':
     resolution: {integrity: sha512-fWgqR8uNbCQ/GGv0yhzttj6sU/9Z5/Sv/VGU3F5OuXK6J6SlriONKrQ7tNlwBrJZXRYk5jUhuWvF7GYzGguBZQ==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@esbuild/openbsd-arm64@0.28.2':
+    resolution: {integrity: sha512-AL2qJILH7lNjrDmCQDvdxMfAUIv8KMNZOvrwAQ8i8//ntL9FflhOyMJ8OZSMBb8/AWXe3/5v5S20y3zCoZWKoQ==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [openbsd]
@@ -405,6 +525,12 @@ packages:
     cpu: [x64]
     os: [openbsd]
 
+  '@esbuild/openbsd-x64@0.28.2':
+    resolution: {integrity: sha512-QtiuPytchRyC4rwUKhexJdQKvDuZ6hWloi3igqPQNUJCS1/v9EiO3UTOXR6A3FoMo4fnAKbWJdqaIwhOzh8qEw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [openbsd]
+
   '@esbuild/openharmony-arm64@0.25.12':
     resolution: {integrity: sha512-rm0YWsqUSRrjncSXGA7Zv78Nbnw4XL6/dzr20cyrQf7ZmRcsovpcRBdhD43Nuk3y7XIoW2OxMVvwuRvk9XdASg==}
     engines: {node: '>=18'}
@@ -413,6 +539,12 @@ packages:
 
   '@esbuild/openharmony-arm64@0.27.0':
     resolution: {integrity: sha512-nyvsBccxNAsNYz2jVFYwEGuRRomqZ149A39SHWk4hV0jWxKM0hjBPm3AmdxcbHiFLbBSwG6SbpIcUbXjgyECfA==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@esbuild/openharmony-arm64@0.28.2':
+    resolution: {integrity: sha512-WkhYDmpTjLvGlScA1rwjRUmhl4k8oXR3cIbtqWmELgU/dFeHHlEllxDvdWcNJV9rbzCexB5vz8gtNewWLgCT7Q==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [openharmony]
@@ -429,6 +561,12 @@ packages:
     cpu: [x64]
     os: [sunos]
 
+  '@esbuild/sunos-x64@0.28.2':
+    resolution: {integrity: sha512-GPMSkTOtMnv2U2F8gxe4Io6qmVs+YKyp832Etqqxr0hFngmXQ3rzwytelm3GIn7T4VviRUlf3sOgBOiTdvaf7g==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+
   '@esbuild/win32-arm64@0.25.12':
     resolution: {integrity: sha512-rMmLrur64A7+DKlnSuwqUdRKyd3UE7oPJZmnljqEptesKM8wx9J8gx5u0+9Pq0fQQW8vqeKebwNXdfOyP+8Bsg==}
     engines: {node: '>=18'}
@@ -437,6 +575,12 @@ packages:
 
   '@esbuild/win32-arm64@0.27.0':
     resolution: {integrity: sha512-W1eyGNi6d+8kOmZIwi/EDjrL9nxQIQ0MiGqe/AWc6+IaHloxHSGoeRgDRKHFISThLmsewZ5nHFvGFWdBYlgKPg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-arm64@0.28.2':
+    resolution: {integrity: sha512-PIhhEkE9uPBleRBrQEJpUn7MBnibZzbGzYWPmY3x+YoVg/95zbjB4CxPPOQ8l5tYYM4mMaCthF8/1DIfBQQyWQ==}
     engines: {node: '>=18'}
     cpu: [arm64]
     os: [win32]
@@ -453,6 +597,12 @@ packages:
     cpu: [ia32]
     os: [win32]
 
+  '@esbuild/win32-ia32@0.28.2':
+    resolution: {integrity: sha512-YmJbfTlvU7Sdn9BB+4PRES4oB6pxgS37MAONj+hBr/cpXS1aBPKXxNnDbu+QCWPj0o9dgyxeq79g6c5P8KeuYA==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+
   '@esbuild/win32-x64@0.25.12':
     resolution: {integrity: sha512-alJC0uCZpTFrSL0CCDjcgleBXPnCrEAhTBILpeAp7M/OFgoqtAetfBzX0xM00MUsVVPpVjlPuMbREqnZCXaTnA==}
     engines: {node: '>=18'}
@@ -461,6 +611,12 @@ packages:
 
   '@esbuild/win32-x64@0.27.0':
     resolution: {integrity: sha512-aIitBcjQeyOhMTImhLZmtxfdOcuNRpwlPNmlFKPcHQYPhEssw75Cl1TSXJXpMkzaua9FUetx/4OQKq7eJul5Cg==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.28.2':
+    resolution: {integrity: sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==}
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
@@ -1156,6 +1312,7 @@ packages:
   '@slicemachine/adapter-sveltekit@0.3.96':
     resolution: {integrity: sha512-iEGn1GtV4DCYjkYZDKO0PLFfhg6+wE0UnWf3jn5Qve1fFsal2GqBPvZmdvDTI8/aUx1BBcKAgSNKfA+iFGf1zA==}
     engines: {node: '>=14.15.0'}
+    deprecated: Slice Machine is replaced by the Prismic CLI and the Type Builder. Existing projects are still supported. To move a project, see https://prismic.io/docs/slice-machine#migrate-to-the-type-builder
     peerDependencies:
       '@sveltejs/kit': ^1 || ^2
       prettier: '>=3'
@@ -1170,6 +1327,7 @@ packages:
   '@slicemachine/manager@0.27.3':
     resolution: {integrity: sha512-yMJES7EFy6UxHGgqfFtTHrYqsalSpfouaTdesHms9Z9vSNIehm4KWNhzLa4m+xqMBAH+gbyRrUEvntFmSb5Pvg==}
     engines: {node: '>=20.19.0'}
+    deprecated: Slice Machine is replaced by the Prismic CLI and the Type Builder. Existing projects are still supported. To move a project, see https://prismic.io/docs/slice-machine#migrate-to-the-type-builder
     peerDependencies:
       msw: '>=1.1.0'
     peerDependenciesMeta:
@@ -1179,6 +1337,7 @@ packages:
   '@slicemachine/plugin-kit@0.4.95':
     resolution: {integrity: sha512-cnoHJCVkGHksG5I+3huD0Dad/TVZE5dgXAmF1H2dvDLCgzwU4uNY0iURo8+O9Q94t0xOA7S5r0y/DF69RKgRwg==}
     engines: {node: '>=14.15.0'}
+    deprecated: Slice Machine is replaced by the Prismic CLI and the Type Builder. Existing projects are still supported. To move a project, see https://prismic.io/docs/slice-machine#migrate-to-the-type-builder
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
@@ -1198,8 +1357,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
-  '@sveltejs/kit@2.61.1':
-    resolution: {integrity: sha512-Ny8s1SR1TyQS2hD2Rvw0XKzU2Nw1eUF52dTb6T2bdcgz7wSC+Nyb5IwjWYlR4b2dvbbR5NJDiQwHg3rnNseghg==}
+  '@sveltejs/kit@2.70.3':
+    resolution: {integrity: sha512-UDvEYuZqAMbfB/oXIoqKvbKcb7YczK5zYrzmsGV1zRJk03jntwp8dXiYoIJotxAndsKvcPFtx9H1GRSKFdSHgg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -1857,6 +2016,11 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  esbuild@0.28.2:
+    resolution: {integrity: sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   escape-html@1.0.3:
     resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
 
@@ -2314,7 +2478,7 @@ packages:
     engines: {node: '>=0.10.0'}
 
   kit-monorepo@https://codeload.github.com/sveltejs/kit/tar.gz/b684e88f8bc2a11b511d57330468f8eaceb7d359:
-    resolution: {tarball: https://codeload.github.com/sveltejs/kit/tar.gz/b684e88f8bc2a11b511d57330468f8eaceb7d359}
+    resolution: {gitHosted: true, integrity: sha512-obHil8qsHtSIlS6E/Ub/EgWnAUdT/GI0eQU5JqA75NzUJo7572STw0wOmFb1humSwSWVepxYEvcpgfGR2xpDdA==, tarball: https://codeload.github.com/sveltejs/kit/tar.gz/b684e88f8bc2a11b511d57330468f8eaceb7d359}
     version: 0.0.1
     engines: {pnpm: '>=9.0.0'}
 
@@ -2993,6 +3157,7 @@ packages:
   slice-machine-ui@2.21.3:
     resolution: {integrity: sha512-sHnhOA1dpGeN6ThlcVPZS4BOxeoXVew6M/7Qh03JC4t4L+i0/v+jv+ywan6rT8u2awawEJ8oJk33WUTNjuvhTQ==}
     engines: {node: '>=20.19.0'}
+    deprecated: Slice Machine is replaced by the Prismic CLI and the Type Builder. Existing projects are still supported. To move a project, see https://prismic.io/docs/slice-machine#migrate-to-the-type-builder
     hasBin: true
 
   smart-buffer@4.2.0:
@@ -3039,6 +3204,7 @@ packages:
   start-slicemachine@0.12.75:
     resolution: {integrity: sha512-cNOLpR1BgL5Uh/TTptJDOOtXijxJhxgl4u1DHZts3FKiP/qS0e9acNWLRTapsOIEyH82Pjmir79JssMOa8NbHg==}
     engines: {node: '>=20.19.0'}
+    deprecated: Slice Machine is replaced by the Prismic CLI and the Type Builder. Existing projects are still supported. To move a project, see https://prismic.io/docs/slice-machine#migrate-to-the-type-builder
     hasBin: true
 
   stat-mode@0.3.0:
@@ -3057,6 +3223,7 @@ packages:
 
   stream-to-promise@2.2.0:
     resolution: {integrity: sha512-HAGUASw8NT0k8JvIVutB2Y/9iBk7gpgEyAudXwNJmZERdMITGdajOa4VJfD/kNiA3TppQpTP4J+CtcHwdzKBAw==}
+    deprecated: Deprecated. Use node:stream/promises and node:stream/consumers instead.
 
   streamx@2.28.1:
     resolution: {integrity: sha512-zEzXb0s5Cds7tqMH6rhZ05lcJydCWiQPEwiNngVqzsxCc962vLY4Uw+mW7od8kDH258k2Uz/JrOkdIAAhSh9VA==}
@@ -3234,12 +3401,8 @@ packages:
     resolution: {integrity: sha512-R+RODBqp6i2pPflGdq+xIOUkl+RNfGgHwoinecKu/JCuf2uO06cOKoDbI2P7Dn6KcswdKwrczbU6IYJ6K8X+wg==}
     engines: {node: '>=18.17'}
 
-  undici@7.26.0:
-    resolution: {integrity: sha512-3O9Tf67pGhgOv9jM35AbhkXAKi13f3oy3aE4CSgr+TckGeY+/iu97ZXN+J7DpHPzLbVApFd1IFhcnBjREYXYcg==}
-    engines: {node: '>=20.18.1'}
-
-  undici@7.30.0:
-    resolution: {integrity: sha512-dkrQXeHSaoamnItlYbmzG0wFYrM0ZwDxCIg0A7aKjTyyhh9svRzCNFEzV+Vm05/yehjCzjDZ31KXfGEjYSztDQ==}
+  undici@7.29.0:
+    resolution: {integrity: sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==}
     engines: {node: '>=20.18.1'}
 
   unist-util-is@4.1.0:
@@ -3293,8 +3456,8 @@ packages:
   vfile-message@2.0.4:
     resolution: {integrity: sha512-DjssxRGkMvifUOJre00juHoP9DPWuzjxKuMDrhNbk2TdaYYBNMStsNhEOt3idrtI12VQYM/1+iM0KOzXi4pxwQ==}
 
-  vite@6.4.2:
-    resolution: {integrity: sha512-2N/55r4JDJ4gdrCvGgINMy+HH3iRpNIz8K6SFwVsA+JbQScLiC+clmAxBgwiSPgcG9U15QmvqCGWzMbqda5zGQ==}
+  vite@6.4.3:
+    resolution: {integrity: sha512-NTKlcQjlAK7MlQoyb6LgaqHc8sso/pVyUJYWMws3jg21uTJw/LddqIFPcPqP6PzpgbIcZyKI85sFE4HBrQDA8A==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3440,6 +3603,9 @@ packages:
   zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
@@ -3447,9 +3613,9 @@ snapshots:
 
   '@antfu/ni@0.20.0': {}
 
-  '@anthropic-ai/claude-agent-sdk@0.1.37(zod@4.1.11)':
+  '@anthropic-ai/claude-agent-sdk@0.1.37(zod@3.25.76)':
     dependencies:
-      zod: 4.1.11
+      zod: 3.25.76
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
@@ -3513,10 +3679,16 @@ snapshots:
   '@esbuild/aix-ppc64@0.27.0':
     optional: true
 
+  '@esbuild/aix-ppc64@0.28.2':
+    optional: true
+
   '@esbuild/android-arm64@0.25.12':
     optional: true
 
   '@esbuild/android-arm64@0.27.0':
+    optional: true
+
+  '@esbuild/android-arm64@0.28.2':
     optional: true
 
   '@esbuild/android-arm@0.25.12':
@@ -3525,10 +3697,16 @@ snapshots:
   '@esbuild/android-arm@0.27.0':
     optional: true
 
+  '@esbuild/android-arm@0.28.2':
+    optional: true
+
   '@esbuild/android-x64@0.25.12':
     optional: true
 
   '@esbuild/android-x64@0.27.0':
+    optional: true
+
+  '@esbuild/android-x64@0.28.2':
     optional: true
 
   '@esbuild/darwin-arm64@0.25.12':
@@ -3537,10 +3715,16 @@ snapshots:
   '@esbuild/darwin-arm64@0.27.0':
     optional: true
 
+  '@esbuild/darwin-arm64@0.28.2':
+    optional: true
+
   '@esbuild/darwin-x64@0.25.12':
     optional: true
 
   '@esbuild/darwin-x64@0.27.0':
+    optional: true
+
+  '@esbuild/darwin-x64@0.28.2':
     optional: true
 
   '@esbuild/freebsd-arm64@0.25.12':
@@ -3549,10 +3733,16 @@ snapshots:
   '@esbuild/freebsd-arm64@0.27.0':
     optional: true
 
+  '@esbuild/freebsd-arm64@0.28.2':
+    optional: true
+
   '@esbuild/freebsd-x64@0.25.12':
     optional: true
 
   '@esbuild/freebsd-x64@0.27.0':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.28.2':
     optional: true
 
   '@esbuild/linux-arm64@0.25.12':
@@ -3561,10 +3751,16 @@ snapshots:
   '@esbuild/linux-arm64@0.27.0':
     optional: true
 
+  '@esbuild/linux-arm64@0.28.2':
+    optional: true
+
   '@esbuild/linux-arm@0.25.12':
     optional: true
 
   '@esbuild/linux-arm@0.27.0':
+    optional: true
+
+  '@esbuild/linux-arm@0.28.2':
     optional: true
 
   '@esbuild/linux-ia32@0.25.12':
@@ -3573,10 +3769,16 @@ snapshots:
   '@esbuild/linux-ia32@0.27.0':
     optional: true
 
+  '@esbuild/linux-ia32@0.28.2':
+    optional: true
+
   '@esbuild/linux-loong64@0.25.12':
     optional: true
 
   '@esbuild/linux-loong64@0.27.0':
+    optional: true
+
+  '@esbuild/linux-loong64@0.28.2':
     optional: true
 
   '@esbuild/linux-mips64el@0.25.12':
@@ -3585,10 +3787,16 @@ snapshots:
   '@esbuild/linux-mips64el@0.27.0':
     optional: true
 
+  '@esbuild/linux-mips64el@0.28.2':
+    optional: true
+
   '@esbuild/linux-ppc64@0.25.12':
     optional: true
 
   '@esbuild/linux-ppc64@0.27.0':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.28.2':
     optional: true
 
   '@esbuild/linux-riscv64@0.25.12':
@@ -3597,10 +3805,16 @@ snapshots:
   '@esbuild/linux-riscv64@0.27.0':
     optional: true
 
+  '@esbuild/linux-riscv64@0.28.2':
+    optional: true
+
   '@esbuild/linux-s390x@0.25.12':
     optional: true
 
   '@esbuild/linux-s390x@0.27.0':
+    optional: true
+
+  '@esbuild/linux-s390x@0.28.2':
     optional: true
 
   '@esbuild/linux-x64@0.25.12':
@@ -3609,10 +3823,16 @@ snapshots:
   '@esbuild/linux-x64@0.27.0':
     optional: true
 
+  '@esbuild/linux-x64@0.28.2':
+    optional: true
+
   '@esbuild/netbsd-arm64@0.25.12':
     optional: true
 
   '@esbuild/netbsd-arm64@0.27.0':
+    optional: true
+
+  '@esbuild/netbsd-arm64@0.28.2':
     optional: true
 
   '@esbuild/netbsd-x64@0.25.12':
@@ -3621,10 +3841,16 @@ snapshots:
   '@esbuild/netbsd-x64@0.27.0':
     optional: true
 
+  '@esbuild/netbsd-x64@0.28.2':
+    optional: true
+
   '@esbuild/openbsd-arm64@0.25.12':
     optional: true
 
   '@esbuild/openbsd-arm64@0.27.0':
+    optional: true
+
+  '@esbuild/openbsd-arm64@0.28.2':
     optional: true
 
   '@esbuild/openbsd-x64@0.25.12':
@@ -3633,10 +3859,16 @@ snapshots:
   '@esbuild/openbsd-x64@0.27.0':
     optional: true
 
+  '@esbuild/openbsd-x64@0.28.2':
+    optional: true
+
   '@esbuild/openharmony-arm64@0.25.12':
     optional: true
 
   '@esbuild/openharmony-arm64@0.27.0':
+    optional: true
+
+  '@esbuild/openharmony-arm64@0.28.2':
     optional: true
 
   '@esbuild/sunos-x64@0.25.12':
@@ -3645,10 +3877,16 @@ snapshots:
   '@esbuild/sunos-x64@0.27.0':
     optional: true
 
+  '@esbuild/sunos-x64@0.28.2':
+    optional: true
+
   '@esbuild/win32-arm64@0.25.12':
     optional: true
 
   '@esbuild/win32-arm64@0.27.0':
+    optional: true
+
+  '@esbuild/win32-arm64@0.28.2':
     optional: true
 
   '@esbuild/win32-ia32@0.25.12':
@@ -3657,10 +3895,16 @@ snapshots:
   '@esbuild/win32-ia32@0.27.0':
     optional: true
 
+  '@esbuild/win32-ia32@0.28.2':
+    optional: true
+
   '@esbuild/win32-x64@0.25.12':
     optional: true
 
   '@esbuild/win32-x64@0.27.0':
+    optional: true
+
+  '@esbuild/win32-x64@0.28.2':
     optional: true
 
   '@fastify/busboy@2.1.1': {}
@@ -3758,11 +4002,11 @@ snapshots:
     dependencies:
       '@lukeed/csprng': 1.1.0
 
-  '@mapbox/node-pre-gyp@2.0.3':
+  '@mapbox/node-pre-gyp@2.0.3(supports-color@7.2.0)':
     dependencies:
       consola: 3.4.2
       detect-libc: 2.1.2
-      https-proxy-agent: 7.0.6
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       node-fetch: 2.7.0
       nopt: 8.1.0
       semver: 7.8.1
@@ -3963,14 +4207,14 @@ snapshots:
       '@types/statuses': 2.0.6
       statuses: 2.0.2
 
-  '@prismicio/svelte@1.5.0(@prismicio/client@7.21.8)(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)':
+  '@prismicio/svelte@1.5.0(@prismicio/client@7.21.8)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)':
     dependencies:
       '@prismicio/client': 7.21.8
       '@prismicio/richtext': 2.1.5
       esm-env: 1.2.2
       svelte: 5.56.0
     optionalDependencies:
-      '@sveltejs/kit': 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
 
   '@prismicio/types-internal@3.11.2(fp-ts@2.16.11)(io-ts-types@0.5.19(fp-ts@2.16.11)(io-ts@2.2.22(fp-ts@2.16.11))(monocle-ts@2.3.13(fp-ts@2.16.11))(newtype-ts@0.3.5(fp-ts@2.16.11)(monocle-ts@2.3.13(fp-ts@2.16.11))))(io-ts@2.2.22(fp-ts@2.16.11))':
     dependencies:
@@ -4150,12 +4394,12 @@ snapshots:
 
   '@sinclair/typebox@0.25.24': {}
 
-  '@slicemachine/adapter-sveltekit@0.3.96(@prismicio/types@0.2.9)(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(prettier@3.8.3)(svelte@5.56.0)':
+  '@slicemachine/adapter-sveltekit@0.3.96(@prismicio/types@0.2.9)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(prettier@3.8.3)(svelte@5.56.0)':
     dependencies:
       '@prismicio/simulator': 0.1.4
       '@prismicio/types-internal': 3.11.2(fp-ts@2.16.11)(io-ts-types@0.5.19(fp-ts@2.16.11)(io-ts@2.2.22(fp-ts@2.16.11))(monocle-ts@2.3.13(fp-ts@2.16.11))(newtype-ts@0.3.5(fp-ts@2.16.11)(monocle-ts@2.3.13(fp-ts@2.16.11))))(io-ts@2.2.22(fp-ts@2.16.11))
       '@slicemachine/plugin-kit': 0.4.95(@prismicio/types@0.2.9)
-      '@sveltejs/kit': 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       common-tags: 1.8.2
       fp-ts: 2.16.11
       io-ts: 2.2.22(fp-ts@2.16.11)
@@ -4170,10 +4414,10 @@ snapshots:
     transitivePeerDependencies:
       - '@prismicio/types'
 
-  '@slicemachine/manager@0.27.3(@prismicio/types@0.2.9)(zod@4.1.11)':
+  '@slicemachine/manager@0.27.3(@prismicio/types@0.2.9)(zod@3.25.76)':
     dependencies:
       '@antfu/ni': 0.20.0
-      '@anthropic-ai/claude-agent-sdk': 0.1.37(zod@4.1.11)
+      '@anthropic-ai/claude-agent-sdk': 0.1.37(zod@3.25.76)
       '@prismicio/client': 7.17.0
       '@prismicio/custom-types-client': 2.1.0(@prismicio/client@7.17.0)
       '@prismicio/mocks': 2.14.0
@@ -4226,26 +4470,26 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))':
+  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))':
     dependencies:
-      '@sveltejs/kit': 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       import-meta-resolve: 4.2.0
 
-  '@sveltejs/adapter-vercel@5.10.3(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(rollup@4.60.4)':
+  '@sveltejs/adapter-vercel@5.10.3(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@sveltejs/kit': 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
-      '@vercel/nft': 0.30.4(rollup@4.60.4)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@vercel/nft': 0.30.4(rollup@4.60.4)(supports-color@7.2.0)
       esbuild: 0.25.12
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
+  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -4257,29 +4501,29 @@ snapshots:
       set-cookie-parser: 3.1.0
       sirv: 3.0.2
       svelte: 5.56.0
-      vite: 6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
+      vite: 6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
     optionalDependencies:
       typescript: 5.9.3
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
-      debug: 4.4.3
+      '@sveltejs/vite-plugin-svelte': 5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      debug: 4.4.3(supports-color@7.2.0)
       svelte: 5.56.0
-      vite: 6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
+      vite: 6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
+  '@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
-      debug: 4.4.3
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      debug: 4.4.3(supports-color@7.2.0)
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.21
       svelte: 5.56.0
-      vite: 6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
-      vitefu: 1.1.3(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      vite: 6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
+      vitefu: 1.1.3(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
     transitivePeerDependencies:
       - supports-color
 
@@ -4335,15 +4579,15 @@ snapshots:
 
   '@types/unist@2.0.11': {}
 
-  '@vercel/analytics@1.6.1(@sveltejs/kit@2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)':
+  '@vercel/analytics@1.6.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)':
     optionalDependencies:
-      '@sveltejs/kit': 2.61.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.56.0)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.56.0)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)))(svelte@5.56.0)(typescript@5.9.3)(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0))
       svelte: 5.56.0
 
-  '@vercel/backends@0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)':
+  '@vercel/backends@0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
       '@vercel/build-utils': 13.32.2
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       execa: 3.2.0
       fs-extra: 11.1.0
@@ -4377,9 +4621,9 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.1.29(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)':
+  '@vercel/cervel@0.1.29(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/backends': 0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)
+      '@vercel/backends': 0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -4404,9 +4648,9 @@ snapshots:
 
   '@vercel/detect-agent@1.2.3': {}
 
-  '@vercel/elysia@0.1.98(rollup@4.60.4)':
+  '@vercel/elysia@0.1.98(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
@@ -4415,11 +4659,11 @@ snapshots:
 
   '@vercel/error-utils@2.2.0': {}
 
-  '@vercel/express@0.1.112(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)':
+  '@vercel/express@0.1.112(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/cervel': 0.1.29(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/cervel': 0.1.29(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -4432,20 +4676,20 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/fastify@0.1.101(rollup@4.60.4)':
+  '@vercel/fastify@0.1.101(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/fun@1.3.0':
+  '@vercel/fun@1.3.0(supports-color@7.2.0)':
     dependencies:
       '@tootallnate/once': 2.0.0
       async-listen: 1.2.0
-      debug: 4.3.4
+      debug: 4.3.4(supports-color@7.2.0)
       generic-pool: 3.4.2
       micro: 9.3.5-canary.3
       ms: 2.1.1
@@ -4479,19 +4723,19 @@ snapshots:
 
   '@vercel/go@3.10.2': {}
 
-  '@vercel/h3@0.1.107(rollup@4.60.4)':
+  '@vercel/h3@0.1.107(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/hono@0.2.101(rollup@4.60.4)':
+  '@vercel/hono@0.2.101(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -4507,43 +4751,43 @@ snapshots:
       '@vercel/static-config': 3.4.0
       ts-morph: 12.0.0
 
-  '@vercel/koa@0.1.81(rollup@4.60.4)':
+  '@vercel/koa@0.1.81(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nestjs@0.2.102(rollup@4.60.4)':
+  '@vercel/nestjs@0.2.102(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/next@4.17.5(rollup@4.60.4)':
+  '@vercel/next@4.17.5(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/next@4.20.3(rollup@4.60.4)':
+  '@vercel/next@4.20.3(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nft@0.30.4(rollup@4.60.4)':
+  '@vercel/nft@0.30.4(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@mapbox/node-pre-gyp': 2.0.3
+      '@mapbox/node-pre-gyp': 2.0.3(supports-color@7.2.0)
       '@rollup/pluginutils': 5.4.0(rollup@4.60.4)
       acorn: 8.16.0
       acorn-import-attributes: 1.9.5(acorn@8.16.0)
@@ -4560,9 +4804,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/nft@1.10.0(rollup@4.60.4)':
+  '@vercel/nft@1.10.0(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@mapbox/node-pre-gyp': 2.0.3
+      '@mapbox/node-pre-gyp': 2.0.3(supports-color@7.2.0)
       '@rollup/pluginutils': 5.4.0(rollup@4.60.4)
       acorn: 8.16.0
       acorn-import-attributes: 1.9.5(acorn@8.16.0)
@@ -4579,7 +4823,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/node@5.8.22(rollup@4.60.4)':
+  '@vercel/node@5.8.22(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
@@ -4587,7 +4831,7 @@ snapshots:
       '@types/node': 20.11.0
       '@vercel/build-utils': 13.32.2
       '@vercel/error-utils': 2.2.0
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       async-listen: 3.0.0
       cjs-module-lexer: 1.2.3
@@ -4626,9 +4870,9 @@ snapshots:
     dependencies:
       '@vercel/python-analysis': 0.11.1
 
-  '@vercel/redwood@2.5.0(rollup@4.60.4)':
+  '@vercel/redwood@2.5.0(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       semver: 6.3.1
       ts-morph: 12.0.0
@@ -4637,10 +4881,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/remix-builder@5.9.1(rollup@4.60.4)':
+  '@vercel/remix-builder@5.9.1(rollup@4.60.4)(supports-color@7.2.0)':
     dependencies:
       '@vercel/error-utils': 2.2.0
-      '@vercel/nft': 1.10.0(rollup@4.60.4)
+      '@vercel/nft': 1.10.0(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/static-config': 3.4.0
       path-to-regexp: 6.1.0
       path-to-regexp-updated: path-to-regexp@6.3.0
@@ -4668,7 +4912,7 @@ snapshots:
       ms: 2.1.3
       picocolors: 1.1.1
       tar-stream: 3.1.7
-      undici: 7.30.0
+      undici: 7.29.0
       xdg-app-paths: 5.1.0
       zod: 4.1.11
     transitivePeerDependencies:
@@ -4772,11 +5016,11 @@ snapshots:
     dependencies:
       file-uri-to-path: 1.0.0
 
-  body-parser@1.20.5:
+  body-parser@1.20.5(supports-color@7.2.0):
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       destroy: 1.2.0
       http-errors: 2.0.1
@@ -4918,17 +5162,23 @@ snapshots:
 
   data-uri-to-buffer@6.0.2: {}
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@7.2.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.3.4:
+  debug@4.3.4(supports-color@7.2.0):
     dependencies:
       ms: 2.1.2
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.4.3:
+  debug@4.4.3(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decamelize-keys@2.0.1:
     dependencies:
@@ -5077,6 +5327,35 @@ snapshots:
       '@esbuild/win32-ia32': 0.27.0
       '@esbuild/win32-x64': 0.27.0
 
+  esbuild@0.28.2:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.28.2
+      '@esbuild/android-arm': 0.28.2
+      '@esbuild/android-arm64': 0.28.2
+      '@esbuild/android-x64': 0.28.2
+      '@esbuild/darwin-arm64': 0.28.2
+      '@esbuild/darwin-x64': 0.28.2
+      '@esbuild/freebsd-arm64': 0.28.2
+      '@esbuild/freebsd-x64': 0.28.2
+      '@esbuild/linux-arm': 0.28.2
+      '@esbuild/linux-arm64': 0.28.2
+      '@esbuild/linux-ia32': 0.28.2
+      '@esbuild/linux-loong64': 0.28.2
+      '@esbuild/linux-mips64el': 0.28.2
+      '@esbuild/linux-ppc64': 0.28.2
+      '@esbuild/linux-riscv64': 0.28.2
+      '@esbuild/linux-s390x': 0.28.2
+      '@esbuild/linux-x64': 0.28.2
+      '@esbuild/netbsd-arm64': 0.28.2
+      '@esbuild/netbsd-x64': 0.28.2
+      '@esbuild/openbsd-arm64': 0.28.2
+      '@esbuild/openbsd-x64': 0.28.2
+      '@esbuild/openharmony-arm64': 0.28.2
+      '@esbuild/sunos-x64': 0.28.2
+      '@esbuild/win32-arm64': 0.28.2
+      '@esbuild/win32-ia32': 0.28.2
+      '@esbuild/win32-x64': 0.28.2
+
   escape-html@1.0.3: {}
 
   escodegen@2.1.0:
@@ -5154,21 +5433,21 @@ snapshots:
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
 
-  express@4.22.2:
+  express@4.22.2(supports-color@7.2.0):
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.20.5
+      body-parser: 1.20.5(supports-color@7.2.0)
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.0.7
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      finalhandler: 1.3.2
+      finalhandler: 1.3.2(supports-color@7.2.0)
       fresh: 0.5.2
       http-errors: 2.0.1
       merge-descriptors: 1.0.3
@@ -5180,8 +5459,8 @@ snapshots:
       qs: 6.15.2
       range-parser: 1.2.1
       safe-buffer: 5.2.1
-      send: 0.19.2
-      serve-static: 1.16.3
+      send: 0.19.2(supports-color@7.2.0)
+      serve-static: 1.16.3(supports-color@7.2.0)
       setprototypeof: 1.2.0
       statuses: 2.0.2
       type-is: 1.6.18
@@ -5231,9 +5510,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.3.2:
+  finalhandler@1.3.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       encodeurl: 2.0.0
       escape-html: 1.0.3
       on-finished: 2.4.1
@@ -5253,7 +5532,9 @@ snapshots:
       locate-path: 7.2.0
       path-exists: 5.0.0
 
-  follow-redirects@1.16.0: {}
+  follow-redirects@1.16.0(debug@4.4.3(supports-color@7.2.0)):
+    optionalDependencies:
+      debug: 4.4.3(supports-color@7.2.0)
 
   foreground-child@3.3.1:
     dependencies:
@@ -5323,11 +5604,11 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  get-uri@6.0.5:
+  get-uri@6.0.5(supports-color@7.2.0):
     dependencies:
       basic-ftp: 5.3.1
       data-uri-to-buffer: 6.0.2
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5400,35 +5681,35 @@ snapshots:
       statuses: 2.0.2
       toidentifier: 1.0.1
 
-  http-proxy-agent@7.0.2:
+  http-proxy-agent@7.0.2(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  http-proxy-middleware@2.0.9:
+  http-proxy-middleware@2.0.9(debug@4.4.3(supports-color@7.2.0)):
     dependencies:
       '@types/http-proxy': 1.17.17
-      http-proxy: 1.18.1
+      http-proxy: 1.18.1(debug@4.4.3(supports-color@7.2.0))
       is-glob: 4.0.3
       is-plain-obj: 3.0.0
       micromatch: 4.0.8
     transitivePeerDependencies:
       - debug
 
-  http-proxy@1.18.1:
+  http-proxy@1.18.1(debug@4.4.3(supports-color@7.2.0)):
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0(debug@4.4.3(supports-color@7.2.0))
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5864,16 +6145,16 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  pac-proxy-agent@7.2.0:
+  pac-proxy-agent@7.2.0(supports-color@7.2.0):
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.4
-      debug: 4.4.3
-      get-uri: 6.0.5
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      debug: 4.4.3(supports-color@7.2.0)
+      get-uri: 6.0.5(supports-color@7.2.0)
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       pac-resolver: 7.0.1
-      socks-proxy-agent: 8.0.5
+      socks-proxy-agent: 8.0.5(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5986,16 +6267,16 @@ snapshots:
       forwarded: 0.2.0
       ipaddr.js: 1.9.1
 
-  proxy-agent@6.4.0:
+  proxy-agent@6.4.0(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      debug: 4.4.3(supports-color@7.2.0)
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       lru-cache: 7.18.3
-      pac-proxy-agent: 7.2.0
+      pac-proxy-agent: 7.2.0(supports-color@7.2.0)
       proxy-from-env: 1.1.0
-      socks-proxy-agent: 8.0.5
+      socks-proxy-agent: 8.0.5(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -6164,11 +6445,11 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sandbox@3.4.0:
+  sandbox@3.4.0(supports-color@7.2.0):
     dependencies:
       '@vercel/sandbox': 2.4.0
       async-retry: 1.3.3
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       ws: 8.21.3
       zod: 4.1.11
     transitivePeerDependencies:
@@ -6186,9 +6467,9 @@ snapshots:
 
   semver@7.8.1: {}
 
-  send@0.19.2:
+  send@0.19.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       depd: 2.0.0
       destroy: 1.2.0
       encodeurl: 2.0.0
@@ -6204,12 +6485,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  serve-static@1.16.3:
+  serve-static@1.16.3(supports-color@7.2.0):
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 0.19.2
+      send: 0.19.2(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -6267,10 +6548,10 @@ snapshots:
       mrmime: 2.0.1
       totalist: 3.0.1
 
-  slice-machine-ui@2.21.3(@prismicio/types@0.2.9)(zod@4.1.11):
+  slice-machine-ui@2.21.3(@prismicio/types@0.2.9)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(zod@3.25.76):
     dependencies:
-      '@slicemachine/manager': 0.27.3(@prismicio/types@0.2.9)(zod@4.1.11)
-      start-slicemachine: 0.12.75(@prismicio/types@0.2.9)(zod@4.1.11)
+      '@slicemachine/manager': 0.27.3(@prismicio/types@0.2.9)(zod@3.25.76)
+      start-slicemachine: 0.12.75(@prismicio/types@0.2.9)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(zod@3.25.76)
     transitivePeerDependencies:
       - '@prismicio/types'
       - '@types/express'
@@ -6284,10 +6565,10 @@ snapshots:
 
   smol-toml@1.5.2: {}
 
-  socks-proxy-agent@8.0.5:
+  socks-proxy-agent@8.0.5(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.4
-      debug: 4.4.3
+      debug: 4.4.3(supports-color@7.2.0)
       socks: 2.8.10
     transitivePeerDependencies:
       - supports-color
@@ -6318,17 +6599,17 @@ snapshots:
 
   srvx@0.11.16: {}
 
-  start-slicemachine@0.12.75(@prismicio/types@0.2.9)(zod@4.1.11):
+  start-slicemachine@0.12.75(@prismicio/types@0.2.9)(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)(zod@3.25.76):
     dependencies:
       '@prismicio/mocks': 2.14.0
       '@prismicio/types-internal': 3.11.2(fp-ts@2.16.11)(io-ts-types@0.5.19(fp-ts@2.16.11)(io-ts@2.2.22(fp-ts@2.16.11))(monocle-ts@2.3.13(fp-ts@2.16.11))(newtype-ts@0.3.5(fp-ts@2.16.11)(monocle-ts@2.3.13(fp-ts@2.16.11))))(io-ts@2.2.22(fp-ts@2.16.11))
-      '@slicemachine/manager': 0.27.3(@prismicio/types@0.2.9)(zod@4.1.11)
-      body-parser: 1.20.5
+      '@slicemachine/manager': 0.27.3(@prismicio/types@0.2.9)(zod@3.25.76)
+      body-parser: 1.20.5(supports-color@7.2.0)
       chalk: 4.1.2
       cors: 2.8.6
-      express: 4.22.2
+      express: 4.22.2(supports-color@7.2.0)
       fp-ts: 2.16.11
-      http-proxy-middleware: 2.0.9
+      http-proxy-middleware: 2.0.9(debug@4.4.3(supports-color@7.2.0))
       io-ts: 2.2.22(fp-ts@2.16.11)
       io-ts-types: 0.5.19(fp-ts@2.16.11)(io-ts@2.2.22(fp-ts@2.16.11))(monocle-ts@2.3.13(fp-ts@2.16.11))(newtype-ts@0.3.5(fp-ts@2.16.11)(monocle-ts@2.3.13(fp-ts@2.16.11)))
       monocle-ts: 2.3.13(fp-ts@2.16.11)
@@ -6336,7 +6617,7 @@ snapshots:
       newtype-ts: 0.3.5(fp-ts@2.16.11)(monocle-ts@2.3.13(fp-ts@2.16.11))
       node-fetch: 3.3.2
       open: 8.4.2
-      serve-static: 1.16.3
+      serve-static: 1.16.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - '@prismicio/types'
       - '@types/express'
@@ -6557,9 +6838,7 @@ snapshots:
 
   undici@6.29.0: {}
 
-  undici@7.26.0: {}
-
-  undici@7.30.0: {}
+  undici@7.29.0: {}
 
   unist-util-is@4.1.0: {}
 
@@ -6599,31 +6878,31 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@54.21.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4):
+  vercel@54.21.1(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0):
     dependencies:
-      '@vercel/backends': 0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)
+      '@vercel/backends': 0.8.21(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/blob': 2.4.0
       '@vercel/build-utils': 13.32.2
       '@vercel/cli-auth': 0.3.0
       '@vercel/cli-config': 0.2.0
       '@vercel/container': 0.0.4
       '@vercel/detect-agent': 1.2.3
-      '@vercel/elysia': 0.1.98(rollup@4.60.4)
-      '@vercel/express': 0.1.112(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)
-      '@vercel/fastify': 0.1.101(rollup@4.60.4)
-      '@vercel/fun': 1.3.0
+      '@vercel/elysia': 0.1.98(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/express': 0.1.112(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/fastify': 0.1.101(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/fun': 1.3.0(supports-color@7.2.0)
       '@vercel/go': 3.10.2
-      '@vercel/h3': 0.1.107(rollup@4.60.4)
-      '@vercel/hono': 0.2.101(rollup@4.60.4)
+      '@vercel/h3': 0.1.107(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/hono': 0.2.101(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/hydrogen': 1.4.0
-      '@vercel/koa': 0.1.81(rollup@4.60.4)
-      '@vercel/nestjs': 0.2.102(rollup@4.60.4)
-      '@vercel/next': 4.20.3(rollup@4.60.4)
-      '@vercel/node': 5.8.22(rollup@4.60.4)
+      '@vercel/koa': 0.1.81(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/nestjs': 0.2.102(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/next': 4.20.3(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/node': 5.8.22(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/prepare-flags-definitions': 0.3.0
       '@vercel/python': 6.48.0
-      '@vercel/redwood': 2.5.0(rollup@4.60.4)
-      '@vercel/remix-builder': 5.9.1(rollup@4.60.4)
+      '@vercel/redwood': 2.5.0(rollup@4.60.4)(supports-color@7.2.0)
+      '@vercel/remix-builder': 5.9.1(rollup@4.60.4)(supports-color@7.2.0)
       '@vercel/ruby': 2.5.1
       '@vercel/rust': 1.4.0
       '@vercel/static-build': 2.11.4
@@ -6631,8 +6910,8 @@ snapshots:
       esbuild: 0.27.0
       jose: 5.9.6
       luxon: 3.7.2
-      proxy-agent: 6.4.0
-      sandbox: 3.4.0
+      proxy-agent: 6.4.0(supports-color@7.2.0)
+      sandbox: 3.4.0(supports-color@7.2.0)
       smol-toml: 1.5.2
       undici: 5.29.0
       zod: 4.1.11
@@ -6652,7 +6931,7 @@ snapshots:
       '@types/unist': 2.0.11
       unist-util-stringify-position: 2.0.3
 
-  vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0):
+  vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.4)
@@ -6666,9 +6945,9 @@ snapshots:
       jiti: 1.21.7
       tsx: 4.21.0
 
-  vitefu@1.1.3(vite@6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)):
+  vitefu@1.1.3(vite@6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)):
     optionalDependencies:
-      vite: 6.4.2(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
+      vite: 6.4.3(@types/node@22.19.19)(jiti@1.21.7)(tsx@4.21.0)
 
   web-streams-polyfill@3.3.3: {}
 
@@ -6763,5 +7042,7 @@ snapshots:
   zimmerframe@1.1.4: {}
 
   zod@3.22.4: {}
+
+  zod@3.25.76: {}
 
   zod@4.1.11: {}
