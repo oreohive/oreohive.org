@@ -12,7 +12,7 @@
     "moduleResolution": "bundler",
     "types": ["node", "@sveltejs/kit"]
   },
-  "include": ["src/**/*.ts", "src/**/*.svelte"],
+  "include": ["src/**/*.ts", "src/**/*.svelte", "src/routes/source-license/+page.server.js", "src/routes/source-license/+page.server.js"],
   "exclude": ["node_modules", "public/build"]
 
   // Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
